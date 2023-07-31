@@ -1,0 +1,1058 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-1">
+  <generator>Windows Inform 10.1.2</generator>
+  <item nodeId="node-1">
+    <command xml:space="preserve">Momentum Moira</command>
+    <result xml:space="preserve">Amaia screeches into the parking lot, and expertly zips into an open spot.  She closes her eyes briefly, checking, then opens them again, only fractionally less concerned.  "OK," she says, breathlessly, "whatever it is that's going to happen hasn't happened yet.  Zora," she turns to you apologetically over her shoulder, "you won't have a lot of time, but the future's still branching, so it should be enough.  Lestar, you're up." &#x000A;&#x000A;From the passenger seat, Lestar grins at both of you, his white eyebrows quirking soothingly, and he reaches behind his seat to pat you reassuringly on the arm.  "You got this, kid," he says "You've been doing great; this'll be just like the other times."  From Amaia's panicked expression, you can tell she disagrees, but she says nothing.  You take a deep breath and grab Lestar's hand, dry and warm, and it grounds you.&#x000A;&#x000A;Amaia takes Lestar's other hand, then grabs yours, the contact sleek with sweat from both of you.  Lestar nods at you both, and closes his eyes.&#x000A;&#x000A;Everything freezes.&#x000A;&#x000A;You have all the time in the world.&#x000A;&#x000A;Fate's Gallery&#x000A;An Interactive Story by Lucian Smith&#x000A;Release 1 / Serial number 230730 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Quinlan Park Parking Lot (in the Hyundai)&#x000A;The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;Looming over the parking lot to the east is a huge sculpture whose details have yet to be decided.  But it definitely looms.&#x000A;&#x000A;Amaia is turned sideways in the driver's seat, grasping your hand and Lestar's.  Even frozen, she radiates intensity and movement.&#x000A;&#x000A;Lestar's eyes are shut in calm concentration.  His relaxed hands hold yours and Amaia's, completing the triangle.&#x000A;&#x000A;In the area, you can sense the collective presence of dozens of spiders.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-17"/>
+      <child nodeId="node-28"/>
+      <child nodeId="node-11"/>
+      <child nodeId="node-57"/>
+      <child nodeId="node-127"/>
+    </children>
+  </item>
+  <item nodeId="node-17">
+    <command xml:space="preserve">actions</command>
+    <result xml:space="preserve">Actions listing on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-18"/>
+    </children>
+  </item>
+  <item nodeId="node-18">
+    <command xml:space="preserve">rules</command>
+    <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-19"/>
+    </children>
+  </item>
+  <item nodeId="node-19">
+    <command xml:space="preserve">enter spiders</command>
+    <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]&#x000A;[entering the spiders]&#x000A;[Rule "announce items from multiple object lists rule" applies.]&#x000A;[Rule "set pronouns from items from multiple object lists rule" applies.]&#x000A;[Rule "before stage rule" applies.]&#x000A;[Rule "instead stage rule" applies.]&#x000A;[Rule "Instead of entering the spiders for the first time" applies.]&#x000A;With practiced ease, you move your consciousness out of your own head, and into the surrounding spiders.  In no time at all, your perception shifts, and you're perceiving the parking lot as if you were standing in it, though patched together from a thousand small views.&#x000A;&#x000A;Probably due to your nervousness, a memory surfaces of the first time you managed this.&#x000A;[Zora entering the spiders - succeeded]&#x000A;&#x000A;[Rule "A first turn sequence rule" applies.]&#x000A;[Rule "take quick actions out of world rule" applies.]&#x000A;[Rule "every turn stage rule" applies.]&#x000A;[Rule "Every turn" applies.]&#x000A;[Rule "A last turn sequence rule" applies.]&#x000A;[Rule "notify score changes rule" applies.]&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-20"/>
+    </children>
+  </item>
+  <item nodeId="node-20">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]&#x000A;[Rule "standard set going variables rule" applies.]&#x000A;[going north]&#x000A;[Rule "announce items from multiple object lists rule" applies.]&#x000A;[Rule "set pronouns from items from multiple object lists rule" applies.]&#x000A;[Rule "before stage rule" applies.]&#x000A;[Rule "instead stage rule" applies.]&#x000A;[Rule "investigate player's awareness before action rule" applies.]&#x000A;[Rule "player aware of his own actions rule" applies.]&#x000A;[Rule "check stage rule" applies.]&#x000A;[Rule "can't go through undescribed doors rule" applies.]&#x000A;[Rule "can't go through closed doors rule" applies.]&#x000A;[Rule "determine map connection rule" applies.]&#x000A;[Rule "can't go that way rule" applies.]&#x000A;[Rule "carry out stage rule" applies.]&#x000A;[Rule "move player and vehicle rule" applies.]&#x000A;[Rule "move floating objects rule" applies.]&#x000A;[Rule "check light in new location rule" applies.]&#x000A;[Rule "after stage rule" applies.]&#x000A;[Rule "investigate player's awareness after action rule" applies.]&#x000A;[Rule "report stage rule" applies.]&#x000A;[Rule "describe room gone into rule" applies.]&#x000A;&#x000A;[Rule "determine visibility ceiling rule" applies.]&#x000A;[Rule "investigate player's awareness before action rule" applies.]&#x000A;[Rule "player aware of his own actions rule" applies.]&#x000A;[Rule "check stage rule" applies.]&#x000A;[Rule "carry out stage rule" applies.]&#x000A;[Rule "declare everything unmentioned rule" applies.]&#x000A;[Rule "room description heading rule" applies.]&#x000A;Entrance&#x000A;[Rule "room description body text rule" applies.]&#x000A;Two booths flank the entrance to the park, where you can buy tickets and get information.  The parking lot to the south is mostly empty, but you can see some people walking through the park to the north.&#x000A;&#x000A;[Rule "room description paragraphs about objects rule" applies.]&#x000A;[Rule "initialise locale description rule" applies.]&#x000A;[Rule "find notable locale objects rule" applies.]&#x000A;[Rule "standard notable locale objects rule" applies.]&#x000A;[Rule "interesting locale paragraphs rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]&#x000A;[Rule "you-can-also-see rule" applies.]&#x000A;[Rule "check new arrival rule" applies.]&#x000A;[Rule "after stage rule" applies.]&#x000A;[Rule "investigate player's awareness after action rule" applies.]&#x000A;[Rule "report stage rule" applies.]&#x000A;[Rule "other people looking rule" applies.]&#x000A;[Rule "last specific action-processing rule" applies.]&#x000A;[Rule "last specific action-processing rule" applies.]&#x000A;[going north - succeeded]&#x000A;&#x000A;[Rule "A first turn sequence rule" applies.]&#x000A;[Rule "take quick actions out of world rule" applies.]&#x000A;[Rule "every turn stage rule" applies.]&#x000A;[Rule "Every turn" applies.]&#x000A;[Rule "A last turn sequence rule" applies.]&#x000A;[Rule "notify score changes rule" applies.]&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-21"/>
+    </children>
+  </item>
+  <item nodeId="node-21">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Parking Lot&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-22"/>
+    </children>
+  </item>
+  <item nodeId="node-22">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]&#x000A;[Rule "determine visibility ceiling rule" applies.]&#x000A;[looking]&#x000A;[Rule "announce items from multiple object lists rule" applies.]&#x000A;[Rule "set pronouns from items from multiple object lists rule" applies.]&#x000A;[Rule "before stage rule" applies.]&#x000A;[Rule "instead stage rule" applies.]&#x000A;[Rule "investigate player's awareness before action rule" applies.]&#x000A;[Rule "player aware of his own actions rule" applies.]&#x000A;[Rule "check stage rule" applies.]&#x000A;[Rule "carry out stage rule" applies.]&#x000A;[Rule "declare everything unmentioned rule" applies.]&#x000A;[Rule "room description heading rule" applies.]&#x000A;Parking Lot (on the spiders)&#x000A;[Rule "room description body text rule" applies.]&#x000A;The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;[Rule "room description paragraphs about objects rule" applies.]&#x000A;[Rule "initialise locale description rule" applies.]&#x000A;[Rule "find notable locale objects rule" applies.]&#x000A;[Rule "standard notable locale objects rule" applies.]&#x000A;[Rule "interesting locale paragraphs rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]&#x000A;[Rule "you-can-also-see rule" applies.]&#x000A;You can see a Hyundai (in which are Zora, Amaia and Lestar) here.&#x000A;&#x000A;[Rule "initialise locale description rule" applies.]&#x000A;[Rule "find notable locale objects rule" applies.]&#x000A;[Rule "standard notable locale objects rule" applies.]&#x000A;[Rule "interesting locale paragraphs rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]&#x000A;[Rule "you-can-also-see rule" applies.]&#x000A;[Rule "check new arrival rule" applies.]&#x000A;[Rule "after stage rule" applies.]&#x000A;[Rule "investigate player's awareness after action rule" applies.]&#x000A;[Rule "report stage rule" applies.]&#x000A;[Rule "other people looking rule" applies.]&#x000A;[Rule "last specific action-processing rule" applies.]&#x000A;[looking - succeeded]&#x000A;&#x000A;[Rule "A first turn sequence rule" applies.]&#x000A;[Rule "take quick actions out of world rule" applies.]&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-23"/>
+    </children>
+  </item>
+  <item nodeId="node-23">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]&#x000A;[Rule "standard set going variables rule" applies.]&#x000A;[going north]&#x000A;[Rule "announce items from multiple object lists rule" applies.]&#x000A;[Rule "set pronouns from items from multiple object lists rule" applies.]&#x000A;[Rule "before stage rule" applies.]&#x000A;[Rule "instead stage rule" applies.]&#x000A;[Rule "investigate player's awareness before action rule" applies.]&#x000A;[Rule "player aware of his own actions rule" applies.]&#x000A;[Rule "check stage rule" applies.]&#x000A;[Rule "can't go through undescribed doors rule" applies.]&#x000A;[Rule "can't go through closed doors rule" applies.]&#x000A;[Rule "determine map connection rule" applies.]&#x000A;[Rule "can't go that way rule" applies.]&#x000A;[Rule "carry out stage rule" applies.]&#x000A;[Rule "move player and vehicle rule" applies.]&#x000A;[Rule "move floating objects rule" applies.]&#x000A;[Rule "check light in new location rule" applies.]&#x000A;[Rule "after stage rule" applies.]&#x000A;[Rule "investigate player's awareness after action rule" applies.]&#x000A;[Rule "report stage rule" applies.]&#x000A;[Rule "describe room gone into rule" applies.]&#x000A;&#x000A;[Rule "determine visibility ceiling rule" applies.]&#x000A;[Rule "investigate player's awareness before action rule" applies.]&#x000A;[Rule "player aware of his own actions rule" applies.]&#x000A;[Rule "check stage rule" applies.]&#x000A;[Rule "carry out stage rule" applies.]&#x000A;[Rule "declare everything unmentioned rule" applies.]&#x000A;[Rule "room description heading rule" applies.]&#x000A;Entrance&#x000A;[Rule "room description body text rule" applies.]&#x000A;Two booths flank the entrance to the park, where you can buy tickets and get information.  The parking lot to the south is mostly empty, but you can see some people walking through the park to the north.&#x000A;&#x000A;[Rule "room description paragraphs about objects rule" applies.]&#x000A;[Rule "initialise locale description rule" applies.]&#x000A;[Rule "find notable locale objects rule" applies.]&#x000A;[Rule "standard notable locale objects rule" applies.]&#x000A;[Rule "interesting locale paragraphs rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]&#x000A;[Rule "you-can-also-see rule" applies.]&#x000A;[Rule "check new arrival rule" applies.]&#x000A;[Rule "after stage rule" applies.]&#x000A;[Rule "investigate player's awareness after action rule" applies.]&#x000A;[Rule "report stage rule" applies.]&#x000A;[Rule "other people looking rule" applies.]&#x000A;[Rule "last specific action-processing rule" applies.]&#x000A;[Rule "last specific action-processing rule" applies.]&#x000A;[going north - succeeded]&#x000A;&#x000A;[Rule "A first turn sequence rule" applies.]&#x000A;[Rule "take quick actions out of world rule" applies.]&#x000A;[Rule "every turn stage rule" applies.]&#x000A;[Rule "Every turn" applies.]&#x000A;[Rule "A last turn sequence rule" applies.]&#x000A;[Rule "notify score changes rule" applies.]&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-24"/>
+    </children>
+  </item>
+  <item nodeId="node-24">
+    <command xml:space="preserve">rules off</command>
+    <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]&#x000A;Rules tracing now switched off. Type "rules" to switch it on again.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-25"/>
+    </children>
+  </item>
+  <item nodeId="node-25">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">[going south]&#x000A;&#x000A;Parking Lot&#x000A;The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;In the area, you can sense the collective presence of dozens of spiders.&#x000A;&#x000A;You can also see a Hyundai (in which are Zora, Amaia and Lestar) here.&#x000A;&#x000A;[going south - succeeded]&#x000A;&#x000A;A cloud passes over the sun.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-26"/>
+    </children>
+  </item>
+  <item nodeId="node-26">
+    <command xml:space="preserve">enter spiders</command>
+    <result xml:space="preserve">[entering the spiders]&#x000A;You get into the spiders.&#x000A;&#x000A;[entering the spiders - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-27"/>
+    </children>
+  </item>
+  <item nodeId="node-27">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">[going north]&#x000A;&#x000A;Entrance&#x000A;Two booths flank the entrance to the park, where you can buy tickets and get information.  The parking lot to the south is mostly empty, but you can see some people walking through the park to the north.&#x000A;&#x000A;[going north - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-28">
+    <command xml:space="preserve">enter spiders</command>
+    <result xml:space="preserve">With practiced ease, you move your consciousness out of your own head, and into the surrounding spiders.  Your perception shifts, and you see the parking lot as if you were standing in it, though patched together from dozens of small views.&#x000A;&#x000A;Probably due to your nervousness, a memory surfaces of the first time you managed this.&#x000A;&#x000A;Quinlan Park Parking Lot (in the spiders)&#x000A;The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;Looming over the parking lot to the east is a huge sculpture whose details have yet to be decided.  But it definitely looms.&#x000A;&#x000A;The Hyundai is parked with almost mathematical precision between two other cars.  You'd never guess that this was accomplished in 1.5 seconds.  Unless you knew Amaia.  Which you do.  But still.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-29"/>
+      <child nodeId="node-44"/>
+      <child nodeId="node-156"/>
+    </children>
+  </item>
+  <item nodeId="node-29">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Entrance (in the spiders)&#x000A;Two booths flank the entrance to the park, where you can buy tickets and get information.  The parking lot to the south is mostly empty, but you can see some people walking through the park to the north.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-30"/>
+    </children>
+  </item>
+  <item nodeId="node-30">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">Parking Lot (in the spiders)&#x000A;The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;You can see a Hyundai (in which are Amaia, Lestar and Zora) here.&#x000A;&#x000A;A cloud passes over the sun.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-31"/>
+    </children>
+  </item>
+  <item nodeId="node-31">
+    <command xml:space="preserve">enter spiders</command>
+    <result xml:space="preserve">Your conciousness is already inhabiting the spiders.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-32"/>
+    </children>
+  </item>
+  <item nodeId="node-32">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Parking Lot (in the spiders)&#x000A;The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;You can see a Hyundai (in which are Amaia, Lestar and Zora) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-33"/>
+    </children>
+  </item>
+  <item nodeId="node-33">
+    <command xml:space="preserve">actions</command>
+    <result xml:space="preserve">Actions listing on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-34"/>
+    </children>
+  </item>
+  <item nodeId="node-34">
+    <command xml:space="preserve">exit spiders</command>
+    <result xml:space="preserve">I only understood you as far as wanting to exit.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-35"/>
+    </children>
+  </item>
+  <item nodeId="node-35">
+    <command xml:space="preserve">exit</command>
+    <result xml:space="preserve">[exiting]&#x000A;You can't exit one consciousness without going into another one.&#x000A;[exiting - ended without result]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-36"/>
+    </children>
+  </item>
+  <item nodeId="node-36">
+    <command xml:space="preserve">enter spiders</command>
+    <result xml:space="preserve">[entering the spiders]&#x000A;Your conciousness is already inhabiting the spiders.&#x000A;[entering the spiders - failed]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-37"/>
+    </children>
+  </item>
+  <item nodeId="node-37">
+    <command xml:space="preserve">enter hyundai</command>
+    <result xml:space="preserve">[entering the Hyundai]&#x000A;You transfer your consciousness into the spiders inside the car.&#x000A;&#x000A;[(1) looking]&#x000A;Parking Lot (in the spiders) (in the Hyundai)&#x000A;The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;Amaia is turned sideways in the driver's seat, grasping your hand and Lestar's.  Even frozen, she radiates intensity and movement.&#x000A;&#x000A;Lestar's eyes are shut in calm concentration.  His relaxed hands hold yours and Amaia's, completing the triangle.&#x000A;&#x000A;Your own face relaxes as you look at yourself from the outside.  Somehow, it's easier to see yourself this way than in the mirror.&#x000A;&#x000A;[(1) looking - succeeded]&#x000A;&#x000A;[entering the Hyundai - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-38"/>
+    </children>
+  </item>
+  <item nodeId="node-38">
+    <command xml:space="preserve">enter lester</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-39"/>
+    </children>
+  </item>
+  <item nodeId="node-39">
+    <command xml:space="preserve">enter lestar</command>
+    <result xml:space="preserve">[entering Lestar]&#x000A;Lestar's been nothing but kind to you, but you're sure if he saw your whole mind, he'd be disappointed.  You've touched his mind before and that's gone OK.  You guess.&#x000A;[entering Lestar - failed]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-40"/>
+    </children>
+  </item>
+  <item nodeId="node-40">
+    <command xml:space="preserve">enter amaia</command>
+    <result xml:space="preserve">[entering Amaia]&#x000A;You can't imagine actually entering Amaia's consciousness and giving her full access to your mind.  You'd never be able to look her in the eye again, and you have to work with her.&#x000A;[entering Amaia - failed]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-41"/>
+    </children>
+  </item>
+  <item nodeId="node-41">
+    <command xml:space="preserve">enter spiders</command>
+    <result xml:space="preserve">[entering the spiders]&#x000A;Your conciousness is already inhabiting the spiders.&#x000A;[entering the spiders - failed]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-42"/>
+    </children>
+  </item>
+  <item nodeId="node-42">
+    <command xml:space="preserve">exit</command>
+    <result xml:space="preserve">[exiting]&#x000A;You transfer your consciousness into the spiders outside the car.&#x000A;&#x000A;[(1) looking]&#x000A;Parking Lot (in the spiders)&#x000A;The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;You can see a Hyundai (in which are Amaia, Lestar and Zora) here.&#x000A;&#x000A;[(1) looking - succeeded]&#x000A;&#x000A;[exiting - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-43"/>
+    </children>
+  </item>
+  <item nodeId="node-43">
+    <command xml:space="preserve">touch lestar</command>
+    <result xml:space="preserve">[touching Lestar]&#x000A;Reaching out with your mind, you brush Lestar's surface thoughts with your own.  Instantly, you feel the thought, "Hi, Zora!  Just figure out what's going on, then get people to safety.  You can do this."  It must have been waiting for you, which in retrospect you feel you should have anticipated.  He's an old Vested, after all, and has been doing this for years.&#x000A;[touching Lestar - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-44">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Parking Lot&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-45"/>
+    </children>
+  </item>
+  <item nodeId="node-45">
+    <command xml:space="preserve">actions</command>
+    <result xml:space="preserve">Actions listing on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-46"/>
+    </children>
+  </item>
+  <item nodeId="node-46">
+    <command xml:space="preserve">enter spiders</command>
+    <result xml:space="preserve">[entering the spiders]&#x000A;With practiced ease, you move your consciousness out of your own head, and into the surrounding spiders.  In no time at all, your perception shifts, and you're perceiving the parking lot as if you were standing in it, though patched together from a thousand small views.&#x000A;&#x000A;Probably due to your nervousness, a memory surfaces of the first time you managed this.&#x000A;&#x000A;[(1) looking]&#x000A;Parking Lot (in the spiders)&#x000A;The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;You can see a Hyundai (in which are Amaia, Lestar and Zora) here.&#x000A;&#x000A;[(1) looking - succeeded]&#x000A;&#x000A;[Zora entering the spiders - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-47"/>
+    </children>
+  </item>
+  <item nodeId="node-47">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">[looking]&#x000A;Parking Lot (in the spiders)&#x000A;The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;You can see a Hyundai (in which are Amaia, Lestar and Zora) here.&#x000A;&#x000A;[looking - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-48"/>
+    </children>
+  </item>
+  <item nodeId="node-48">
+    <command xml:space="preserve">rules</command>
+    <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.&#x000A;&#x000A;[Rule "parse command rule" applies.]&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-49"/>
+    </children>
+  </item>
+  <item nodeId="node-49">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]&#x000A;[Rule "generate action rule" applies.]&#x000A;[Rule "determine visibility ceiling rule" applies.]&#x000A;[looking]&#x000A;[Rule "announce items from multiple object lists rule" applies.]&#x000A;[Rule "set pronouns from items from multiple object lists rule" applies.]&#x000A;[Rule "before stage rule" applies.]&#x000A;[Rule "basic visibility rule" applies.]&#x000A;[Rule "basic accessibility rule" applies.]&#x000A;[Rule "carrying requirements rule" applies.]&#x000A;[Rule "instead stage rule" applies.]&#x000A;[Rule "requested actions require persuasion rule" applies.]&#x000A;[Rule "carry out requested actions rule" applies.]&#x000A;[Rule "descend to specific action-processing rule" applies.]&#x000A;[Rule "work out details of specific action rule" applies.]&#x000A;[Rule "investigate player's awareness before action rule" applies.]&#x000A;[Rule "player aware of his own actions rule" applies.]&#x000A;[Rule "check stage rule" applies.]&#x000A;[Rule "carry out stage rule" applies.]&#x000A;[Rule "declare everything unmentioned rule" applies.]&#x000A;[Rule "room description heading rule" applies.]&#x000A;Parking Lot (in the spiders)&#x000A;[Rule "room description body text rule" applies.]&#x000A;The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;[Rule "room description paragraphs about objects rule" applies.]&#x000A;[Rule "initialise locale description rule" applies.]&#x000A;[Rule "find notable locale objects rule" applies.]&#x000A;[Rule "standard notable locale objects rule" applies.]&#x000A;[Rule "interesting locale paragraphs rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]&#x000A;[Rule "you-can-also-see rule" applies.]&#x000A;You can see a Hyundai (in which are Amaia, Lestar and Zora) here.&#x000A;&#x000A;[Rule "initialise locale description rule" applies.]&#x000A;[Rule "find notable locale objects rule" applies.]&#x000A;[Rule "standard notable locale objects rule" applies.]&#x000A;[Rule "interesting locale paragraphs rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]&#x000A;[Rule "you-can-also-see rule" applies.]&#x000A;[Rule "check new arrival rule" applies.]&#x000A;[Rule "after stage rule" applies.]&#x000A;[Rule "investigate player's awareness after action rule" applies.]&#x000A;[Rule "report stage rule" applies.]&#x000A;[Rule "other people looking rule" applies.]&#x000A;[Rule "last specific action-processing rule" applies.]&#x000A;[looking - succeeded]&#x000A;&#x000A;[Rule "A first turn sequence rule" applies.]&#x000A;[Rule "scene change machinery rule" applies.]&#x000A;[Rule "take quick actions out of world rule" applies.]&#x000A;[Rule "parse command rule" applies.]&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-50"/>
+    </children>
+  </item>
+  <item nodeId="node-50">
+    <command xml:space="preserve">enter lestar</command>
+    <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]&#x000A;[Rule "generate action rule" applies.]&#x000A;[entering Lestar]&#x000A;[Rule "announce items from multiple object lists rule" applies.]&#x000A;[Rule "set pronouns from items from multiple object lists rule" applies.]&#x000A;[Rule "before stage rule" applies.]&#x000A;[Rule "basic visibility rule" applies.]&#x000A;[Rule "basic accessibility rule" applies.]&#x000A;[Rule "access through barriers rule" applies.]&#x000A;[Rule "can't reach outside closed containers rule" applies.]&#x000A;[Rule "can't reach inside rooms rule" applies.]&#x000A;[Rule "can't reach inside closed containers rule" applies.]&#x000A;[Rule "carrying requirements rule" applies.]&#x000A;[Rule "instead stage rule" applies.]&#x000A;[Rule "Instead of entering Lestar when the player is enclosed by a person ( called host )" applies.]&#x000A;Lestar's been nothing but kind to you, but you're sure if he saw your whole mind, he'd be disappointed.  You've touched his mind before and that's gone OK.  You guess.&#x000A;[entering Lestar - failed]&#x000A;&#x000A;[Rule "A first turn sequence rule" applies.]&#x000A;[Rule "scene change machinery rule" applies.]&#x000A;[Rule "take quick actions out of world rule" applies.]&#x000A;[Rule "parse command rule" applies.]&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-51"/>
+    </children>
+  </item>
+  <item nodeId="node-51">
+    <command xml:space="preserve">touch lestar</command>
+    <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]&#x000A;[Rule "generate action rule" applies.]&#x000A;[touching Lestar]&#x000A;[Rule "announce items from multiple object lists rule" applies.]&#x000A;[Rule "set pronouns from items from multiple object lists rule" applies.]&#x000A;[Rule "before stage rule" applies.]&#x000A;[Rule "basic visibility rule" applies.]&#x000A;[Rule "basic accessibility rule" applies.]&#x000A;[Rule "access through barriers rule" applies.]&#x000A;[Rule "can't reach outside closed containers rule" applies.]&#x000A;[Rule "can't reach inside rooms rule" applies.]&#x000A;[Rule "can't reach inside closed containers rule" applies.]&#x000A;[Rule "carrying requirements rule" applies.]&#x000A;[Rule "instead stage rule" applies.]&#x000A;[Rule "Instead of touching Lestar" applies.]&#x000A;Reaching out with your mind, you brush Lestar's surface thoughts with your own.  Instantly, you feel the thought, "Hi, Zora!  Just figure out what's going on, then get people to safety.  You can do this."  It must have been waiting for you, which in retrospect you feel you should have anticipated.  He's an old Vested, after all, and has been doing this for years.&#x000A;[touching Lestar - succeeded]&#x000A;&#x000A;[Rule "A first turn sequence rule" applies.]&#x000A;[Rule "scene change machinery rule" applies.]&#x000A;[Rule "take quick actions out of world rule" applies.]&#x000A;[Rule "parse command rule" applies.]&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-52"/>
+    </children>
+  </item>
+  <item nodeId="node-52">
+    <command xml:space="preserve">rules off</command>
+    <result xml:space="preserve">[Rule "declare everything initially unmentioned rule" applies.]&#x000A;[Rule "generate action rule" applies.]&#x000A;Rules tracing now switched off. Type "rules" to switch it on again.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-53"/>
+    </children>
+  </item>
+  <item nodeId="node-53">
+    <command xml:space="preserve">touch amaia</command>
+    <result xml:space="preserve">[touching Amaia]&#x000A;Amaia still intimidates you, and you're pretty sure her surface thoughts would be "Zora!  Do your job already!"&#x000A;[touching Amaia - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-54"/>
+    </children>
+  </item>
+  <item nodeId="node-54">
+    <command xml:space="preserve">exit from spiders</command>
+    <result xml:space="preserve">I only understood you as far as wanting to exit.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-55"/>
+    </children>
+  </item>
+  <item nodeId="node-55">
+    <command xml:space="preserve">fprward</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-56"/>
+    </children>
+  </item>
+  <item nodeId="node-56">
+    <command xml:space="preserve">go forward</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-156">
+    <command xml:space="preserve">x looming</command>
+    <result xml:space="preserve">It's a sculpture looming over the east fence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-157"/>
+    </children>
+  </item>
+  <item nodeId="node-157">
+    <command xml:space="preserve">x fence</command>
+    <result xml:space="preserve">A fence walls off the park to the east.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-158"/>
+    </children>
+  </item>
+  <item nodeId="node-158">
+    <command xml:space="preserve">restart</command>
+    <result xml:space="preserve">Are you sure you want to restart?</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-159"/>
+    </children>
+  </item>
+  <item nodeId="node-159">
+    <command xml:space="preserve">y</command>
+    <result xml:space="preserve">Amaia screeches into the parking lot, and expertly zips into an open spot.  She closes her eyes briefly, checking, then opens them again, only fractionally less concerned.  "OK," she says, breathlessly, "whatever it is that's going to happen hasn't happened yet.  Zora," she turns to you apologetically over her shoulder, "you won't have a lot of time, but the future's still branching, so it should be enough.  Lestar, you're up." &#x000A;&#x000A;From the passenger seat, Lestar grins at both of you, his white eyebrows quirking soothingly, and he reaches behind his seat to pat you reassuringly on the arm.  "You got this, kid," he says "You've been doing great; this'll be just like the other times."  From Amaia's panicked expression, you can tell she disagrees, but she says nothing.  You take a deep breath and grab Lestar's hand, dry and warm, and it grounds you.&#x000A;&#x000A;Amaia takes Lestar's other hand, then grabs yours, the contact sleek with sweat from both of you.  Lestar nods at you both, and closes his eyes.&#x000A;&#x000A;Everything freezes.&#x000A;&#x000A;You have all the time in the world.&#x000A;&#x000A;Fate's Gallery&#x000A;An Interactive Story by Lucian Smith&#x000A;Release 1 / Serial number 230730 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Quinlan Park Parking Lot (in the Hyundai)&#x000A;The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;Looming over the parking lot to the east is a huge sculpture whose details have yet to be decided.  But it definitely looms.&#x000A;&#x000A;Amaia is turned sideways in the driver's seat, grasping your hand and Lestar's.  Even frozen, she radiates intensity and movement.&#x000A;&#x000A;Lestar's eyes are shut in calm concentration.  His relaxed hands hold yours and Amaia's, completing the triangle.&#x000A;&#x000A;In the area, you can sense the collective presence of dozens of spiders.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-160"/>
+    </children>
+  </item>
+  <item nodeId="node-160">
+    <command xml:space="preserve">enter spiders</command>
+    <result xml:space="preserve">With practiced ease, you move your consciousness out of your own head, and into the surrounding spiders.  Your perception shifts, and you see the parking lot as if you were standing in it, though patched together from dozens of small views.&#x000A;&#x000A;Probably due to your nervousness, a memory surfaces of the first time you managed this.&#x000A;&#x000A;Quinlan Park Parking Lot (in the spiders)&#x000A;The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;Looming over the parking lot to the east is a huge sculpture whose details have yet to be decided.  But it definitely looms.&#x000A;&#x000A;The Hyundai is parked with almost mathematical precision between two other cars.  You'd never guess that this was accomplished in 1.5 seconds.  Unless you knew Amaia.  Which you do.  But still.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-11">
+    <command xml:space="preserve">kiss hyundai</command>
+    <result xml:space="preserve">You can only do that to something animate.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-12"/>
+    </children>
+  </item>
+  <item nodeId="node-12">
+    <command xml:space="preserve">hyundai, hi</command>
+    <result xml:space="preserve">You can't talk to the Hyundai.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-101"/>
+      <child nodeId="node-13"/>
+    </children>
+  </item>
+  <item nodeId="node-101">
+    <command xml:space="preserve">lestar, hi</command>
+    <result xml:space="preserve">From here, you can enter the minds around you, but not much else.  It should be enough to figure out what's going on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-102"/>
+    </children>
+  </item>
+  <item nodeId="node-102">
+    <command xml:space="preserve">actions</command>
+    <result xml:space="preserve">Actions listing on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-103"/>
+    </children>
+  </item>
+  <item nodeId="node-103">
+    <command xml:space="preserve">lestar, hi</command>
+    <result xml:space="preserve">[answering Lestar that "hi"]&#x000A;From here, you can enter the minds around you, but not much else.  It should be enough to figure out what's going on.&#x000A;[answering Lestar that "hi" - failed]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-104"/>
+    </children>
+  </item>
+  <item nodeId="node-104">
+    <command xml:space="preserve">tell lestar about me</command>
+    <result xml:space="preserve">[telling Lestar about "me"]&#x000A;From here, you can enter the minds around you, but not much else.  It should be enough to figure out what's going on.&#x000A;[telling Lestar about "me" - failed]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-105"/>
+    </children>
+  </item>
+  <item nodeId="node-105">
+    <command xml:space="preserve">kiss lestar</command>
+    <result xml:space="preserve">[kissing Lestar]&#x000A;From here, you can enter the minds around you, but not much else.  It should be enough to figure out what's going on.&#x000A;[kissing Lestar - failed]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-106"/>
+    </children>
+  </item>
+  <item nodeId="node-106">
+    <command xml:space="preserve">out</command>
+    <result xml:space="preserve">[exiting]&#x000A;From here, you can enter the minds around you, but not much else.  It should be enough to figure out what's going on.&#x000A;[exiting - failed]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-107"/>
+    </children>
+  </item>
+  <item nodeId="node-107">
+    <command xml:space="preserve">amaia, hi</command>
+    <result xml:space="preserve">[answering Amaia that "hi"]&#x000A;With Lestar anchoring everything in the present, you can't interact with Amaia physically.  You could in theory enter her mind, but she is entirely too intimidating for that.  Even touching her mind to connect your surface thoughts is kind of beyond the pale.&#x000A;[answering Amaia that "hi" - failed]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-108"/>
+    </children>
+  </item>
+  <item nodeId="node-108">
+    <command xml:space="preserve">enter spiders</command>
+    <result xml:space="preserve">[entering the spiders]&#x000A;With practiced ease, you move your consciousness out of your own head, and into the surrounding spiders.  Your perception shifts, and you see the parking lot as if you were standing in it, though patched together from dozens of small views.&#x000A;&#x000A;Probably due to your nervousness, a memory surfaces of the first time you managed this.&#x000A;&#x000A;[(1) looking]&#x000A;Parking Lot (in the spiders)&#x000A;The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;The Hyundai is parked with almost mathematical precision between two other cars.  You'd never guess that this was accomplished in 1.5 seconds.  Unless you knew Amaia.  Which you do.  But still.&#x000A;&#x000A;[(1) looking - succeeded]&#x000A;&#x000A;[Zora entering the spiders - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-109"/>
+    </children>
+  </item>
+  <item nodeId="node-109">
+    <command xml:space="preserve">amaia, hi</command>
+    <result xml:space="preserve">[answering Amaia that "hi"]&#x000A;With Lestar anchoring everything in the present, you can't interact with Amaia physically.  You could in theory enter her mind, but she is entirely too intimidating for that.  Even touching her mind to connect your surface thoughts is kind of beyond the pale.&#x000A;[answering Amaia that "hi" - failed]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-110"/>
+    </children>
+  </item>
+  <item nodeId="node-110">
+    <command xml:space="preserve">enter amaia</command>
+    <result xml:space="preserve">[entering Amaia]&#x000A;You can't imagine actually entering Amaia's consciousness and giving her full access to your mind.  You'd never be able to look her in the eye again, and you have to work with her.&#x000A;[entering Amaia - failed]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-111"/>
+    </children>
+  </item>
+  <item nodeId="node-111">
+    <command xml:space="preserve">touch amaia</command>
+    <result xml:space="preserve">[touching Amaia]&#x000A;Amaia still intimidates you, and you're pretty sure her surface thoughts would just be "Zora!  Do your job already!"&#x000A;[touching Amaia - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-112"/>
+    </children>
+  </item>
+  <item nodeId="node-112">
+    <command xml:space="preserve">tree</command>
+    <result xml:space="preserve">(Compass object) (567784) &#x000A;  the north&#x000A;  the northeast&#x000A;  the northwest&#x000A;  the south&#x000A;  the southeast&#x000A;  the southwest&#x000A;  the east&#x000A;  the west&#x000A;  the up&#x000A;  the down&#x000A;  the inside&#x000A;  the outside&#x000A;(thedark object) (567816) &#x000A;(VPH_25) (567848) &#x000A;(VPH_2) (567880) &#x000A;your former self (568296) &#x000A;Parking Lot (568328) &#x000A;  some spiders&#x000A;    yourself&#x000A;  a Hyundai&#x000A;    Amaia&#x000A;    Lestar&#x000A;    Zora&#x000A;Entrance (568520) &#x000A;Plaza (568552) &#x000A;  Sculpture Number One&#x000A;Path By Hill (568616) &#x000A;Playground (568648) &#x000A;Sculpture By Lot (568680) &#x000A;Under Bridge (568712) &#x000A;  Fire and Forge&#x000A;plaque (568776) &#x000A;fire_forged (568808) &#x000A;twisted metal (568840) &#x000A;Beach Sculpture (568872) &#x000A;Top Of Hill (568904) &#x000A;Bewildering Bridges (568936) &#x000A;East Hill (568968) &#x000A;  Bird_Cage&#x000A;Water Sculpture (569032) &#x000A;Void (569064) &#x000A;giant bushy white eyebrows (569128) &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-113"/>
+    </children>
+  </item>
+  <item nodeId="node-113">
+    <command xml:space="preserve">x me</command>
+    <result xml:space="preserve">[examining yourself]&#x000A;Your consciousness has no literal form, but when you move across minds, you imagine your core self as a tight ball of sparks containing your memories.&#x000A;&#x000A;[examining yourself - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-114"/>
+    </children>
+  </item>
+  <item nodeId="node-114">
+    <command xml:space="preserve">x zora</command>
+    <result xml:space="preserve">[examining Zora]&#x000A;You're pragmatically dressed in jeans, a "Hu" T-shirt, and sneakers.  Your curls are somehow behaving today, probably because you didn't try to do anything with them this morning.&#x000A;&#x000A;[examining Zora - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-115"/>
+    </children>
+  </item>
+  <item nodeId="node-115">
+    <command xml:space="preserve">restart</command>
+    <result xml:space="preserve">[restarting the game]&#x000A;Are you sure you want to restart?</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-116"/>
+    </children>
+  </item>
+  <item nodeId="node-116">
+    <command xml:space="preserve">y</command>
+    <result xml:space="preserve">Amaia screeches into the parking lot, and expertly zips into an open spot.  She closes her eyes briefly, checking, then opens them again, only fractionally less concerned.  "OK," she says, breathlessly, "whatever it is that's going to happen hasn't happened yet.  Zora," she turns to you apologetically over her shoulder, "you won't have a lot of time, but the future's still branching, so it should be enough.  Lestar, you're up." &#x000A;&#x000A;From the passenger seat, Lestar grins at both of you, his white eyebrows quirking soothingly, and he reaches behind his seat to pat you reassuringly on the arm.  "You got this, kid," he says "You've been doing great; this'll be just like the other times."  From Amaia's panicked expression, you can tell she disagrees, but she says nothing.  You take a deep breath and grab Lestar's hand, dry and warm, and it grounds you.&#x000A;&#x000A;Amaia takes Lestar's other hand, then grabs yours, the contact sleek with sweat from both of you.  Lestar nods at you both, and closes his eyes.&#x000A;&#x000A;Everything freezes.&#x000A;&#x000A;You have all the time in the world.&#x000A;&#x000A;Momentum Moirai&#x000A;An Interactive Fiction by Lucian Smith&#x000A;Release 1 / Serial number 230728 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Parking Lot (in the Hyundai)&#x000A;The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;Amaia is turned sideways in the driver's seat, grasping your hand and Lestar's.  Even frozen, she radiates intensity and movement.&#x000A;&#x000A;Lestar's eyes are shut in calm concentration.  His relaxed hands hold yours and Amaia's, completing the triangle.&#x000A;&#x000A;In the area, you can sense the collective presence of dozens of spiders.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-117"/>
+    </children>
+  </item>
+  <item nodeId="node-117">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Parking Lot (in the Hyundai)&#x000A;The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;Amaia is turned sideways in the driver's seat, grasping your hand and Lestar's.  Even frozen, she radiates intensity and movement.&#x000A;&#x000A;Lestar's eyes are shut in calm concentration.  His relaxed hands hold yours and Amaia's, completing the triangle.&#x000A;&#x000A;In the area, you can sense the collective presence of dozens of spiders.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-118"/>
+    </children>
+  </item>
+  <item nodeId="node-118">
+    <command xml:space="preserve">x hyundai</command>
+    <result xml:space="preserve">Practical, blue, and nondescript.  Not your typical Vested vehicle, but Amaia is more about function than form.&#x000A;&#x000A;In the Hyundai are Amaia, Lestar and some spiders.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-119"/>
+    </children>
+  </item>
+  <item nodeId="node-119">
+    <command xml:space="preserve">#I like this bit.</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-120"/>
+    </children>
+  </item>
+  <item nodeId="node-120">
+    <command xml:space="preserve"># hello</command>
+    <result xml:space="preserve">Noted.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-121"/>
+    </children>
+  </item>
+  <item nodeId="node-121">
+    <command xml:space="preserve">/hello</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-122"/>
+    </children>
+  </item>
+  <item nodeId="node-122">
+    <command xml:space="preserve">/ hello</command>
+    <result xml:space="preserve">Noted.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-123"/>
+    </children>
+  </item>
+  <item nodeId="node-123">
+    <command xml:space="preserve">'hello</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-124"/>
+    </children>
+  </item>
+  <item nodeId="node-124">
+    <command xml:space="preserve">' hello</command>
+    <result xml:space="preserve">Noted.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-125"/>
+    </children>
+  </item>
+  <item nodeId="node-125">
+    <command xml:space="preserve">" hello</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-126"/>
+    </children>
+  </item>
+  <item nodeId="node-126">
+    <command xml:space="preserve">"hello</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-13">
+    <command xml:space="preserve">spiders, hi</command>
+    <result xml:space="preserve">From here, you can enter the minds around you, but not much else.  It should be enough to figure out what's going on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-14"/>
+    </children>
+  </item>
+  <item nodeId="node-14">
+    <command xml:space="preserve">kiss spiders</command>
+    <result xml:space="preserve">From here, you can enter the minds around you, but not much else.  It should be enough to figure out what's going on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-15"/>
+    </children>
+  </item>
+  <item nodeId="node-15">
+    <command xml:space="preserve">enter spiders</command>
+    <result xml:space="preserve">With practiced ease, you move your consciousness out of your own head, and into the surrounding spiders.  Your perception shifts, and you see the parking lot as if you were standing in it, though patched together from dozens of small views.&#x000A;&#x000A;Probably due to your nervousness, a memory surfaces of the first time you managed this.&#x000A;&#x000A;Parking Lot (in the spiders)&#x000A;The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;You can see a Hyundai (in which are Amaia, Lestar and Zora) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-16"/>
+    </children>
+  </item>
+  <item nodeId="node-16">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Parking Lot&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-57">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Parking Lot (in the Hyundai)&#x000A;The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;Amaia is turned sideways in the driver's seat, grasping your hand and Lestar's.  Even frozen, she radiates intensity and movement.&#x000A;&#x000A;Lestar's eyes are shut in calm concentration.  His relaxed hands hold yours and Amaia's, completing the triangle.&#x000A;&#x000A;In the area, you can sense the collective presence of dozens of spiders.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-58"/>
+    </children>
+  </item>
+  <item nodeId="node-58">
+    <command xml:space="preserve">out</command>
+    <result xml:space="preserve">From here, you can enter the minds around you, but not much else.  It should be enough to figure out what's going on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-59"/>
+    </children>
+  </item>
+  <item nodeId="node-59">
+    <command xml:space="preserve">touch me</command>
+    <result xml:space="preserve">You achieve nothing by this.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-60"/>
+    </children>
+  </item>
+  <item nodeId="node-60">
+    <command xml:space="preserve">enter spider</command>
+    <result xml:space="preserve">With practiced ease, you move your consciousness out of your own head, and into the surrounding spiders.  Your perception shifts, and you see the parking lot as if you were standing in it, though patched together from dozens of small views.&#x000A;&#x000A;Probably due to your nervousness, a memory surfaces of the first time you managed this.&#x000A;&#x000A;Parking Lot (in the spiders)&#x000A;The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;You can see a Hyundai (in which are Amaia, Lestar and Zora) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-61"/>
+    </children>
+  </item>
+  <item nodeId="node-61">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-62"/>
+    </children>
+  </item>
+  <item nodeId="node-62">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;A cloud passes over the sun.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-63"/>
+    </children>
+  </item>
+  <item nodeId="node-63">
+    <command xml:space="preserve">actions</command>
+    <result xml:space="preserve">Actions listing on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-64"/>
+    </children>
+  </item>
+  <item nodeId="node-64">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">[waiting]&#x000A;Time passes.&#x000A;[waiting - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-65"/>
+    </children>
+  </item>
+  <item nodeId="node-65">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">[waiting]&#x000A;Time passes.&#x000A;[waiting - succeeded]&#x000A;&#x000A;The sun emerges again from behind the cloud.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-66"/>
+    </children>
+  </item>
+  <item nodeId="node-66">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">[waiting]&#x000A;Time passes.&#x000A;[waiting - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-67"/>
+    </children>
+  </item>
+  <item nodeId="node-67">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">[waiting]&#x000A;Time passes.&#x000A;[waiting - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-68"/>
+    </children>
+  </item>
+  <item nodeId="node-68">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">[waiting]&#x000A;Time passes.&#x000A;[waiting - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-69"/>
+    </children>
+  </item>
+  <item nodeId="node-69">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">[waiting]&#x000A;Time passes.&#x000A;[waiting - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-70"/>
+    </children>
+  </item>
+  <item nodeId="node-70">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">[waiting]&#x000A;Time passes.&#x000A;[waiting - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-127">
+    <command xml:space="preserve">x spiders</command>
+    <result xml:space="preserve">The minds of the spiders are refreshingly simple, unlike most people's minds.  You can enter them to explore an area.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-128"/>
+    </children>
+  </item>
+  <item nodeId="node-128">
+    <command xml:space="preserve">x hyundai</command>
+    <result xml:space="preserve">Practical, blue, and nondescript.  Not your typical Vested vehicle, but Amaia is more about function than form.&#x000A;&#x000A;In the Hyundai are Amaia, Lestar and some spiders.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-129"/>
+    </children>
+  </item>
+  <item nodeId="node-129">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">While frozen, you can enter the minds around you, and you're aware of your surroundings, but can't do anything physical.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-130"/>
+    </children>
+  </item>
+  <item nodeId="node-130">
+    <command xml:space="preserve">x lestar</command>
+    <result xml:space="preserve">Lestar is an old man with giant bushy white eyebrows that make it impossible for him to hide his emotions.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-131"/>
+    </children>
+  </item>
+  <item nodeId="node-131">
+    <command xml:space="preserve">x eyebrows</command>
+    <result xml:space="preserve">Yeah, they're kind of hard to not just stare at.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-132"/>
+    </children>
+  </item>
+  <item nodeId="node-132">
+    <command xml:space="preserve">out</command>
+    <result xml:space="preserve">While frozen, you can enter the minds around you, and you're aware of your surroundings, but can't do anything physical.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-133"/>
+    </children>
+  </item>
+  <item nodeId="node-133">
+    <command xml:space="preserve">enter spiders</command>
+    <result xml:space="preserve">With practiced ease, you move your consciousness out of your own head, and into the surrounding spiders.  Your perception shifts, and you see the parking lot as if you were standing in it, though patched together from dozens of small views.&#x000A;&#x000A;Probably due to your nervousness, a memory surfaces of the first time you managed this.&#x000A;&#x000A;Parking Lot (in the spiders)&#x000A;The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;A fence walls off the park to the east.&#x000A;&#x000A;The Hyundai is parked with almost mathematical precision between two other cars.  You'd never guess that this was accomplished in 1.5 seconds.  Unless you knew Amaia.  Which you do.  But still.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-134"/>
+    </children>
+  </item>
+  <item nodeId="node-134">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-135"/>
+    </children>
+  </item>
+  <item nodeId="node-135">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You transfer your consiousness to a new group of spiders...&#x000A;&#x000A;Entrance (in the spiders)&#x000A;Two booths flank the entrance to the park, where you can buy tickets and get information.  The parking lot to the south is mostly empty, but you can see some people walking through the park to the north.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-136"/>
+    </children>
+  </item>
+  <item nodeId="node-136">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-137"/>
+    </children>
+  </item>
+  <item nodeId="node-137">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You transfer your consiousness to a new group of spiders...&#x000A;&#x000A;Parking Lot (in the spiders)&#x000A;The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;A fence walls off the park to the east.&#x000A;&#x000A;The Hyundai is parked with almost mathematical precision between two other cars.  You'd never guess that this was accomplished in 1.5 seconds.  Unless you knew Amaia.  Which you do.  But still.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-138"/>
+    </children>
+  </item>
+  <item nodeId="node-138">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You spot a spider on the east wall, and through it, move your consciousness to the spiders on the other side.&#x000A;&#x000A;Sculpture By Lot (in the spiders)&#x000A;The path curves from the west to the southeast here, winding through a giant sculpture that looms over the fence by the parking lot.  The main hill of the park is to the north.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-139"/>
+    </children>
+  </item>
+  <item nodeId="node-139">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You transfer your consiousness to a new group of spiders...&#x000A;&#x000A;Top Of Hill (in the spiders)&#x000A;From the top of the hill, you can see the entire park below you: the reservoir to the north, the playground to the west, and all eight of the permanent sculptures in the park.  The sculpture here dominates the hill, and looks like a great place for puzzles.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-140"/>
+    </children>
+  </item>
+  <item nodeId="node-140">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You transfer your consiousness to a new group of spiders...&#x000A;&#x000A;Playground (in the spiders)&#x000A;Slides, swings, and a wide variety of brightly-colored climbing equipment.  The path curves from the south to the east here, along the ridge of the hill.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-141"/>
+    </children>
+  </item>
+  <item nodeId="node-141">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You transfer your consiousness to a new group of spiders...&#x000A;&#x000A;Path By Hill (in the spiders)&#x000A;The path runs southwest to northeast here, and splits off to the northeast as well, all skirting the hill above you to the east.  A fence mostly hidden by shrubbery to your west hides 48th street, and blocks most of the sound from the passing cards&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-142"/>
+    </children>
+  </item>
+  <item nodeId="node-142">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-143"/>
+    </children>
+  </item>
+  <item nodeId="node-143">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">You transfer your consiousness to a new group of spiders...&#x000A;&#x000A;Under Bridge (in the spiders)&#x000A;A simple and delicate sculpture entitled "Fire and Forge" sits here, nestled under the 48th Street Bridge on the banks of Brushstroke Reservoir to the north.  The path leads back southeast.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-144"/>
+    </children>
+  </item>
+  <item nodeId="node-144">
+    <command xml:space="preserve">x fire</command>
+    <result xml:space="preserve">A plaque in the ground identifies this sculpture as "Fire and Forge".  Long spines of twisting reddish metal emerges from the ground, reminiscent of flames.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-145"/>
+    </children>
+  </item>
+  <item nodeId="node-145">
+    <command xml:space="preserve">x forge</command>
+    <result xml:space="preserve">A plaque in the ground identifies this sculpture as "Fire and Forge".  Long spines of twisting reddish metal emerges from the ground, reminiscent of flames.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-146"/>
+    </children>
+  </item>
+  <item nodeId="node-146">
+    <command xml:space="preserve">x fire and forge</command>
+    <result xml:space="preserve">A plaque in the ground identifies this sculpture as "Fire and Forge".  Long spines of twisting reddish metal emerges from the ground, reminiscent of flames.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-147"/>
+    </children>
+  </item>
+  <item nodeId="node-147">
+    <command xml:space="preserve">x fire and me</command>
+    <result xml:space="preserve">You can't use multiple objects with that verb.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-148"/>
+    </children>
+  </item>
+  <item nodeId="node-148">
+    <command xml:space="preserve">x sculpture</command>
+    <result xml:space="preserve">A plaque in the ground identifies this sculpture as "Fire and Forge".  Long spines of twisting reddish metal emerges from the ground, reminiscent of flames.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-149"/>
+    </children>
+  </item>
+  <item nodeId="node-149">
+    <command xml:space="preserve">x spines</command>
+    <result xml:space="preserve">As you examine the twisted metal from different angles, you can almost imagine you see both swords and erotic imagery.  This would be consistent with the church of Aphrodite's reclamation of her dominion over both sex and war in its series of reforms in the 70"s and 80"s.  A small stamped icon of a cluster of dates would seem to indicate that the sculptor was part of the Inannan denomination.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-150"/>
+    </children>
+  </item>
+  <item nodeId="node-150">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-151"/>
+    </children>
+  </item>
+  <item nodeId="node-151">
+    <command xml:space="preserve">x plaque</command>
+    <result xml:space="preserve">Fire and Forge.  Metal and stain, 2007, Amelia Thomas.&#x000A;&#x000A;The red metal spires most obviously evokes flames, but also passion, leading the majority of scholars to believe this to be representative of the relationship of Aphrodite and Hephaestus.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-154"/>
+    </children>
+  </item>
+  <item nodeId="node-154">
+    <command xml:space="preserve">x flames</command>
+    <result xml:space="preserve">As you examine the twisted metal from different angles, you can almost imagine you see both swords and erotic imagery.  This would be consistent with the church of Aphrodite's reclamation of her dominion over both sex and war in its series of reforms in the 70"s and 80"s.  A small stamped icon of a cluster of dates would seem to indicate that the sculptor was part of the Inannan denomination.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-155"/>
+    </children>
+  </item>
+  <item nodeId="node-155">
+    <command xml:space="preserve">x dates</command>
+    <result xml:space="preserve">As you examine the twisted metal from different angles, you can almost imagine you see both swords and erotic imagery.  This would be consistent with the church of Aphrodite's reclamation of her dominion over both sex and war in its series of reforms in the 70"s and 80"s.  A small stamped icon of a cluster of dates would seem to indicate that the sculptor was part of the Inannan denomination.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+</Skein>
