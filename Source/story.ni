@@ -20,6 +20,9 @@ Exiting is acting fast.
 The take quick actions out of world rule is listed before the every turn stage rule in the turn sequence rules.
 
 This is the take quick actions out of world rule:
+	if the player is transforming:
+		now the player is not transforming;
+		decide yes;
 	if waiting, decide no;
 	if the player is enclosed by spiders, decide yes;
 	if the player is Zora and Zora is frozen, decide yes;
@@ -35,7 +38,6 @@ Rule for setting action variables for going (this is the allow rideables to be
 	going vehicles rule):
 	if the actor is carried by a person (called the host),
 		now the vehicle gone by is the host;
-		
 
 Instead of exiting when the player is enclosed by a person:
 	say "You can't exit one consciousness without going into another one." instead.
@@ -201,11 +203,14 @@ The giant bushy white eyebrows are part of Lestar.  The description of the eyebr
 
 Zora is a woman in the Hyundai.  "Your own face relaxes as you look at yourself from the outside.  Somehow, it's easier to see yourself this way than in the mirror."  The description of Zora is "You're pragmatically dressed in jeans, a 'Hu' T-shirt, and sneakers.  Your curls are somehow behaving today, probably because you didn't try to do anything with them this morning."  Understand "Zora" as Zora.
 [Zora is the Past part of the Moirai.  Zora is Serbo-Croatian for 'Dawn'.]
-The player is Zora.
 
 The spiders are a plural-named person in the Hyundai.  "In the area, you can sense the collective presence of dozens of spiders."  The description of the Spiders is "The minds of the spiders are refreshingly simple, unlike most people's minds.  You can [bold type]enter[roman type] them to explore an area."  Understand "spider", "dozens of spiders" as spiders.
 
-Your consciousness is a woman in the Void.  The description of your consciousness is "Your consciousness has no literal form, but when you move across minds, you imagine your core self as a tight ball of sparks containing your memories."
+Your consciousness is a woman in the Void.  The description of your consciousness is "Your consciousness has no literal form, but when you move across minds, you imagine your core self as a tight ball of sparks containing your memories."  Understand "core self", "tight ball", "tight ball of sparks", "ball of sparks", "ball", "sparks" as consciousness.
+
+Consciousness can be transforming.  Consciousness is not transforming.
+
+The player is Zora.
 
 Part 3 Actions
 
@@ -296,7 +301,8 @@ Instead of entering the spiders for the first time:
 	Move the consciousness to the spiders;
 	Move the spiders to the parking lot;
 	now the player is the consciousness;
-	say "With practiced ease, you move your consciousness out of your own head, and into the surrounding spiders.  Your perception shifts, and you see the parking lot as if you were standing in it, though patched together from dozens of small views.[line break][line break]Probably due to your nervousness, a memory surfaces of the first time you managed this.";
+	now the consciousness is transforming;
+	say "With practiced ease, you move your consciousness out of your own head, and into the surrounding spiders.  Your perception shifts, and you see the parking lot as if you were standing in it, though patched together from dozens of small views."["[line break][line break]Probably due to your nervousness, a memory surfaces of the first time you managed this."];
 	try looking;
 	rule succeeds.
 

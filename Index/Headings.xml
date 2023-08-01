@@ -31,56 +31,56 @@
     </dict>
     <key>4</key><dict>
         <key>Filename</key><string>C:\Users\Lucian\Documents\Inform\Projects\Moirai.inform\Source\story.ni</string>
-        <key>Line</key><integer>59</integer>
+        <key>Line</key><integer>61</integer>
         <key>Title</key><string>Part 1 Map</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>5</key><dict>
         <key>Filename</key><string>C:\Users\Lucian\Documents\Inform\Projects\Moirai.inform\Source\story.ni</string>
-        <key>Line</key><integer>192</integer>
+        <key>Line</key><integer>194</integer>
         <key>Title</key><string>Part 2 Cast</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>6</key><dict>
         <key>Filename</key><string>C:\Users\Lucian\Documents\Inform\Projects\Moirai.inform\Source\story.ni</string>
-        <key>Line</key><integer>210</integer>
+        <key>Line</key><integer>215</integer>
         <key>Title</key><string>Part 3 Actions</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>7</key><dict>
         <key>Filename</key><string>C:\Users\Lucian\Documents\Inform\Projects\Moirai.inform\Source\story.ni</string>
-        <key>Line</key><integer>268</integer>
+        <key>Line</key><integer>273</integer>
         <key>Title</key><string>Part 4 Setup</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>8</key><dict>
         <key>Filename</key><string>C:\Users\Lucian\Documents\Inform\Projects\Moirai.inform\Source\story.ni</string>
-        <key>Line</key><integer>276</integer>
+        <key>Line</key><integer>281</integer>
         <key>Title</key><string>Part 5 Memories</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>9</key><dict>
         <key>Filename</key><string>C:\Users\Lucian\Documents\Inform\Projects\Moirai.inform\Source\story.ni</string>
-        <key>Line</key><integer>282</integer>
+        <key>Line</key><integer>287</integer>
         <key>Title</key><string>Part 5 Preset events</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>10</key><dict>
         <key>Filename</key><string>C:\Users\Lucian\Documents\Inform\Projects\Moirai.inform\Source\story.ni</string>
-        <key>Line</key><integer>291</integer>
+        <key>Line</key><integer>296</integer>
         <key>Title</key><string>Book 2 First time through the loop</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>11</key><dict>
         <key>Filename</key><string>C:\Users\Lucian\Documents\Inform\Projects\Moirai.inform\Source\story.ni</string>
-        <key>Line</key><integer>293</integer>
+        <key>Line</key><integer>298</integer>
         <key>Title</key><string>Part traveling</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>2</integer>
