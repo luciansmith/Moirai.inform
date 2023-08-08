@@ -31,6 +31,9 @@ This is the take quick actions out of world rule:
 Before waiting when spidered:
 	say "Gently, you release your hold on time, letting it scroll forward."
 
+Before waiting when the player is Zora:
+	say "Gently, you release your hold on time, letting it scroll forward."
+
 A person can be enterable.  A person is usually enterable.
 A person can be frozen.  A person is usually frozen.
 Understand "enter [a person]" as entering.
@@ -132,7 +135,7 @@ Section Path By Hill
 
 Path By Hill is a room.   "The path runs southwest to northeast here along the edge of the park, and splits off to the northeast as well, heading up the hill above you to the east.  A fence mostly hidden by shrubbery to your west hides 48th street, and blocks most of the sound from the passing cards"
 
-pbh_view is here.  It is distant and privately-named.  "[if sinkhole_size is 0]To the east you can still see the tops of the red metal structure of Coyote's Call.[otherwise if sinkhole_size is 1]To the east, the red metal of Coyote's Call is no longer visible."  The description is "[distant_coyote][the northeast]."  Understand "iconic", "red", "metal", "structure", "coyote", "coyote's", "call", "central", "hill" as pbh_view.  The printed name of pbh_view is "Coyote's Call";
+pbh_view is here.  It is distant and privately-named.  "[if sinkhole_size is 0]Though the hill is in the way, you can still see the tops of the red metal structure of Coyote's Call past the rise to the east.[otherwise if sinkhole_size is 1]To the east, the red metal of Coyote's Call is no longer visible."  The description is "[distant_coyote][the northeast]."  Understand "iconic", "red", "metal", "structure", "coyote", "coyote's", "call", "central", "hill" as pbh_view.  The printed name of pbh_view is "Coyote's Call";
 
 
 Northwest of the Path By Hill is Under Bridge.
@@ -422,8 +425,12 @@ To carry out sinkhole appearing:
 			try looking;
 	otherwise if the location of the player is entrance or the location of the player is the parking lot:
 		say "You hear a roar from inside the park.";
+	otherwise if the location is Under Bridge:
+		say "You hear a roar and the sound of twisting metal from the park to the southeast.";
+	otherwise if the location is Playground:
+		say "With a sudden roar, the entire east half of the hill collapses in on itself, taking the metal structure of Coyote's Call with it; its giant metal tubes and bars twisting apart from each other with terrifying screeches.  Trees, dirt, and grass fall into the gaping pit as the edges expand towards your side of the hill.";
 	otherwise:
-		say "Whoops, a sinkhole."
+		say "With a roar and a grinding sound of twisting metal, Coyote's Call suddenly collapses and disappears from view."
 
 
 
@@ -441,7 +448,10 @@ Every turn:
 	if the time of day is 11:00 AM:
 		say ""
 		
-
+After going somewhere in Park Proper for the first time:
+	try looking;
+	if the time of day is 10:53 AM:
+		say "Whatever Amaia is worried about is apparently happening in this park.  You'll need to [bold type]wait[roman type] to advance the loop to see what's going on."
 
 Book traveling
 
