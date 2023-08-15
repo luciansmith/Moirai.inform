@@ -84,11 +84,13 @@ The immediately undo rule response (F) is "You've gone as far backwards on this 
 
 Book Map
 
+A room can be liminal, parky, or chasmy.  A room is usually parky.
+
 Section parking lot
 
-Quinlan Park Parking Lot is a room.  "Scattered cars fill the parking lot, including [the Hyundai]. The parking lot is just off of 48th street to the west.   To the north is the entrance to the park."  
+Quinlan Park Parking Lot is a room.  "Scattered cars fill the parking lot, including [the Hyundai]. The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.".  parking lot is liminal.
 
-Looming sculpture is fixed in place. It is here.  "Looming over the parking lot to the east is a huge sculpture {whose details have yet to be decided.  But it definitely looms. LS DEBUG.}".  The description is "It's a sculpture looming over the east fence."
+Looming sculpture is fixed in place. It is here.  "Looming over the parking lot to the east is a huge sculpture {whose details have yet to be decided.  But it definitely looms. LS TBD.}".  The description is "It's a sculpture looming over the east fence."
 
 Fence is a backdrop.  It is here.  The description is "A fence walls off the park."  The fence is in the Path By Hill, Under Bridge, Water Sculpture, East Hill, Bewildering Bridges, and Sculpture By Lot.
 
@@ -96,16 +98,37 @@ Instead of going east from the Parking Lot when not spidered, say "The park cont
 
 Instead of going west from the Sculpture By Lot when not spidered, say "The parking lot can be found on the other side of the tall fence to the west, but your host can't scale it."
 
-A Hyundai is a transparent vehicle in the parking lot.  "The Hyundai is parked with almost mathematical precision between two other cars.  You'd never guess that this was accomplished in 1.5 seconds.  Unless you knew Amaia.  Which you do.  But still." The description of the hyundai is "Practical, blue, and nondescript.  Not your typical Vested vehicle, but Amaia is more about function than form."
+A Hyundai is a transparent vehicle in the parking lot.  "The Hyundai is parked with almost mathematical precision between two other cars.  You'd never guess that this was accomplished in 1.5 seconds.  Unless you knew Amaia.  Which you do.  But still." The description of the hyundai is "Practical, blue, and nondescript.  Not your typical Vested vehicle, but Amaia is more about function than form."  Understand "car/blue/practical/vehicle" as the Hyundai.
 
 The Parking Lot is south of the Quinlan Park Entrance.
 The Parking Lot is west of Sculpture By Lot.
 The entrance is northeast of the parking lot.
 Southwest of entrance is nowhere.
 
-Quinlan Park Entrance is a room.  "Two booths flank the entrance to the park, where you can buy tickets and get information."
+Section entrance
 
-An information booth is here.  It is open, container, and fixed in place.
+To say mention_booths:
+	now the information booth is mentioned;
+	now the ticket booth is mentioned;
+
+Quinlan Park Entrance is a room.  "Two booths flank the entrance to the park, where you can buy tickets and get information[mention_booths].". Entrance is liminal.
+
+An information booth is here.  It is a fixed in place enterable container.  The description is "The information booth is unmanned, but there's a [stack of flyers] resting on the sill."
+
+A stack of flyers is part of the information booth.  The description is "The flyer reads:[line break][line break][bold type]'Welcome to Quinlan Park!'[roman type][line break][line break]'Established in 1974, Dr. Robert Quinlan commisioned the central 'Coyote's Call' sculpture from Wynona Locklear, and set up a trust to commission and rotate other art pieces at other sites throughout the park.  Enjoy your stay, and find out more below about our amazing artists!'[line break][line break]Below this is a cartoon map of the park, with small text blocks describing each of the sculptures currently on display:  the central Coyote's Call, then (clockwise from the southwest entrance): <something>, Fire and Forge, <something>, <water sculpture>, Bird and Cage, <bridges>, and <looming> (LS TBD: list the rest, and write the block text for each.  You should be able to 'x bird and cage' and get this description if not next to the real thing, and probably 'look up bird and cage on map' to be more specific)."
+Understand "flyer/sill" as stack of flyers.
+
+Instead of taking the stack of flyers:
+	if spidered:
+		say "The spiders can't pick up a flyer, and you couldn't take it with you even if they could.";
+	otherwise:
+		say "LS TBD: Determine what to do when in a human host."
+
+[Instead of entering the information booth:
+	if spidered:
+]		
+
+A ticket booth is here.  It is open, container, and fixed in place.
 
 Northeast of Entrance is Plaza.
 East of Entrance is Sculpture By Lot.
@@ -115,14 +138,14 @@ The Park Entrance is south of Plaza.
 
 Section plaza
 
-Plaza is a room.  "Paths run through this plaza from the south entrance, then splitting northwest around the hill, north up the hill, and east along it. "
+Plaza is a room.  "Paths run through this plaza from the south entrance, then splitting northwest around the hill, north up the hill, and east along it. ".
 
 To say distant_coyote:
 	say "Coyote's Call is the iconic sculpture of Quinlan Park.  Made of large red metal tubes and beams, it dominates the landscape from atop the central hill[if sinkhole_size is 0] to [otherwise]. Normally, you'd be able to see it to "
 
 plaza_view is here.  It is distant and privately-named.  "[if sinkhole_size is 0]To the northeast atop the hill is the iconic red metal structure of Coyote's Call.[otherwise if sinkhole_size is 1]To the northeast, the iconic red metal of Coyote's Call is no longer visible."  The description is "[distant_coyote][the northeast]."  Understand "iconic", "red", "metal", "structure", "coyote", "coyote's", "call", "central", "hill" as plaza_view.  The printed name of plaza_view is "Coyote's Call";
 
-Sculpture Number One is a thing in Plaza.  "Prominently displayed just inside the entrance is some sort of sculpture (LS DEBUG)."
+Sculpture Number One is a thing in Plaza.  "Prominently displayed just inside the entrance is some sort of sculpture (LS TBD)."
 
 Northwest of Plaza is Path By Hill.
 Northeast of Plaza is Top of Hill.
@@ -133,7 +156,7 @@ East of Plaza is Sculpture By Lot.
 
 Section Path By Hill
 
-Path By Hill is a room.   "The path runs southwest to northeast here along the edge of the park, and splits off to the northeast as well, heading up the hill above you to the east.  A fence mostly hidden by shrubbery to your west hides 48th street, and blocks most of the sound from the passing cards"
+Path By Hill is a room.   "The path runs southwest to northeast here along the edge of the park, and splits off to the northeast as well, heading up the hill above you to the east.  A fence mostly hidden by shrubbery to your west hides 48th street, and blocks most of the sound from the passing cars."
 
 pbh_view is here.  It is distant and privately-named.  "[if sinkhole_size is 0]Though the hill is in the way, you can still see the tops of the red metal structure of Coyote's Call past the rise to the east.[otherwise if sinkhole_size is 1]To the east, the red metal of Coyote's Call is no longer visible."  The description is "[distant_coyote][the northeast]."  Understand "iconic", "red", "metal", "structure", "coyote", "coyote's", "call", "central", "hill" as pbh_view.  The printed name of pbh_view is "Coyote's Call";
 
@@ -150,7 +173,9 @@ Fire_Forge is a fixed in place thing in Under Bridge.  The description of fire_f
 
 fire_plaque is part of fire_forge.  The printed name of fire_plaque is "plaque".  fire_plaque is privately-named.  Understand "plaque" as fire_plaque.  The description of fire_plaque is "[italic type]Fire and Forge.  Metal and stain, 2007, Amelia Thomas.[line break][line break]The red metal spires most obviously evokes flames, but also passion, leading the majority of scholars to believe this to be representative of the relationship of Aphrodite and Hephaestus."
 
-twisted metal is part of fire_forge.  The description of the twisted metal is "As you examine the twisted metal from different angles, you can almost imagine you see both swords and erotic imagery.  This would be consistent with the church of Aphrodite's reclamation of her dominion over both sex and war in its series of reforms in the 70's and 80's.  A small stamped icon of a cluster of dates would seem to indicate that the sculptor was part of the Inannan denomination."  Understand "dates", "cluster of dates", "icon", "stamped icon", "Innana", "Innanan", "swords", "erotic imagery", "spines", "spires", "twisting", "reddish", "flames" as twisted metal.
+twisted metal is part of fire_forge.  The description of the twisted metal is "As you examine the twisted metal from different angles, you can almost imagine you see both swords and erotic imagery.  This would be consistent with the church of Aphrodite's reclamation of her dominion over both sex and war in its series of reforms in the 70's and 80's.  A small stamped icon of a cluster of dates would seem to indicate that the sculptor was part of the Inannan denomination."  Understand "Innana", "Innanan", "swords", "erotic imagery", "spines", "spires", "twisting", "reddish", "flames" as twisted metal.
+
+cluster of dates is part of twisted metal.  The description is "(as in the fruit.)"  Understand "stamped/icon/fruit" as cluster of dates.
 
 East of Path By Hill is Playground.
 
@@ -201,12 +226,12 @@ Section Top Of Hill
 
 To say what top of hill looks like:
 	if sinkhole_size is 0:
-		say "From the top of the hill, you can see the entire park below you: the reservoir to the north, the playground to the west, and all eight of the permanent sculptures in the park.  The sculpture here dominates the hill, and looks like a great place for puzzles LS DEBUG.[no line break]";
+		say "From the top of the hill, you can see the entire park below you: the reservoir to the north, the playground to the west, and all eight of the permanent sculptures in the park.  The sculpture here dominates the hill, and looks like a great place for puzzles LS TBD.[no line break]";
 	otherwise if sinkhole_size is 1:
-		say "The entire hill has collapsed in on itself, revealing a giant pit underneath. [if spidered]Bushes and trees are frozen mid-fall, as they pitch forward into the yawning chasm.[otherwise]The sides of the pit continue to expand, as dirt and trees slowly topple in from the sides.[end if](LS DEBUG describe the collapsed sculpture.) "
+		say "The entire hill has collapsed in on itself, revealing a giant pit underneath. [if spidered]Bushes and trees are frozen mid-fall, as they pitch forward into the yawning chasm.[otherwise]The sides of the pit continue to expand, as dirt and trees slowly topple in from the sides.[end if](LS TBD describe the collapsed sculpture.) "
 
 Top of Hill is a room.  "[What top of hill looks like]".
-The printed name of top of hill is "[if sinkhole_size is 0]Top of Hill[otherwise if sinkhole_size is 1]Giant Pit[otherwise]Gianter Piter LS DEBUG"
+The printed name of top of hill is "[if sinkhole_size is 0]Top of Hill[otherwise if sinkhole_size is 1]Giant Pit[otherwise]Gianter Piter LS TBD"
 
 Southeast of Sculpture By Lot is Bewildering Bridges.
 Southeast of Top Of Hill is Bewildering Bridges.
@@ -217,7 +242,7 @@ Section Bewildering Bridges
 
 Bewildering Bridges is a room.  "Three paths from the west, northwest, and north converge here at a bewildering complex of bridges, walkways, and staircases, some fixed, and some turning gently in the wind."
 
-bridges_view is here.  It is distant and privately-named.  "[if sinkhole_size is 0]A ways northwest up the hill you can see the iconic red metal structure of Coyote's Call.[otherwise if sinkhole_size is 1]."  The description is "[distant_coyote][the east]."  Understand "iconic", "red", "metal", "structure", "coyote", "coyote's", "call", "central", "hill" as bridges_view.  The printed name of bridges_view is "Coyote's Call";
+bridges_view is here.  It is distant and privately-named.  "[if sinkhole_size is 0]A ways northwest up the hill you can see the iconic red metal structure of Coyote's Call.[otherwise if sinkhole_size is 1]Coyote's Call has disappeared from view; it used to be visible to the northwest."  The description is "[distant_coyote][the east]."  Understand "iconic", "red", "metal", "structure", "coyote", "coyote's", "call", "central", "hill" as bridges_view.  The printed name of bridges_view is "Coyote's Call";
 
 North of Bewildering Bridges is East Hill.
 East of Top of Hill is East Hill.
@@ -243,9 +268,19 @@ Water Sculpture is a room.  "Here at the northeast section of the park is a foun
 
 water_sculpt_view is here.  It is distant and privately-named.  "[if sinkhole_size is 0]To the southwest atop the hill is the iconic red metal structure of Coyote's Call.[otherwise if sinkhole_size is 1]To the southwest, the iconic red metal of Coyote's Call is no longer visible."  The description is "[distant_coyote][the northeast]."  Understand "iconic", "red", "metal", "structure", "coyote", "coyote's", "call", "central", "hill" as water_sculpt_view.  The printed name of water_sculpt_view is "Coyote's Call";
 
+Section Sinkhole
+
+Sinkhole is a room.  Sinkhole is down from Top Of Hill.  "[if sinkhole_size is 0]A few spiders have made their way to this lightless cavern, but all of them can only sense the immediate area of their webs.  Piecing together vibrations, then, instead of light, you sense slight vibrations from above, some sort of constant vibrations from deep below.[otherwise if sinkhole_size is 1]Everything is caught in a state of falling:  dirt, grass, people, the red metal pieces of Coyote's Call, and the spiders themselves.".  Sinkhole is chasmy.
+
+Instead of going down from Top Of Hill when disaster memory is in the Void, say "You're at the top of a hill; all directions are 'down' except west along the ridge."
+
+Instead of going nowhere from Sinkhole, say "From here, you can only sense spiders above you."
+
+falling_coyote is in the Void.  It is privately-named.  "A spear of red metal from Coyote's Call falls through open space here."  The description is "LS TBD:  maybe some writing on it that can only be discovered in this way?."  Understand "coyote/coyote's/call/spear/red/metal", "coyote's call" as falling_coyote.
+
 Section Void and Nowhere
 
-Void is a room.  "This is the off-stage area of the game."
+Void is a room.  "This is the off-stage area of the game.".  Void is liminal.
 
 Instead of going nowhere, say "That direction seems to be outside Lestar's area of influence.  Hopefully that means you won't need to go that way."
 
@@ -272,10 +307,7 @@ southeast of swimming is Water Sculpture.
 
 Instead of going to swimming when spidered, say "The open water doesn't have any spiders for you to transfer to."
 
-Instead of going to swimming, say "I'll have to think of a good reason for you to not swim, or to let you swim after all LS DEBUG."
-
-Park Proper is a region.  Path By Hill, Water Sculpture, East Hill, Bewildering Bridges, Sculpture By Lot, Plaza, Top of Hill, Playground,Under Bridge, Beach Sculpture is in Park Proper.
-
+Instead of going to swimming, say "I'll have to think of a good reason for you to not swim, or to let you swim after all LS TBD."
 
 Book Cast
 
@@ -283,7 +315,7 @@ Amaia is a woman in the Hyundai.  "Amaia is turned sideways in the driver's seat
 [Amaia is the Future part of the Moirai.  Amaia is Spanish/Basque for 'end place'.]
 
 Lestar is a man in the Hyundai.  "Lestar's eyes are shut in calm concentration.  His relaxed hands hold yours and Amaia's, completing the triangle."  The description of Lestar is "Lestar is an old man with giant bushy white eyebrows that make it impossible for him to hide his emotions."  Understand "relaxed", "triangle" as Lestar.
-[Lestar is the Present part o the Moirai.  Lestari is Indonesian for 'Everlasting']
+[Lestar is the Present part of the Moirai.  Lestari is Indonesian for 'Everlasting']
 
 Lester is a man in the Hyundai.  Lester is scenery.
 Instead of doing anything with lester, say "(It's 'Lestar', not 'Lester'.)"
@@ -295,7 +327,7 @@ Zora is a woman in the Hyundai.  "Your own face relaxes as you look at yourself 
 
 The player is Zora.
 
-The spiders are a plural-named person in the Hyundai.  "In the area, you can sense the collective presence of dozens of spiders."  The description of the Spiders is "The minds of the spiders are refreshingly simple, unlike most people's minds.  You can [bold type]enter[roman type] them to explore an area."  Understand "spider", "dozens of spiders" as spiders.
+The spiders are a privately-named plural-named people in the Hyundai.  "In the area, you can sense the collective presence of dozens of spiders."  The description of the Spiders is "The minds of the spiders are refreshingly simple, unlike most people's minds.  [if spidered]As long as there are more spiders where you want to go, you can move in that direction when connected to them[otherwise]You can [bold type]enter[roman type] them to explore an area[end if]."  Understand "spider", "spiders", "dozens of spiders" as spiders.
 
 Your consciousness is a woman in the Void.  The description of your consciousness is "Your consciousness has no literal form, but when you move across minds, you imagine your core self as a tight ball of sparks containing your memories."  Understand "core self", "tight ball", "tight ball of sparks", "ball of sparks", "ball", "sparks" as consciousness.
 
@@ -315,36 +347,70 @@ Before going somewhere when spidered:
 	otherwise:
 		say "You transfer your consiousness to a new group of spiders..."
 
-Book Background Cast
+Section Background Cast
 
-Kids are plural-named people in the Void.  "[if sinkhole_size is 0]Kids are playing, shrieking, and chasing each other up and around the platforms."
+To say playing_kids:
+	if sinkhole_size is 0:
+		say "Kids are playing, shrieking, and chasing each other up and around the platforms.[no line break]";
+	if sinkhole_size is 1:
+		if spidered:
+			say "The kids are reacting to the disaster in different ways.  Most seem to be running away, but some are transfixed by the sight, and at least one seems to have been caught taking a step [italic type]towards[roman type] the sinkhole.[no line break]";
+		otherwise:
+			say "Most of the kids are running away, but some are transfixed by the destruction to the east, and a couple are taking hesitant steps towards the hole.[no line break]";
 
-Instead of entering the Kids, say "Hoo boy, as traumatic as it is for you to enter people's minds, you'd rather not inflict full access to an adult mind on a pre-teen, even if they're supposed to forget afterwards."
+Kids are plural-named people in the Void.  "[playing_kids][no line break]"
 
-Park-goers are plural-named backdrop in the Void.  They are scenery.  The description is "The park is well-attended today, with a variety of park-goers enjoying the day and the scenery."  Understand "people", "goers", "park goers" as park-goers.
+Instead of entering the Kids, say "Hoo boy.  As traumatic as it is for you to enter people's minds, you'd rather not inflict full access to an adult mind on a pre-teen, even if they're supposed to forget afterwards.  [if sinkhole_size is greater than 0]You feel there must be a way to get most people out of here all at once instead of trying to do it one kid at a time."
+
+
+Park-goers are plural-named backdrop in the Void.  They are scenery.  The description is "[if sinkhole_size is 0]The park is well-attended today, with a variety of park-goers enjoying the day and the scenery.[otherwise if sinkhole_size is 1]The park-goers seem confused and can't quite figure out what's going on."  Understand "people/goers/crowd/crowds/park-goers", "park goers" as park-goers.
 
 Instead of entering park-goers, say "Entering someone's mind is traumatic enough that you're not going to do it without some particular reason."
 
-Does the player mean examining the park-goers:  It is likely.
+
+to say disaster_victims:
+	if sinkhole_size is 0:
+		say "BUG: victims shouldn't show up until after the sinkhole does.";
+	if the time of day is 10:58 AM:
+		if spidered:
+			say "People are caught frozen in time but doomed:  a stumbling woman falling forward into the hole; a man clinging desperately to a cylinder of Coyote's Call as he and the cylinder plunge into the abyss.[no line break]";  
+
+disaster_victims are plural-named privately-named people in the Void.  Understand "victims/people/goers/crowd/crowds/woman/man/cylinder", "park goers" as disaster_victims.  "[disaster_victims]".  The description is "These people are going to die if you can't figure out  a way to help them."
+
+Instead of touching the disaster_victims:
+	say "You brace yourself as the panic from each person washes over you, and think back at them [italic type]<This isn't the end; I'll figure out a way to help; I'm so sorry.>[roman type]  If you do succeed, these people will never be in this position, but it feels right to do it anyway.  You think Lestar might understand."
+	
+Instead of entering disaster_victims:
+	say "There's nothing these people can do to save themselves at this point in the loop; you'll have to help earlier in the cycle.";
 
 When play begins:
 	Move the Kids to the Playground;
-	Move park-goers to Park Proper;
+	Move playground_view to Playground;
+	Move park-goers backdrop to all parky rooms;
 
 
 Book Actions
 
-Instead of entering the hyundai when spidered:
-	say "You transfer your consciousness into the spiders inside the car.";
-	move the spiders to the Hyundai;
+Instead of entering an open enterable thing (called the box) when spidered:
+	if the box encloses the player:
+		say "You're already in [the box].";
+		rule fails;
+	say "You transfer your consciousness into the spiders inside [the box].";
+	move the spiders to the box;
 	try looking instead.
 	
-Instead of exiting when the player is enclosed by a person (called host) and the player is enclosed by the Hyundai:
-	say "You transfer your consciousness into the spiders outside the car.";
-	move the spiders to the Parking Lot;
+Instead of exiting when the player is enclosed by a person (called host) and the player is enclosed by an open enterable thing (called the box):
+	say "You transfer your consciousness into the spiders outside [the box].";
+	move the spiders to the location;
 	try looking instead.
+	
+Instead of touching someone (called the touchee) when the touchee encloses the player:
+	say "You're already completely linked to [the touchee]."
+	
+Instead of touching the spiders when not spidered:
+	say "The surface thoughts of the spiders are entirely instinctual, and refreshing in their simplicity.  You feel your own emotions being acknowledged in return, without them affecting the spiders in the slightest."
 
-Instead of going outside when the player is enclosed by the hyundai:
+Instead of going outside when the player is enclosed by an open enterable thing:
 	try exiting instead.
 	
 Instead of going inside:
@@ -406,9 +472,16 @@ The time of day is 10:53 AM.
 
 Book Memories
 
-A memory is a kind of thing.
+A memory is a kind of thing.  Understand "memory" as a memory.
+
 Instead of doing something other than examining or taking or giving with a memory:
 	say "You can't interact with a memory like that."
+	
+Instead of giving a memory to a person:
+	say "You'd rather not share that right now."
+
+disaster memory is a memory in the Void.  The description is "A snapshot in your mind of Coyote's Call disappearing into a giant sinkhole in the middle of the park."  Understand "snapshot/disappearing/sinkhole" as disaster memory.
+
 
 Book Preset events
 
@@ -416,12 +489,15 @@ sinkhole_size is a number that varies.  sinkhole_size is 0.
 
 
 To carry out sinkhole appearing:
+	Now top of hill is chasmy;
+	move disaster_victims to Top of Hill;
+	move falling_coyote to Sinkhole;
 	if the location of the player is Top of Hill:
 		if spidered:
 			say "With a roar, the entire top of the hill collapses in on itself, and your perception shatters as spiders are shaken off webs and perches, spinning out emergency strands to catch the wind and slow their falls.  Straining, you manage to reassert your hold on time, freezing everything in place again.  Gradually, you stitch together a new coherent view of your surroundings.";
 			try looking;
 		otherwise:
-			say "LS DEBUG figure out what to do when the host ends up falling?  Or have them refuse?";
+			say "LS TBD figure out what to do when the host ends up falling?  Or have them refuse?";
 			try looking;
 	otherwise if the location of the player is entrance or the location of the player is the parking lot:
 		say "You hear a roar from inside the park.";
@@ -429,6 +505,7 @@ To carry out sinkhole appearing:
 		say "You hear a roar and the sound of twisting metal from the park to the southeast.";
 	otherwise if the location is Playground:
 		say "With a sudden roar, the entire east half of the hill collapses in on itself, taking the metal structure of Coyote's Call with it; its giant metal tubes and bars twisting apart from each other with terrifying screeches.  Trees, dirt, and grass fall into the gaping pit as the edges expand towards your side of the hill.";
+		try looking;
 	otherwise:
 		say "With a roar and a grinding sound of twisting metal, Coyote's Call suddenly collapses and disappears from view."
 
@@ -446,12 +523,15 @@ Every turn:
 	If the time of day is 10:59 AM:
 		say "The sun emerges again from behind the cloud.";
 	if the time of day is 11:00 AM:
-		say ""
+		say "";
+	if sinkhole_size is greater than 0:
+		if the location of the player is a chasmy room or the location of the player is the playground:
+			move disaster memory to player;
 		
-After going somewhere in Park Proper for the first time:
+After going somewhere in a parky room for the first time:
 	try looking;
 	if the time of day is 10:53 AM:
-		say "Whatever Amaia is worried about is apparently happening in this park.  You'll need to [bold type]wait[roman type] to advance the loop to see what's going on."
+		say "Whatever Amaia is worried about is apparently happening in this park.  You'll need to [bold type]wait[roman type] to advance the loop and see what's going on."
 
 Book traveling
 
