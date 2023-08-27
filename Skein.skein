@@ -1,1032 +1,1435 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Skein rootNode="node-162">
+<Skein rootNode="node-1">
   <generator>Windows Inform 10.1.2</generator>
-  <item nodeId="node-162">
+  <item nodeId="node-1">
     <command xml:space="preserve">Moirai</command>
-    <result xml:space="preserve">Amaia screeches into the parking lot, and expertly zips into an open spot.  She closes her eyes briefly, checking, then opens them again, only fractionally less concerned.  "OK," she says, breathlessly, "whatever it is that's going to happen hasn't happened yet.  Zora," she turns to you apologetically over her shoulder, "you won't have a lot of time, but the future's still branching, so it should be enough.  Lestar, you're up." &#x000A;&#x000A;From the passenger seat, Lestar grins at both of you, his white eyebrows quirking soothingly, and he reaches behind his seat to pat you reassuringly on the arm.  "You got this, kid," he says "You've been doing great; this'll be just like the other times."  From Amaia's panicked expression, you can tell she disagrees, but she says nothing.  You take a deep breath and grab Lestar's hand, dry and warm, and it grounds you.&#x000A;&#x000A;Amaia takes Lestar's other hand, then grabs yours, the contact sleek with sweat from both of you.  Lestar nods at you both, and closes his eyes.&#x000A;&#x000A;Everything freezes.&#x000A;&#x000A;You have all the time in the world.&#x000A;&#x000A;Fate's Gallery&#x000A;An Interactive Story by Lucian Smith&#x000A;Release 0 / Serial number 230820 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Quinlan Park Parking Lot (in the Hyundai)&#x000A;Scattered cars fill the parking lot, including the Hyundai you came here in. The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;Looming over the parking lot to the east is a huge sculpture  whos details have yet to be decided LS TBD.}&#x000A;&#x000A;Amaia is turned sideways in the driver's seat, grasping your hand and Lestar's.  Even frozen, she radiates intensity and movement.&#x000A;&#x000A;Lestar's eyes are shut in calm concentration.  His relaxed hands hold yours and Amaia's, completing the triangle.&#x000A;&#x000A;In the area, you can sense the collective presence of dozens of spiders.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">Amaia screeches into the parking lot, and expertly zips into an open spot.  She closes her eyes briefly, checking, then opens them again, only fractionally less concerned.  "OK," she says, breathlessly, "whatever it is that's going to happen hasn't happened yet.  Zora," she turns to you apologetically over her shoulder, "you won't have a lot of time, but the future's still branching, so it should be enough.  Lestar, you're up." &#x000A;&#x000A;From the passenger seat, Lestar grins at both of you, his white eyebrows quirking soothingly, and he reaches behind his seat to pat you reassuringly on the arm.  "You got this, kid," he says "You've been doing great; this'll be just like the other times."  From Amaia's panicked expression, you can tell she disagrees, but she says nothing.  You take a deep breath and grab Lestar's hand, dry and warm, and it grounds you.&#x000A;&#x000A;Amaia takes Lestar's other hand, then grabs yours, the contact sleek with sweat from both of you.  Lestar nods at you both, and closes his eyes.&#x000A;&#x000A;Everything freezes.&#x000A;&#x000A;You have all the time in the world.&#x000A;&#x000A;Fate's Gallery&#x000A;An Interactive Story by Lucian Smith&#x000A;Release 0 / Serial number 230819 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Quinlan Park Parking Lot (in the Hyundai)&#x000A;Scattered cars fill the parking lot, including the Hyundai you came here in. The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;Looming over the parking lot to the east is a huge sculpture  whos details have yet to be decided LS TBD.}&#x000A;&#x000A;Amaia is turned sideways in the driver's seat, grasping your hand and Lestar's.  Even frozen, she radiates intensity and movement.&#x000A;&#x000A;Lestar's eyes are shut in calm concentration.  His relaxed hands hold yours and Amaia's, completing the triangle.&#x000A;&#x000A;In the area, you can sense the collective presence of dozens of spiders.&#x000A;&#x000A;&gt;</commentary>
+    <result xml:space="preserve">BUG: your consciousness has no intro-page.&#x000A;BUG: your consciousness has no mind-touch.&#x000A;&#x000A;Amaia screeches into the parking lot, and expertly zips into an open spot.  She closes her eyes briefly, checking, then opens them again, only fractionally less concerned.  "OK," she says, breathlessly, "whatever it is that's going to happen hasn't happened yet.  Zora," she turns to you apologetically over her shoulder, "you won't have a lot of time, but the future's still branching, so it should be enough.  Lestar, you're up." &#x000A;&#x000A;From the passenger seat, Lestar grins at both of you, his white eyebrows quirking soothingly, and he reaches behind his seat to pat you reassuringly on the arm.  "You got this, kid," he says "You've been doing great; this'll be just like the other times."  From Amaia's panicked expression, you can tell she disagrees, but she says nothing.  You take a deep breath and grab Lestar's hand, dry and warm, and it grounds you.&#x000A;&#x000A;Amaia takes Lestar's other hand, then grabs yours, the contact sleek with sweat from both of you.  Lestar nods at you both, and closes his eyes.&#x000A;&#x000A;Everything freezes.&#x000A;&#x000A;You have all the time in the world.&#x000A;&#x000A;Fate's Gallery&#x000A;An Interactive Story by Lucian Smith&#x000A;Release 0 / Serial number 230826 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Quinlan Park Parking Lot (in the Hyundai)&#x000A;Scattered cars fill the parking lot, including the Hyundai you came here in. The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;Looming over the parking lot to the east is a huge sculpture  whose details have yet to be decided LS TBD.}&#x000A;&#x000A;Amaia is turned sideways in the driver's seat, grasping your hand and Lestar's.  Even frozen, she radiates intensity and movement.&#x000A;&#x000A;Lestar's eyes are shut in calm concentration.  His relaxed hands hold yours and Amaia's, completing the triangle.&#x000A;&#x000A;In the area, you can sense the collective presence of dozens of spiders.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Amaia screeches into the parking lot, and expertly zips into an open spot.  She closes her eyes briefly, checking, then opens them again, only fractionally less concerned.  "OK," she says, breathlessly, "whatever it is that's going to happen hasn't happened yet.  Zora," she turns to you apologetically over her shoulder, "you won't have a lot of time, but the future's still branching, so it should be enough.  Lestar, you're up." &#x000A;&#x000A;From the passenger seat, Lestar grins at both of you, his white eyebrows quirking soothingly, and he reaches behind his seat to pat you reassuringly on the arm.  "You got this, kid," he says "You've been doing great; this'll be just like the other times."  From Amaia's panicked expression, you can tell she disagrees, but she says nothing.  You take a deep breath and grab Lestar's hand, dry and warm, and it grounds you.&#x000A;&#x000A;Amaia takes Lestar's other hand, then grabs yours, the contact sleek with sweat from both of you.  Lestar nods at you both, and closes his eyes.&#x000A;&#x000A;Everything freezes.&#x000A;&#x000A;You have all the time in the world.&#x000A;&#x000A;Fate's Gallery&#x000A;An Interactive Story by Lucian Smith&#x000A;Release 0 / Serial number 230821 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Quinlan Park Parking Lot (in the Hyundai)&#x000A;Scattered cars fill the parking lot, including the Hyundai you came here in. The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;Looming over the parking lot to the east is a huge sculpture  whose details have yet to be decided LS TBD.}&#x000A;&#x000A;Amaia is turned sideways in the driver's seat, grasping your hand and Lestar's.  Even frozen, she radiates intensity and movement.&#x000A;&#x000A;Lestar's eyes are shut in calm concentration.  His relaxed hands hold yours and Amaia's, completing the triangle.&#x000A;&#x000A;In the area, you can sense the collective presence of dozens of spiders.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-444"/>
+      <child nodeId="node-2"/>
+      <child nodeId="node-13"/>
+      <child nodeId="node-19"/>
     </children>
   </item>
-  <item nodeId="node-444">
-    <command xml:space="preserve">x amaia</command>
-    <result xml:space="preserve">Amaia is a tall dark-haired woman with piercing but tired brown eyes. &#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">Amaia is a tall dark-haired woman with piercing but tired brown eyes. &#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-445"/>
-    </children>
-  </item>
-  <item nodeId="node-445">
-    <command xml:space="preserve">x lestar</command>
-    <result xml:space="preserve">Lestar is an old man with giant bushy white eyebrows that make it impossible for him to hide his emotions.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">Lestar is an old man with giant bushy white eyebrows that make it impossible for him to hide his emotions.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1046"/>
-    </children>
-  </item>
-  <item nodeId="node-1046">
-    <command xml:space="preserve">x me</command>
-    <result xml:space="preserve">You're pragmatically dressed in jeans, a "Hu" T-shirt, and sneakers.  Your curls are somehow behaving today, probably because you didn't try to do anything with them this morning.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">You're pragmatically dressed in jeans, a "Hu" T-shirt, and sneakers.  Your curls are somehow behaving today, probably because you didn't try to do anything with them this morning.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1047"/>
-    </children>
-  </item>
-  <item nodeId="node-1047">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1048"/>
-    </children>
-  </item>
-  <item nodeId="node-1048">
-    <command xml:space="preserve">x lester</command>
-    <result xml:space="preserve">(It's "Lestar", not "Lester".)&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">(It's "Lestar", not "Lester".)&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1049"/>
-    </children>
-  </item>
-  <item nodeId="node-1049">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">That direction seems to be outside Lestar's area of influence.  Hopefully that means you won't need to go that way.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">That direction seems to be outside Lestar's area of influence.  Hopefully that means you won't need to go that way.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1050"/>
-    </children>
-  </item>
-  <item nodeId="node-1050">
-    <command xml:space="preserve">out</command>
-    <result xml:space="preserve">While frozen, you can enter the minds around you, and you're aware of your surroundings, but can't do anything physical.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">While frozen, you can enter the minds around you, and you're aware of your surroundings, but can't do anything physical.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1051"/>
-    </children>
-  </item>
-  <item nodeId="node-1051">
-    <command xml:space="preserve">enter lestar</command>
-    <result xml:space="preserve">Lestar's been nothing but kind to you, but you're sure if he saw your whole mind, he'd be disappointed.  You've touched his mind before and that's gone OK.  You guess.  You hope.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">Lestar's been nothing but kind to you, but you're sure if he saw your whole mind, he'd be disappointed.  You've touched his mind before and that's gone OK.  You guess.  You hope.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1052"/>
-    </children>
-  </item>
-  <item nodeId="node-1052">
-    <command xml:space="preserve">touch lestar</command>
-    <result xml:space="preserve">Reaching out with your mind, you brush Lestar's surface thoughts with your own.  Instantly, you feel the thought, "Hi, Zora!  Just figure out what's going on, then get people to safety.  You can do this."  It must have been waiting for you, which in retrospect you feel you should have anticipated.  He's an old Vested, after all, and has been doing this for years.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">Reaching out with your mind, you brush Lestar's surface thoughts with your own.  Instantly, you feel the thought, "Hi, Zora!  Just figure out what's going on, then get people to safety.  You can do this."  It must have been waiting for you, which in retrospect you feel you should have anticipated.  He's an old Vested, after all, and has been doing this for years.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1053"/>
-    </children>
-  </item>
-  <item nodeId="node-1053">
-    <command xml:space="preserve">enter amaia</command>
-    <result xml:space="preserve">You can't imagine actually entering Amaia's consciousness and giving her full access to your mind.  You'd never be able to look her in the eye again, and you have to work with her.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">You can't imagine actually entering Amaia's consciousness and giving her full access to your mind.  You'd never be able to look her in the eye again, and you have to work with her.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1054"/>
-    </children>
-  </item>
-  <item nodeId="node-1054">
-    <command xml:space="preserve">touch amaia</command>
-    <result xml:space="preserve">Amaia still intimidates you, and you're pretty sure her surface thoughts would just be "Zora!  Do your job already!"&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">Amaia still intimidates you, and you're pretty sure her surface thoughts would just be "Zora!  Do your job already!"&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1055"/>
-    </children>
-  </item>
-  <item nodeId="node-1055">
-    <command xml:space="preserve">enter me</command>
-    <result xml:space="preserve">You're already in yourself, for what that's worth.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">You're already in yourself, for what that's worth.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1056"/>
-    </children>
-  </item>
-  <item nodeId="node-1056">
-    <command xml:space="preserve">touch spiders</command>
-    <result xml:space="preserve">The surface thoughts of the spiders are entirely instinctual, and refreshing in their simplicity.  You feel your own emotions being acknowledged in return, without them affecting the spiders in the slightest.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">The surface thoughts of the spiders are entirely instinctual, and refreshing in their simplicity.  You feel your own emotions being acknowledged in return, without them affecting the spiders in the slightest.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1057"/>
-    </children>
-  </item>
-  <item nodeId="node-1057">
+  <item nodeId="node-2">
     <command xml:space="preserve">enter spiders</command>
-    <result xml:space="preserve">With practiced ease, you move your consciousness out of your own head, and into the surrounding spiders.  Your perception shifts, and you see the parking lot as if you were standing in it, though patched together from dozens of small views.&#x000A;&#x000A;Quinlan Park Parking Lot (in the spiders)&#x000A;Scattered cars fill the parking lot, including the Hyundai you came here in. The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;Looming over the parking lot to the east is a huge sculpture  whos details have yet to be decided LS TBD.}&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">With practiced ease, you move your consciousness out of your own head, and into the surrounding spiders.  Your perception shifts, and you see the parking lot as if you were standing in it, though patched together from dozens of small views.&#x000A;&#x000A;Quinlan Park Parking Lot (in the spiders)&#x000A;Scattered cars fill the parking lot, including the Hyundai you came here in. The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;Looming over the parking lot to the east is a huge sculpture  whos details have yet to be decided LS TBD.}&#x000A;&#x000A;&gt;</commentary>
+    <result xml:space="preserve">With practiced ease, you move your consciousness out of your own head, and into the surrounding spiders.  Your perception shifts, and you see the parking lot as if you were standing in it, though patched together from dozens of small views.&#x000A;&#x000A;Quinlan Park Parking Lot (in the spiders)&#x000A;Scattered cars fill the parking lot, including the Hyundai you came here in. The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;Looming over the parking lot to the east is a huge sculpture  whose details have yet to be decided LS TBD.}&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1058"/>
+      <child nodeId="node-3"/>
     </children>
   </item>
-  <item nodeId="node-1058">
-    <command xml:space="preserve">x sculpture</command>
-    <result xml:space="preserve">It's a sculpture looming over the east fence LS TBD.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">It's a sculpture looming over the east fence LS TBD.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1059"/>
-    </children>
-  </item>
-  <item nodeId="node-1059">
+  <item nodeId="node-3">
     <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You transfer your consiousness to a new group of spiders...&#x000A;&#x000A;Quinlan Park Entrance (in the spiders)&#x000A;Two booths flank the entrance to the park to the north, where you can buy tickets and get information.  To the south is the parking lot.&#x000A;&#x000A;You can see young man manning the ticket booth, but the information booth is empty.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">You transfer your consiousness to a new group of spiders...&#x000A;&#x000A;Quinlan Park Entrance (in the spiders)&#x000A;Two booths flank the entrance to the park to the north, where you can buy tickets and get information.  To the south is the parking lot.&#x000A;&#x000A;You can see young man manning the ticket booth, but the information booth is empty.&#x000A;&#x000A;&gt;</commentary>
+    <result xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Quinlan Park Entrance (in the spiders)&#x000A;Two booths flank the entrance to the park to the north, where you can buy tickets and get information.  To the south is the parking lot.&#x000A;&#x000A;You can see a young man manning the ticket booth, but the information booth is empty.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1060"/>
+      <child nodeId="node-4"/>
     </children>
   </item>
-  <item nodeId="node-1060">
-    <command xml:space="preserve">x booths</command>
-    <result xml:space="preserve">Which do you mean, the information booth or the ticket booth?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">Which do you mean, the information booth or the ticket booth?&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1061"/>
-    </children>
-  </item>
-  <item nodeId="node-1061">
-    <command xml:space="preserve">information</command>
-    <result xml:space="preserve">The information booth is unmanned, but there's a stack of flyers resting on the sill.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">The information booth is unmanned, but there's a stack of flyers resting on the sill.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1062"/>
-    </children>
-  </item>
-  <item nodeId="node-1062">
-    <command xml:space="preserve">x flyers</command>
-    <result xml:space="preserve">The flyer reads:&#x000A;&#x000A;"Welcome to Quinlan Park!"&#x000A;&#x000A;"Established in 1974, Dr. Robert Quinlan set aside this portion of his estate as a public park, commisioned the central "Coyote's Call" sculpture from Wynona Locklear, and set up a trust to commission and rotate other art pieces at other sites throughout the park.  Enjoy your stay, and find out more below about our amazing artists!"&#x000A;&#x000A;Below this is a cartoon map of the park, with small text blocks describing each of the sculptures currently on display:  the central Coyote's Call, then (clockwise from the southwest entrance): &lt;something&gt;, Fire and Forge, &lt;something&gt;, &lt;water sculpture&gt;, Bird and Cage, &lt;bridges&gt;, and &lt;looming&gt; (LS TBD: list the rest, and write the block text for each.  You should eventually be able to "x bird and cage" and get this description if not next to the real thing, and probably "look up bird and cage on map" to be more specific (not implemetned yet)).&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">The flyer reads:&#x000A;&#x000A;"Welcome to Quinlan Park!"&#x000A;&#x000A;"Established in 1974, Dr. Robert Quinlan set aside this portion of his estate as a public park, commisioned the central "Coyote's Call" sculpture from Wynona Locklear, and set up a trust to commission and rotate other art pieces at other sites throughout the park.  Enjoy your stay, and find out more below about our amazing artists!"&#x000A;&#x000A;Below this is a cartoon map of the park, with small text blocks describing each of the sculptures currently on display:  the central Coyote's Call, then (clockwise from the southwest entrance): &lt;something&gt;, Fire and Forge, &lt;something&gt;, &lt;water sculpture&gt;, Bird and Cage, &lt;bridges&gt;, and &lt;looming&gt; (LS TBD: list the rest, and write the block text for each.  You should eventually be able to "x bird and cage" and get this description if not next to the real thing, and probably "look up bird and cage on map" to be more specific (not implemetned yet)).&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1063"/>
-    </children>
-  </item>
-  <item nodeId="node-1063">
-    <command xml:space="preserve">x young man</command>
-    <result xml:space="preserve">A young man with a friendly but bored expression, a Quinlan Park employee vest, and a name tag reading "Jace".&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">A young man with a friendly but bored expression, a Quinlan Park employee vest, and a name tag reading "Jace".&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1064"/>
-    </children>
-  </item>
-  <item nodeId="node-1064">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Quinlan Park Entrance (in the spiders)&#x000A;Two booths flank the entrance to the park to the north, where you can buy tickets and get information.  To the south is the parking lot.&#x000A;&#x000A;You can see Jace manning the ticket booth, but the information booth is empty.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">Quinlan Park Entrance (in the spiders)&#x000A;Two booths flank the entrance to the park to the north, where you can buy tickets and get information.  To the south is the parking lot.&#x000A;&#x000A;You can see Jace manning the ticket booth, but the information booth is empty.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1065"/>
-    </children>
-  </item>
-  <item nodeId="node-1065">
-    <command xml:space="preserve">x ticket</command>
-    <result xml:space="preserve">The ticket booth has a sign with a pay-what-you-want pricing scheme ranging from "I just need more grass and art in my life - FREE" through "I think you guys are amazing and would love to be listed as a patron - $1000".  Jace is manning the booth, taking donations from the park-goers.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">The ticket booth has a sign with a pay-what-you-want pricing scheme ranging from "I just need more grass and art in my life - FREE" through "I think you guys are amazing and would love to be listed as a patron - $1000".  Jace is manning the booth, taking donations from the park-goers.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1066"/>
-    </children>
-  </item>
-  <item nodeId="node-1066">
-    <command xml:space="preserve">x jace</command>
-    <result xml:space="preserve">A young man with a friendly but bored expression, a Quinlan Park employee vest, and a name tag reading "Jace".&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">A young man with a friendly but bored expression, a Quinlan Park employee vest, and a name tag reading "Jace".&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1067"/>
-    </children>
-  </item>
-  <item nodeId="node-1067">
-    <command xml:space="preserve">enter jace</command>
-    <result xml:space="preserve">He does seem to have some sort of authority here, but without knowing what the problem is, you'd feel entirely too awkward connecting with him, even just to exchange surface thoughts.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">He does seem to have some sort of authority here, but without knowing what the problem is, you'd feel entirely too awkward connecting with him, even just to exchange surface thoughts.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1068"/>
-    </children>
-  </item>
-  <item nodeId="node-1068">
-    <command xml:space="preserve">touch jace</command>
-    <result xml:space="preserve">He does seem to have some sort of authority here, but without knowing what the problem is, you'd feel entirely too awkward connecting with him, even just to exchange surface thoughts.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">He does seem to have some sort of authority here, but without knowing what the problem is, you'd feel entirely too awkward connecting with him, even just to exchange surface thoughts.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1069"/>
-    </children>
-  </item>
-  <item nodeId="node-1069">
-    <command xml:space="preserve">enter ticket</command>
-    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1070"/>
-    </children>
-  </item>
-  <item nodeId="node-1070">
-    <command xml:space="preserve">enter ticket booth</command>
-    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1071"/>
-    </children>
-  </item>
-  <item nodeId="node-1071">
-    <command xml:space="preserve">enter information booth</command>
-    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">You transfer your consciousness into the spiders inside the information booth.&#x000A;&#x000A;Quinlan Park Entrance (in the spiders) (in the information booth)&#x000A;Two booths flank the entrance to the park to the north, where you can buy tickets and get information.  To the south is the parking lot.&#x000A;&#x000A;You can see Jace manning the ticket booth, but the information booth is empty.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1072"/>
-    </children>
-  </item>
-  <item nodeId="node-1072">
-    <command xml:space="preserve">out</command>
-    <result xml:space="preserve">You can't exit one consciousness without going into another one.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">You transfer your consciousness into the spiders outside the information booth.&#x000A;&#x000A;Quinlan Park Entrance (in the spiders)&#x000A;Two booths flank the entrance to the park to the north, where you can buy tickets and get information.  To the south is the parking lot.&#x000A;&#x000A;You can see Jace manning the ticket booth, but the information booth is empty.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1073"/>
-    </children>
-  </item>
-  <item nodeId="node-1073">
-    <command xml:space="preserve">out</command>
-    <result xml:space="preserve">You can't exit one consciousness without going into another one.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">You can't exit one consciousness without going into another one.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1074"/>
-    </children>
-  </item>
-  <item nodeId="node-1074">
+  <item nodeId="node-4">
     <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You transfer your consiousness to a new group of spiders...&#x000A;&#x000A;Plaza (in the spiders)&#x000A;Paths run through this plaza from the south entrance, then splitting northwest around the hill, north up the hill, and east along it. &#x000A;&#x000A;To the northeast atop the hill is the iconic red metal structure of Coyote's Call.&#x000A;&#x000A;Prominently displayed just inside the entrance is some sort of sculpture (LS TBD).&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">You transfer your consiousness to a new group of spiders...&#x000A;&#x000A;Plaza (in the spiders)&#x000A;Paths run through this plaza from the south entrance, then splitting northwest around the hill, north up the hill, and east along it. &#x000A;&#x000A;To the northeast atop the hill is the iconic red metal structure of Coyote's Call.&#x000A;&#x000A;Prominently displayed just inside the entrance is some sort of sculpture (LS TBD).&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1075"/>
-    </children>
-  </item>
-  <item nodeId="node-1075">
-    <command xml:space="preserve">nw</command>
-    <result xml:space="preserve">You transfer your consiousness to a new group of spiders...&#x000A;&#x000A;Path By Hill (in the spiders)&#x000A;The path runs southeast to northwest here along the edge of the park, and splits off to the east as well, heading up the hill above you.  A fence mostly hidden by shrubbery to your west hides 48th street, and blocks most of the sound from the passing cars.&#x000A;&#x000A;Though the hill is in the way, you can still see the tops of the red metal structure of Coyote's Call past the rise to the east.&#x000A;&#x000A;Whatever Amaia is worried about is apparently happening in this park.  You'll need to wait to advance the loop and see what's going on.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">You transfer your consiousness to a new group of spiders...&#x000A;&#x000A;Path By Hill (in the spiders)&#x000A;The path runs southwest to northeast here along the edge of the park, and splits off to the northeast as well, heading up the hill above you to the east.  A fence mostly hidden by shrubbery to your west hides 48th street, and blocks most of the sound from the passing cars.&#x000A;&#x000A;Though the hill is in the way, you can still see the tops of the red metal structure of Coyote's Call past the rise to the east.&#x000A;&#x000A;Whatever Amaia is worried about is apparently happening in this park.  You'll need to wait to advance the loop and see what's going on.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1076"/>
-    </children>
-  </item>
-  <item nodeId="node-1076">
-    <command xml:space="preserve">x call</command>
-    <result xml:space="preserve">Coyote's Call is the iconic sculpture of Quinlan Park.  Made of large red metal tubes and beams, it dominates the landscape from atop the central hill to the east.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve">Coyote's Call is the iconic sculpture of Quinlan Park.  Made of large red metal tubes and beams, it dominates the landscape from atop the central hill to the northeast.&#x000A;&#x000A;&gt;</commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1077"/>
-      <child nodeId="node-1079"/>
-      <child nodeId="node-1081"/>
-    </children>
-  </item>
-  <item nodeId="node-1077">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You transfer your consiousness to a new group of spiders...&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Plaza (in the spiders)&#x000A;Paths run through this plaza from the south entrance, then splitting northwest around the hill, north up the hill, and east along it. &#x000A;&#x000A;To the northeast atop the hill is the iconic red metal structure of Coyote's Call.&#x000A;&#x000A;Prominently displayed just inside the entrance is some sort of sculpture (LS TBD).&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1078"/>
+      <child nodeId="node-5"/>
     </children>
   </item>
-  <item nodeId="node-1078">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Playground (in the spiders)&#x000A;You're at the top of the hill in the park.  This side has slides, swings, and a wide variety of brightly-colored climbing Climbing equipment.  The path curves from the south to the east side of the hill, along the ridge.&#x000A;&#x000A;Dominating the sky to the east is the red metal tubes and bars of Coyote's Call.&#x000A;&#x000A;Kids are playing, shrieking, and chasing each other up and around the platforms.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-1079">
-    <command xml:space="preserve">rules</command>
-    <result xml:space="preserve">Rules tracing now switched on. Type "rules off" to switch it off again, or "rules all" to include even rules which do not apply.&#x000A;&#x000A;[Rule "parse command rule" applies.]&#x000A;&gt;</result>
+  <item nodeId="node-5">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Top of Hill (in the spiders)&#x000A;From the top of the hill, you can see the entire park below you: the reservoir to the north, the playground to the west, and all eight of the permanent sculptures in the park.&#x000A;&#x000A;A collection of giant metal tubes and beams graces the top of the hill, known as "Coyote's Call".  It's an abstract design of joyful chaos, somehow incorporating even the curve of the hill into its own expression.&#x000A;&#x000A;Whatever Amaia is worried about is apparently happening in this park.  You'll need to wait to advance the loop and see what's going on.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1080"/>
+      <child nodeId="node-6"/>
     </children>
   </item>
-  <item nodeId="node-1080">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">[Rule "Response Assistant reset responses list rule" applies.]&#x000A;[Rule "declare everything initially unmentioned rule" applies.]&#x000A;[Rule "generate action rule" applies.]&#x000A;[Rule "standard set going variables rule" applies.]&#x000A;[Rule "allow rideables to be going vehicles rule" applies.]&#x000A;[Rule "announce items from multiple object lists rule" applies.]&#x000A;[Rule "set pronouns from items from multiple object lists rule" applies.]&#x000A;[Rule "before stage rule" applies.]&#x000A;[Rule "Before going somewhere when spidered" applies.]&#x000A;You transfer your consiousness to a new group of spiders...&#x000A;&#x000A;[Rule "basic visibility rule" applies.]&#x000A;[Rule "basic accessibility rule" applies.]&#x000A;[Rule "carrying requirements rule" applies.]&#x000A;[Rule "instead stage rule" applies.]&#x000A;[Rule "requested actions require persuasion rule" applies.]&#x000A;[Rule "carry out requested actions rule" applies.]&#x000A;[Rule "descend to specific action-processing rule" applies.]&#x000A;[Rule "work out details of specific action rule" applies.]&#x000A;[Rule "investigate player's awareness before action rule" applies.]&#x000A;[Rule "player aware of his own actions rule" applies.]&#x000A;[Rule "check stage rule" applies.]&#x000A;[Rule "can't travel in what's not a vehicle rule" applies.]&#x000A;[Rule "can't go through undescribed doors rule" applies.]&#x000A;[Rule "can't go through closed doors rule" applies.]&#x000A;[Rule "determine map connection rule" applies.]&#x000A;[Rule "can't go that way rule" applies.]&#x000A;[Rule "carry out stage rule" applies.]&#x000A;[Rule "move player and vehicle rule" applies.]&#x000A;[Rule "move floating objects rule" applies.]&#x000A;[Rule "check light in new location rule" applies.]&#x000A;[Rule "after stage rule" applies.]&#x000A;[Rule "After going to the playground" applies.]&#x000A;[Rule "investigate player's awareness after action rule" applies.]&#x000A;[Rule "report stage rule" applies.]&#x000A;[Rule "describe room gone into rule" applies.]&#x000A;[Rule "determine visibility ceiling rule" applies.]&#x000A;[Rule "work out details of specific action rule" applies.]&#x000A;[Rule "investigate player's awareness before action rule" applies.]&#x000A;[Rule "player aware of his own actions rule" applies.]&#x000A;[Rule "check stage rule" applies.]&#x000A;[Rule "carry out stage rule" applies.]&#x000A;[Rule "declare everything unmentioned rule" applies.]&#x000A;[Rule "room description heading rule" applies.]&#x000A;Playground (in the spiders)&#x000A;[Rule "room description body text rule" applies.]&#x000A;You're at the top of the hill in the park.  This side has slides, swings, and a wide variety of brightly-colored climbing Climbing equipment.  The path curves from the south to the east side of the hill, along the ridge.&#x000A;&#x000A;[Rule "room description paragraphs about objects rule" applies.]&#x000A;[Rule "initialise locale description rule" applies.]&#x000A;[Rule "find notable locale objects rule" applies.]&#x000A;[Rule "standard notable locale objects rule" applies.]&#x000A;[Rule "interesting locale paragraphs rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;Dominating the sky to the east is the red metal tubes and bars of Coyote's Call.&#x000A;&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;Kids are playing, shrieking, and chasing each other up and around the platforms.&#x000A;&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]&#x000A;[Rule "you-can-also-see rule" applies.]&#x000A;[Rule "initialise locale description rule" applies.]&#x000A;[Rule "find notable locale objects rule" applies.]&#x000A;[Rule "standard notable locale objects rule" applies.]&#x000A;[Rule "interesting locale paragraphs rule" applies.]&#x000A;[Rule "don't mention player's supporter in room descriptions rule" applies.]&#x000A;[Rule "don't mention scenery in room descriptions rule" applies.]&#x000A;[Rule "don't mention undescribed items in room descriptions rule" applies.]&#x000A;[Rule "set pronouns from items in room descriptions rule" applies.]&#x000A;[Rule "offer items to writing a paragraph about rule" applies.]&#x000A;[Rule "use initial appearance in room descriptions rule" applies.]&#x000A;[Rule "describe what's on scenery supporters in room descriptions rule" applies.]&#x000A;[Rule "describe what's on mentioned supporters in room descriptions rule" applies.]&#x000A;[Rule "you-can-also-see rule" applies.]&#x000A;[Rule "check new arrival rule" applies.]&#x000A;[Rule "after stage rule" applies.]&#x000A;[Rule "investigate player's awareness after action rule" applies.]&#x000A;[Rule "report stage rule" applies.]&#x000A;[Rule "other people looking rule" applies.]&#x000A;[Rule "last specific action-processing rule" applies.]&#x000A;[Rule "last specific action-processing rule" applies.]&#x000A;[Rule "A first turn sequence rule" applies.]&#x000A;[Rule "scene change machinery rule" applies.]&#x000A;[Rule "take quick actions out of world rule" applies.]&#x000A;[Rule "parse command rule" applies.]&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-1081">
+  <item nodeId="node-6">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Gently, you release your hold on time, letting it scroll forward.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1082"/>
+      <child nodeId="node-7"/>
     </children>
   </item>
-  <item nodeId="node-1082">
-    <command xml:space="preserve">nw</command>
-    <result xml:space="preserve">You transfer your consiousness to a new group of spiders...&#x000A;&#x000A;Under Bridge (in the spiders)&#x000A;A simple and delicate sculpture entitled "Fire and Forge" sits here, nestled under the 48th Street Bridge on the banks of Brushstroke Reservoir to the north.  The path leads back southeast to the main park area.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1083"/>
-    </children>
-  </item>
-  <item nodeId="node-1083">
-    <command xml:space="preserve">x fire</command>
-    <result xml:space="preserve">A plaque in the ground identifies this sculpture as "Fire and Forge".  Long spines of twisting reddish metal emerges from the ground, reminiscent of flames.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1084"/>
-    </children>
-  </item>
-  <item nodeId="node-1084">
-    <command xml:space="preserve">x plaque</command>
-    <result xml:space="preserve">Fire and Forge.  Metal and stain, 2007, Amelia Thomas.&#x000A;&#x000A;The red metal spires most obviously evokes flames, but also passion, leading the majority of scholars to believe this to be representative of the relationship of Aphrodite and Hephaestus.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1085"/>
-    </children>
-  </item>
-  <item nodeId="node-1085">
-    <command xml:space="preserve">x spires</command>
-    <result xml:space="preserve">As you examine the twisted metal from different angles, you can almost imagine you see both swords and erotic imagery.  This would be consistent with the church of Aphrodite's reclamation of her dominion over both sex and war in its series of reforms in the 70's and 80's.  A small stamped icon of a cluster of dates would seem to indicate that the sculptor was part of the Inannan denomination.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1086"/>
-    </children>
-  </item>
-  <item nodeId="node-1086">
-    <command xml:space="preserve">x dates</command>
-    <result xml:space="preserve">(as in the fruit.)&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1087"/>
-    </children>
-  </item>
-  <item nodeId="node-1087">
-    <command xml:space="preserve">x innana</command>
-    <result xml:space="preserve">As you examine the twisted metal from different angles, you can almost imagine you see both swords and erotic imagery.  This would be consistent with the church of Aphrodite's reclamation of her dominion over both sex and war in its series of reforms in the 70's and 80's.  A small stamped icon of a cluster of dates would seem to indicate that the sculptor was part of the Inannan denomination.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1088"/>
-    </children>
-  </item>
-  <item nodeId="node-1088">
-    <command xml:space="preserve">x innanan</command>
-    <result xml:space="preserve">As you examine the twisted metal from different angles, you can almost imagine you see both swords and erotic imagery.  This would be consistent with the church of Aphrodite's reclamation of her dominion over both sex and war in its series of reforms in the 70's and 80's.  A small stamped icon of a cluster of dates would seem to indicate that the sculptor was part of the Inannan denomination.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1089"/>
-    </children>
-  </item>
-  <item nodeId="node-1089">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You transfer your consiousness to a new group of spiders...&#x000A;&#x000A;Beach Sculpture (in the spiders)&#x000A;An east-west path runs along the Brushstroke Reservoir beach. A large complicated structure sits here, fodder for some sort of puzzle LS TBD.  To your south, you can see the playground on top of the hill.&#x000A;&#x000A;To the southeast atop the hill is the iconic red metal structure of Coyote's Call.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1090"/>
-    </children>
-  </item>
-  <item nodeId="node-1090">
-    <command xml:space="preserve">x structure</command>
-    <result xml:space="preserve">Coyote's Call is the iconic sculpture of Quinlan Park.  Made of large red metal tubes and beams, it dominates the landscape from atop the central hill to the southeast.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1091"/>
-    </children>
-  </item>
-  <item nodeId="node-1091">
-    <command xml:space="preserve">x tubes</command>
-    <result xml:space="preserve">Coyote's Call is the iconic sculpture of Quinlan Park.  Made of large red metal tubes and beams, it dominates the landscape from atop the central hill to the southeast.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1092"/>
-    </children>
-  </item>
-  <item nodeId="node-1092">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You transfer your consiousness to a new group of spiders...&#x000A;&#x000A;Water Sculpture (in the spiders)&#x000A;Here at the northeast section of the park is a fountain-sculpture-thing in the shallow water of the reservoir.  Paths run from here south along the edge of the hill, southwest up the hill, and west along the beach.&#x000A;&#x000A;To the southwest atop the hill is the iconic red metal structure of Coyote's Call.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1093"/>
-    </children>
-  </item>
-  <item nodeId="node-1093">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You transfer your consiousness to a new group of spiders...&#x000A;&#x000A;East Hill (in the spiders)&#x000A;A north-south path rises here on the lower east end of the hill.  A sculpture labeled "Bird and Cage" is displayed here; a mass of metal bits on poles.&#x000A;&#x000A;Up the hill to the west is the iconic red metal structure of Coyote's Call.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1094"/>
-    </children>
-  </item>
-  <item nodeId="node-1094">
-    <command xml:space="preserve">x bird</command>
-    <result xml:space="preserve">A set of twisted pieces of metal and stone, each sitting atop a metal pole (more LS TBD).&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1095"/>
-    </children>
-  </item>
-  <item nodeId="node-1095">
-    <command xml:space="preserve">x pole</command>
-    <result xml:space="preserve">A set of twisted pieces of metal and stone, each sitting atop a metal pole (more LS TBD).&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1096"/>
-    </children>
-  </item>
-  <item nodeId="node-1096">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You transfer your consiousness to a new group of spiders...&#x000A;&#x000A;Bewildering Bridges (in the spiders)&#x000A;Three paths from the west, northwest, and north converge here at a bewildering complex of bridges, walkways, and staircases, some fixed, and some turning gently in the wind.&#x000A;&#x000A;A ways northwest up the hill you can see the iconic red metal structure of Coyote's Call.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1097"/>
-    </children>
-  </item>
-  <item nodeId="node-1097">
-    <command xml:space="preserve">x call</command>
-    <result xml:space="preserve">Coyote's Call is the iconic sculpture of Quinlan Park.  Made of large red metal tubes and beams, it dominates the landscape from atop the central hill to the northwest.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1098"/>
-    </children>
-  </item>
-  <item nodeId="node-1098">
-    <command xml:space="preserve">x tubes</command>
-    <result xml:space="preserve">Coyote's Call is the iconic sculpture of Quinlan Park.  Made of large red metal tubes and beams, it dominates the landscape from atop the central hill to the northwest.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1099"/>
-    </children>
-  </item>
-  <item nodeId="node-1099">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You transfer your consiousness to a new group of spiders...&#x000A;&#x000A;Sculpture By Lot (in the spiders)&#x000A;The path curves from the west to the southeast here, winding through a giant sculpture that looms over the fence by the parking lot.  The main hill of the park is to the north.&#x000A;&#x000A;Up the hill to the north is the red metal tubes and bars of Coyote's Call.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1100"/>
-    </children>
-  </item>
-  <item nodeId="node-1100">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You spot a spider on the west wall, and through it, move your consciousness to the spiders on the other side.&#x000A;&#x000A;Quinlan Park Parking Lot (in the spiders)&#x000A;Scattered cars fill the parking lot, including the Hyundai you came here in. The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;Looming over the parking lot to the east is a huge sculpture  whos details have yet to be decided LS TBD.}&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1101"/>
-    </children>
-  </item>
-  <item nodeId="node-1101">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You spot a spider on the east wall, and through it, move your consciousness to the spiders on the other side.&#x000A;&#x000A;Sculpture By Lot (in the spiders)&#x000A;The path curves from the west to the southeast here, winding through a giant sculpture that looms over the fence by the parking lot.  The main hill of the park is to the north.&#x000A;&#x000A;Up the hill to the north is the red metal tubes and bars of Coyote's Call.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1102"/>
-    </children>
-  </item>
-  <item nodeId="node-1102">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You transfer your consiousness to a new group of spiders...&#x000A;&#x000A;Top of Hill (in the spiders)&#x000A;From the top of the hill, you can see the entire park below you: the reservoir to the north, the playground to the west, and all eight of the permanent sculptures in the park.&#x000A;&#x000A;A collection of giant metal tubes and beams graces the top of the hill, known as "Coyote's Call".  It's an abstract design of joyful chaos, somehow incorporating even the curve of the hill into its own expression.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1103"/>
-    </children>
-  </item>
-  <item nodeId="node-1103">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You transfer your consiousness to a new group of spiders...&#x000A;&#x000A;Playground (in the spiders)&#x000A;You're at the top of the hill in the park.  This side has slides, swings, and a wide variety of brightly-colored climbing equipment.  The path curves from the south to the east side of the hill, along the ridge.&#x000A;&#x000A;Dominating the sky to the east is the red metal tubes and bars of Coyote's Call.&#x000A;&#x000A;Kids are playing, shrieking, and chasing each other up and around the platforms.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1104"/>
-    </children>
-  </item>
-  <item nodeId="node-1104">
-    <command xml:space="preserve">x kids</command>
-    <result xml:space="preserve">The kids are all having a great time. LS TBD: hint at something here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1105"/>
-    </children>
-  </item>
-  <item nodeId="node-1105">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You transfer your consiousness to a new group of spiders...&#x000A;&#x000A;Top of Hill (in the spiders)&#x000A;From the top of the hill, you can see the entire park below you: the reservoir to the north, the playground to the west, and all eight of the permanent sculptures in the park.&#x000A;&#x000A;A collection of giant metal tubes and beams graces the top of the hill, known as "Coyote's Call".  It's an abstract design of joyful chaos, somehow incorporating even the curve of the hill into its own expression.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1106"/>
-    </children>
-  </item>
-  <item nodeId="node-1106">
-    <command xml:space="preserve">x coyote</command>
-    <result xml:space="preserve">Art is a converstation between the artist, the subject, and the viewer, but as you take in the tubes and spires of this particular piece, you can't help but wonder what the current Vested of Coyote would make of it.  They've not gone public, so they could be anyone.  Could they be like you, newly awakened to their abilities, trying and failing (or succeeding?) to find answers in the church dedicated to the idea they represent?  Like Lestar, so self-assured and confident, understanding and perfectly molded to their place in the world?  Like Amaia, driven to prove themselves, to surpass their forebearers?  How would that color their reponse to this giant red mass of sculpted metal?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1107"/>
-      <child nodeId="node-1108"/>
-    </children>
-  </item>
-  <item nodeId="node-1107">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You transfer your consiousness to a new group of spiders...&#x000A;&#x000A;Water Sculpture (in the spiders)&#x000A;Here at the northeast section of the park is a fountain-sculpture-thing in the shallow water of the reservoir.  Paths run from here south along the edge of the hill, southwest up the hill, and west along the beach.&#x000A;&#x000A;To the southwest atop the hill is the iconic red metal structure of Coyote's Call.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-1108">
+  <item nodeId="node-7">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Gently, you release your hold on time, letting it scroll forward.&#x000A;&#x000A;A cloud passes over the sun.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1109"/>
+      <child nodeId="node-8"/>
     </children>
   </item>
-  <item nodeId="node-1109">
+  <item nodeId="node-8">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Gently, you release your hold on time, letting it scroll forward.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1110"/>
+      <child nodeId="node-9"/>
     </children>
   </item>
-  <item nodeId="node-1110">
+  <item nodeId="node-9">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Gently, you release your hold on time, letting it scroll forward.&#x000A;&#x000A;You feel an ominous rumbling from deep under the earth.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1111"/>
+      <child nodeId="node-10"/>
     </children>
   </item>
-  <item nodeId="node-1111">
+  <item nodeId="node-10">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Gently, you release your hold on time, letting it scroll forward.&#x000A;&#x000A;With a roar, the entire top of the hill collapses in on itself, and your perception shatters as spiders are shaken off webs and perches, spinning out emergency strands to catch the wind and slow their falls.  Straining, you manage to reassert your hold on time, freezing everything in place again.  Gradually, you stitch together a new coherent view of your surroundings.&#x000A;&#x000A;Giant Pit (in the spiders)&#x000A;The entire hill has collapsed in on itself, revealing a giant pit underneath. Bushes and trees are frozen mid-fall, as they pitch forward into the yawning chasm.&#x000A;&#x000A;People are caught frozen in time but doomed:  a stumbling woman falling forward into the hole; a man clinging desperately to a cylinder of Coyote's Call as he and the cylinder plunge into the abyss.&#x000A;&#x000A;Coyote's Call is collapsing into the sinkhole along with everything else.  Frozen in time, the new configuration of its tubes and beams makes it seem even more joyfully chaotic.  You are probably the only person who will ever experience it this way, and it makes the combination of destruction and art intensely personal.&#x000A;&#x000A;This certainly seems to qualify as a disaster.  You take in your surroundings, determined to remember this moment.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1112"/>
+      <child nodeId="node-11"/>
     </children>
   </item>
-  <item nodeId="node-1112">
-    <command xml:space="preserve">x coyote</command>
-    <result xml:space="preserve">The entire hill gave way all at once, and Coyote's Call is now falling, its original configuration lost.  But you can't help think that it was at the epicenter of the collapse.&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-11">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Sinkhole (in the spiders)&#x000A;You're partway down a giant sinkhole that apparently has been growing under the park for some time.  Everything is caught in a state of falling:  dirt, grass, the red metal pieces of Coyote's Call, and the spiders themselves.&#x000A;&#x000A;A spear of red metal from Coyote's Call falls through open space here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1113"/>
+      <child nodeId="node-12"/>
     </children>
   </item>
-  <item nodeId="node-1113">
+  <item nodeId="node-12">
+    <command xml:space="preserve">get spear</command>
+    <result xml:space="preserve">While your consciousness is held in the spiders, you can enter or touch other minds, wait for something to happen, travel to spiders in other locations, and focus on your surroundings, but can't interact physically with things.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-13">
+    <command xml:space="preserve">out</command>
+    <result xml:space="preserve">While frozen, you can enter the minds around you, and you're aware of your surroundings, but can't do anything physical.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-14"/>
+    </children>
+  </item>
+  <item nodeId="node-14">
+    <command xml:space="preserve">enter spiders</command>
+    <result xml:space="preserve">With practiced ease, you move your consciousness out of your own head, and into the surrounding spiders.  Your perception shifts, and you see the parking lot as if you were standing in it, though patched together from dozens of small views.&#x000A;&#x000A;Quinlan Park Parking Lot (in the spiders)&#x000A;Scattered cars fill the parking lot, including the Hyundai you came here in. The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;Looming over the parking lot to the east is a huge sculpture  whose details have yet to be decided LS TBD.}&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-15"/>
+    </children>
+  </item>
+  <item nodeId="node-15">
+    <command xml:space="preserve">enter hyundai</command>
+    <result xml:space="preserve">You transfer your consciousness into the spiders inside the Hyundai.&#x000A;&#x000A;Quinlan Park Parking Lot (in the spiders) (in the Hyundai)&#x000A;Scattered cars fill the parking lot, including the Hyundai you came here in. The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;Looming over the parking lot to the east is a huge sculpture  whose details have yet to be decided LS TBD.}&#x000A;&#x000A;Amaia is turned sideways in the driver's seat, grasping your hand and Lestar's.  Even frozen, she radiates intensity and movement.&#x000A;&#x000A;Lestar's eyes are shut in calm concentration.  His relaxed hands hold yours and Amaia's, completing the triangle.&#x000A;&#x000A;Your own face relaxes as you look at yourself from the outside.  Somehow, it's easier to see yourself this way than in the mirror.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-16"/>
+    </children>
+  </item>
+  <item nodeId="node-16">
+    <command xml:space="preserve">out</command>
+    <result xml:space="preserve">You transfer your consciousness into the spiders outside the Hyundai.&#x000A;&#x000A;Quinlan Park Parking Lot (in the spiders)&#x000A;Scattered cars fill the parking lot, including the Hyundai you came here in. The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;Looming over the parking lot to the east is a huge sculpture  whose details have yet to be decided LS TBD.}&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-17"/>
+    </children>
+  </item>
+  <item nodeId="node-17">
+    <command xml:space="preserve">touch amaia</command>
+    <result xml:space="preserve">Amaia still intimidates you, and you're pretty sure her surface thoughts would just be "Zora!  Do your job already!"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-18"/>
+    </children>
+  </item>
+  <item nodeId="node-18">
+    <command xml:space="preserve">touch lestar</command>
+    <result xml:space="preserve">Reaching out with your mind, you brush Lestar's surface thoughts with your own.  Instantly, you feel the thought, "Hi, Zora!  Just figure out what's going on, then get people to safety.  You can do this."  It must have been waiting for you, which in retrospect you feel you should have anticipated.  He's an old Vested, after all, and has been doing this for years.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-19">
+    <command xml:space="preserve">x amaia</command>
+    <result xml:space="preserve">Amaia is a tall dark-haired woman with piercing but tired brown eyes. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Amaia is a tall dark-haired woman with piercing but tired brown eyes. &#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-20"/>
+    </children>
+  </item>
+  <item nodeId="node-20">
+    <command xml:space="preserve">x lestar</command>
+    <result xml:space="preserve">Lestar is an old man with giant bushy white eyebrows that make it impossible for him to hide his emotions.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Lestar is an old man with giant bushy white eyebrows that make it impossible for him to hide his emotions.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-21"/>
+    </children>
+  </item>
+  <item nodeId="node-21">
+    <command xml:space="preserve">x me</command>
+    <result xml:space="preserve">You're pragmatically dressed in jeans, a "Hu" T-shirt, and sneakers.  Your curls are somehow behaving today, probably because you didn't try to do anything with them this morning.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You're pragmatically dressed in jeans, a "Hu" T-shirt, and sneakers.  Your curls are somehow behaving today, probably because you didn't try to do anything with them this morning.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-22"/>
+    </children>
+  </item>
+  <item nodeId="node-22">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-23"/>
+    </children>
+  </item>
+  <item nodeId="node-23">
+    <command xml:space="preserve">x lester</command>
+    <result xml:space="preserve">(It's "Lestar", not "Lester".)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">(It's "Lestar", not "Lester".)&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-24"/>
+    </children>
+  </item>
+  <item nodeId="node-24">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">That direction seems to be outside Lestar's area of influence.  Hopefully that means you won't need to go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">That direction seems to be outside Lestar's area of influence.  Hopefully that means you won't need to go that way.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-25"/>
+    </children>
+  </item>
+  <item nodeId="node-25">
+    <command xml:space="preserve">out</command>
+    <result xml:space="preserve">While frozen, you can enter the minds around you, and you're aware of your surroundings, but can't do anything physical.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">While frozen, you can enter the minds around you, and you're aware of your surroundings, but can't do anything physical.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-26"/>
+    </children>
+  </item>
+  <item nodeId="node-26">
+    <command xml:space="preserve">enter lestar</command>
+    <result xml:space="preserve">Lestar's been nothing but kind to you, but you're sure if he saw your whole mind, he'd be disappointed.  You've touched his mind before and that's gone OK.  You guess.  You hope.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Lestar's been nothing but kind to you, but you're sure if he saw your whole mind, he'd be disappointed.  You've touched his mind before and that's gone OK.  You guess.  You hope.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-27"/>
+    </children>
+  </item>
+  <item nodeId="node-27">
+    <command xml:space="preserve">touch lestar</command>
+    <result xml:space="preserve">Reaching out with your mind, you brush Lestar's surface thoughts with your own.  Instantly, you feel the thought, "Hi, Zora!  Just figure out what's going on, then get people to safety.  You can do this."  It must have been waiting for you, which in retrospect you feel you should have anticipated.  He's an old Vested, after all, and has been doing this for years.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Reaching out with your mind, you brush Lestar's surface thoughts with your own.  Instantly, you feel the thought, "Hi, Zora!  Just figure out what's going on, then get people to safety.  You can do this."  It must have been waiting for you, which in retrospect you feel you should have anticipated.  He's an old Vested, after all, and has been doing this for years.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-28"/>
+    </children>
+  </item>
+  <item nodeId="node-28">
+    <command xml:space="preserve">enter amaia</command>
+    <result xml:space="preserve">You can't imagine actually entering Amaia's consciousness and giving her full access to your mind.  You'd never be able to look her in the eye again, and you have to work with her.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You can't imagine actually entering Amaia's consciousness and giving her full access to your mind.  You'd never be able to look her in the eye again, and you have to work with her.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-29"/>
+    </children>
+  </item>
+  <item nodeId="node-29">
+    <command xml:space="preserve">touch amaia</command>
+    <result xml:space="preserve">Amaia still intimidates you, and you're pretty sure her surface thoughts would just be "Zora!  Do your job already!"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Amaia still intimidates you, and you're pretty sure her surface thoughts would just be "Zora!  Do your job already!"&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-30"/>
+    </children>
+  </item>
+  <item nodeId="node-30">
+    <command xml:space="preserve">enter me</command>
+    <result xml:space="preserve">You can only get into something free-standing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You're already in yourself, for what that's worth.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-31"/>
+    </children>
+  </item>
+  <item nodeId="node-31">
+    <command xml:space="preserve">touch spiders</command>
+    <result xml:space="preserve">The surface thoughts of the spiders are entirely instinctual, and refreshing in their simplicity.  You feel your own emotions being acknowledged in return, without them affecting the spiders in the slightest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">The surface thoughts of the spiders are entirely instinctual, and refreshing in their simplicity.  You feel your own emotions being acknowledged in return, without them affecting the spiders in the slightest.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-32"/>
+    </children>
+  </item>
+  <item nodeId="node-32">
+    <command xml:space="preserve">enter spiders</command>
+    <result xml:space="preserve">With practiced ease, you move your consciousness out of your own head, and into the surrounding spiders.  Your perception shifts, and you see the parking lot as if you were standing in it, though patched together from dozens of small views.&#x000A;&#x000A;Quinlan Park Parking Lot (in the spiders)&#x000A;Scattered cars fill the parking lot, including the Hyundai you came here in. The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;Looming over the parking lot to the east is a huge sculpture  whose details have yet to be decided LS TBD.}&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">With practiced ease, you move your consciousness out of your own head, and into the surrounding spiders.  Your perception shifts, and you see the parking lot as if you were standing in it, though patched together from dozens of small views.&#x000A;&#x000A;Quinlan Park Parking Lot (in the spiders)&#x000A;Scattered cars fill the parking lot, including the Hyundai you came here in. The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;Looming over the parking lot to the east is a huge sculpture  whose details have yet to be decided LS TBD.}&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-33"/>
+    </children>
+  </item>
+  <item nodeId="node-33">
+    <command xml:space="preserve">x sculpture</command>
+    <result xml:space="preserve">It's a sculpture looming over the east fence LS TBD.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">It's a sculpture looming over the east fence LS TBD.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-34"/>
+    </children>
+  </item>
+  <item nodeId="node-34">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Quinlan Park Entrance (in the spiders)&#x000A;Two booths flank the entrance to the park to the north, where you can buy tickets and get information.  To the south is the parking lot.&#x000A;&#x000A;You can see a young man manning the ticket booth, but the information booth is empty.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Quinlan Park Entrance (in the spiders)&#x000A;Two booths flank the entrance to the park to the north, where you can buy tickets and get information.  To the south is the parking lot.&#x000A;&#x000A;You can see a young man manning the ticket booth, but the information booth is empty.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-35"/>
+    </children>
+  </item>
+  <item nodeId="node-35">
+    <command xml:space="preserve">x booths</command>
+    <result xml:space="preserve">Which do you mean, the information booth or the ticket booth?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Which do you mean, the information booth or the ticket booth?&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-36"/>
+    </children>
+  </item>
+  <item nodeId="node-36">
+    <command xml:space="preserve">information</command>
+    <result xml:space="preserve">The information booth is unmanned, but there's a stack of fliers resting on the sill.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">The information booth is unmanned, but there's a stack of fliers resting on the sill.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-37"/>
+    </children>
+  </item>
+  <item nodeId="node-37">
+    <command xml:space="preserve">x flyers</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-38"/>
+    </children>
+  </item>
+  <item nodeId="node-38">
+    <command xml:space="preserve">x young man</command>
+    <result xml:space="preserve">A young man with a friendly but bored expression, a Quinlan Park employee vest, and a name tag reading "Jace".&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">A young man with a friendly but bored expression, a Quinlan Park employee vest, and a name tag reading "Jace".&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-39"/>
+    </children>
+  </item>
+  <item nodeId="node-39">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Quinlan Park Entrance (in the spiders)&#x000A;Two booths flank the entrance to the park to the north, where you can buy tickets and get information.  To the south is the parking lot.&#x000A;&#x000A;You can see Jace manning the ticket booth, but the information booth is empty.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Quinlan Park Entrance (in the spiders)&#x000A;Two booths flank the entrance to the park to the north, where you can buy tickets and get information.  To the south is the parking lot.&#x000A;&#x000A;You can see Jace manning the ticket booth, but the information booth is empty.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-40"/>
+    </children>
+  </item>
+  <item nodeId="node-40">
+    <command xml:space="preserve">x ticket</command>
+    <result xml:space="preserve">The ticket booth has a sign with a pay-what-you-want pricing scheme ranging from "I just need more grass and art in my life - FREE" through "I think you guys are amazing and would love to be listed as a patron - $1000".  Jace is manning the booth, taking donations from the park-goers.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">The ticket booth has a sign with a pay-what-you-want pricing scheme ranging from "I just need more grass and art in my life - FREE" through "I think you guys are amazing and would love to be listed as a patron - $1000".  Jace is manning the booth, taking donations from the park-goers.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-41"/>
+    </children>
+  </item>
+  <item nodeId="node-41">
+    <command xml:space="preserve">x jace</command>
+    <result xml:space="preserve">A young man with a friendly but bored expression, a Quinlan Park employee vest, and a name tag reading "Jace".&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">A young man with a friendly but bored expression, a Quinlan Park employee vest, and a name tag reading "Jace".&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-42"/>
+    </children>
+  </item>
+  <item nodeId="node-42">
+    <command xml:space="preserve">enter jace</command>
+    <result xml:space="preserve">You'll have to enter his mind at some point, but you don't know why yet, or how he could help.  Until you do, you need to do more reconnaisance.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You'll have to enter his mind at some point, but you don't know why yet, or how he could help.  Until you do, you need to do more reconnaisance.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-43"/>
+    </children>
+  </item>
+  <item nodeId="node-43">
+    <command xml:space="preserve">touch jace</command>
+    <result xml:space="preserve">You'll have to enter his mind at some point, but you don't know why yet, or how he could help.  Until you do, you need to do more reconnaisance.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You'll have to enter his mind at some point, but you don't know why yet, or how he could help.  Until you do, you need to do more reconnaisance.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-44"/>
+    </children>
+  </item>
+  <item nodeId="node-44">
+    <command xml:space="preserve">enter ticket</command>
+    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-45"/>
+    </children>
+  </item>
+  <item nodeId="node-45">
+    <command xml:space="preserve">enter ticket booth</command>
+    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-46"/>
+    </children>
+  </item>
+  <item nodeId="node-46">
+    <command xml:space="preserve">enter information booth</command>
+    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-47"/>
+    </children>
+  </item>
+  <item nodeId="node-47">
+    <command xml:space="preserve">out</command>
+    <result xml:space="preserve">You can't exit one consciousness without going into another one.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You can't exit one consciousness without going into another one.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-48"/>
+    </children>
+  </item>
+  <item nodeId="node-48">
+    <command xml:space="preserve">out</command>
+    <result xml:space="preserve">You can't exit one consciousness without going into another one.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You can't exit one consciousness without going into another one.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-49"/>
+    </children>
+  </item>
+  <item nodeId="node-49">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Plaza (in the spiders)&#x000A;Paths run through this plaza from the south entrance, then splitting northwest around the hill, north up the hill, and east along it. &#x000A;&#x000A;To the northeast atop the hill is the iconic red metal structure of Coyote's Call.&#x000A;&#x000A;Prominently displayed just inside the entrance is some sort of sculpture (LS TBD).&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Plaza (in the spiders)&#x000A;Paths run through this plaza from the south entrance, then splitting northwest around the hill, north up the hill, and east along it. &#x000A;&#x000A;To the northeast atop the hill is the iconic red metal structure of Coyote's Call.&#x000A;&#x000A;Prominently displayed just inside the entrance is some sort of sculpture (LS TBD).&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-50"/>
+    </children>
+  </item>
+  <item nodeId="node-50">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Path By Hill (in the spiders)&#x000A;The path runs southeast to northwest here along the edge of the park, and splits off to the east as well, heading up the hill above you.  A fence mostly hidden by shrubbery to your west hides 48th street, and blocks most of the sound from the passing cars.&#x000A;&#x000A;Though the hill is in the way, you can still see the tops of the red metal structure of Coyote's Call past the rise to the east.&#x000A;&#x000A;Whatever Amaia is worried about is apparently happening in this park.  You'll need to wait to advance the loop and see what's going on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Path By Hill (in the spiders)&#x000A;The path runs southeast to northwest here along the edge of the park, and splits off to the east as well, heading up the hill above you.  A fence mostly hidden by shrubbery to your west hides 48th street, and blocks most of the sound from the passing cars.&#x000A;&#x000A;Though the hill is in the way, you can still see the tops of the red metal structure of Coyote's Call past the rise to the east.&#x000A;&#x000A;Whatever Amaia is worried about is apparently happening in this park.  You'll need to wait to advance the loop and see what's going on.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-51"/>
+    </children>
+  </item>
+  <item nodeId="node-51">
+    <command xml:space="preserve">x call</command>
+    <result xml:space="preserve">Coyote's Call is the iconic sculpture of Quinlan Park.  Made of large red metal tubes and beams, it dominates the landscape from atop the central hill to the east.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Coyote's Call is the iconic sculpture of Quinlan Park.  Made of large red metal tubes and beams, it dominates the landscape from atop the central hill to the east.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-52"/>
+    </children>
+  </item>
+  <item nodeId="node-52">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Gently, you release your hold on time, letting it scroll forward.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Gently, you release your hold on time, letting it scroll forward.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-53"/>
+    </children>
+  </item>
+  <item nodeId="node-53">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Under Bridge (in the spiders)&#x000A;A simple and delicate sculpture entitled "Fire and Forge" sits here, nestled under the 48th Street Bridge on the banks of Brushstroke Reservoir to the north.  The path leads back southeast to the main park area.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Under Bridge (in the spiders)&#x000A;A simple and delicate sculpture entitled "Fire and Forge" sits here, nestled under the 48th Street Bridge on the banks of Brushstroke Reservoir to the north.  The path leads back southeast to the main park area.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-54"/>
+    </children>
+  </item>
+  <item nodeId="node-54">
+    <command xml:space="preserve">x fire</command>
+    <result xml:space="preserve">A plaque in the ground identifies this sculpture as "Fire and Forge".  Long spines of twisting reddish metal emerge from the ground, reminiscent of flames.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">A plaque in the ground identifies this sculpture as "Fire and Forge".  Long spines of twisting reddish metal emerge from the ground, reminiscent of flames.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-55"/>
+    </children>
+  </item>
+  <item nodeId="node-55">
+    <command xml:space="preserve">x plaque</command>
+    <result xml:space="preserve">Fire and Forge.  Metal and stain, 2007, Amelia Thomas.&#x000A;&#x000A;The red metal spires most obviously evokes flames, but also passion, leading the majority of scholars to believe this to be representative of the relationship of Aphrodite and Hephaestus.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Fire and Forge.  Metal and stain, 2007, Amelia Thomas.&#x000A;&#x000A;The red metal spires most obviously evokes flames, but also passion, leading the majority of scholars to believe this to be representative of the relationship of Aphrodite and Hephaestus.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-56"/>
+    </children>
+  </item>
+  <item nodeId="node-56">
+    <command xml:space="preserve">x spires</command>
+    <result xml:space="preserve">As you examine the twisted metal from different angles, you can almost imagine you see both swords and erotic imagery.  This would be consistent with the church of Aphrodite's reclamation of her dominion over both sex and war in its series of reforms in the 70's and 80's.  A small stamped icon of a cluster of dates would seem to indicate that the sculptor was part of the Inannan denomination.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">As you examine the twisted metal from different angles, you can almost imagine you see both swords and erotic imagery.  This would be consistent with the church of Aphrodite's reclamation of her dominion over both sex and war in its series of reforms in the 70's and 80's.  A small stamped icon of a cluster of dates would seem to indicate that the sculptor was part of the Inannan denomination.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-57"/>
+    </children>
+  </item>
+  <item nodeId="node-57">
+    <command xml:space="preserve">x dates</command>
+    <result xml:space="preserve">(as in the fruit.)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">(as in the fruit.)&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-58"/>
+    </children>
+  </item>
+  <item nodeId="node-58">
+    <command xml:space="preserve">x innana</command>
+    <result xml:space="preserve">As you examine the twisted metal from different angles, you can almost imagine you see both swords and erotic imagery.  This would be consistent with the church of Aphrodite's reclamation of her dominion over both sex and war in its series of reforms in the 70's and 80's.  A small stamped icon of a cluster of dates would seem to indicate that the sculptor was part of the Inannan denomination.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">As you examine the twisted metal from different angles, you can almost imagine you see both swords and erotic imagery.  This would be consistent with the church of Aphrodite's reclamation of her dominion over both sex and war in its series of reforms in the 70's and 80's.  A small stamped icon of a cluster of dates would seem to indicate that the sculptor was part of the Inannan denomination.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-59"/>
+    </children>
+  </item>
+  <item nodeId="node-59">
+    <command xml:space="preserve">x innanan</command>
+    <result xml:space="preserve">As you examine the twisted metal from different angles, you can almost imagine you see both swords and erotic imagery.  This would be consistent with the church of Aphrodite's reclamation of her dominion over both sex and war in its series of reforms in the 70's and 80's.  A small stamped icon of a cluster of dates would seem to indicate that the sculptor was part of the Inannan denomination.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">As you examine the twisted metal from different angles, you can almost imagine you see both swords and erotic imagery.  This would be consistent with the church of Aphrodite's reclamation of her dominion over both sex and war in its series of reforms in the 70's and 80's.  A small stamped icon of a cluster of dates would seem to indicate that the sculptor was part of the Inannan denomination.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-60"/>
+    </children>
+  </item>
+  <item nodeId="node-60">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Beach Sculpture (in the spiders)&#x000A;An east-west path runs along the Brushstroke Reservoir beach. A large complicated structure sits here, fodder for some sort of puzzle LS TBD.  To your south, you can see the playground on top of the hill.&#x000A;&#x000A;To the southeast atop the hill is the iconic red metal structure of Coyote's Call.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Beach Sculpture (in the spiders)&#x000A;An east-west path runs along the Brushstroke Reservoir beach. A large complicated structure sits here, fodder for some sort of puzzle LS TBD.  To your south, you can see the playground on top of the hill.&#x000A;&#x000A;To the southeast atop the hill is the iconic red metal structure of Coyote's Call.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-61"/>
+    </children>
+  </item>
+  <item nodeId="node-61">
+    <command xml:space="preserve">x structure</command>
+    <result xml:space="preserve">Coyote's Call is the iconic sculpture of Quinlan Park.  Made of large red metal tubes and beams, it dominates the landscape from atop the central hill to the southeast.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Coyote's Call is the iconic sculpture of Quinlan Park.  Made of large red metal tubes and beams, it dominates the landscape from atop the central hill to the southeast.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-62"/>
+    </children>
+  </item>
+  <item nodeId="node-62">
+    <command xml:space="preserve">x tubes</command>
+    <result xml:space="preserve">Coyote's Call is the iconic sculpture of Quinlan Park.  Made of large red metal tubes and beams, it dominates the landscape from atop the central hill to the southeast.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Coyote's Call is the iconic sculpture of Quinlan Park.  Made of large red metal tubes and beams, it dominates the landscape from atop the central hill to the southeast.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-63"/>
+    </children>
+  </item>
+  <item nodeId="node-63">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Water Sculpture (in the spiders)&#x000A;Here at the northeast section of the park is a fountain-sculpture-thing in the shallow water of the reservoir.  Paths run from here south along the edge of the hill, southwest up the hill, and west along the beach.&#x000A;&#x000A;To the southwest atop the hill is the iconic red metal structure of Coyote's Call.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Water Sculpture (in the spiders)&#x000A;Here at the northeast section of the park is a fountain-sculpture-thing in the shallow water of the reservoir.  Paths run from here south along the edge of the hill, southwest up the hill, and west along the beach.&#x000A;&#x000A;To the southwest atop the hill is the iconic red metal structure of Coyote's Call.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-64"/>
+    </children>
+  </item>
+  <item nodeId="node-64">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;East Hill (in the spiders)&#x000A;A north-south path rises here on the lower east end of the hill.  A sculpture labeled "Bird and Cage" is displayed here; a mass of metal bits on poles.&#x000A;&#x000A;Up the hill to the west is the iconic red metal structure of Coyote's Call.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;East Hill (in the spiders)&#x000A;A north-south path rises here on the lower east end of the hill.  A sculpture labeled "Bird and Cage" is displayed here; a mass of metal bits on poles.&#x000A;&#x000A;Up the hill to the west is the iconic red metal structure of Coyote's Call.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-65"/>
+    </children>
+  </item>
+  <item nodeId="node-65">
+    <command xml:space="preserve">x bird</command>
+    <result xml:space="preserve">A set of twisted pieces of metal and stone, each sitting atop a metal pole (more LS TBD).&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">A set of twisted pieces of metal and stone, each sitting atop a metal pole (more LS TBD).&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-66"/>
+    </children>
+  </item>
+  <item nodeId="node-66">
+    <command xml:space="preserve">x pole</command>
+    <result xml:space="preserve">A set of twisted pieces of metal and stone, each sitting atop a metal pole (more LS TBD).&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">A set of twisted pieces of metal and stone, each sitting atop a metal pole (more LS TBD).&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-67"/>
+    </children>
+  </item>
+  <item nodeId="node-67">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Bewildering Bridges (in the spiders)&#x000A;Three paths from the west, northwest, and north converge here at a bewildering complex of bridges, walkways, and staircases, some fixed, and some turning gently in the wind.&#x000A;&#x000A;A ways northwest up the hill you can see the iconic red metal structure of Coyote's Call.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Bewildering Bridges (in the spiders)&#x000A;Three paths from the west, northwest, and north converge here at a bewildering complex of bridges, walkways, and staircases, some fixed, and some turning gently in the wind.&#x000A;&#x000A;A ways northwest up the hill you can see the iconic red metal structure of Coyote's Call.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-68"/>
+    </children>
+  </item>
+  <item nodeId="node-68">
+    <command xml:space="preserve">x call</command>
+    <result xml:space="preserve">Coyote's Call is the iconic sculpture of Quinlan Park.  Made of large red metal tubes and beams, it dominates the landscape from atop the central hill to the northwest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Coyote's Call is the iconic sculpture of Quinlan Park.  Made of large red metal tubes and beams, it dominates the landscape from atop the central hill to the northwest.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-69"/>
+    </children>
+  </item>
+  <item nodeId="node-69">
+    <command xml:space="preserve">x tubes</command>
+    <result xml:space="preserve">Coyote's Call is the iconic sculpture of Quinlan Park.  Made of large red metal tubes and beams, it dominates the landscape from atop the central hill to the northwest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Coyote's Call is the iconic sculpture of Quinlan Park.  Made of large red metal tubes and beams, it dominates the landscape from atop the central hill to the northwest.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-70"/>
+    </children>
+  </item>
+  <item nodeId="node-70">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Sculpture By Lot (in the spiders)&#x000A;The path curves from the west to the southeast here, winding through a giant sculpture that looms over the fence by the parking lot.  The main hill of the park is to the north.&#x000A;&#x000A;Up the hill to the north are the red metal tubes and bars of Coyote's Call.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Sculpture By Lot (in the spiders)&#x000A;The path curves from the west to the southeast here, winding through a giant sculpture that looms over the fence by the parking lot.  The main hill of the park is to the north.&#x000A;&#x000A;Up the hill to the north are the red metal tubes and bars of Coyote's Call.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-71"/>
+    </children>
+  </item>
+  <item nodeId="node-71">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You spot a spider on the west wall, and through it, move your consciousness to the spiders on the other side.&#x000A;&#x000A;Quinlan Park Parking Lot (in the spiders)&#x000A;Scattered cars fill the parking lot, including the Hyundai you came here in. The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;Looming over the parking lot to the east is a huge sculpture  whose details have yet to be decided LS TBD.}&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You spot a spider on the west wall, and through it, move your consciousness to the spiders on the other side.&#x000A;&#x000A;Quinlan Park Parking Lot (in the spiders)&#x000A;Scattered cars fill the parking lot, including the Hyundai you came here in. The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;Looming over the parking lot to the east is a huge sculpture  whose details have yet to be decided LS TBD.}&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-72"/>
+    </children>
+  </item>
+  <item nodeId="node-72">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You spot a spider on the east wall, and through it, move your consciousness to the spiders on the other side.&#x000A;&#x000A;Sculpture By Lot (in the spiders)&#x000A;The path curves from the west to the southeast here, winding through a giant sculpture that looms over the fence by the parking lot.  The main hill of the park is to the north.&#x000A;&#x000A;Up the hill to the north are the red metal tubes and bars of Coyote's Call.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You spot a spider on the east wall, and through it, move your consciousness to the spiders on the other side.&#x000A;&#x000A;Sculpture By Lot (in the spiders)&#x000A;The path curves from the west to the southeast here, winding through a giant sculpture that looms over the fence by the parking lot.  The main hill of the park is to the north.&#x000A;&#x000A;Up the hill to the north are the red metal tubes and bars of Coyote's Call.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-73"/>
+    </children>
+  </item>
+  <item nodeId="node-73">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Top of Hill (in the spiders)&#x000A;From the top of the hill, you can see the entire park below you: the reservoir to the north, the playground to the west, and all eight of the permanent sculptures in the park.&#x000A;&#x000A;A collection of giant metal tubes and beams graces the top of the hill, known as "Coyote's Call".  It's an abstract design of joyful chaos, somehow incorporating even the curve of the hill into its own expression.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Top of Hill (in the spiders)&#x000A;From the top of the hill, you can see the entire park below you: the reservoir to the north, the playground to the west, and all eight of the permanent sculptures in the park.&#x000A;&#x000A;A collection of giant metal tubes and beams graces the top of the hill, known as "Coyote's Call".  It's an abstract design of joyful chaos, somehow incorporating even the curve of the hill into its own expression.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-74"/>
+    </children>
+  </item>
+  <item nodeId="node-74">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Playground (in the spiders)&#x000A;You're at the top of the hill in the park.  This side has slides, swings, and a wide variety of brightly-colored climbing equipment.  The path curves from the south to the east side of the hill, along the ridge.&#x000A;&#x000A;Dominating the sky to the east are the red metal tubes and bars of Coyote's Call.&#x000A;&#x000A;Kids are playing, shrieking, and chasing each other up and around the platforms.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Playground (in the spiders)&#x000A;You're at the top of the hill in the park.  This side has slides, swings, and a wide variety of brightly-colored climbing equipment.  The path curves from the south to the east side of the hill, along the ridge.&#x000A;&#x000A;Dominating the sky to the east are the red metal tubes and bars of Coyote's Call.&#x000A;&#x000A;Kids are playing, shrieking, and chasing each other up and around the platforms.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-75"/>
+    </children>
+  </item>
+  <item nodeId="node-75">
+    <command xml:space="preserve">x kids</command>
+    <result xml:space="preserve">The kids are all having a great time. LS TBD: hint at something here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">The kids are all having a great time. LS TBD: hint at something here.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-76"/>
+    </children>
+  </item>
+  <item nodeId="node-76">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Top of Hill (in the spiders)&#x000A;From the top of the hill, you can see the entire park below you: the reservoir to the north, the playground to the west, and all eight of the permanent sculptures in the park.&#x000A;&#x000A;A collection of giant metal tubes and beams graces the top of the hill, known as "Coyote's Call".  It's an abstract design of joyful chaos, somehow incorporating even the curve of the hill into its own expression.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Top of Hill (in the spiders)&#x000A;From the top of the hill, you can see the entire park below you: the reservoir to the north, the playground to the west, and all eight of the permanent sculptures in the park.&#x000A;&#x000A;A collection of giant metal tubes and beams graces the top of the hill, known as "Coyote's Call".  It's an abstract design of joyful chaos, somehow incorporating even the curve of the hill into its own expression.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-77"/>
+    </children>
+  </item>
+  <item nodeId="node-77">
+    <command xml:space="preserve">x coyote</command>
+    <result xml:space="preserve">Art is a conversation between the artist, the subject, and the viewer, but as you take in the tubes and spires of this particular piece, you can't help but wonder what the current Vested of Coyote would make of it.  They've not gone public, so they could be anyone.  Could they be like you, newly awakened to their abilities, trying and failing (or succeeding?) to find answers in the church dedicated to the idea they represent?  Like Lestar, so self-assured and confident, understanding and perfectly molded to their place in the world?  Like Amaia, driven to prove themselves, to surpass their forebearers?  How would that color their response to this giant red mass of sculpted metal?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Art is a conversation between the artist, the subject, and the viewer, but as you take in the tubes and spires of this particular piece, you can't help but wonder what the current Vested of Coyote would make of it.  They've not gone public, so they could be anyone.  Could they be like you, newly awakened to their abilities, trying and failing (or succeeding?) to find answers in the church dedicated to the idea they represent?  Like Lestar, so self-assured and confident, understanding and perfectly molded to their place in the world?  Like Amaia, driven to prove themselves, to surpass their forebearers?  How would that color their response to this giant red mass of sculpted metal?&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-78"/>
+    </children>
+  </item>
+  <item nodeId="node-78">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Gently, you release your hold on time, letting it scroll forward.&#x000A;&#x000A;A cloud passes over the sun.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Gently, you release your hold on time, letting it scroll forward.&#x000A;&#x000A;A cloud passes over the sun.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-79"/>
+    </children>
+  </item>
+  <item nodeId="node-79">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Gently, you release your hold on time, letting it scroll forward.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Gently, you release your hold on time, letting it scroll forward.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-80"/>
+    </children>
+  </item>
+  <item nodeId="node-80">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Gently, you release your hold on time, letting it scroll forward.&#x000A;&#x000A;You feel an ominous rumbling from deep under the earth.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Gently, you release your hold on time, letting it scroll forward.&#x000A;&#x000A;You feel an ominous rumbling from deep under the earth.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-81"/>
+    </children>
+  </item>
+  <item nodeId="node-81">
+    <command xml:space="preserve">z</command>
+    <result xml:space="preserve">Gently, you release your hold on time, letting it scroll forward.&#x000A;&#x000A;With a roar, the entire top of the hill collapses in on itself, and your perception shatters as spiders are shaken off webs and perches, spinning out emergency strands to catch the wind and slow their falls.  Straining, you manage to reassert your hold on time, freezing everything in place again.  Gradually, you stitch together a new coherent view of your surroundings.&#x000A;&#x000A;Giant Pit (in the spiders)&#x000A;The entire hill has collapsed in on itself, revealing a giant pit underneath. Bushes and trees are frozen mid-fall, as they pitch forward into the yawning chasm.&#x000A;&#x000A;People are caught frozen in time but doomed:  a stumbling woman falling forward into the hole; a man clinging desperately to a cylinder of Coyote's Call as he and the cylinder plunge into the abyss.&#x000A;&#x000A;Coyote's Call is collapsing into the sinkhole along with everything else.  Frozen in time, the new configuration of its tubes and beams makes it seem even more joyfully chaotic.  You are probably the only person who will ever experience it this way, and it makes the combination of destruction and art intensely personal.&#x000A;&#x000A;This certainly seems to qualify as a disaster.  You take in your surroundings, determined to remember this moment.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Gently, you release your hold on time, letting it scroll forward.&#x000A;&#x000A;With a roar, the entire top of the hill collapses in on itself, and your perception shatters as spiders are shaken off webs and perches, spinning out emergency strands to catch the wind and slow their falls.  Straining, you manage to reassert your hold on time, freezing everything in place again.  Gradually, you stitch together a new coherent view of your surroundings.&#x000A;&#x000A;Giant Pit (in the spiders)&#x000A;The entire hill has collapsed in on itself, revealing a giant pit underneath. Bushes and trees are frozen mid-fall, as they pitch forward into the yawning chasm.&#x000A;&#x000A;People are caught frozen in time but doomed:  a stumbling woman falling forward into the hole; a man clinging desperately to a cylinder of Coyote's Call as he and the cylinder plunge into the abyss.&#x000A;&#x000A;Coyote's Call is collapsing into the sinkhole along with everything else.  Frozen in time, the new configuration of its tubes and beams makes it seem even more joyfully chaotic.  You are probably the only person who will ever experience it this way, and it makes the combination of destruction and art intensely personal.&#x000A;&#x000A;This certainly seems to qualify as a disaster.  You take in your surroundings, determined to remember this moment.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-82"/>
+    </children>
+  </item>
+  <item nodeId="node-82">
+    <command xml:space="preserve">x coyote</command>
+    <result xml:space="preserve">The entire hill gave way all at once, and Coyote's Call is now falling, its original configuration lost.  But you can't help thinking that it was at the epicenter of the collapse.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">The entire hill gave way all at once, and Coyote's Call is now falling, its original configuration lost.  But you can't help thinking that it was at the epicenter of the collapse.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-83"/>
+    </children>
+  </item>
+  <item nodeId="node-83">
     <command xml:space="preserve">x people</command>
     <result xml:space="preserve">These people are going to die if you can't figure out a way to help them.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">These people are going to die if you can't figure out a way to help them.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1114"/>
+      <child nodeId="node-84"/>
     </children>
   </item>
-  <item nodeId="node-1114">
+  <item nodeId="node-84">
     <command xml:space="preserve">x woman</command>
     <result xml:space="preserve">These people are going to die if you can't figure out a way to help them.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">These people are going to die if you can't figure out a way to help them.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1115"/>
+      <child nodeId="node-85"/>
     </children>
   </item>
-  <item nodeId="node-1115">
+  <item nodeId="node-85">
     <command xml:space="preserve">x man</command>
     <result xml:space="preserve">These people are going to die if you can't figure out a way to help them.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">These people are going to die if you can't figure out a way to help them.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1117"/>
-      <child nodeId="node-1116"/>
+      <child nodeId="node-86"/>
+      <child nodeId="node-125"/>
     </children>
   </item>
-  <item nodeId="node-1117">
+  <item nodeId="node-86">
     <command xml:space="preserve">d</command>
-    <result xml:space="preserve">You transfer your consiousness to a new group of spiders...&#x000A;&#x000A;Sinkhole (in the spiders)&#x000A;You're partway down a giant sinkhole that apparently has been growing under the park for some time.  Everything is caught in a state of falling:  dirt, grass, the red metal pieces of Coyote's Call, and the spiders themselves.&#x000A;&#x000A;A spear of red metal from Coyote's Call falls through open space here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <result xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Sinkhole (in the spiders)&#x000A;You're partway down a giant sinkhole that apparently has been growing under the park for some time.  Everything is caught in a state of falling:  dirt, grass, the red metal pieces of Coyote's Call, and the spiders themselves.&#x000A;&#x000A;A spear of red metal from Coyote's Call falls through open space here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Sinkhole (in the spiders)&#x000A;You're partway down a giant sinkhole that apparently has been growing under the park for some time.  Everything is caught in a state of falling:  dirt, grass, the red metal pieces of Coyote's Call, and the spiders themselves.&#x000A;&#x000A;A spear of red metal from Coyote's Call falls through open space here.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1118"/>
+      <child nodeId="node-87"/>
     </children>
   </item>
-  <item nodeId="node-1118">
+  <item nodeId="node-87">
     <command xml:space="preserve">x metal</command>
     <result xml:space="preserve">LS TBD:  maybe some writing on it that can only be discovered in this way?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">LS TBD:  maybe some writing on it that can only be discovered in this way?&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1119"/>
+      <child nodeId="node-88"/>
     </children>
   </item>
-  <item nodeId="node-1119">
+  <item nodeId="node-88">
     <command xml:space="preserve">x people</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1120"/>
+      <child nodeId="node-89"/>
     </children>
   </item>
-  <item nodeId="node-1120">
+  <item nodeId="node-89">
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">From here, you can sense spiders above and below you, but the ones below are outside of Lestar's sphere of influence.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">From here, you can sense spiders above and below you, but the ones below are outside of Lestar's sphere of influence.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1121"/>
+      <child nodeId="node-90"/>
     </children>
   </item>
-  <item nodeId="node-1121">
+  <item nodeId="node-90">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">You anchor your consciousness in spiders on the walls of the cavern, and release your hold on time once more.  It's almost not enough:  the mass of dirt and detritus that pours down from above scrapes more than a few spiders from the walls, and it takes all your mental agility to maintain coherence as you flit between the slightly more anchored spider minds, before pulling time to a stop once again.&#x000A;&#x000A;Sinkhole (in the spiders)&#x000A;You're partway down a giant sinkhole that apparently has been growing under the park for some time.  Everything is caught in a state of falling:  dirt, grass, the red metal pieces of Coyote's Call, and the spiders themselves.&#x000A;&#x000A;People are frozen in time, falling past you.&#x000A;&#x000A;A spear of red metal from Coyote's Call falls through open space here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">You anchor your consciousness in spiders on the walls of the cavern, and release your hold on time once more.  It's almost not enough:  the mass of dirt and detritus that pours down from above scrapes more than a few spiders from the walls, and it takes all your mental agility to maintain coherence as you flit between the slightly more anchored spider minds, before pulling time to a stop once again.&#x000A;&#x000A;Sinkhole (in the spiders)&#x000A;You're partway down a giant sinkhole that apparently has been growing under the park for some time.  Everything is caught in a state of falling:  dirt, grass, the red metal pieces of Coyote's Call, and the spiders themselves.&#x000A;&#x000A;People are frozen in time, falling past you.&#x000A;&#x000A;A spear of red metal from Coyote's Call falls through open space here.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1122"/>
-      <child nodeId="node-1125"/>
+      <child nodeId="node-91"/>
     </children>
   </item>
-  <item nodeId="node-1122">
-    <command xml:space="preserve">undo</command>
-    <result xml:space="preserve">Sinkhole&#x000A;You step backwards on the strands.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1123"/>
-    </children>
-  </item>
-  <item nodeId="node-1123">
-    <command xml:space="preserve">u</command>
-    <result xml:space="preserve">You transfer your consiousness to a new group of spiders...&#x000A;&#x000A;Giant Pit (in the spiders)&#x000A;The entire hill has collapsed in on itself, revealing a giant pit underneath. Bushes and trees are frozen mid-fall, as they pitch forward into the yawning chasm.&#x000A;&#x000A;People are caught frozen in time but doomed:  a stumbling woman falling forward into the hole; a man clinging desperately to a cylinder of Coyote's Call as he and the cylinder plunge into the abyss.&#x000A;&#x000A;Coyote's Call is collapsing into the sinkhole along with everything else.  Frozen in time, the new configuration of its tubes and beams makes it seem even more joyfully chaotic.  You are probably the only person who will ever experience it this way, and it makes the combination of destruction and art intensely personal.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-1124"/>
-    </children>
-  </item>
-  <item nodeId="node-1124">
-    <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Anchoring your consciousness in the few spiders that aren't falling into the pit or drifting away on the wind, you release your hold on time once more.  You still aren't prepared for the immediate cacophany of wrenching metal and screaming people plunging into the depths of the abyss beneath you.&#x000A;&#x000A;With a final groan, the last spear of Coyote's Call is carried with the dirt it was anchored in an cartwheels into the abyss.  One final person, struggling against the avalances of dirt, is suddenly swept downward into the sinkhole.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-1125">
+  <item nodeId="node-91">
     <command xml:space="preserve">x people</command>
     <result xml:space="preserve">These people are going to die if you can't figure out a way to help them.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">These people are going to die if you can't figure out a way to help them.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1126"/>
+      <child nodeId="node-92"/>
     </children>
   </item>
-  <item nodeId="node-1126">
+  <item nodeId="node-92">
     <command xml:space="preserve">x coyote</command>
-    <result xml:space="preserve">Somehow, the artistic chaos from before has been dissapated into just... normal chaos.  It's now just a pile of falling red metal.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <result xml:space="preserve">Somehow, the artistic chaos from before has been dissipated into just... normal chaos.  It's now just a pile of falling red metal.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Somehow, the artistic chaos from before has been dissipated into just... normal chaos.  It's now just a pile of falling red metal.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1127"/>
+      <child nodeId="node-93"/>
     </children>
   </item>
-  <item nodeId="node-1127">
+  <item nodeId="node-93">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">As you release your hold on time, the last of the top of the hill falls past you into the deep.&#x000A;&#x000A;From somewhere in the non-destroyed park, you hear an announcement being made.&#x000A;&#x000A;The sun emerges again from behind the cloud.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">As you release your hold on time, the last of the top of the hill falls past you into the deep.&#x000A;&#x000A;From somewhere in the non-destroyed park, you hear an announcement being made.&#x000A;&#x000A;The sun emerges again from behind the cloud.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1128"/>
+      <child nodeId="node-94"/>
     </children>
   </item>
-  <item nodeId="node-1128">
+  <item nodeId="node-94">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Sinkhole&#x000A;You step backwards on the strands.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">Sinkhole&#x000A;You step backwards on the strands.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1129"/>
+      <child nodeId="node-95"/>
     </children>
   </item>
-  <item nodeId="node-1129">
+  <item nodeId="node-95">
     <command xml:space="preserve">x people</command>
     <result xml:space="preserve">These people are going to die if you can't figure out a way to help them.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">These people are going to die if you can't figure out a way to help them.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1130"/>
+      <child nodeId="node-96"/>
     </children>
   </item>
-  <item nodeId="node-1130">
+  <item nodeId="node-96">
     <command xml:space="preserve">touch people</command>
     <result xml:space="preserve">You brace yourself as the panic from each person washes over you, and think back at them &lt;This isn't the end; I'll figure out a way to help; I'm so sorry.&gt;  If you do succeed, these people will never be in this position, but it feels right to do it anyway.  You think Lestar might understand.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">You brace yourself as the panic from each person washes over you, and think back at them &lt;This isn't the end; I'll figure out a way to help; I'm so sorry.&gt;  If you do succeed, these people will never be in this position, but it feels right to do it anyway.  You think Lestar might understand.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1131"/>
+      <child nodeId="node-97"/>
     </children>
   </item>
-  <item nodeId="node-1131">
+  <item nodeId="node-97">
     <command xml:space="preserve">enter people</command>
     <result xml:space="preserve">There's nothing these people can do to save themselves at this point in the loop; you'll have to help earlier in the cycle.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">There's nothing these people can do to save themselves at this point in the loop; you'll have to help earlier in the cycle.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1132"/>
+      <child nodeId="node-98"/>
     </children>
   </item>
-  <item nodeId="node-1132">
+  <item nodeId="node-98">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">As you release your hold on time, the last of the top of the hill falls past you into the deep.&#x000A;&#x000A;From somewhere in the non-destroyed park, you hear an announcement being made.&#x000A;&#x000A;The sun emerges again from behind the cloud.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">As you release your hold on time, the last of the top of the hill falls past you into the deep.&#x000A;&#x000A;From somewhere in the non-destroyed park, you hear an announcement being made.&#x000A;&#x000A;The sun emerges again from behind the cloud.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1133"/>
+      <child nodeId="node-99"/>
     </children>
   </item>
-  <item nodeId="node-1133">
+  <item nodeId="node-99">
     <command xml:space="preserve">u</command>
-    <result xml:space="preserve">You transfer your consiousness to a new group of spiders...&#x000A;&#x000A;Giant Pit (in the spiders)&#x000A;The entire hill has collapsed in on itself, revealing a giant pit underneath. Bushes and trees are frozen mid-fall, as they pitch forward into the yawning chasm.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <result xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Giant Pit (in the spiders)&#x000A;The entire hill has collapsed in on itself, revealing a giant pit underneath. Bushes and trees are frozen mid-fall, as they pitch forward into the yawning chasm.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Giant Pit (in the spiders)&#x000A;The entire hill has collapsed in on itself, revealing a giant pit underneath. Bushes and trees are frozen mid-fall, as they pitch forward into the yawning chasm.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1134"/>
+      <child nodeId="node-100"/>
     </children>
   </item>
-  <item nodeId="node-1134">
+  <item nodeId="node-100">
     <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You transfer your consiousness to a new group of spiders...&#x000A;&#x000A;East Hill (in the spiders)&#x000A;A north-south path rises here on the lower east end of the hill.  A sculpture labeled "Bird and Cage" is displayed here; a mass of metal bits on poles.&#x000A;&#x000A;Much of the hill to the west is missing, including Coyote's call.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <result xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;East Hill (in the spiders)&#x000A;A north-south path rises here on the lower east end of the hill.  A sculpture labeled "Bird and Cage" is displayed here; a mass of metal bits on poles.&#x000A;&#x000A;Much of the hill to the west is missing, including Coyote's call.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;East Hill (in the spiders)&#x000A;A north-south path rises here on the lower east end of the hill.  A sculpture labeled "Bird and Cage" is displayed here; a mass of metal bits on poles.&#x000A;&#x000A;Much of the hill to the west is missing, including Coyote's call.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1135"/>
+      <child nodeId="node-101"/>
     </children>
   </item>
-  <item nodeId="node-1135">
+  <item nodeId="node-101">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Gently, you release your hold on time, letting it scroll forward.&#x000A;&#x000A;LS TBD:  the sinkhole expands.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">Gently, you release your hold on time, letting it scroll forward.&#x000A;&#x000A;LS TBD:  the sinkhole expands.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1136"/>
+      <child nodeId="node-102"/>
     </children>
   </item>
-  <item nodeId="node-1136">
+  <item nodeId="node-102">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Gently, you release your hold on time, letting it scroll forward.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">Gently, you release your hold on time, letting it scroll forward.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1137"/>
+      <child nodeId="node-103"/>
     </children>
   </item>
-  <item nodeId="node-1137">
+  <item nodeId="node-103">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">East Hill&#x000A;You step backwards on the strands.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">East Hill&#x000A;You step backwards on the strands.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1138"/>
+      <child nodeId="node-104"/>
     </children>
   </item>
-  <item nodeId="node-1138">
+  <item nodeId="node-104">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">East Hill&#x000A;You step backwards on the strands.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">East Hill&#x000A;You step backwards on the strands.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1139"/>
+      <child nodeId="node-105"/>
     </children>
   </item>
-  <item nodeId="node-1139">
+  <item nodeId="node-105">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Giant Pit&#x000A;You step backwards on the strands.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">Giant Pit&#x000A;You step backwards on the strands.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1140"/>
+      <child nodeId="node-106"/>
     </children>
   </item>
-  <item nodeId="node-1140">
+  <item nodeId="node-106">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Sinkhole&#x000A;You step backwards on the strands.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">Sinkhole&#x000A;You step backwards on the strands.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1141"/>
+      <child nodeId="node-107"/>
     </children>
   </item>
-  <item nodeId="node-1141">
+  <item nodeId="node-107">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Sinkhole&#x000A;You step backwards on the strands.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">Sinkhole&#x000A;You step backwards on the strands.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1142"/>
+      <child nodeId="node-108"/>
     </children>
   </item>
-  <item nodeId="node-1142">
+  <item nodeId="node-108">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Sinkhole&#x000A;You step backwards on the strands.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">Sinkhole&#x000A;You step backwards on the strands.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1143"/>
+      <child nodeId="node-109"/>
     </children>
   </item>
-  <item nodeId="node-1143">
+  <item nodeId="node-109">
     <command xml:space="preserve">u</command>
-    <result xml:space="preserve">You transfer your consiousness to a new group of spiders...&#x000A;&#x000A;Giant Pit (in the spiders)&#x000A;The entire hill has collapsed in on itself, revealing a giant pit underneath. Bushes and trees are frozen mid-fall, as they pitch forward into the yawning chasm.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <result xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Giant Pit (in the spiders)&#x000A;The entire hill has collapsed in on itself, revealing a giant pit underneath. Bushes and trees are frozen mid-fall, as they pitch forward into the yawning chasm.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Giant Pit (in the spiders)&#x000A;The entire hill has collapsed in on itself, revealing a giant pit underneath. Bushes and trees are frozen mid-fall, as they pitch forward into the yawning chasm.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1144"/>
+      <child nodeId="node-110"/>
     </children>
   </item>
-  <item nodeId="node-1144">
+  <item nodeId="node-110">
     <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You transfer your consiousness to a new group of spiders...&#x000A;&#x000A;East Hill (in the spiders)&#x000A;A north-south path rises here on the lower east end of the hill.  A sculpture labeled "Bird and Cage" is displayed here; a mass of metal bits on poles.&#x000A;&#x000A;Much of the hill to the west is missing, including Coyote's call.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <result xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;East Hill (in the spiders)&#x000A;A north-south path rises here on the lower east end of the hill.  A sculpture labeled "Bird and Cage" is displayed here; a mass of metal bits on poles.&#x000A;&#x000A;Much of the hill to the west is missing, including Coyote's call.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;East Hill (in the spiders)&#x000A;A north-south path rises here on the lower east end of the hill.  A sculpture labeled "Bird and Cage" is displayed here; a mass of metal bits on poles.&#x000A;&#x000A;Much of the hill to the west is missing, including Coyote's call.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1145"/>
+      <child nodeId="node-111"/>
     </children>
   </item>
-  <item nodeId="node-1145">
+  <item nodeId="node-111">
     <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Gently, you release your hold on time, letting it scroll forward.&#x000A;&#x000A;With a squawk, hidden speakers come to life, and you hear Jace say, "Um, hi, I guess the park is... closed?  Everyone should get out, at least.  If you can!  If you can't, um, sorry, I'll see if I can get help.  I'll do that next.  But, like, right now, everyone else leave, so you don't, like, fall in the hole."&#x000A;&#x000A;The sun emerges again from behind the cloud.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <result xml:space="preserve">Gently, you release your hold on time, letting it scroll forward.&#x000A;&#x000A;With a squawk, hidden speakers come to life, and you hear Jace say, "Um, hi, I guess the park is... closed?  Everyone should get out, at least.  If you can!  If you can't, um, sorry, I'll see if I can get help.  I'll do that next.  But, like, right now, everyone else should leave."&#x000A;&#x000A;The sun emerges again from behind the cloud.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Gently, you release your hold on time, letting it scroll forward.&#x000A;&#x000A;With a squawk, hidden speakers come to life, and you hear Jace say, "Um, hi, I guess the park is... closed?  Everyone should get out, at least.  If you can!  If you can't, um, sorry, I'll see if I can get help.  I'll do that next.  But, like, right now, everyone else should leave."&#x000A;&#x000A;The sun emerges again from behind the cloud.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1146"/>
+      <child nodeId="node-112"/>
     </children>
   </item>
-  <item nodeId="node-1146">
+  <item nodeId="node-112">
     <command xml:space="preserve">sw</command>
-    <result xml:space="preserve">You transfer your consiousness to a new group of spiders...&#x000A;&#x000A;Bewildering Bridges (in the spiders)&#x000A;Three paths from the west, northwest, and north converge here at a bewildering complex of bridges, walkways, and staircases, some fixed, and some turning gently in the wind.&#x000A;&#x000A;Coyote's Call has disappeared from view; it used to be visible to the northwest.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <result xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Bewildering Bridges (in the spiders)&#x000A;Three paths from the west, northwest, and north converge here at a bewildering complex of bridges, walkways, and staircases, some fixed, and some turning gently in the wind.&#x000A;&#x000A;Coyote's Call has disappeared from view; it used to be visible to the northwest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Bewildering Bridges (in the spiders)&#x000A;Three paths from the west, northwest, and north converge here at a bewildering complex of bridges, walkways, and staircases, some fixed, and some turning gently in the wind.&#x000A;&#x000A;Coyote's Call has disappeared from view; it used to be visible to the northwest.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1147"/>
+      <child nodeId="node-113"/>
     </children>
   </item>
-  <item nodeId="node-1147">
+  <item nodeId="node-113">
     <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You transfer your consiousness to a new group of spiders...&#x000A;&#x000A;Sculpture By Lot (in the spiders)&#x000A;The path curves from the west to the southeast here, winding through a giant sculpture that looms over the fence by the parking lot.  The main hill of the park is to the north.&#x000A;&#x000A;Bits of the Coyote's Call structure can still be seen as it falls into the sinkhole.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <result xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Sculpture By Lot (in the spiders)&#x000A;The path curves from the west to the southeast here, winding through a giant sculpture that looms over the fence by the parking lot.  The main hill of the park is to the north.&#x000A;&#x000A;Bits of the Coyote's Call structure can still be seen as it falls into the sinkhole.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Sculpture By Lot (in the spiders)&#x000A;The path curves from the west to the southeast here, winding through a giant sculpture that looms over the fence by the parking lot.  The main hill of the park is to the north.&#x000A;&#x000A;Bits of the Coyote's Call structure can still be seen as it falls into the sinkhole.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1148"/>
+      <child nodeId="node-114"/>
     </children>
   </item>
-  <item nodeId="node-1148">
+  <item nodeId="node-114">
     <command xml:space="preserve">nw</command>
-    <result xml:space="preserve">You transfer your consiousness to a new group of spiders...&#x000A;&#x000A;Plaza (in the spiders)&#x000A;Paths run through this plaza from the south entrance, then splitting northwest around the hill, north up the hill, and east along it. &#x000A;&#x000A;To the northeast, the iconic red metal of Coyote's Call is no longer visible.&#x000A;&#x000A;Prominently displayed just inside the entrance is some sort of sculpture (LS TBD).&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <result xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Plaza (in the spiders)&#x000A;Paths run through this plaza from the south entrance, then splitting northwest around the hill, north up the hill, and east along it. &#x000A;&#x000A;To the northeast, the iconic red metal of Coyote's Call is no longer visible.&#x000A;&#x000A;Prominently displayed just inside the entrance is some sort of sculpture (LS TBD).&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Plaza (in the spiders)&#x000A;Paths run through this plaza from the south entrance, then splitting northwest around the hill, north up the hill, and east along it. &#x000A;&#x000A;To the northeast, the iconic red metal of Coyote's Call is no longer visible.&#x000A;&#x000A;Prominently displayed just inside the entrance is some sort of sculpture (LS TBD).&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1149"/>
+      <child nodeId="node-115"/>
     </children>
   </item>
-  <item nodeId="node-1149">
+  <item nodeId="node-115">
     <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You transfer your consiousness to a new group of spiders...&#x000A;&#x000A;Quinlan Park Entrance (in the spiders)&#x000A;Two booths flank the entrance to the park to the north, where you can buy tickets and get information.  To the south is the parking lot.&#x000A;&#x000A;You can see Jace manning the ticket booth, but the information booth is empty.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <result xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Quinlan Park Entrance (in the spiders)&#x000A;Two booths flank the entrance to the park to the north, where you can buy tickets and get information.  To the south is the parking lot.&#x000A;&#x000A;You can see Jace manning the ticket booth, but the information booth is empty.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Quinlan Park Entrance (in the spiders)&#x000A;Two booths flank the entrance to the park to the north, where you can buy tickets and get information.  To the south is the parking lot.&#x000A;&#x000A;You can see Jace manning the ticket booth, but the information booth is empty.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1150"/>
+      <child nodeId="node-116"/>
     </children>
   </item>
-  <item nodeId="node-1150">
+  <item nodeId="node-116">
     <command xml:space="preserve">enter jace</command>
-    <result xml:space="preserve">Yup!  This'll be a thing! -LS TBD.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Gathering your thoughts together, you leave the spiders and transfer your consciousness into Jace.&#x000A;&#x000A;Quinlan Park Entrance (in Jace) (in the ticket booth)&#x000A;Two booths flank the entrance to the park to the north, where you can buy tickets and get information.  To the south is the parking lot.&#x000A;&#x000A;In the area, you can sense the collective presence of dozens of spiders.&#x000A;&#x000A;You take a deep (metaphorical) breath.  You've put it off as long as you could, but if you're going to be able to do anything here, this is the only way.&#x000A;&#x000A;You let go of time, and enter Jace's mind instead.&#x000A;&#x000A;You hunker down mentally as Jace's consciousness and yours intertwine.  You've trained enough that you can give Jace some mental privacy, but untrained, he immediately carreens painfully through your thoughts and memories following connections that happen to resonate, and you're pulled along. &#x000A;&#x000A;                                                *    *    *&#x000A;&#x000A;You're racing to the park, Amaia in the throes of a prophecy but expertly navigating through traffic anyway; her hands in a death lock on the steering wheel of the Hyundai-- &#x000A;&#x000A;                                                *    *    *&#x000A;&#x000A;The Hyundai looking so...normal, sitting in your high school's the parking lot as you and your parents approach the intense woman and old man standing next to it, here because...&#x000A;&#x000A;1) oh no&#x000A;2) Try to break the connection.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Gathering your thoughts together, you leave the spiders and transfer your consciousness into Jace.&#x000A;&#x000A;Quinlan Park Entrance (in Jace) (in the ticket booth)&#x000A;Two booths flank the entrance to the park to the north, where you can buy tickets and get information.  To the south is the parking lot.&#x000A;&#x000A;In the area, you can sense the collective presence of dozens of spiders.&#x000A;&#x000A;You take a deep (metaphorical) breath.  You've put it off as long as you could, but if you're going to be able to do anything here, this is the only way.&#x000A;&#x000A;You let go of time, and enter Jace's mind instead.&#x000A;&#x000A;You hunker down mentally as Jace's consciousness and yours intertwine.  You've trained enough that you can give Jace some mental privacy, but untrained, he immediately carreens painfully through your thoughts and memories following connections that happen to resonate, and you're pulled along. &#x000A;&#x000A;                                                *    *    *&#x000A;&#x000A;You're racing to the park, Amaia in the throes of a prophecy but expertly navigating through traffic anyway; her hands in a death lock on the steering wheel of the Hyundai-- &#x000A;&#x000A;                                                *    *    *&#x000A;&#x000A;The Hyundai looking so...normal, sitting in your high school's the parking lot as you and your parents approach the intense woman and old man standing next to it, here because...&#x000A;&#x000A;1) oh no&#x000A;2) Try to break the connection.&#x000A;&#x000A;&gt;</commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-216"/>
+      <child nodeId="node-212"/>
+      <child nodeId="node-117"/>
+    </children>
+  </item>
+  <item nodeId="node-216">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">[oh no]&#x000A;&#x000A;&#x000A;                                                *    *    *&#x000A;&#x000A;Homework finished, you're gazing across the room at Duncan, and his hair, and his shoulders, and the way he laughs, and your mind starts to wander, and then your mind starts to ACTUALLY WANDER and&#x000A;&#x000A;1) "Jace, no!"&#x000A;2) Try to break the connection.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1151"/>
+      <child nodeId="node-217"/>
     </children>
   </item>
-  <item nodeId="node-1151">
+  <item nodeId="node-217">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Quinlan Park Entrance&#x000A;You step backwards on the strands.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-218"/>
+    </children>
+  </item>
+  <item nodeId="node-218">
+    <command xml:space="preserve">2</command>
+    <result xml:space="preserve">[Try to break the connection.]&#x000A;&#x000A;You continue to be swept along in your memory.&#x000A;                                                *    *    *&#x000A;&#x000A;Homework finished, you're gazing across the room at Duncan, and his hair, and his shoulders, and the way he laughs, and your mind starts to wander, and then your mind starts to ACTUALLY WANDER and&#x000A;&#x000A;1) "Jace, no!"&#x000A;2) Try to break the connection.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-219"/>
+    </children>
+  </item>
+  <item nodeId="node-219">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">["Jace, no!"]&#x000A;&#x000A;and you're suddenly READING EACH OTHERS MINDS and he KNOWS and Oh, geez, I'm so sorry I don't even HORRIFIED and SCARED and sees you across the room eyes glazed over Who even are you and how and yells&#x000A;&#x000A;1) Try to explain.&#x000A;2) Try to break the connection.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-220"/>
+      <child nodeId="node-237"/>
+    </children>
+  </item>
+  <item nodeId="node-220">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">[Try to explain.]&#x000A;&#x000A;I'm a Vested, and our minds-- you start to explain, but the memory continues to sweep forward...&#x000A;&#x000A;yells "Zora!" and you--Holy crap, you're a Vested?!  That is so cool!&#x000A;&#x000A;Blessedly, the memory starts to fade, replaced by Jace's excitement.&#x000A;&#x000A;Oh, man, "Concrete Sinners" has Vested in it, and the writers handle it so well, it's like they always pick the best mythos to draw from.  I've always wondered what it was like to be a Vested; I read President Calder's memoir like eight times and of course watched the "Forged in Flames" documentary about him, but they both seemed a little glossed-over, like they were both just painting him as kind of a generic hero.  Is this... He looks around, but the memory is gone.  ...your origin story?&#x000A;&#x000A;1) "Kind of, I guess.  It's, uh, not been easy."&#x000A;2) "Jace, I need your help."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-221"/>
+    </children>
+  </item>
+  <item nodeId="node-221">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">["Kind of, I guess.  It's, uh, not been easy."]&#x000A;&#x000A;Wow, yeah, but still!  Powers of the ancients, passed on to the next-born for thousands of years!  Who did you get?  You're not Wisdom, are you?  Angiras, Kratu, Athena?  We go to their church!  A Kratu denomination; my dad says they have fewer extremists.&#x000A;&#x000A;You sigh, and answer his question.  I'm "the Past", basically.  Clotho, Ur&#x00F0;r, Laima; those guys.  It sort of fits; memories are kind of my thing.  But I can't decide anyone's fate; that's something my stupid church made up.  You feel Jace startle at the idea of a Vested not liking their own church, and feel bad for shaking his worldview.  A little.&#x000A;&#x000A;Wow, OK!  I guess I never thought about.... that.  You feel a small blast of awkwardness from his mind, but he presses on.  So, the Past!  And memories!  Oh!  The... whatever the problem is in the park!&#x000A;&#x000A;1) Show him the memory of the sinkhole.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-222"/>
+    </children>
+  </item>
+  <item nodeId="node-222">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">[Show him the memory of the sinkhole.]&#x000A;&#x000A;You show Jace the snapshot in your mind of the sinkhole.&#x000A;&#x000A;This is as far as I've gotten!  Suggestions welcome.  Still need to implement the end of the conversation, then the mechanics of doing-stuff-while-in-Jace's-head&#x000A;&#x000A;Quinlan Park Entrance (in Jace) (in the ticket booth)&#x000A;Two booths flank the entrance to the park to the north, where you can buy tickets and get information.  To the south is the parking lot.&#x000A;&#x000A;In the area, you can sense the collective presence of dozens of spiders.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-223"/>
+    </children>
+  </item>
+  <item nodeId="node-223">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Quinlan Park Entrance&#x000A;You step backwards on the strands.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-224"/>
+    </children>
+  </item>
+  <item nodeId="node-224">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Quinlan Park Entrance&#x000A;You step backwards on the strands.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-225"/>
+    </children>
+  </item>
+  <item nodeId="node-225">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Quinlan Park Entrance&#x000A;You step backwards on the strands.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-226"/>
+    </children>
+  </item>
+  <item nodeId="node-226">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">and you're suddenly READING EACH OTHERS MINDS and he KNOWS and Oh, geez, I'm so sorry I don't even HORRIFIED and SCARED and sees you across the room eyes glazed over Who even are you and how and yells&#x000A;&#x000A;1) Try to explain.&#x000A;2) Try to break the connection.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-227"/>
+    </children>
+  </item>
+  <item nodeId="node-227">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Quinlan Park Entrance&#x000A;You step backwards on the strands.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-228"/>
+    </children>
+  </item>
+  <item nodeId="node-228">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Quinlan Park Entrance&#x000A;You step backwards on the strands.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-229"/>
+    </children>
+  </item>
+  <item nodeId="node-229">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Quinlan Park Entrance&#x000A;You step backwards on the strands.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-230"/>
+    </children>
+  </item>
+  <item nodeId="node-230">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Quinlan Park Entrance&#x000A;You step backwards on the strands.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-231"/>
+    </children>
+  </item>
+  <item nodeId="node-231">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Quinlan Park Entrance (in the spiders)&#x000A;Two booths flank the entrance to the park to the north, where you can buy tickets and get information.  To the south is the parking lot.&#x000A;&#x000A;You can see Jace manning the ticket booth, but the information booth is empty.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-235"/>
+    </children>
+  </item>
+  <item nodeId="node-235">
+    <command xml:space="preserve">enter jace</command>
+    <result xml:space="preserve">Gathering your thoughts together, you leave the spiders and transfer your consciousness into Jace.&#x000A;&#x000A;Quinlan Park Entrance (in Jace) (in the ticket booth)&#x000A;Two booths flank the entrance to the park to the north, where you can buy tickets and get information.  To the south is the parking lot.&#x000A;&#x000A;In the area, you can sense the collective presence of dozens of spiders.&#x000A;&#x000A;You take a deep (metaphorical) breath.  You've put it off as long as you could, but if you're going to be able to do anything here, this is the only way.&#x000A;&#x000A;You let go of time, and enter Jace's mind instead.&#x000A;&#x000A;You hunker down mentally as Jace's consciousness and yours intertwine.  You've trained enough that you can give Jace some mental privacy, but untrained, he immediately carreens painfully through your thoughts and memories following connections that happen to resonate, and you're pulled along. &#x000A;&#x000A;                                                *    *    *&#x000A;&#x000A;You're racing to the park, Amaia in the throes of a prophecy but expertly navigating through traffic anyway; her hands in a death lock on the steering wheel of the Hyundai-- &#x000A;&#x000A;                                                *    *    *&#x000A;&#x000A;The Hyundai looking so...normal, sitting in your high school's the parking lot as you and your parents approach the intense woman and old man standing next to it, here because...&#x000A;&#x000A;1) oh no&#x000A;2) Try to break the connection.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-236"/>
+    </children>
+  </item>
+  <item nodeId="node-236">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">[oh no]&#x000A;&#x000A;&#x000A;                                                *    *    *&#x000A;&#x000A;Homework finished, you're gazing across the room at Duncan, and his hair, and his shoulders, and the way he laughs, and your mind starts to wander, and then your mind starts to ACTUALLY WANDER and&#x000A;&#x000A;1) "Jace, no!"&#x000A;2) Try to break the connection.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-237">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Quinlan Park Entrance&#x000A;You step backwards on the strands.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-238"/>
+    </children>
+  </item>
+  <item nodeId="node-238">
+    <command xml:space="preserve">2</command>
+    <result xml:space="preserve">[Try to break the connection.]&#x000A;&#x000A;You continue to be swept along in your memory.&#x000A;and you're suddenly READING EACH OTHERS MINDS and he KNOWS and Oh, geez, I'm so sorry I don't even HORRIFIED and SCARED and sees you across the room eyes glazed over Who even are you and how and yells&#x000A;&#x000A;1) Try to explain.&#x000A;2) Try to break the connection.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-239"/>
+    </children>
+  </item>
+  <item nodeId="node-239">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">[Try to explain.]&#x000A;&#x000A;I'm a Vested, and our minds-- you start to explain, but the memory continues to sweep forward...&#x000A;&#x000A;yells "Zora!" and you--Holy crap, you're a Vested?!  That is so cool!&#x000A;&#x000A;Blessedly, the memory starts to fade, replaced by Jace's excitement.&#x000A;&#x000A;Oh, man, "Concrete Sinners" has Vested in it, and the writers handle it so well, it's like they always pick the best mythos to draw from.  I've always wondered what it was like to be a Vested; I read President Calder's memoir like eight times and watched the "Forged in Flames" documentary about him twice, but they both seemed a little glossed-over, like they were both just painting him as kind of a generic hero.  And the ancient myths are more the stories people told about Vestedness, instead of the actual Vested, if that makes any sense.  Is this... He looks around, but the memory is gone.  ...your origin story?&#x000A;&#x000A;1) "Kind of, I guess.  It's, uh, not been easy."&#x000A;2) "Jace, I need your help."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-240"/>
+    </children>
+  </item>
+  <item nodeId="node-240">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-241"/>
+    </children>
+  </item>
+  <item nodeId="node-241">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">["Kind of, I guess.  It's, uh, not been easy."]&#x000A;&#x000A;Wow, yeah, but still!  Powers of the ancients, passed on to the next-born for thousands of years!  Who did you get?  You're not Wisdom, are you?  Angiras, Kratu, Athena?  We go to their church!  A Kratu denomination; my dad says they have fewer extremists.&#x000A;&#x000A;You sigh, and answer his question.  I'm "the Past", basically.  Clotho, Ur&#x00F0;r, Laima; those guys.  It sort of fits; memories are kind of my thing.  But I can't decide anyone's fate; that's something my stupid church made up.  You feel Jace startle at the idea of a Vested not liking their own church, and feel bad for shaking his worldview.  A little.&#x000A;&#x000A;Wow, OK!  I guess I never thought about.... that.  You feel a small blast of awkwardness from his mind, but he presses on.  So, the Past!  And memories!  Oh!  The... whatever the problem is in the park!&#x000A;&#x000A;1) Show him the memory of the sinkhole.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-242"/>
+    </children>
+  </item>
+  <item nodeId="node-242">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Quinlan Park Entrance&#x000A;You step backwards on the strands.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-243"/>
+    </children>
+  </item>
+  <item nodeId="node-243">
+    <command xml:space="preserve">2</command>
+    <result xml:space="preserve">["Jace, I need your help."]&#x000A;&#x000A;Right!  OK, yes.  You're probably here for a reason.  Talking to me!  In my head!  This is so--sorry! I mean, right.  Look, I can be calm!  I mean, not look, I guess.  Think?  Feel?  Was I being rude to say look?  I've never interacted with a Vested before; I didn't even know there was one in the state!  And now there's one in my head!  Eeee!&#x000A;&#x000A;1) Show him the memory of the sinkhole.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-244"/>
+    </children>
+  </item>
+  <item nodeId="node-244">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Quinlan Park Entrance&#x000A;You step backwards on the strands.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-245"/>
+    </children>
+  </item>
+  <item nodeId="node-245">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Quinlan Park Entrance&#x000A;You step backwards on the strands.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-246"/>
+    </children>
+  </item>
+  <item nodeId="node-246">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">You continue to be swept along in your memory.&#x000A;and you're suddenly READING EACH OTHERS MINDS and he KNOWS and Oh, geez, I'm so sorry I don't even HORRIFIED and SCARED and sees you across the room eyes glazed over Who even are you and how and yells&#x000A;&#x000A;1) Try to explain.&#x000A;2) Try to break the connection.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-247"/>
+    </children>
+  </item>
+  <item nodeId="node-247">
+    <command xml:space="preserve">2</command>
+    <result xml:space="preserve">[Try to break the connection.]&#x000A;&#x000A;You continue to be swept along in your memory.&#x000A;&#x000A;yells "Zora!" and you finally snap back to yourself again, and everyone's looking at Duncan and Duncan is looking at you and your eyes plead but he smirks Oh, geez, I'm so sorry, I don't need to see this, I should be--&#x000A;&#x000A;                                                *    *    *&#x000A;&#x000A;You're in a meadow by a lake, your consciousness distributed in hundreds of spiders, letting time slip by, and totally at peace.  A breeze plays across the meadow and you feel it in each web in turn.&#x000A;&#x000A;1) Appreciate the meadow for a bit.&#x000A;2) "Jace, I need your help."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-248"/>
+    </children>
+  </item>
+  <item nodeId="node-248">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">[Appreciate the meadow for a bit.]&#x000A;&#x000A;Jace quietly waits in the memory of the meadow with you.  His excitement and wonder leak everywhere, making the memory not quite as calming as it usually is.  It's still a nice break from reliving the most embarassing moment of your entitre life, so there's that.&#x000A;&#x000A;Finally, you speak.  Thanks for finding this place.  There aren't many who find their way here, so it's nice.&#x000A;&#x000A;I... assume there aren't many who find their way to "the most embarassing moment of your life", either, so sorry about that, Jace responds.  Which means he's one of the people who also hears your inner monologue.  Yeah, he confirms.   Well, OK, then.&#x000A;&#x000A;You both appreciate the meadow for a bit more.  So, you're a Vested?  Jace asks.  Power of the ancients, passed on to the next-born for thousands of years?  Feeling confirmation from you, he can't contain his delight.  That's so cool!  And you can go into people's heads!  And into spider's heads!  I can't even imagine how you manage to stitch together a coherent perspective from all of them at once.  I've read stories, of course, but none of them even hinted at abilities like this!&#x000A;&#x000A;1) "It's not actually that glamourous."&#x000A;2) "Jace, I need your help."&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-249"/>
+    </children>
+  </item>
+  <item nodeId="node-249">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">["It's not actually that glamourous."]&#x000A;&#x000A;Well, sure, Jace replies, but you can still do stuff nobody else can!  Not even other Vested!  You can't help but think about the weight of the burden that having this job has been, and Jace winces.  Sorry, yeah, the extra responsibility must be hard.  But, you know, if you weren't there, more people would be hurt?  Because of you, people have better lives, right?&#x000A;&#x000A;He's... trying to cheer you up.  You were worried about being judged, and you're being cheered.  It doesn't really work, but it's sweet.  Look, I know there's something you need my help for; you've avoided asking twice now.  What do you need?  I'm happy to help.&#x000A;&#x000A;1) Show him the memory of the sinkhole.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-250"/>
+    </children>
+  </item>
+  <item nodeId="node-250">
+    <command xml:space="preserve">1</command>
+    <result xml:space="preserve">[Show him the memory of the sinkhole.]&#x000A;&#x000A;You show Jace the snapshot in your mind of the sinkhole.&#x000A;&#x000A;This is as far as I've gotten!  Suggestions welcome.  Still need to implement the end of the conversation, then the mechanics of doing-stuff-while-in-Jace's-head&#x000A;&#x000A;Quinlan Park Entrance (in Jace) (in the ticket booth)&#x000A;Two booths flank the entrance to the park to the north, where you can buy tickets and get information.  To the south is the parking lot.&#x000A;&#x000A;In the area, you can sense the collective presence of dozens of spiders.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-212">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Quinlan Park Entrance&#x000A;You step backwards on the strands.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-213"/>
+    </children>
+  </item>
+  <item nodeId="node-213">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  disaster memory&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-214"/>
+    </children>
+  </item>
+  <item nodeId="node-214">
+    <command xml:space="preserve">actions</command>
+    <result xml:space="preserve">Actions listing on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-215"/>
+    </children>
+  </item>
+  <item nodeId="node-215">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">[taking inventory]&#x000A;You are carrying:&#x000A;  disaster memory&#x000A;&#x000A;[taking inventory - succeeded]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-117">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Gently, you release your hold on time, letting it scroll forward.&#x000A;&#x000A;LS TBD:  the sinkhole expands.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">Gently, you release your hold on time, letting it scroll forward.&#x000A;&#x000A;LS TBD:  the sinkhole expands.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1152"/>
+      <child nodeId="node-118"/>
     </children>
   </item>
-  <item nodeId="node-1152">
+  <item nodeId="node-118">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Gently, you release your hold on time, letting it scroll forward.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">Gently, you release your hold on time, letting it scroll forward.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1153"/>
+      <child nodeId="node-119"/>
     </children>
   </item>
-  <item nodeId="node-1153">
+  <item nodeId="node-119">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Gently, you release your hold on time, letting it scroll forward.&#x000A;&#x000A;You see Jace pull a hand-held microphone off the wall of the ticket booth.&#x000A;&#x000A;With a squawk, hidden speakers come to life, and you hear Jace say, "Oh shit everyone get out!  911's on their way but that hole's getting larger!  Parking lot, everyone!"&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">Gently, you release your hold on time, letting it scroll forward.&#x000A;&#x000A;You see Jace pull a hand-held microphone off the wall of the ticket booth.&#x000A;&#x000A;With a squawk, hidden speakers come to life, and you hear Jace say, "Oh shit everyone get out!  911's on their way but that hole's getting larger!  Parking lot, everyone!"&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1154"/>
+      <child nodeId="node-120"/>
     </children>
   </item>
-  <item nodeId="node-1154">
+  <item nodeId="node-120">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Gently, you release your hold on time, letting it scroll forward.&#x000A;&#x000A;Jace gets out of the ticket booth.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">Gently, you release your hold on time, letting it scroll forward.&#x000A;&#x000A;Jace gets out of the ticket booth.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1155"/>
+      <child nodeId="node-121"/>
     </children>
   </item>
-  <item nodeId="node-1155">
+  <item nodeId="node-121">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Gently, you release your hold on time, letting it scroll forward.&#x000A;&#x000A;Jace goes south.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">Gently, you release your hold on time, letting it scroll forward.&#x000A;&#x000A;Jace goes south.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1156"/>
+      <child nodeId="node-122"/>
     </children>
   </item>
-  <item nodeId="node-1156">
+  <item nodeId="node-122">
     <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You transfer your consiousness to a new group of spiders...&#x000A;&#x000A;Quinlan Park Parking Lot (in the spiders)&#x000A;Scattered cars fill the parking lot, including the Hyundai you came here in. The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;Looming over the parking lot to the east is a huge sculpture  whos details have yet to be decided LS TBD.}&#x000A;&#x000A;You can also see Jace here.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <result xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Quinlan Park Parking Lot (in the spiders)&#x000A;Scattered cars fill the parking lot, including the Hyundai you came here in. The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;Looming over the parking lot to the east is a huge sculpture  whose details have yet to be decided LS TBD.}&#x000A;&#x000A;You can also see Jace here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve">You transfer your consciousness to a new group of spiders...&#x000A;&#x000A;Quinlan Park Parking Lot (in the spiders)&#x000A;Scattered cars fill the parking lot, including the Hyundai you came here in. The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;Looming over the parking lot to the east is a huge sculpture  whose details have yet to be decided LS TBD.}&#x000A;&#x000A;You can also see Jace here.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1157"/>
+      <child nodeId="node-123"/>
     </children>
   </item>
-  <item nodeId="node-1157">
+  <item nodeId="node-123">
     <command xml:space="preserve">z</command>
     <result xml:space="preserve">Gently, you release your hold on time, letting it scroll forward.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <commentary xml:space="preserve">Gently, you release your hold on time, letting it scroll forward.&#x000A;&#x000A;&gt;</commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-1158"/>
+      <child nodeId="node-124"/>
     </children>
   </item>
-  <item nodeId="node-1158">
+  <item nodeId="node-124">
     <command xml:space="preserve">z</command>
-    <result xml:space="preserve">Gently, you release your hold on time, letting it scroll forward.&#x000A;&#x000A;You feel the web of time time tighten beneath you, and with a rush, you slip backwards along it before it finally goes slack again, and you regain your hold.&#x000A;&#x000A;Quinlan Park Parking Lot (in the spiders)&#x000A;Scattered cars fill the parking lot, but your Hyundai hasn't arrived yet. The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;Looming over the parking lot to the east is a huge sculpture  whos details have yet to be decided LS TBD.}&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
+    <result xml:space="preserve">Gently, you release your hold on time, letting it scroll forward.&#x000A;&#x000A;You feel the web of time time tighten beneath you, and with a rush, you slip backwards along it before it finally goes slack again, and you regain your hold.&#x000A;&#x000A;Quinlan Park Parking Lot (in the spiders)&#x000A;Scattered cars fill the parking lot, but your Hyundai hasn't arrived yet. The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;Looming over the parking lot to the east is a huge sculpture  whose details have yet to be decided LS TBD.}&#x000A;&#x000A;That's as far as I've coded, Testers!  So, besides general reactions to what you've seen so far, my question is:  what do you want to do next?  Thank you!  -LS&#x000A;&gt;</result>
+    <commentary xml:space="preserve">Gently, you release your hold on time, letting it scroll forward.&#x000A;&#x000A;You feel the web of time time tighten beneath you, and with a rush, you slip backwards along it before it finally goes slack again, and you regain your hold.&#x000A;&#x000A;Quinlan Park Parking Lot (in the spiders)&#x000A;Scattered cars fill the parking lot, but your Hyundai hasn't arrived yet. The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.&#x000A;&#x000A;Looming over the parking lot to the east is a huge sculpture  whose details have yet to be decided LS TBD.}&#x000A;&#x000A;That's as far as I've coded, Testers!  So, besides general reactions to what you've seen so far, my question is:  what do you want to do next?  Thank you!  -LS&#x000A;&gt;</commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-1116">
+  <item nodeId="node-125">
     <command xml:space="preserve">showme top of hill</command>
     <result xml:space="preserve">Giant Pit - room&#x000A;    disaster_victims - person&#x000A;    spiders - person&#x000A;        yourself - woman&#x000A;            disaster memory - memory&#x000A;    Coyote's Call&#x000A;lighted, visited; singular-named, proper-named&#x000A;description: "The entire hill has collapsed in on itself, revealing a giant pit underneath. Bushes and trees are frozen mid-fall, as they pitch forward into the yawning chasm."&#x000A;room condition: chasmy&#x000A;printed name: "Giant Pit"&#x000A;printed plural name: none&#x000A;indefinite article: none&#x000A;list grouping key: none&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>

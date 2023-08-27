@@ -1,14 +1,39 @@
 "Fate's Gallery" by Lucian Smith
 
+[Other options:  Momentum Moirai, When the Moon Hits Your Eye, The Moirai, Zora of the Moirai, The Moirai Gallery]
+
 The story headline is "An Interactive Story"
 
 The release number is 0.
 
-Include Response Assistant by Aaron Reed
+Include Response Assistant by Aaron Reed.
+Include Hybrid Choices by AW Freyr.
+Include Basic Screen Effects by Emily Short.
 
-[Other options:  Momentum Moirai, When the Moon Hits Your Eye, The Moirai, Zora of the Moirai, The Moirai Gallery]
 
 Book 0 Rules
+
+To say i:
+	say "[italic type]";
+	
+To say b:
+	say "[bold type]";
+	
+To say r:
+	say "[roman type]";
+
+To say lb:
+	say "[line break]";
+
+To say pb:
+	say "[line break][line break]";
+
+To say bstars:
+	say "[lb]";
+	center "*    *    *[pb]";
+
+To say stars:
+	center "*    *    *[pb]";
 
 Examining something is acting fast. 
 Looking is acting fast.
@@ -16,6 +41,7 @@ Taking inventory is acting fast.
 Entering is acting fast.
 Touching is acting fast.
 Exiting is acting fast.
+Choosing is acting fast.
 
 The take quick actions out of world rule is listed before the every turn stage rule in the turn sequence rules.
 
@@ -73,11 +99,16 @@ Instead of entering a person:
 		if the host is the noun:
 			say "Your conciousness is already inhabiting [the noun].";
 			The rule fails;
-		say "Gathering your thoughts together, you leave [the host] and transfer your consciouness into [the noun].";
-		move the player to the noun;
-		The rule succeeds;
-	Otherwise if the person is the player:
-		say "You're already in yourself, for what that's worth.";
+		Otherwise if the noun is the player:
+			say "You're already in yourself, for what that's worth.";
+			The rule fails;
+		Otherwise:
+			say "Gathering your thoughts together, you leave [the host] and transfer your consciousness into [the noun].";
+			move the player to the noun;
+			if the intro-page of the noun is the blank page:
+				say "[The noun] has nothing to say. BUG -LS";
+			otherwise:
+				switch to cyoa at the intro-page of the noun;
 	Otherwise:
 		continue the action;
 
@@ -90,7 +121,7 @@ Report commenting:
 Understand "# [text]" as commenting.  Understand "/ [text]" as commenting.  Understand "'[text]" as commenting.
 
 The immediately undo rule response (B) is "Having just entered this strand, you can't now back up anywhere.".
-The immediately undo rule response (C) is "You attemp to step backwards on the strands like you've done before, but find yourself unable to do so this time.  [italic type][bracket]Your interpreter does not provide 'undo'. Sorry![bracket][roman type]".
+The immediately undo rule response (C) is "You attemp to step backwards on the strands like you've done before, but find yourself unable to do so this time.  [i][bracket]Your interpreter does not provide 'undo'. Sorry![close bracket][r]".
 The immediately undo rule response (D) is "You attempt to step backwards on the strands, but find yourself unable to do so.".
 The immediately undo rule response (E) is "You step backwards on the strands.".
 The immediately undo rule response (F) is "You've gone as far backwards on this strand as you can manage.".
@@ -103,7 +134,7 @@ Section parking lot
 
 Quinlan Park Parking Lot is a room.  "Scattered cars fill the parking lot[if the hyundai is in the parking lot], including [the Hyundai] you came here in[otherwise], but your Hyundai hasn't arrived yet[end if]. The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.".  parking lot is liminal.
 
-Looming sculpture is fixed in place. It is here.  "Looming over the parking lot to the east is a huge sculpture  whos details have yet to be decided LS TBD.}".  The description is "It's a sculpture looming over the east fence LS TBD."
+Looming sculpture is fixed in place. It is here.  "Looming over the parking lot to the east is a huge sculpture  whose details have yet to be decided LS TBD.}".  The description is "It's a sculpture looming over the east fence LS TBD."
 
 Fence is a backdrop.  It is here.  The description is "A fence walls off the park."  The fence is in the Path By Hill, Under Bridge, Water Sculpture, East Hill, Bewildering Bridges, and Sculpture By Lot.
 
@@ -127,14 +158,14 @@ To say mention_booths:
 
 Quinlan Park Entrance is a room.  "Two booths flank the entrance to the park to the north, where you can buy tickets and get information[mention_booths].  To the south is the parking lot.". Entrance is liminal.
 
-An information booth is here.  It is a fixed in place container.  The description is "The information booth is unmanned, but there's a [stack of flyers] resting on the sill."  Understand "booths" as the information booth.
+An information booth is here.  It is a fixed in place container.  The description is "The information booth is unmanned, but there's a [stack of fliers] resting on the sill."  Understand "booths" as the information booth.
 
-A stack of flyers is part of the information booth.  The description is "The flyer reads:[line break][line break][bold type]'Welcome to Quinlan Park!'[roman type][line break][line break]'Established in 1974, Dr. Robert Quinlan set aside this portion of his estate as a public park, commisioned the central 'Coyote's Call' sculpture from Wynona Locklear, and set up a trust to commission and rotate other art pieces at other sites throughout the park.  Enjoy your stay, and find out more below about our amazing artists!'[line break][line break]Below this is a cartoon map of the park, with small text blocks describing each of the sculptures currently on display:  the central Coyote's Call, then (clockwise from the southwest entrance): <something>, Fire and Forge, <something>, <water sculpture>, Bird and Cage, <bridges>, and <looming> (LS TBD: list the rest, and write the block text for each.  You should eventually be able to 'x bird and cage' and get this description if not next to the real thing, and probably 'look up bird and cage on map' to be more specific (not implemetned yet))."
-Understand "flyer/sill" as stack of flyers.
+A stack of fliers is part of the information booth.  The description is "The flier reads:[line break][line break][b]'Welcome to Quinlan Park!'[r][line break][line break]'Established in 1974, Dr. Robert Quinlan set aside this portion of his estate as a public park, commissioned the central 'Coyote's Call' sculpture from Wynona Locklear, and set up a trust to commission and rotate other art pieces at other sites throughout the park.  Enjoy your stay, and find out more below about our amazing artists!'[line break][line break]Below this is a cartoon map of the park, with small text blocks describing each of the sculptures currently on display:  the central Coyote's Call, then (clockwise from the southwest entrance): <something>, Fire and Forge, <something>, <water sculpture>, Bird and Cage, <bridges>, and <looming> (LS TBD: list the rest, and write the block text for each.  You should eventually be able to 'x bird and cage' and get this description if not next to the real thing, and probably 'look up bird and cage on map' to be more specific (not implemented yet))."
+Understand "flier/flyer/sill" as stack of fliers.
 
-Instead of taking the stack of flyers:
+Instead of taking the stack of fliers:
 	if spidered:
-		say "The spiders can't pick up a flyer, and you couldn't take it with you even if they could.";
+		say "The spiders can't pick up a flier, and you couldn't take it with you even if they could.";
 	otherwise:
 		say "LS TBD: Determine what to do when in a human host."
 
@@ -146,7 +177,7 @@ A ticket booth is here.  It is open, container, and fixed in place.  The descrip
 
 Rule for writing a paragraph about the ticket booth:
 	If Jace is in the ticket booth:
-		say "You can see [Jace] manning the ticket booth, but the information booth is empty.";
+		say "You can see [a Jace] manning the ticket booth, but the information booth is empty.";
 	otherwise:
 		say "Both the ticket booth and the information both are currently unmanned.";
 	now the ticket booth is mentioned.
@@ -194,9 +225,9 @@ Section Under Bridge
 
 Under Bridge is a room.  "A simple and delicate sculpture entitled [fire_forge] sits here, nestled under the 48th Street Bridge on the banks of Brushstroke Reservoir to the north.  The path leads back southeast to the main park area."
 
-Fire_Forge is a fixed in place thing in Under Bridge.  The description of fire_forge is "A plaque in the ground identifies this sculpture as 'Fire and Forge'.  Long spines of twisting reddish metal emerges from the ground, reminiscent of flames." The printed name of fire_forge is "'Fire and Forge'".  Understand "fire and forge", "fire/forge/sculpture/simple/delicate" as fire_forge.  Fire_forge is privately-named.
+Fire_Forge is a fixed in place thing in Under Bridge.  The description of fire_forge is "A plaque in the ground identifies this sculpture as 'Fire and Forge'.  Long spines of twisting reddish metal emerge from the ground, reminiscent of flames." The printed name of fire_forge is "'Fire and Forge'".  Understand "fire and forge", "fire/forge/sculpture/simple/delicate" as fire_forge.  Fire_forge is privately-named.
 
-fire_plaque is part of fire_forge.  The printed name of fire_plaque is "plaque".  fire_plaque is privately-named.  Understand "plaque" as fire_plaque.  The description of fire_plaque is "[italic type]Fire and Forge.  Metal and stain, 2007, Amelia Thomas.[line break][line break]The red metal spires most obviously evokes flames, but also passion, leading the majority of scholars to believe this to be representative of the relationship of Aphrodite and Hephaestus."
+fire_plaque is part of fire_forge.  The printed name of fire_plaque is "plaque".  fire_plaque is privately-named.  Understand "plaque" as fire_plaque.  The description of fire_plaque is "[i]Fire and Forge.  Metal and stain, 2007, Amelia Thomas.[line break][line break]The red metal spires most obviously evokes flames, but also passion, leading the majority of scholars to believe this to be representative of the relationship of Aphrodite and Hephaestus."
 
 twisted metal is part of fire_forge.  The description of the twisted metal is "As you examine the twisted metal from different angles, you can almost imagine you see both swords and erotic imagery.  This would be consistent with the church of Aphrodite's reclamation of her dominion over both sex and war in its series of reforms in the 70[apostrophe]s and 80[apostrophe]s.  A small stamped icon of a cluster of dates would seem to indicate that the sculptor was part of the Inannan denomination."  Understand "Innana/Innanan/swords", "erotic imagery", "spines/spires/twisting/reddish/flames" as twisted metal.
 
@@ -210,7 +241,7 @@ Playground is a room.  "You're at the top of the hill in the park.  This side ha
 
 Some climbing equipment is fixed in place in the Playground.  The description is "It looks like a blast to play in.  Slides that cross over each other; several different kinds of swings; ropes and bars everywhere.[if sinkhole_size is 0]  Kids are playing on every surface."  Understand "slides/slide/swings/swing/bright/brightly-colored/brightly/colored/ropes/bars" as climbing equipment.
 
-playground_view is here.  It is distant and privately-named.  "[if sinkhole_size is 0]Dominating the sky to the east is the red metal tubes and bars of Coyote's Call.[otherwise]Coyote's Call has fallen into the gaping and still-expanding sinkhole."  The description is "[distant_coyote][the east]."  Understand "iconic/red/metal/structure/coyote/coyote's/call/central/hill/tubes/bars" as playground_view.  The printed name of playground_view is "Coyote's Call";
+playground_view is here.  It is distant and privately-named.  "[if sinkhole_size is 0]Dominating the sky to the east are the red metal tubes and bars of Coyote's Call.[otherwise]Coyote's Call has fallen into the gaping and still-expanding sinkhole."  The description is "[distant_coyote][the east]."  Understand "iconic/red/metal/structure/coyote/coyote's/call/central/hill/tubes/bars" as playground_view.  The printed name of playground_view is "Coyote's Call";
 
 North of Playground is Beach Sculpture.
 Northeast of Playground is Beach Sculpture.
@@ -228,7 +259,7 @@ Section Sculpture By Lot
 
 Sculpture By Lot is a room.  "The path curves from the west to the southeast here, winding through a giant sculpture that looms over the fence by the parking lot.  The main hill of the park is to the north."
 
-nearlot_view is here.  It is distant and privately-named.  "[if sinkhole_size is 0]Up the hill to the north is the red metal tubes and bars of Coyote's Call.[otherwise if sinkhole_size is 1]Bits of the Coyote's Call structure can still be seen as it falls into the sinkhole.[otherwise]You can no longer see Coyote's Call to the north."  The description is "[distant_coyote][the north]."  Understand "iconic/red/metal/structure/coyote/coyote's/call/central/hill/tubes/bars" as nearlot_view.  The printed name of nearlot_view is "Coyote's Call";
+nearlot_view is here.  It is distant and privately-named.  "[if sinkhole_size is 0]Up the hill to the north are the red metal tubes and bars of Coyote's Call.[otherwise if sinkhole_size is 1]Bits of the Coyote's Call structure can still be seen as it falls into the sinkhole.[otherwise]You can no longer see Coyote's Call to the north."  The description is "[distant_coyote][the north]."  Understand "iconic/red/metal/structure/coyote/coyote's/call/central/hill/tubes/bars" as nearlot_view.  The printed name of nearlot_view is "Coyote's Call";
 
 Going west from Sculpture By Lot is jumping-fences.
 Going east from Parking Lot is jumping-fences.
@@ -270,9 +301,9 @@ To say what Coyote's Call looks like:
 
 To say coyote's call's general description:
 	if sinkhole_size is 0:
-		say "Art is a converstation between the artist, the subject, and the viewer, but as you take in the tubes and spires of this particular piece, you can't help but wonder what the current Vested of Coyote would make of it.  They've not gone public, so they could be anyone.  Could they be like you, newly awakened to their abilities, trying and failing (or succeeding?) to find answers in the church dedicated to the idea they represent?  Like Lestar, so self-assured and confident, understanding and perfectly molded to their place in the world?  Like Amaia, driven to prove themselves, to surpass their forebearers?  How would that color their reponse to this giant red mass of sculpted metal?[no line break]";
+		say "Art is a conversation between the artist, the subject, and the viewer, but as you take in the tubes and spires of this particular piece, you can't help but wonder what the current Vested of Coyote would make of it.  They've not gone public, so they could be anyone.  Could they be like you, newly awakened to their abilities, trying and failing (or succeeding?) to find answers in the church dedicated to the idea they represent?  Like Lestar, so self-assured and confident, understanding and perfectly molded to their place in the world?  Like Amaia, driven to prove themselves, to surpass their forebearers?  How would that color their response to this giant red mass of sculpted metal?[no line break]";
 	otherwise:
-		say "The entire hill gave way all at once, and Coyote's Call is now falling, its original configuration lost.  But you can't help think that it was at the epicenter of the collapse.[no line break]";
+		say "The entire hill gave way all at once, and Coyote's Call is now falling, its original configuration lost.  But you can't help thinking that it was at the epicenter of the collapse.[no line break]";
 
 Coyote's Call is here.  "[what coyote's call looks like][no line break]".  The description is "[coyote's call's general description]".  Understand "coyote/call/coyote's/collection/giant/metal/tubes/beams/abstract/chaos/curve", "curve of the hill" as coyote's call.
 
@@ -323,7 +354,7 @@ Instead of going nowhere from Sinkhole, say "From here, you can sense spiders ab
 
 Instead of going nowhere from Sinkhole when the noun is down, say "From here, you can sense spiders above and below you, but the ones below are outside of Lestar's sphere of influence."
 
-falling_coyote is in the Void.  It is privately-named.  "[if the time of day is 10:58 AM]A spear of red metal from Coyote's Call falls through open space here.[otherwise]The majority of Coyote's Call is caught frozen near you as it tumbles."  The description is "[if the time of day is 10:58 AM]LS TBD:  maybe some writing on it that can only be discovered in this way?[otherwise]Somehow, the artistic chaos from before has been dissapated into just... normal chaos.  It's now just a pile of falling red metal."  Understand "coyote/coyote's/call/spear/red/metal" as falling_coyote.
+falling_coyote is in the Void.  It is privately-named.  "[if the time of day is 10:58 AM]A spear of red metal from Coyote's Call falls through open space here.[otherwise]The majority of Coyote's Call is caught frozen near you as it tumbles."  The description is "[if the time of day is 10:58 AM]LS TBD:  maybe some writing on it that can only be discovered in this way?[otherwise]Somehow, the artistic chaos from before has been dissipated into just... normal chaos.  It's now just a pile of falling red metal."  Understand "coyote/coyote's/call/spear/red/metal" as falling_coyote.
 
 Section Void and Nowhere
 
@@ -358,25 +389,88 @@ Instead of going to swimming, say "I'll have to think of a good reason for you t
 
 Book Cast
 
+Section Amaia
+
 Amaia is a woman in the Hyundai.  "Amaia is turned sideways in the driver's seat, grasping your hand and Lestar's.  Even frozen, she radiates intensity and movement."  The description of Amaia is "Amaia is a tall dark-haired woman with piercing but tired brown eyes. "
 [Amaia is the Future part of the Moirai.  Amaia is Spanish/Basque for 'end place'.]
+
+answering Amaia that something is physical Amaiaing.
+telling Amaia about something is physical Amaiaing.
+asking Amaia about something is physical Amaiaing.
+asking Amaia for something is physical Amaiaing.
+kissing Amaia is physical Amaiaing.
+showing something to Amaia is physical Amaiaing.
+giving something to Amaia is physical Amaiaing.
+waking Amaia is physical Amaiaing.
+attacking Amaia is physical Amaiaing.
+
+Instead of physical Amaiaing:
+	say "With Lestar anchoring everything in the present, you can't interact with Amaia physically.  You could in theory [b]enter[r] her mind, but she is [i]entirely[r] too intimidating for that.  Even [b]touching[r] her mind to connect your surface thoughts is kind of beyond the pale."
+
+Instead of entering Amaia:
+	say "You can't imagine actually entering Amaia's consciousness and giving her full access to your mind.  You'd never be able to look her in the eye again, and you have to work with her."
+	
+The intro-page of Amaia is the blocked page.
+	
+The mind-touch of Amaia is "Amaia still intimidates you, and you're pretty sure her surface thoughts would just be 'Zora!  Do your job already!'".
+
+	
+Section Lestar
 
 Lestar is a man in the Hyundai.  "Lestar's eyes are shut in calm concentration.  His relaxed hands hold yours and Amaia's, completing the triangle."  The description of Lestar is "Lestar is an old man with giant bushy white eyebrows that make it impossible for him to hide his emotions."  Understand "relaxed/triangle" as Lestar.
 [Lestar is the Present part of the Moirai.  Lestari is Indonesian for 'Everlasting']
 
-Lester is a man in the Hyundai.  Lester is scenery.
-Instead of doing anything with lester, say "(It's 'Lestar', not 'Lester'.)"
+The mind-touch of Lestar is "Reaching out with your mind, you brush Lestar's surface thoughts with your own.  Instantly, you feel the thought, 'Hi, Zora!  Just figure out what's going on, then get people to safety.  You can do this.'  It must have been waiting for you, which in retrospect you feel you should have anticipated.  He's an old Vested, after all, and has been doing this for years.";
+
+Instead of entering Lestar:
+	say "Lestar's been nothing but kind to you, but you're sure if he saw your whole mind, he'd be disappointed.  You've touched his mind before and that's gone OK.  You guess.  You hope."
+	
+The intro-page of Lestar is the blocked page.
+	
+answering Lestar that something is physical Lestaring.
+telling Lestar about something is physical Lestaring.
+asking Lestar about something is physical Lestaring.
+asking Lestar for something is physical Lestaring.
+kissing Lestar is physical Lestaring.
+showing something to Lestar is physical Lestaring.
+giving something to Lestar is physical Lestaring.
+waking lestar is physical Lestaring.
+attacking lestar is physical Lestaring.
+
+Instead of physical Lestaring:
+	say "Lestar has anchored himself in the present, with that anchor extended slightly into the past and future, with your and Amaia's help.  Until he unanchors himself again, you cannot interact with him physically.  You could in theory [b]enter[r] his mind, but as another Vested, he'd remember everything.  [b]Touching[r] his mind would connect your surface thoughts, which you think you could live with."
 
 The giant bushy white eyebrows are part of Lestar.  The description of the eyebrows is "Yeah, they're kind of hard to not just stare at."
+
+Lester is a man in the Hyundai.  Lester is scenery.  The mind-touch of Lester is "Blocked."  The intro-page of Lester is the blocked page.
+Instead of doing anything with lester, say "(It's 'Lestar', not 'Lester'.)"
+
+Section Zora
 
 Zora is a woman in the Hyundai.  "Your own face relaxes as you look at yourself from the outside.  Somehow, it's easier to see yourself this way than in the mirror."  The description of Zora is "You're pragmatically dressed in jeans, a 'Hu' T-shirt, and sneakers.  Your curls are somehow behaving today, probably because you didn't try to do anything with them this morning."  Understand "Zora" as Zora.
 [Zora is the Past part of the Moirai.  Zora is Serbo-Croatian for 'Dawn'.]
 
 The player is Zora.
 
-The spiders are a privately-named plural-named people in the Hyundai.  "In the area, you can sense the collective presence of dozens of spiders."  The description of the Spiders is "The minds of the spiders are refreshingly simple, unlike most people's minds.  [if spidered]As long as there are more spiders where you want to go, you can move in that direction when connected to them[otherwise]You can [bold type]enter[roman type] them to explore an area[end if]."  Understand "spider/spiders", "dozens of spiders" as spiders.
+Instead of doing anything other than looking or examining or entering or waiting or touching or physical Lestaring or physical Amaiaing or taking inventory when the player is Zora:
+	say "While frozen, you can [b]enter[r] the minds around you, and you're aware of your surroundings, but can't do anything physical."
+
+The mind-touch of Zora is "Your thoughts echo back at you."
+
+Instead of entering Zora when the player is enclosed by a person (called host):
+	say "If you returned to yourself now, you'd break the past part of the loop. You'd need to get that all squared away first."
+
+The intro-page of Zora is the blocked page.
+
+Section spiders
+
+The spiders are a privately-named plural-named people in the Hyundai.  "In the area, you can sense the collective presence of dozens of spiders."  The description of the Spiders is "The minds of the spiders are refreshingly simple, unlike most people's minds.  [if spidered]As long as there are more spiders where you want to go, you can move in that direction when connected to them[otherwise]You can [b]enter[r] them to explore an area[end if]."  Understand "spider/spiders", "dozens of spiders" as spiders.
+
+The mind-touch of the spiders is "The surface thoughts of the spiders are entirely instinctual, and refreshing in their simplicity.  You feel your own emotions being acknowledged in return, without them affecting the spiders in the slightest."
 
 Your consciousness is a woman in the Void.  The description of your consciousness is "Your consciousness has no literal form, but when you move across minds, you imagine your core self as a tight ball of sparks containing your memories."  Understand "core self", "tight ball", "tight ball of sparks", "ball of sparks", "ball/sparks" as consciousness.
+
+The intro-page of spiders is the blocked page.
 
 Consciousness can be transforming.  Consciousness is not transforming.
 
@@ -396,7 +490,33 @@ Before going somewhere when spidered:
 	otherwise if going to swimming:
 		continue the action;
 	otherwise:
-		say "You transfer your consiousness to a new group of spiders..."
+		say "You transfer your consciousness to a new group of spiders..."
+
+Section General Enter-Conversations
+
+blank page is a page. "Nobody should ever see this text."
+
+blocked page is a page.  "Nobody should see this, either, but it's used for people whose minds cannot ever be entered, and has to be set directly."
+
+when play begins:
+	Now the CYOA error message is "[bracket]You can't do that in the middle of a mental connection.[close bracket]";
+
+Every person has a page called an intro-page.  The intro-page of a person is usually the blank page.
+
+Every person has a text called mind-touch.  The mind-touch of a person is usually "Hello."
+
+When play begins:
+	repeat with p running through people:
+		if the intro-page of p is blank page:
+			say "BUG: [p] has no intro-page.";
+		if the mind-touch of p is "Hello.":
+			say "BUG: [p] has no mind-touch.";
+	
+
+Instead of touching someone:
+	say "[the mind-touch of the noun][line break]";
+
+Section Jace
 
 Jace is an improper-named man in the ticket booth.  The printed name of Jace is "young man".  The description is "A young man with a [emotion of Jace] expression, a Quinlan Park employee vest, and a name tag reading 'Jace'[name_him_jace]." Understand "young/man/nametag/name/tag/vest/employee" as Jace.
 
@@ -405,12 +525,83 @@ Jace has a text called emotion.  The emotion of Jace is "friendly but bored".
 To say name_him_jace:
 	Now the printed name of Jace is "Jace";
 	Now Jace is proper-named;
-	
-Instead of touching or entering Jace when disaster memory is not enclosed by the player:
-	say "He does seem to have some sort of authority here, but without knowing what the problem is, you'd feel entirely too awkward connecting with him, even just to exchange surface thoughts."
 
-Instead of touching or entering Jace:
-	say "Yup!  This'll be a thing! -LS TBD."
+Jace_init_touch is always "You reach out with your mind to touch [the Jace]'s mind, trying to keep your own surface thoughts focused more on curiosity than the underlying worry.  [The Jace], in turn, turns out to be mulling over the question of what might have happened in the rest of the series if Akio had died in episode 2, instead of just being injured."
+
+Jace_post_enter_touch is always "You touch [the Jace]'s mind, trying to convey your gratefulness.  He's still mostly thinking, 'An Actual Vested!  And me!'".
+
+The mind-touch of Jace is Jace_init_touch.
+
+Instead of touching or entering Jace when disaster memory is not enclosed by the player:
+	say "You'll have to enter his mind at some point, but you don't know [i]why[r] yet, or how he could help.  Until you do, you need to do more reconnaisance."
+
+[Instead of touching or entering Jace:
+	say "Yup!  This'll be a thing! -LS TBD."]
+	
+The intro-page of Jace is J1.
+	
+J1 is a page.  "You take a deep (metaphorical) breath.  You've put it off as long as you could, but if you're going to be able to do anything here, this is the only way.
+
+You let go of time, and enter [the Jace]'s mind instead.
+
+You hunker down mentally as [maybe Jace]'s consciousness and yours intertwine.  You've trained enough that you can give Jace some mental privacy, but untrained, he immediately carreens painfully through your thoughts and memories following connections that happen to resonate, and you're pulled along.
+[bstars]You're racing to the park, Amaia in the throes of a prophecy but expertly navigating through traffic anyway; her hands in a death lock on the steering wheel of the Hyundai--
+[bstars]The Hyundai looking so...normal, sitting in your high school's the parking lot as you and your parents approach the intense woman and old man standing next to it, here because..."
+
+To say J2:
+	say  "[stars]Homework finished, you're gazing across the room at Duncan, and his hair, and his shoulders, and the way he laughs, and your mind starts to wander, and then your mind starts to ACTUALLY WANDER and"
+
+J2a is a page. "[J2]".  The cdesc is "oh no".  It is for J1.
+J2b is a page. "You continue to be swept along in your memory.[J2]".  The cdesc is "Try to break the connection."  It is for J1.
+
+To say J3:
+	say "and you're suddenly READING EACH OTHERS MINDS and he KNOWS and [i]Oh, geez, I'm so sorry I don't even[r] HORRIFIED and SCARED and sees you across the room eyes glazed over [i]Who even are you and how[r] and yells".
+
+J3a is a page.  "[J3]". The cdesc is "'Jace, no!'"  It is for J2a and J2b.
+J3b is a page.  "You continue to be swept along in your memory.[lb][J3]". The cdesc is "Try to break the connection."  It is for J2a and J2b.
+
+J4a is a page.  "[i]I'm a Vested, and our minds-- [r]you start to explain, but the memory continues to sweep forward...
+
+yells 'Zora!' and you--[i]Holy crap, you're a Vested?!  That is so cool!
+
+[r]Blessedly, the memory starts to fade, replaced by Jace's excitement.
+
+[i]Oh, man, 'Concrete Sinners' has Vested in it, and the writers handle it so well, it's like they always pick the best mythos to draw from.  I've always wondered what it was like to be a Vested; I read President Calder's memoir like eight times and watched the 'Forged in Flames' documentary about him twice, but they both seemed a little glossed-over, like they were both just painting him as kind of a generic hero.  And the ancient myths are more the stories people told about Vestedness, instead of the actual Vested, if that makes any sense.  Is this... [r]He looks around, but the memory is gone.  [i]...your origin story?[r]".  The cdesc is "Try to explain.".  It is for J3a and J3b.
+
+J5a is a page.  "[i]Wow, yeah, but still!  Powers of the ancients, passed on to the next-born for thousands of years!  Who did you get?  You're not Wisdom, are you?  Angiras, Kratu, Athena?  We go to their church!  A Kratu denomination; my dad says they have fewer extremists.
+
+[r]You sigh, and answer his question.  [i]I'm 'the Past', basically.  Clotho, Urðr, Laima; those guys.  It sort of fits; memories are kind of my thing.  But I can't decide anyone's fate; that's something my stupid church made up.[r]  You feel Jace startle at the idea of a Vested not liking their own church, and feel bad for shaking his worldview.  A little.[pb][i]Wow, OK!  I guess I never thought about.... that.[r]  You feel a small blast of awkwardness from his mind, but he presses on.[i]  So, the Past!  And memories!  [if the time of day is less than 10:59 AM]Do you need one of my old memories or something?[otherwise]Oh!  The... whatever the problem is in the park![end if][r]".  The cdesc is "'Kind of, I guess.  It's, uh, not been easy.'".  It is for J4a.
+
+J4b is a page.  "You continue to be swept along in your memory.
+
+yells 'Zora!' and you finally snap back to yourself again, and everyone's looking at Duncan and Duncan is looking at you and your eyes plead but he smirks [i]Oh, geez, I'm so sorry, I don't need to see this, I should be--[r][bstars]You're in a meadow by a lake, your consciousness distributed in hundreds of spiders, letting time slip by, and totally at peace.  A breeze plays across the meadow and you feel it in each web in turn.". The cdesc is "Try to break the connection." It is for J3a and J3b.
+
+J5c is a page.  "Jace quietly waits in the memory of the meadow with you.  His excitement and wonder leak everywhere, making the memory not quite as calming as it usually is.  It's still a nice break from reliving the most embarassing moment of your entitre life, so there's that.
+
+Finally, you speak.  [i]Thanks for finding this place.  There aren't many who find their way here, so it's nice.
+
+I... assume there aren't many who find their way to 'the most embarassing moment of your life', either, so sorry about that,[r] Jace responds.  Which means he's one of the people who also hears your inner monologue.  [i]Yeah,[r] he confirms.   Well, OK, then.
+
+You both appreciate the meadow for a bit more.  [i]So, you're a Vested?  [r]Jace asks.  [i]Power of the ancients, passed on to the next-born for thousands of years?  [r]Feeling confirmation from you, he can't contain his delight.  [i]That's so cool!  And you can go into people's heads!  And into spider's heads!  I can't even imagine how you manage to stitch together a coherent perspective from all of them at once.  I've read stories, of course, but none of them even hinted at abilities like this![r]".  The cdesc is "Appreciate the meadow for a bit.".  It is for J4b.
+
+J6a is a page.  "[i]Well, sure, [r]Jace replies, [i]but you can still do stuff nobody else can!  Not even other Vested!  [r]You can't help but think about the weight of the burden that having this job has been, and Jace winces.  [i]Sorry, yeah, the extra responsibility must be hard.  But, you know, if you weren't there, more people would be hurt?  Because of you, people have better lives, right?
+
+[r]He's... trying to cheer you up.  You were worried about being judged, and you're being cheered.  It didn't really work, but it's sweet.  [i]Look, I know there's something you need my help for; you've avoided asking twice now.  What do you need?  I'm happy to help.[r]".  The cdesc is "'It's not actually that glamourous.'".  It is for J5c.
+
+
+J5b is a page.  "[i]Right!  OK, yes.  You're probably here for a reason.  Talking to me!  In my head!  This is so--sorry! I mean, right.  Look, I can be calm!  I mean, not look, I guess.  Think?  Feel?  Was I being rude to say look?  I've never interacted with a Vested before; I didn't even know there was one in the state!  And now there's one in my head!  Eeee![r]". The cdesc is "'Jace, I need your help.'".  It is for J4a, J4b, and J5c.
+
+
+J7a is an end-page page.  "You show Jace the snapshot in your mind of the sinkhole.
+
+[b]This is as far as I've gotten!  Suggestions welcome.  Still need to implement the end of the conversation, then the mechanics of doing-stuff-while-in-Jace's-head.  (So don't bother testing that; not much will work correctly yet.)[i][r]".  The cdesc is "Show him the memory of the sinkhole.".  It is for J5a, J5b, J6a, and J5d.
+
+To say maybe Jace:
+	if the printed name of Jace is "Jace":
+		say "Jace";
+	otherwise:
+		say "the young man--wait, no, Jace; his name is Jace.  [name_him_jace]Jace";
+		
 
 Section Background Cast
 
@@ -419,7 +610,7 @@ To say playing_kids:
 		say "Kids are playing, shrieking, and chasing each other up and around the platforms.[no line break]";
 	if sinkhole_size is 1:
 		if spidered:
-			say "The kids are reacting to the disaster in different ways.  Most seem to be running away, but some are transfixed by the sight, and at least one seems to have been caught taking a step [italic type]towards[roman type] the sinkhole.[no line break]";
+			say "The kids are reacting to the disaster in different ways.  Most seem to be running away, but some are transfixed by the sight, and at least one seems to have been caught taking a step [i]towards[r] the sinkhole.[no line break]";
 		otherwise:
 			say "Most of the kids are running away, but some are transfixed by the destruction to the east, and a couple are taking hesitant steps towards the hole.[no line break]";
 
@@ -433,6 +624,9 @@ Some kids are plural-named people in the Void.  "[playing_kids][no line break]".
 
 Instead of entering the Kids, say "[if sinkhole_size is greater than 0]You feel there must be a way to get most people out of here all at once instead of trying to do it one kid at a time.[otherwise]Hoo boy.  As traumatic as it is for you to enter people's minds, you'd rather not inflict full access to an adult mind on a pre-teen, even if they're supposed to forget afterwards."
 
+The mind-touch of Kids is "[if sinkhole_size is 0]You let your own mind lightly touch a few kids, picking up a lot of complicated emotions about relatively simple things, and trying not to let too much of your worry spill over from your own complicated emotions about... well, about only slightly more complicated things."
+
+The intro-page of Kids is blocked page.
 
 Park-goers are plural-named backdrop in the Void.  They are scenery.  The description is "[if sinkhole_size is 0]The park is well-attended today, with a variety of park-goers enjoying the day and the scenery.[otherwise if sinkhole_size is 1]The park-goers seem confused and can't quite figure out what's going on."  Understand "people/goers/crowd/crowds/park-goers", "park goers" as park-goers.
 
@@ -448,11 +642,12 @@ to say disaster_victims:
 
 disaster_victims are plural-named privately-named people in the Void.  Understand "victims/people/goers/crowd/crowds/woman/man/cylinder", "park goers" as disaster_victims.  "[disaster_victims].".  The description is "These people are going to die if you can't figure out a way to help them."
 
-Instead of touching the disaster_victims:
-	say "You brace yourself as the panic from each person washes over you, and think back at them [italic type]<This isn't the end; I'll figure out a way to help; I'm so sorry.>[roman type]  If you do succeed, these people will never be in this position, but it feels right to do it anyway.  You think Lestar might understand."
+The mind-touch of the disaster_victims is "You brace yourself as the panic from each person washes over you, and think back at them [i]<This isn't the end; I'll figure out a way to help; I'm so sorry.>[r]  If you do succeed, these people will never be in this position, but it feels right to do it anyway.  You think Lestar might understand."
 	
 Instead of entering disaster_victims:
 	say "There's nothing these people can do to save themselves at this point in the loop; you'll have to help earlier in the cycle.";
+	
+the intro-page of disaster_victims is blocked page.
 
 When play begins:
 	Move the Kids to the Playground;
@@ -478,60 +673,16 @@ Instead of exiting when the player is enclosed by a person (called host) and the
 Instead of touching someone (called the touchee) when the touchee encloses the player:
 	say "You're already completely linked to [the touchee]."
 	
-Instead of touching the spiders when not spidered:
-	say "The surface thoughts of the spiders are entirely instinctual, and refreshing in their simplicity.  You feel your own emotions being acknowledged in return, without them affecting the spiders in the slightest."
-
 Instead of going outside when the player is enclosed by an open enterable thing:
 	try exiting instead.
 	
 Instead of going inside:
 	try entering spiders instead.
 
-Instead of entering Lestar:
-	say "Lestar's been nothing but kind to you, but you're sure if he saw your whole mind, he'd be disappointed.  You've touched his mind before and that's gone OK.  You guess.  You hope."
+Instead of doing anything other than acting fast or entering or waiting or touching or physical Lestaring or physical Amaiaing or going or examining or looking or taking inventory when spidered:
+	say "While your consciousness is held in the spiders, you can [b]enter[r] or [b]touch[r] other minds, [b]wait[r] for something to happen, travel to spiders in other locations, and focus on your surroundings, but can't interact physically with things."
 	
-Instead of entering Zora when the player is enclosed by a person (called host):
-	say "If you returned to yourself now, you'd break the past part of the loop. You'd need to get that all squared away first."
-	
-Instead of touching Lestar:
-	say "Reaching out with your mind, you brush Lestar's surface thoughts with your own.  Instantly, you feel the thought, 'Hi, Zora!  Just figure out what's going on, then get people to safety.  You can do this.'  It must have been waiting for you, which in retrospect you feel you should have anticipated.  He's an old Vested, after all, and has been doing this for years.";
-	rule succeeds.
-
-answering Lestar that something is physical Lestaring.
-telling Lestar about something is physical Lestaring.
-asking Lestar about something is physical Lestaring.
-asking Lestar for something is physical Lestaring.
-kissing Lestar is physical Lestaring.
-showing something to Lestar is physical Lestaring.
-giving something to Lestar is physical Lestaring.
-waking lestar is physical Lestaring.
-attacking lestar is physical Lestaring.
-
-Instead of physical Lestaring:
-	say "Lestar has anchored himself in the present, with that anchor extended slightly into the past and future, with your and Amaia's help.  Until he unanchors himself again, you cannot interact with him physically.  You could in theory [bold type]enter[roman type] his mind, but as another Vested, he'd remember everything.  [bold type]Touching[roman type] his mind would connect your surface thoughts, which you think you could live with."
-
-answering Amaia that something is physical Amaiaing.
-telling Amaia about something is physical Amaiaing.
-asking Amaia about something is physical Amaiaing.
-asking Amaia for something is physical Amaiaing.
-kissing Amaia is physical Amaiaing.
-showing something to Amaia is physical Amaiaing.
-giving something to Amaia is physical Amaiaing.
-waking Amaia is physical Amaiaing.
-attacking Amaia is physical Amaiaing.
-
-Instead of physical Amaiaing:
-	say "With Lestar anchoring everything in the present, you can't interact with Amaia physically.  You could in theory [bold type]enter[roman type] her mind, but she is [italic type]entirely[roman type] too intimidating for that.  Even [bold type]touching[roman type] her mind to connect your surface thoughts is kind of beyond the pale."
-
-Instead of entering Amaia:
-	say "You can't imagine actually entering Amaia's consciousness and giving her full access to your mind.  You'd never be able to look her in the eye again, and you have to work with her."
-	
-Instead of touching Amaia:
-	say "Amaia still intimidates you, and you're pretty sure her surface thoughts would just be 'Zora!  Do your job already!'";
-	rule succeeds.
-	
-Instead of doing anything other than looking or examining or entering or waiting or touching or physical Lestaring or physical Amaiaing or taking inventory when the player is Zora:
-	say "While frozen, you can [bold type]enter[roman type] the minds around you, and you're aware of your surroundings, but can't do anything physical."
+understand "focus on [something]" as examining.
 
 Book Setup
 
@@ -608,7 +759,6 @@ To carry out loop resetting:
 		move the spiders to the Parking Lot;
 	say "You feel the web of time time tighten beneath you, and with a rush, you slip backwards along it before it finally goes slack again, and you regain your hold.";
 	try looking;
-	say "[italic type]That's as far as I've coded, Testers!  So, besides general reactions to what you've seen so far, my question is:  what do you want to do next?  Thank you!  -LS[roman type]"
 
 To carry out seeing the disaster:
 	if the disaster memory is in the void:
@@ -653,12 +803,12 @@ Instead of waiting when the time of day is 11:06 AM and the disaster memory is i
 After going somewhere in a parky room for the first time:
 	try looking;
 	if the time of day is 10:53 AM:
-		say "Whatever Amaia is worried about is apparently happening in this park.  You'll need to [bold type]wait[roman type] to advance the loop and see what's going on."
+		say "Whatever Amaia is worried about is apparently happening in this park.  You'll need to [b]wait[r] to advance the loop and see what's going on."
 
 After going somewhere in a parky room:
 	if the time of day is 10:53 AM and every parky room is visited:
 		try looking;
-		say "That's all the areas of the park.  Something's going to happen in one of them, so you'll need to [bold type]wait[roman type] to advance the loop and see what's going on.";
+		say "That's all the areas of the park.  Something's going to happen in one of them, so you'll need to [b]wait[r] to advance the loop and see what's going on.";
 	otherwise:
 		continue the action;
 
@@ -679,7 +829,7 @@ Report an actor announcing (this is the report announcing rule):
 The specification of the announcing action is
 "The first action I defined for an NPC, so that Jace can announce stuff to the park."
 
-jace1_announce is an announcement in the Void.  The words of jace1_announce are "Um, hi, I guess the park is... closed?  Everyone should get out, at least.  If you can!  If you can't, um, sorry, I'll see if I can get help.  I'll do that next.  But, like, right now, everyone else leave, so you don't, like, fall in the hole."
+jace1_announce is an announcement in the Void.  The words of jace1_announce are "Um, hi, I guess the park is... closed?  Everyone should get out, at least.  If you can!  If you can't, um, sorry, I'll see if I can get help.  I'll do that next.  But, like, right now, everyone else should leave."
 	
 After jace announcing jace1_announce:
 	now the emotion of Jace is "worried";
