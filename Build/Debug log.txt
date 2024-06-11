@@ -7,14 +7,14 @@ Using Inform kit 'EnglishLanguageKit' (priority 1).
 Using Inform kit 'WorldModelKit' (priority 2).
 Using Inform kit 'CommandParserKit' (priority 3).
 756 Preform nonterminals read from C:\Program Files\Inform\Internal\Languages\English\Syntax.preform
-I've now read your source text, which is 9365 words long.
+I've now read your source text, which is 15585 words long.
 Included: core, naming, instance counting, interactive fiction, spatial model, backdrops, bibliographic data, chronology, devices, mapping, persons, player, regions, scenes, scoring, timed rules, times of day, actions, going, command, showme, multimedia, figures, sounds, glulx external files
 Excluded: 
 I've also read Basic Inform by Graham Nelson, which is 7691 words long.
 I've also read English Language by Graham Nelson, which is 2328 words long.
 I've also read Standard Rules by Graham Nelson, which is 32164 words long.
 I've also read Response Assistant by Aaron Reed, which is 558 words long.
-I've also read Hybrid Choices by AW Freyr, which is 10404 words long.
+I've also read Hybrid Choices by AW Freyr, which is 10435 words long.
 I've also read Basic Screen Effects by Emily Short, which is 2223 words long.
 
 
@@ -39,27 +39,28 @@ Loading kinds definitions from C:\Program Files\Inform\Internal\Inter\WorldModel
 Loading kinds definitions from C:\Program Files\Inform\Internal\Inter\WorldModelKit\kinds\Figures.neptune
 Loading kinds definitions from C:\Program Files\Inform\Internal\Inter\WorldModelKit\kinds\Sounds.neptune
 Loading kinds definitions from C:\Program Files\Inform\Internal\Inter\CommandParserKit\kinds\Parsing.neptune
+.... Task__make_built_in_kind_constructors() took 1cs
 
 
 -----------------------------------------------------
 Phase III ... Pre-pass through major nodes
 -----------------------------------------------------
 
-.... MajorNodes__pre_pass() took 16cs
+.... MajorNodes__pre_pass() took 20cs
 
 
 -----------------------------------------------------
 Phase IV ... First pass through major nodes
 -----------------------------------------------------
 
-.... MajorNodes__pass_1() took 9cs
+.... MajorNodes__pass_1() took 16cs
 
 
 -----------------------------------------------------
 Phase V ... Second pass through major nodes
 -----------------------------------------------------
 
-.... MajorNodes__pass_2() took 2cs
+.... MajorNodes__pass_2() took 4cs
 
 
 -----------------------------------------------------
@@ -72,6 +73,7 @@ Phase VI ... Making the model world
 Phase VII ... Completing the model world
 -----------------------------------------------------
 
+.... World__stages_II_and_III() took 1cs
 
 
 -----------------------------------------------------
@@ -84,28 +86,30 @@ Phase VIII ... Tables and grammar
 Phase IX ... Augment model world
 -----------------------------------------------------
 
-.... World__stage_V() took 2cs
+.... World__stage_V() took 4cs
 
 
 -----------------------------------------------------
 Phase X ... Phrases and rules
 -----------------------------------------------------
 
-.... ImperativeDefinitions__assess_all() took 6cs
+.... ImperativeDefinitions__assess_all() took 8cs
 
 
 -----------------------------------------------------
 Phase XI ... Generating inter (1)
 -----------------------------------------------------
 
-.... RTKindConstructors__compile() took 4cs
+.... RTKindConstructors__compile() took 12cs
 
 
 -----------------------------------------------------
 Phase XII ... Generating inter (2)
 -----------------------------------------------------
 
-.... CompletionModule__compile() took 5cs
+.... CompletionModule__compile() took 3cs
+.... RTKindConstructors__compile_permissions() took 1cs
+.... InferenceSubjects__emit_all() took 1cs
 .... ImperativeDefinitions__compile_first_block() took 1cs
 
 
@@ -121,9 +125,9 @@ Phase XII ... Generating inter (2)
 Phase XIII ... Generating inter (3)
 -----------------------------------------------------
 
-.... Sequence__undertake_queued_tasks() took 207cs
-.... Sequence__undertake_queued_tasks() took 2cs
-.... RTPhrasebook__compile_entries() took 6cs
+.... Sequence__undertake_queued_tasks() took 298cs
+.... Sequence__undertake_queued_tasks() took 3cs
+.... RTPhrasebook__compile_entries() took 7cs
 
 
 -----------------------------------------------------
@@ -144,9 +148,9 @@ Phase XIV ... Generating inter (4)
 Phase XV ... Generating inter (5)
 -----------------------------------------------------
 
-.... Sequence__undertake_queued_tasks() took 1cs
+.... Sequence__undertake_queued_tasks() took 2cs
 Providing for a total heap of 8192, given requirement of 8192
-.... Sequence__lint_inter() took 3cs
+.... Sequence__lint_inter() took 4cs
 
 
 -----------------------------------------------------
@@ -159,7 +163,7 @@ Phase XVI ... Bibliographic work
 Phase XVII ... Complete
 -----------------------------------------------------
 
-Compile CPU time: 279 centiseconds
+Compile CPU time: 400 centiseconds
 
 
 ==== Phase XVII.1 ... step 1/15: read <- *memory ====
@@ -204,12 +208,12 @@ Compile CPU time: 279 centiseconds
 
 ==== Phase XVII.11 ... step 11/15: eliminate-redundant-labels ====
 
-2186 redundant label(s) removed
+2378 redundant label(s) removed
 
 
 ==== Phase XVII.12 ... step 12/15: eliminate-redundant-operations ====
 
-553 redundant operation(s) removed
+619 redundant operation(s) removed
 
 
 ==== Phase XVII.13 ... step 13/15: optionally-generate text ->  ====
@@ -6141,8 +6145,8 @@ HTML tag stack:
     52. html (opened at line 236 of 'D:/Programs/Adv/Inform7/Distribution/inweb/foundation-module/Chapter 5/HTML.w')
 
 
-Back end elapsed time: 247cs
-Total of 116 files written as streams.
+Back end elapsed time: 248cs
+Total of 119 files written as streams.
 Vacant escapes: %: ..CDE.GH..K.M.O.QR.TU...YZab..e..h.jklm.o.qr......yz0123456789
 Vacant escapes: $: .....F...J..........UVW.....................s.u..x.........789
 

@@ -310,7 +310,7 @@ Section Playground
 
 Playground is a room.  "You're at the top of the hill in the park.  This side has slides, swings, and a wide variety of brightly-colored [equipment].  The path curves from the south to the east side of the hill, along the ridge."
 
-Some climbing equipment is fixed in place in the Playground.  The description is "It looks like a blast to play in.  Slides that cross over each other; several different kinds of swings; ropes and bars everywhere.[if sinkhole_size is 0]  Kids are playing on every surface."  Understand "slides/slide/swings/swing/bright/brightly-colored/brightly/colored/ropes/bars" as climbing equipment.
+Some climbing equipment is fixed in place in the Playground.  The description is "It looks like a blast to play in.  Slides that cross over each other; several different kinds of swings; ropes and bars everywhere.[if not evacuated and sinkhole_size is 0]  Kids are playing on every surface."  Understand "slides/slide/swings/swing/bright/brightly-colored/brightly/colored/ropes/bars" as climbing equipment.
 
 playground_view is here.  It is distant and privately-named.  "[if sinkhole_size is 0]Dominating the sky to the east are the red metal tubes and bars of Coyote's Call.[otherwise]Coyote's Call has fallen into the gaping and still-expanding sinkhole."  The description is "[distant_coyote][the east]."  Understand "iconic/red/metal/structure/coyote/coyote's/call/central/hill/tubes/bars" as playground_view.  The printed name of playground_view is "Coyote's Call";
 
@@ -378,6 +378,13 @@ To say coyote's call's general description:
 
 Coyote's Call is here.  "[what coyote's call looks like][no line break]".  The description is "[coyote's call's general description]".  Understand "coyote/call/coyote's/collection/giant/metal/tubes/beams/abstract/chaos/curve", "curve of the hill" as coyote's call.
 
+Foliage is here.  It is scenery.  The printed name of foliage is "bushes and trees".  The description is "[foliage description].".  Understand "bushes/trees/chaos/foliage" as foliage.
+
+To say foliage description:
+	if sinkhole_size is 0:
+		say "A variety of bushes and trees top the hill, most of which seem to have grown here since Coyote's Call was installed";
+	otherwise:
+		say "The falling bushes and trees add to the general chaos of the collapsing hill and structure";
 
 Southeast of Sculpture By Lot is Bewildering Bridges.
 Southeast of Top Of Hill is Bewildering Bridges.
@@ -425,13 +432,29 @@ Instead of going nowhere from Sinkhole, say "From here, you can sense spiders ab
 
 Instead of going nowhere from Sinkhole when the noun is down, say "From here, you can sense spiders above and below you, but the ones below are outside of Lestar's sphere of influence."
 
-falling_coyote is in the Void.  It is privately-named.  "[if the time of day is 10:58 AM]A spear of red metal from Coyote's Call falls through open space here.[otherwise]The majority of Coyote's Call is caught frozen near you as it tumbles."  The description is "[if the time of day is 10:58 AM]LS TBD:  maybe some writing on it that can only be discovered in this way?[otherwise]Somehow, the artistic chaos from before has been dissipated into just... normal chaos.  It's now just a pile of falling red metal."  Understand "coyote/coyote's/call/spear/red/metal" as falling_coyote.
+falling_coyote is in the Void.  It is privately-named.  "[if the time of day is 10:58 AM]A spear of red metal from Coyote's Call falls through open space here.[otherwise]The majority of Coyote's Call is caught frozen near you as it tumbles."  The description is "[if the time of day is 10:58 AM]Etched into the base of the spear is a design that must have been buried in the dirt:  two crossed lines circumscribed by a rounded triangle[the spear design].[otherwise]Somehow, the artistic chaos from before has been dissipated into just... normal chaos.  It's now just a pile of falling red metal."    The printed name of falling_coyote is "falling pieces of Coyote's Call". Understand "falling/coyote/coyote's/call/spear/red/metal" as falling_coyote.
+
+falling_coyote can be processed.  falling_coyote is not processed.
+
+To say the spear design:
+	if purple scarf  is processed:
+		if falling_coyote is processed:
+			say ".  It's definitely the same design that you remembered from the hidden woman outside the office complex";
+		otherwise:
+			move mysterious design memory to the player;
+			say ".[lb]Wait.  That's the same design that you finally remembered from the purple scarf of the hidden woman outside the office complex from your first mission";
+
+After examining falling_coyote:
+	if the time of day is 10:58 AM:
+		now falling_coyote is processed;
+
+
 
 Chapter Mindscape
 
 Section Mechanics
 
-Wyatt is a man in the Void.  The printed name of Wyatt is "young boy".
+Wyatt is a man in the Void.  The printed name of Wyatt is "young boy".  Understand "wyatt/young/boy" as wyatt.
 
 The intro-page of Wyatt is hide-and-seek.
 
@@ -613,7 +636,21 @@ To say swap the fourth woman:
 
 A mysterious woman is a woman in Void.  "Somehow, you never directly noticed the fourth passerby before, but now that you know she was there, you can mostly see her in your memory."  The description is "[one of]You struggle, trying to clarify the fourth person in your memory.  It's a woman, you can't rememer how old, wearing a scarf and looking intently at... a spider.  At you[or]The fourth person is a woman of indeterminate age, wearing a scarf, and looking intently at one of the spiders you were inhabiting[stopping]."  Understand "fourth/person/passerby/woman/mysterious" as the mysterious woman.
 
-A red scarf is a thing carried by the mysterious woman.  The description is "Focusing intently on your memory, you think you can make out a design on the scarf: two crossed lines circumscribed by a rounded triangle."
+A purple scarf is a thing carried by the mysterious woman.  The description is "Focusing intently on your memory, you think you can make out a design on the scarf: two crossed lines circumscribed by a rounded triangle[the scarf design]."
+
+the purple scarf can be processed.  The purple scarf is not processed.
+
+To say the scarf design:
+	if falling_coyote is processed:
+		if purple scarf is processed:
+			say ".  It's definitely the same design that you saw on the unearthed base of the bit of Coyote's Call you caught as it plunged into the sinkhole";
+		otherwise:
+			move mysterious design memory to the player;
+			say ".[lb]Wait.  That's the same design that you saw on the spear of metal from Coyote's Call";
+
+After examining the purple scarf:
+	now the purple scarf is processed;
+
 
 Office_Zora is a woman in Outside the Office Complex.  The printed name of Office_zora is "the memory of yourself".  The description is "Despite practicing for weeks, you were still disoriented from the ritual, and unsure how on earth 'entering people's minds and talking to them' was going to help.  But you were bolstered by Lestar's confidence and Amaia's competence, determined to do your best."  Understand "me/you/yourself/myself/Zora/spider/spiders" as Office_Zora.  Instead of entering or touching Office_Zora, say "The moment this memory reminds you most of is right now."
 
@@ -698,7 +735,7 @@ Lestar is a man in the Hyundai.  "Lestar's eyes are shut in calm concentration. 
 The mind-touch of Lestar is "Reaching out with your mind, you brush Lestar's surface thoughts with your own.  Instantly, you feel the thought, 'Hi, Zora!  Just figure out what's going on, then get people to safety.  You can do this.'  It must have been waiting for you, which in retrospect you feel you should have anticipated.  He's an old Vested, after all, and has been doing this for years.";
 
 Instead of entering Lestar:
-	say "Lestar's been nothing but kind to you, but you're sure if he saw your whole mind, he'd be disappointed.  You've touched his mind before and that's gone OK.  You guess.  You hope."
+	say "[i]Entering Lestar's mind will be the main hint system of the game, I think, but I haven't tried to do anything with it yet.[r]"
 	
 The intro-page of Lestar is the blocked page.
 	
@@ -713,7 +750,7 @@ waking lestar is physical Lestaring.
 attacking lestar is physical Lestaring.
 
 Instead of physical Lestaring:
-	say "Lestar has anchored himself in the present, with that anchor extended slightly into the past and future, with your and Amaia's help.  Until he unanchors himself again, you cannot interact with him physically.  You could in theory [b]enter[r] his mind, but as another Vested, he'd remember everything.  [b]Touching[r] his mind would connect your surface thoughts, which you think you could live with."
+	say "Lestar has anchored himself in the present, with that anchor extended slightly into the past and future, with your and Amaia's help.  Until he unanchors himself again, you cannot interact with him physically.  You have at times [b]entered[r] his mind, but as another Vested, he remembers everything.  [b]Touching[r] his mind would connect your surface thoughts, which is a little safer."
 
 The giant bushy white eyebrows are part of Lestar.  The description of the eyebrows is "Yeah, they're kind of hard to not just stare at."
 
@@ -896,6 +933,7 @@ A page-toggle rule for J7_earlier:
 			blank out the whole row;
 		otherwise if the doing entry is Jace announcing jace2_announce:
 			blank out the whole row;
+	[Set up Jace doing this next time round:]
 	if there is a time corresponding to a time of the time of day minus one minute in the table of Jace's actions:
 		[say "Action found at [time of day minus one minute].";]
 		now the doing corresponding to the time of the time of day minus one minute in the table of Jace's actions is jace announcing jace3_announce;
@@ -904,6 +942,13 @@ A page-toggle rule for J7_earlier:
 		choose a blank row in the Table of Jace's actions;
 		now time entry is the time of day minus one minute;
 		now doing entry is (Jace announcing jace3_announce);
+	[Now set up the kids and people evacuating in response to the announcement:]
+	repeat through the Table of kids actions:
+		if the doing entry is kids evacuating:
+			blank out the whole row;
+	if there is a time corresponding to a time of the time of day in the Table of kids actions:
+		[say "Action found at [time of day minus one minute].";]
+		now the doing corresponding to the time of the time of day in the table of kids actions is kids evacuating;
 			
 	
 
@@ -964,21 +1009,29 @@ To say room description of Wyatt: [Note:  don't end with a period; it messes up 
 Section Background Cast
 
 To say playing_kids:
-	if sinkhole_size is 0:
-		say "Kids are playing, shrieking, and chasing each other up and around the platforms.[no line break]";
-	if sinkhole_size is 1:
+	if evacuated:
+		say "The kids are reluctantly being led or carried away by their parents";
+	otherwise if sinkhole_size is 0:
+		say "Kids are playing, shrieking, and chasing each other up and around the platforms";
+	otherwise if sinkhole_size is 1:
 		if spidered:
-			say "The kids are reacting to the disaster in different ways.  Most seem to be running away, but some are transfixed by the sight, and at least one seems to have been caught taking a step [i]towards[r] the sinkhole.[no line break]";
+			say "The kids are reacting to the disaster in different ways.  Most seem to be running away, but some are transfixed by the sight, and at least one seems to have been caught taking a step [i]towards[r] the sinkhole";
 		otherwise:
-			say "Most of the kids are running away, but some are transfixed by the destruction to the east, and a couple are taking hesitant steps towards the hole.[no line break]";
+			say "Most of the kids are running away, but some are transfixed by the destruction to the east, and a couple are taking hesitant steps towards the hole";
+		
 
 To say kid_description:
-	if sinkhole_size is 0:
-		say "The kids are all having a great time. LS TBD: hint at something here.[no line break]";
+	if evacuated:
+		if sinkhole_size is 0:
+			say "You take stock of the kids, and each one seems to have a parent helping them leave";
+		otherwise:
+			say "All the kids seem to have been evacuated before the sinkhole appeared";
+	otherwise if sinkhole_size is 0:
+		say "The kids are all having a great time swinging and climbing or chasing each other around.  Some of them seem to be playing some version of 'hide and seek'";
 	otherwise:
 		say "Only a few kids remain, either transfixed or crying.  A few are being snatched up by desperate parents. (LS TBD: more here, I think.)[no line break]";
 
-Some kids are plural-named people in the Void.  "[playing_kids][no line break]".  The description of the kids is "[kid_description][no line break]".
+Some kids are plural-named people in the Void.  "[playing_kids].".  The description of the kids is "[kid_description].".
 
 Instead of entering the Kids, say "[if sinkhole_size is greater than 0]You feel there must be a way to get most people out of here all at once instead of trying to do it one kid at a time.[otherwise]Hoo boy.  As traumatic as it is for you to enter people's minds, you'd rather not inflict full access to an adult mind on a pre-teen, even if they're supposed to forget afterwards."
 
@@ -986,7 +1039,7 @@ The mind-touch of Kids is "[if sinkhole_size is 0]You let your own mind lightly 
 
 The intro-page of Kids is blocked page.
 
-Park-goers are plural-named backdrop in the Void.  They are scenery.  The description is "[if sinkhole_size is 0]The park is well-attended today, with a variety of park-goers enjoying the day and the scenery.[otherwise if sinkhole_size is 1]The park-goers seem confused and can't quite figure out what's going on."  Understand "people/goers/crowd/crowds/park-goers", "park goers" as park-goers.
+Park-goers are plural-named backdrop in the Void.  They are scenery.  The description is "[if evacuated]The park-goers are heading to the exit.[otherwise if sinkhole_size is 0]The park is well-attended today, with a variety of park-goers enjoying the day and the scenery.[otherwise if sinkhole_size is 1]The park-goers seem confused and can't quite figure out what's going on."  Understand "people/goers/crowd/crowds/park-goers", "park goers" as park-goers.
 
 Instead of entering park-goers, say "Entering someone's mind is traumatic enough that you're not going to do it without some particular reason."
 
@@ -1048,11 +1101,13 @@ When play begins:
 	now the right hand status line is "[time of day]";
 	say "Amaia screeches into the parking lot, and expertly zips into an open spot.  She closes her eyes briefly, checking, then opens them again, only fractionally less concerned.  'OK,' she says, breathlessly, 'whatever it is that's going to happen hasn't happened yet.  Zora,' she turns to you apologetically over her shoulder, 'you won't have a lot of time, but the future's still branching, so it should be enough.  Lestar, you're up.' [line break][line break]From the passenger seat, Lestar grins at both of you, his white eyebrows quirking soothingly, and he reaches behind his seat to pat you reassuringly on the arm.  'You got this, kid,' he says 'You've been doing great; this'll be just like the other times.'  From Amaia's panicked expression, you can tell she disagrees, but she says nothing.  You take a deep breath and grab Lestar's hand, dry and warm, and it grounds you.[line break][line break]Amaia takes Lestar's other hand, then grabs yours, the contact sleek with sweat from both of you.  Lestar nods at you both, and closes his eyes.[line break][line break]Everything freezes.[line break][line break]You have all the time in the world."
 
-The time of day is 10:53 AM. 
+The time of day is 10:55 AM. 
 
 Book Memories
 
 A memory is a kind of thing.  Understand "memory" as a memory.
+
+Does the player mean doing anything with a memory: It is unlikely.
 
 Instead of doing something other than examining or taking or giving with a memory:
 	say "You can't interact with a memory like that."
@@ -1064,6 +1119,7 @@ disaster memory is a memory in the Void.  The description is "A snapshot in your
 
 hiding memory is a memory in the Void.  The description is "A snapshot in your mind of finding what's hidden in the 'hiding zone', as Wyatt called it, by looking for a place to hide."  Understand "hiding/zone/wyatt" as hiding memory.
 
+mysterious design memory is a memory in the Void.  The description is "A snapshot in your mind of the odd design you saw on both the spear of metal from Coyote's Call and the scarf of the hidden woman from your first mission.  It's two crossed lines circumscribed by a rounded triangle."  Understand "odd/design/mysterious/spear/two/crossed/lines/circumscribed/rounded/triangle" as the mysterious design memory.
 
 
 Book Preset events
@@ -1107,11 +1163,12 @@ To carry out sinkhole expanding:
 	now sinkhole_size is 2;
 	move disaster_victims to Void;
 	move falling_coyote to Void;
+	move foliage to void;
 	say "LS TBD:  the sinkhole expands.";
 	
 To carry out loop resetting:
 	now sinkhole_size is 0;
-	now the time of day is 10:43 AM;
+	now the time of day is 10:51 AM;
 	now the emotion of Jace is "friendly but bored";
 	now Jace is not announced;
 	deactivate J7_evacuated;
@@ -1119,6 +1176,7 @@ To carry out loop resetting:
 	move Jace to the ticket booth;
 	move the Hyundai to the Void;
 	move coyote's call to Top Of Hill;
+	move foliage to Top Of Hill;
 	if the spiders are in the Hyundai:
 		move the spiders to the Parking Lot;
 	say "You feel the web of time time tighten beneath you, and with a rush, you slip backwards along it before it finally goes slack again, and you regain your hold.";
@@ -1171,8 +1229,10 @@ Every turn:
 		carry out sinkhole expanding;
 	if the time of day is 11:06 AM:
 		carry out loop resetting;
-	if the location of the player is a chasmy room or the location of the player is the playground:
+	if the location of the player is a chasmy room:
 		carry out seeing the disaster;
+	otherwise if the location of the player is the playground and the time of day is greater than 10:56 AM:
+		carry out seeing the disaster
 		
 After going to a chasmy room:
 	carry out seeing the disaster;
@@ -1196,11 +1256,11 @@ Instead of waiting when the time of day is 11:06 AM and the disaster memory is i
 		
 After going somewhere in a parky room for the first time:
 	try looking;
-	if the time of day is 10:53 AM:
+	if the time of day is 10:55 AM:
 		say "Whatever Amaia is worried about is apparently happening in this park.  You'll need to [b]wait[r] to advance the loop and see what's going on.";
 	
 After going to a parky room:
-	if the time of day is 10:53 AM and every parky room is visited:
+	if the time of day is 10:55 AM and every parky room is visited:
 		try looking;
 		say "That's all the areas of the park.  Something's going to happen in one of them, so you'll need to [b]wait[r] to advance the loop and see what's going on.";
 	otherwise:
@@ -1228,6 +1288,17 @@ jace1_announce is an announcement in the Void.  The words of jace1_announce are 
 jace2_announce is an announcement in the Void.  The words of jace2_announce are "Oh shit everyone get out!  911[apostrophe]s on their way but that hole's getting larger!  Parking lot, everyone!"
 	
 jace3_announce is an announcement in the Void.  The words of jace3_announce are "Hi, everyone!  Um, the park is now closed.  Everyone needs to leave the park immediately.  The, uh, Army Corps of Engineers reported that, uh, crap, I can't... look.  There's a Vested emergency, okay?  Everyone is in danger; you need to leave right now."
+
+evacuating is an action applying to nothing.
+
+Report an actor evacuating (this is the report evacuating rule):
+	if the location of the player is the location of the actor:
+		say "Confused but concerned parents arrive and collect their kids, and start heading to the parking lot. ";
+
+The specification of the announcing action is
+"The first action I defined for an NPC, so that Jace can announce stuff to the park."
+
+
 	
 Jace can be announced.  Jace is not announced.
 
@@ -1239,10 +1310,12 @@ After jace announcing jace1_announce:
 	continue the action;
 	
 After Jace announcing jace2_announce:
+	now Jace is announced;
 	now the emotion of Jace is "panicked";
 	continue the action;
 
 After Jace announcing jace3_announce:
+	now Jace is announced;
 	now the emotion of Jace is "excited and worried";
 	repeat through the Table of Initial Placements:
 		move the NPC entry to the Location entry;
@@ -1257,6 +1330,7 @@ Table of NPCs
 NPC	Action table
 Jace	Table of Jace's Actions
 Wyatt	Table of Wyatt's Actions
+kids	Table of kids actions
 
 Table of Jace's Actions
 time	doing
@@ -1269,6 +1343,11 @@ with 20 blank rows
 Table of Wyatt's Actions
 time	doing
 10:59 AM	Wyatt waiting
+with 23 blank rows
+
+Table of kids actions
+time	doing
+10:59 AM	kids waiting
 with 23 blank rows
 
 Table of Initial Placements
