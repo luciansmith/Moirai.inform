@@ -96,9 +96,6 @@ Rule for setting action variables for going (this is the allow rideables to be
 	if the actor is carried by a person (called the host),
 		now the vehicle gone by is the host;
 
-Instead of exiting when the player is enclosed by a person:
-	say "You can't exit one consciousness without going into another one." instead.
-
 Instead of entering a person:
 	If the player is enclosed by a person (called prev_host):
 		if the prev_host is the noun:
@@ -205,7 +202,7 @@ Section parking lot
 
 Quinlan Park Parking Lot is a room.  "Scattered cars fill the parking lot[if the hyundai is in the parking lot], including [the Hyundai] you came here in[otherwise], but your Hyundai hasn't arrived yet[end if]. The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.".  parking lot is liminal.
 
-Looming sculpture is fixed in place. It is here.  "Looming over the parking lot to the east is a huge sculpture  whose details have yet to be decided LS TBD.}".  The description is "It's a sculpture looming over the east fence LS TBD."
+Looming sculpture is fixed in place. It is here.  "Looming over the parking lot to the east is a huge sculpture  whose details have yet to be decided (LS TBD).".  The description is "It's a sculpture looming over the east fence (LS TBD)."
 
 Fence is a backdrop.  It is here.  The description is "A fence walls off the park."  The fence is in the Path By Hill, Under Bridge, Water Sculpture, East Hill, Bewildering Bridges, and Sculpture By Lot.
 
@@ -229,7 +226,7 @@ To say mention_booths:
 
 Quinlan Park Entrance is a room.  "Two booths flank the entrance to the park to the north, where you can buy tickets and get information[mention_booths].  To the south is the parking lot.". Entrance is liminal.
 
-An information booth is here.  It is a fixed in place container.  The description is "The information booth is unmanned, but there's a [stack of fliers] resting on the sill."  Understand "booths" as the information booth.
+An information booth is here.  It is a fixed in place enterable container.  The description is "The information booth is unmanned, but there's a [stack of fliers] resting on the sill."  Understand "booths" as the information booth.
 
 A stack of fliers is part of the information booth.  The description is "The flier reads:[line break][line break][b]'Welcome to Quinlan Park!'[r][line break][line break]'Established in 1974, Dr. Robert Quinlan set aside this portion of his estate as a public park, commissioned the central 'Coyote's Call' sculpture from Wynona Locklear, and set up a trust to commission and rotate other art pieces at other sites throughout the park.  Enjoy your stay, and find out more below about our amazing artists!'[line break][line break]Below this is a cartoon map of the park, with small text blocks describing each of the sculptures currently on display:  the central Coyote's Call, then (clockwise from the southwest entrance): <something>, Fire and Forge, <something>, <water sculpture>, Bird and Cage, <bridges>, and <looming> (LS TBD: list the rest, and write the block text for each.  You should eventually be able to 'x bird and cage' and get this description if not next to the real thing, and probably 'look up bird and cage on map' to be more specific (not implemented yet))."
 Understand "flier/flyer/sill" as stack of fliers.
@@ -244,7 +241,7 @@ Instead of taking the stack of fliers:
 	if spidered:
 ]		
 
-A ticket booth is here.  It is open, container, and fixed in place.  The description is "The ticket booth has a sign with a pay-what-you-want pricing scheme ranging from 'I just need more grass and art in my life - FREE' through 'I think you guys are amazing and would love to be listed as a patron - $1000'.[if Jace is enclosed by the ticket booth]  [A Jace] is manning the booth, taking donations from the park-goers." Understand "tickets/booths" as ticket booth;
+A ticket booth is here.  It is open, container, enterable, and fixed in place.  The description is "The ticket booth has a sign with a pay-what-you-want pricing scheme ranging from 'I just need more grass and art in my life - FREE' through 'I think you guys are amazing and would love to be listed as a patron - $1000'.[if Jace is enclosed by the ticket booth]  [A Jace] is manning the booth, taking donations from the park-goers." Understand "tickets/booths" as ticket booth;
 
 Rule for writing a paragraph about the ticket booth:
 	If Jace is in the ticket booth:
@@ -310,7 +307,11 @@ Section Playground
 
 Playground is a room.  "You're at the top of the hill in the park.  This side has slides, swings, and a wide variety of brightly-colored [equipment].  The path curves from the south to the east side of the hill, along the ridge."
 
-Some climbing equipment is fixed in place in the Playground.  The description is "It looks like a blast to play in.  Slides that cross over each other; several different kinds of swings; ropes and bars everywhere.[if not evacuated and sinkhole_size is 0]  Kids are playing on every surface."  Understand "slides/slide/swings/swing/bright/brightly-colored/brightly/colored/ropes/bars" as climbing equipment.
+Some climbing equipment is fixed in place in the Playground.  The description is "It looks like a blast to play in.  Slides that cross over each other; several different kinds of swings; a roundabout; ropes and bars everywhere.[if not evacuated and sinkhole_size is 0]  Kids are playing on every surface."  Understand "slides/slide/swings/swing/bright/brightly-colored/brightly/colored/ropes/bars/roundabout/merry-go-round/spinner" as climbing equipment.
+
+Instead of examining climbing equipment when spidered:
+	if Wyatt is hidden and the location of Wyatt is the Playground:
+		try examining Wyatt;
 
 playground_view is here.  It is distant and privately-named.  "[if sinkhole_size is 0]Dominating the sky to the east are the red metal tubes and bars of Coyote's Call.[otherwise]Coyote's Call has fallen into the gaping and still-expanding sinkhole."  The description is "[distant_coyote][the east]."  Understand "iconic/red/metal/structure/coyote/coyote's/call/central/hill/tubes/bars" as playground_view.  The printed name of playground_view is "Coyote's Call";
 
@@ -322,7 +323,7 @@ East of Under Bridge is Beach Sculpture.
 
 Section Beach Sculpture
 
-Beach Sculpture is a room.  "An east-west path runs along the Brushstroke Reservoir beach. A large complicated structure sits here, fodder for some sort of puzzle LS TBD.  To your south, you can see the playground on top of the hill."
+Beach Sculpture is a room.  "An east-west path runs along the Brushstroke Reservoir beach. A large complicated structure sits here, fodder for some sort of puzzle (LS TBD).  To your south, you can see the playground on top of the hill."
 
 beach_sculpt_view is here.  It is distant and privately-named.  "[if sinkhole_size is 0]To the southeast atop the hill is the iconic red metal structure of Coyote's Call.[otherwise]You can no longer see Coyote's Call to the southeast."  The description is "[distant_coyote][the southeast]."  Understand "iconic/red/metal/structure/coyote/coyote's/call/central/hill/tubes/bars" as beach_sculpt_view.  The printed name of beach_sculpt_view is "Coyote's Call";
 
@@ -357,7 +358,7 @@ To say what top of hill looks like:
 	otherwise if sinkhole_size is 1:
 		say "The entire hill has collapsed in on itself, revealing a giant pit underneath. [if spidered]Bushes and trees are frozen mid-fall, as they pitch forward into the yawning chasm.[no line break][otherwise]The sides of the pit continue to expand, as dirt and trees slowly topple in from the sides.[end if][no line break]";
 	otherwise:
-		say "Nothing remains of the hill or its contents.  In fact, I probably shouldn't let you be here LS TBD.[no line break]"
+		say "Nothing remains of the hill or its contents.  In fact, I probably shouldn't let you be here (LS TBD).[no line break]"
 
 Top of Hill is a room.  "[What top of hill looks like]".
 The printed name of top of hill is "[if sinkhole_size is 0]Top of Hill[otherwise if sinkhole_size is 1]Giant Pit[otherwise]Giant-er Pit LS TBD"
@@ -454,16 +455,8 @@ Chapter Mindscape
 
 Section Mechanics
 
-Wyatt is a man in the Void.  The printed name of Wyatt is "young boy".  Understand "wyatt/young/boy" as wyatt.
-
-The intro-page of Wyatt is hide-and-seek.
-
-The mind-touch of Wyatt is "[The Wyatt] is hyper-focused on hiding."
-
-hide-and-seek is a page.
-
 To say h-n-s intro:
-	say "You release your hold of time, and let your mind connect to the kid, trying to focus on relatively innocuous memories, to keep him safe as he inevitably tumbles from memory to memory, getting his bearings...
+	say "You release your hold of time, and let your mind connect to [maybe Wyatt], trying to focus on relatively innocuous memories, to keep him safe as he inevitably tumbles from memory to memory, getting his bearings...
 [bstars]
 You're telling Jace about the sinkhole, and he pulls the hand-held microphone from the wall, telling everyone there's a Vested emergency...
 [bstars]
@@ -471,24 +464,17 @@ You're in the back seat of the Hyundai, Amaia driving and Lestar fiddling with t
 [bstars]
 Following your younger brother's lead, you aim your skis more directly downhill, feeling yourself pick up speed... and suddenly [maybe Wyatt]'s presence is gone.  You find yourself in control again, and stop the memory.  Where did he go?";
 
-to carry out hiding and seeking:
+Hiding_and_seeking is a scene.  Hiding_and_seeking begins when Wyatt is tagged.  Hiding_and_seeking ends when Wyatt is not tagged.  
+
+The hiding start time is a time that varies.
+
+When Hiding_and_seeking begins:
 	say "[h-n-s intro]";
 	move the player to skiing;
+	now the hiding start time is the time of day;
 	now the time of day is 7:32 PM;
-	try looking;
 
-To say name_him_wyatt:
-	Now the printed name of Wyatt is "Wyatt";
-	Now Wyatt is proper-named;
-
-To say maybe Wyatt:
-	if the printed name of Wyatt is "Wyatt":
-		say "Wyatt";
-	otherwise:
-		say "the boy (whose name seems to be Wyatt)"[[name_him_wyatt]";]
-
-
-A memConnection is a kind of thing.  A memConnection can be noticed or unnoticed.  A memConnection is usually unnoticed.  A memConnection has a room called a destination.  A room can be kidless or wyatted.  A room is usually kidless.  [A memConnection can be male.]
+A memConnection is a kind of thing.  A memConnection can be noticed or unnoticed.  A memConnection is usually unnoticed.  A memConnection has a room called a destination.  A room can be kidless or wyattful.  A room is usually kidless.  [A memConnection can be male.]  A memConnection has a time called the dest_time.  The dest_time of a memConnection is usually 7:32 PM.
 
 A memConnectPerson is a kind of memConnection.  
 A memConnectPerson can be female or male. A memConnectPerson is usually female.
@@ -504,7 +490,7 @@ To say list memexits from (palace - a room):
 		if at_least_one is not nothing:
 			say ", though you sense there may be more connections you haven't found yet";
 	if faint_wyatt is in the palace:
-		say ".[lb]You catch a faint echo of Wyatt's presence here.[no line break]";
+		say ".[lb]You catch a faint echo of [maybe Wyatt]'s presence here.[no line break]";
 	otherwise:
 		say ".[lb]You don't sense Wyatt's echo here; wherever he's hiding, he must have gone a different way.[no line break]";
 
@@ -519,16 +505,17 @@ Instead of touching or entering a memConnection (called the connection):
 	say "You connect with [the connection] and shift your perception to another memory.";
 	now the connection is noticed;
 	move the player to the destination of the connection;
+	now the time of day is the dest_time of the connection;
 
 Section Skiing Room
 
-Skiing is a liminal room.  "You're in your own memory of one of the earlier times you went skiing with your family.  There's light [snow] in the cold, [crisp air].  In the distance is [a ski lift].[pb]In your memory, you've just turned your skis straight down the hill to catch up with your brother in the distance.  The reason [Zora_mem1] remember this moment more vividly is because you're about to [crash].[pb][list memexits from Skiing][no line break]".  Skiing is wyatted.
+Skiing is a liminal room.  "You're in your own memory of one of the earlier times you went skiing with your family.  There's light [snow] in the cold, [crisp air].  In the distance is [a ski lift].[pb]In your memory, you've just turned your skis straight down the hill to catch up with your brother in the distance.  The reason you remember this moment more vividly is because you're about to [crash].[pb][list memexits from Skiing][no line break]".  Skiing is wyattful.
 
-Zora_mem1 is a privately-named woman in Skiing.  The description is "You're skiing in rented equipment and are all bundled up in hand-me-down winter clothes that don't quite match, but are great at keeping you warm.  You have a determined expression on your face tinged with the exhilaration of going faster than you've gone before."  Understand "Zora/me/you/ski/skis/pole/poles/clothes/hand-me-down/hand-me-downs/face" as Zora_mem1.  The printed name of Zora_mem1 is "the memory of yourself".  Instead of touching or entering Zora_mem1, say "You don't sense any one particular memory from connecting to the memory of yourself."
+Zora_mem1 is a privately-named scenery woman in Skiing.  The description is "You're skiing in rented equipment and are all bundled up in hand-me-down winter clothes that don't quite match, but are great at keeping you warm.  You have a determined expression on your face tinged with the exhilaration of going faster than you've gone before."  Understand "Zora/me/you/ski/skis/pole/poles/clothes/hand-me-down/hand-me-downs/face", "memory of myself", "memory of me", "memory of yourself" as Zora_mem1.  The printed name of Zora_mem1 is "the memory of yourself".  Instead of touching or entering Zora_mem1, say "You don't sense any one particular memory from connecting to the memory of yourself."
 
-The crash is a memConnection in Skiing.  The printed name of the crash is "crash".  The description is "Hesitantly, you play the memory forward slightly and watch yourself as you tip left, overcorrect right, knock the front of your skis together, and tumble over them. [pb]For a second, as your legs fly over your head, you're a little kid again, learning how to somersault[reveal crash]."  The destination of the crash is Green Hill.
+The crash is a memConnection in Skiing.  The printed name of the crash is "crash".  The description is "Hesitantly, you play the memory forward slightly and watch yourself as you tip left, overcorrect right, knock the front of your skis together, and tumble over them. [pb]For a second, as your legs fly over your head, you're a little kid again, learning how to somersault[reveal crash]."  The destination of the crash is Green Hill.  The dest_time of the crash is 1:12 PM.
 
-The ski lift is a memConnection in Skiing.  The description is "You always enjoyed your time on the ski lift with your brothers.  Cameron even told you he was dating Micah when you were on the lift together once[reveal ski lift]."   The destination of the ski lift is Cailleach Ski Lift.
+The ski lift is a memConnection in Skiing.  The description is "You always enjoyed your time on the ski lift with your brothers.  Cameron even told you he was dating Micah when you were on the lift together once[reveal ski lift]."   The destination of the ski lift is Cailleach Ski Lift.  The dest_time of the ski lift is 8:42 PM.
 
 The snow is scenery in Skiing.  The description is "Fine, cold, and powdery."  Understand "snow/fine/cold/powdery" as snow.  Instead of touching or entering the snow, say "You briefly sense other memories of snow throughout your life, but no one memory stands out enough to make a connection."
 
@@ -541,7 +528,7 @@ Section Green Hill room
 
 Green Hill is a liminal room.  "The grassy hill behind your elementary school.  After your best friend Kitty taught you how, you spent every recess for a month [somersaulting] down this hill.[pb][list memexits from Green Hill][no line break]".  Green Hill is kidless.
 
-somersaulting is a memConnection in Green Hill.  The description is "You remembered this frission of disorientation and exhilaration years later when you crashed skiing."  The destination of somersaulting is Skiing.  somersaulting is noticed.
+somersaulting is a memConnection in Green Hill.  The description is "You remembered this frission of disorientation and exhilaration years later when you crashed skiing."  The destination of somersaulting is Skiing.  somersaulting is noticed.  The dest_time of somersaulting is 7:32 PM.
 
 A grassy hill is scenery in Green Hill.  The description is "Soft grass and a gentle slope; perfect for somersaulting!"  Understand "green/grassy/hill/grass/soft/gentle/slope" as grassy hill.  Instead of touching or entering grassy hill, say "If Wyatt didn't come this way, you're not going to find him by delving further from here."
 
@@ -552,17 +539,17 @@ Instead of doing somersaults when the location is Green Hill:
 
 Section Ski Lift room
 
-Cailleach Ski Lift is a liminal room.  "Another memory; this one during one of your conversations with Cameron as you rode the Cailleach ski lift.[pb][list memexits from Cailleach Ski Lift ][no line break]". Cailleach Ski Lift is wyatted.
+Cailleach Ski Lift is a liminal room.  "Another memory; this one during one of your conversations with Cameron as you rode the Cailleach ski lift.[pb][list memexits from Cailleach Ski Lift ][no line break]". Cailleach Ski Lift is wyattful.
 
 The lift seat is scenery in Cailleach Ski Lift.  The description is "There's nothing quite like the open privacy of a ski lift, drifting above the snow and the skiers below you."  Understand "ski/lift/seat/open/privacy" as the lift seat.  Instead of touching or entering lift seat, say "This is already your most prominent memory involving ski lifts."
 
-Cameron is a memConnectPerson in Cailleach Ski Lift.  He is male.  "You and Cameron are sitting next to each other on the lift seat, Cameron earnestly telling you about Micah."  The description is "Cameron's face contains, in your memory, all of the emotions from that conversation at the same time.  The shyness of not wanting to tell you; the relief that he finally told someone; the joy in the way he describes Micah to you; the worry he has about eventually telling your folks[reveal Cameron]."  Understand "face/emotions/shyness/relief/joy/worry" as Cameron.  
+Cameron is a memConnectPerson in Cailleach Ski Lift.  He is male.  "You and Cameron are sitting next to each other on the lift seat, Cameron earnestly telling you about Micah."  The description is "Cameron's face contains, in your memory, all of the emotions from that conversation at the same time.  The shyness of not wanting to tell you; the relief that he finally told someone; the joy in the way he describes Micah to you; the worry he has about eventually telling your folks[reveal Cameron]."  Understand "face/emotions/shyness/relief/joy/worry" as Cameron. The destination of Cameron is Arguing_about_Micah.  The dest_time of Cameron is 6:39 PM.
 
-Micah_description is a memConnectPerson in Cailleach Ski Lift.  It is scenery and proper-named and male. The description is "When you eventually did meet Micah, it was like you had already met him, just from Cameron's vivid descriptions[reveal Micah_description]."  The destination of Micah_description is Meet_Micah.  The printed name of Micah_description is "Micah".  Understand "conversation/telling/micah" as Micah_description
+Micah_description is a memConnectPerson in Cailleach Ski Lift.  It is scenery and proper-named and male. The description is "When you eventually did meet Micah, it was like you had already met him, just from Cameron's vivid descriptions[reveal Micah_description]."  The printed name of Micah_description is "the description of Micah".  Understand "conversation/telling/micah/description", "description of micah" as Micah_description. The destination of Micah_description is Meet_Micah.  The dest_time of Micah_description is 4:22 PM.
 
-Lift_Zora is a memConnectPerson in Cailleach Ski Lift..  She is female and scenery.  The description is "You feel the intensity with which you listened to Cameron that day, being happy for him not only because he was in love, but also because he found something he cared about that your parents hadn't pushed him into.  Knowing that was possible helped you accept being a Vested, even though you knew your parents would object[reveal Lift_Zora]."  Understand "me/you/yourself/myself/Zora" as Lift_Zora.  The printed name of Lift_Zora is "the memory of yourself".  
+Lift_Zora is a memConnectPerson in Cailleach Ski Lift..  She is female and scenery.  The description is "You feel the intensity with which you listened to Cameron that day, being happy for him not only because he was in love, but also because he found something he cared about that your parents hadn't pushed him into.  Knowing that was possible helped you accept being a Vested, even though you knew your parents would object[reveal Lift_Zora]."  Understand "me/you/yourself/myself/Zora", "memory of myself", "memory of me", "memory of yourself" as Lift_Zora.  The printed name of Lift_Zora is "the memory of yourself".  
 
-The ski slopes are a plural-named memConnection in Cailleach Ski Lift.  The description is "Below the lift is the ski run where you crashed.  You're not sure if they're literally next to each other in real life, but your memory has smushed them together if not."  The destination of the ski slopes is Skiing.  The ski slopes are noticed and scenery.  Understand "ski/slopes/below/run/crash/crashed" as the ski slopes.
+The ski slopes are a plural-named memConnection in Cailleach Ski Lift.  The description is "Below the lift is the ski run where you crashed.  You're not sure if they're literally next to each other in real life, but your memory has smushed them together if not."  The destination of the ski slopes is Skiing.  The ski slopes are noticed and scenery.  Understand "ski/slopes/below/run/crash/crashed" as the ski slopes.  The dest_time of the ski slopes is 7:32 PM.
 
 
 
@@ -570,43 +557,45 @@ Section Meet Micah room
 
 Meet_Micah is a liminal room.  "You finally met Micah five months after Cameron and he started dating.  The details of the theater you're next to are fuzzy, but his smile is perfectly clear.[pb][list memexits from Meet_Micah ][no line break]".  The printed name of Meet_Micah is "Meeting Micah".  Understand "meeting" as Meet_micah.
 
-Micah is a memConnectPerson in Meet_Micah.  He is male and proper-named. "Micah is chatting breezily about something, his arm casually hooked around Cameron's[reveal Micah]."  The description is "Micah was already grinning as you walked up, but his face positively lit up when he noticed you.  You'd classify Micah's outfit that evening as studied casual':  nothing too fancy; nothing to flamboyant, but everything immaculately clean and wrinkle-free."  Understand "smile/faux/casual" as Micah.  Micah is noticed.  The destination of Micah is Cailleach Ski Lift.
+Micah is a memConnectPerson in Meet_Micah.  He is male and proper-named. "Micah is chatting breezily about something, his arm casually hooked around Cameron's[reveal Micah]."  The description is "Micah was already grinning as you walked up, but his face positively lit up when he noticed you.  You'd classify Micah's outfit that evening as 'studied casual':  nothing too fancy; nothing to flamboyant, but everything immaculately clean and wrinkle-free."  Understand "smile/faux/casual" as Micah.  Micah is noticed.  The destination of Micah is Cailleach Ski Lift.  The dest_time of Micah is 8:42 PM.
 
-Meet_Cameron is a privately-named memConnectPerson in Meet_Micah.  He is male and proper-named.  "Cameron and Micah were here before you walked up, and Micah is chatting up a storm."  The description is "Cameron is laughing at something Micah said, and looks more relaxed than you've ever seen him."  Understand "Cameron" as Meet_Cameron.  The printed name of Meet_Cameron is "Cameron".  The destination of Meet_Cameron is Arguing about Micah.
+Meet_Cameron is a privately-named memConnectPerson in Meet_Micah.  He is male and proper-named.  "Cameron and Micah were here before you walked up, and Micah is chatting up a storm."  The description is "Cameron is laughing at something Micah said, and looks more relaxed than you've ever seen him[reveal Meet_Cameron]."  Understand "Cameron" as Meet_Cameron.  The printed name of Meet_Cameron is "Cameron".  The destination of Meet_Cameron is Arguing_about_Micah.  The dest_time of Meet_Cameron is 6:39 PM.
+
+Meet_Zora is a scenery woman in Cailleach Ski Lift..  The description is "The main thing you remember about yourself that day is how un-selfconscious you felt.  Micah just seemed to have that effect on people."  Understand "me/you/yourself/myself/Zora", "memory of myself", "memory of me", "memory of yourself" as Lift_Zora.  The printed name of Lift_Zora is "the memory of yourself".  
 
 talking is scenery in Meet_Micah.  The description is "You eventually learned that Micah talks more when he's nervous, but at the time you just appreciated how he covered the empty spaces with banter without making anyone feel left out."  Instead of touching or entering talking, say "You do have other memories of Micah, but if Wyatt didn't get here, he probably didn't go down that particular rabbit hole."
 
-theater is scenery in Meet_Micah.  The description is "Maybe it was one of the historic theaters up in the north end?  You remember that Micah picked the place and the movie, and that you liked the movie.  You don't remember what it was in the slightest."  Instead of entering or touching the theater, say "You don't have any other memories associated with this theater."
+theater is scenery in Meet_Micah.  The description is "Maybe it was one of the historic theaters up in the north end?  You remember that Micah picked the place and the movie, and that you liked the movie.  Whatever it was."  Instead of entering or touching the theater, say "You don't have any other memories associated with this theater."
 
 Section Micah Argument room
 
-Arguing about Micah is room.  "In this memory, you're in your family's kitchen, in the aftermath of Cameron telling your parents about Micah.  The [dripping faucet] punctuates this new target of their insistence on perfection, and adds an inconsistent drumbeat to the familiar refrain of how you all failed, and needed to be better about everything.[pb][list memexits from Arguing about Micah ][no line break]".  The destination of Cameron is Arguing about Micah.
+Arguing_about_Micah is room.  "In this memory, you're in your family's kitchen, in the aftermath of Cameron telling your parents about Micah.  The [dripping faucet] punctuates this new target of their insistence on perfection, and adds an inconsistent drumbeat to the familiar refrain of how you all failed, and needed to be better about everything.[pb][list memexits from Arguing_about_Micah ][no line break]".   The printed name of Arguing_about_Micah is "Arguing about Micah".
 
-Angry_Cameron is a memConnectPerson in Arguing about Micah.  He is male and scenery and proper-named and noticed.  The description is "Cameron changed in this moment.  He stood taller and straigher than he had in previous encounters with your parents, and he kept that.  You think your father respected that, at least, about this moment."  The destination of Angry_Cameron is Cailleach Ski Lift.  Understand "Cameron/changed/taller/straighter" as Angry_Cameron.  The printed name of Angry_Cameron is "Cameron".
+Angry_Cameron is a memConnectPerson in Arguing_about_Micah.  He is male and scenery and proper-named and noticed.  The description is "Cameron changed in this moment.  He stood taller and straigher than he had in previous encounters with your parents, and he kept that.  You think your father respected that, at least, about this moment."  Understand "Cameron/changed/taller/straighter" as Angry_Cameron.  The printed name of Angry_Cameron is "Cameron".  The destination of Angry_Cameron is Cailleach Ski Lift.  The dest_time of Angry_Cameron is 8:42 PM.
 
-The dripping faucet is scenery in Arguing about Micah.  The description is "Your dad turned away from the dishes to argue with Cameron, and didn't manage to turn the faucet off entirely when he did.  The irregular drips drove you crazy, and you couldn't get around your father to turn it off again.  You briefly considered finding the house's shutoff valve just to get it to quit, but of course, you couldn't leave Cameron here undefended."  Instead of touching or entering dripping faucet, say "Fortunately, that particular annoyance doesn't seem to lead to a series of other annoyances, at least not in your current mental state."
+The dripping faucet is scenery in Arguing_about_Micah.  The description is "Your dad turned away from the dishes to argue with Cameron, and didn't manage to turn the faucet off entirely when he did.  The irregular drips drove you crazy, and you couldn't get around your father to turn it off again.  You briefly considered finding the house's shutoff valve just to get it to quit, but of course, you couldn't leave Cameron here undefended."  Instead of touching or entering dripping faucet, say "Fortunately, that particular annoyance doesn't seem to lead to a series of other annoyances, at least not in your current mental state."
 
-The argument is a memConnection in Arguing about Micah.  "The argument hangs around the kitchen like a cloud."  The description is "You and Cameron knew telling your parents about Micah would start an argument, because everything important always started arguments.  But truth be told, you both thought they'd try to argue Cameron out of being gay, but they didn't care about that in the slightest.  Instead, they tried to argue Cameron out of dating Micah.  Didn't he live down by that old bowling alley?  And he's studying music; isn't that kind of a waste?  You should have told us you were gay earilier; we could have introduced you to Mrs. Farthington's son; he's gay and just went off to Harvard.  But he'll still be there if you get in; you know you only have a few more months left to apply...
+The argument is a memConnection in Arguing_about_Micah.  "The argument hangs around the kitchen like a cloud."  The description is "You and Cameron knew telling your parents about Micah would start an argument, because everything important always started arguments.  But truth be told, you both thought they'd try to argue Cameron out of being gay, but they didn't care about that in the slightest.  Instead, they tried to argue Cameron out of dating Micah.  Didn't he live down by that old bowling alley?  And he's studying music; isn't that kind of a waste?  You should have told us you were gay earilier; we could have introduced you to Mrs. Farthington's son; he's gay and just went off to Harvard.  But he'll still be there if you get in; you know you only have a few more months left to apply...
 
 Cameron was clearly angry, but bless him, he didn't back down.  [one of]You didn't help much, but at least you were there.
 
-Wait.  Lestar keeps telling you that you give yourself too little credit.  Maybe... maybe you actually did more?[or]You didn't say a lot, but you stepped in with something every time Cameron's arguments flagged.  And now that you're looking at this a bit more clearly, you remember the grateful looks he gave you when you did[reveal the argument].[stopping]"  
+Wait.  Lestar keeps telling you that you give yourself too little credit.  Maybe... maybe you actually did more?[or]You didn't say a lot, but you stepped in with something every time Cameron's arguments flagged.  And now that you're looking at this a bit more clearly, you remember the grateful looks he gave you when you did[reveal the argument].[stopping]".  The destination of the argument is Your Own Kitchen Argument.  The dest_time of the argument is 6:45 PM.
 
 Section Your Argument room
 
-Your Own Kitchen Argument is a liminal room.  "Eight months ago.  You were just back from your first Vested crisis at the FILL IN Office complex.  [Kitchen_Zora] were furiously scrubbing dishes, trying to vicariously wipe away the pain and anger and darkness from the shooter's mind. [Kitchen_mom] came in to talk to you about it after listening to the news report, ostenstibly to be sympathetic but somehow explaining everything you did wrong, and how you could have done everything better."
-The destination of the argument is Your Own Kitchen Argument.  The destination of Lift_Zora is Your Own Kitchen Argument.
+Your Own Kitchen Argument is a liminal room.  "Eight months ago.  You were just back from your first Vested crisis at the Northfield ffice complex.  You were furiously scrubbing dishes, trying to vicariously wipe away the pain and anger and darkness that clung to you from the shooter's mind. [Kitchen_mom] came in to talk to you about it after listening to the news report, ostenstibly to be sympathetic but somehow explaining that everything you did was wrong, and how you could have done everything better."
+The destination of Lift_Zora is Your Own Kitchen Argument.  The dest_time of Lift_Zora is 6:45 PM.
 
 Kitchen_mom is a woman in Your Own Kitchen Argument.  She is scenery and proper-named.  The printed name of Kitchen_mom is "Your mom".  The description is "Perfectly dressed, even at 7:00 at night in her own house.  Tight black curls, dyed to hide the gray, with extensions, of course."  Understand "mom/black/curls/dyed/gray/extensions" as Kitchen_mom.  Instead of touching or entering Kitchen_mom, say "This sort of scenario with your mother is entirely too common to be able to link to a specific memory."
 
-Kitchen_Zora is a memConnectPerson in Your Own Kitchen Argument.  She is female and scenery and proper-named. The printed name of Kitchen_Zora is "the memory of yourself".  The description is "You were tired, angry, elated, and worried all at once, but all your mom seemed to see was a bundle of mistakes.  You had just been through so much[reveal Kitchen_zora]." Understand "me/you/myself/yourself/zora/tired/angry/elated/worried" as Kitchen_zora.
+Kitchen_Zora is a memConnectPerson in Your Own Kitchen Argument.  She is female and scenery and proper-named. The printed name of Kitchen_Zora is "the memory of yourself".  The description is "You were tired, angry, elated, and worried all at once, but all your mom seemed to see was a bundle of mistakes.  You had just been through so much[reveal Kitchen_zora]." Understand "me/you/myself/yourself/zora/tired/angry/elated/worried/scrubbing/dishes", "memory of myself", "memory of me", "memory of yourself" as Kitchen_zora.
 
 
-The another argument is a memConnection in Your Own Kitchen Argument.  "The argument hangs around the kitchen like a cloud."  The description is "You desperately wanted to share with your mom how scared you had been; how dreadful the shooter's mind was; how satisfying it was to reweave fate to save so many people; how the images of so many dead and dying still haunt you, even though you unwove them from existence.  But every time you admitted any weakness; any mistake; any regret, your mother pounced on it like a hawk, tearing to pieces any connection or comfort with her endless litany of what to do next time, how to improve, why would you even[reveal Another argument]."  The destination of the Another argument is Arguing about Micah.  The printed name of Another argument is "argument".
+The another argument is a memConnection in Your Own Kitchen Argument.  "The argument hangs around the kitchen like a cloud."  The description is "You desperately wanted to share with your mom how scared you had been; how dreadful the shooter's mind was; how satisfying it was to reweave fate to save so many people; how the images of so many dead and dying still haunt you, even though you unwove their deaths from existence.  But every time you admitted any weakness; any mistake; any regret, your mother pounced on it like a hawk, tearing to pieces any connection or comfort with her endless litany of what to do next time, how to improve, why would you even[reveal Another argument]."  The destination of the Another argument is Arguing_about_Micah.  The printed name of Another argument is "argument".  The dest_time of another argument is 6:39 PM.
 
 Section First Mission room
 
-Outside the Office Complex is a liminal room.  "Eight months ago, morning.  Everything frozen in time, your perspective distributed across hundreds of spiders.  Amaia's prophecy had warned the three of you with barely enough time to get there as the first shot was fired; without your ability to extend the Moirai Bubble into the past, the earliest victims would have surely died."  The destination of Kitchen_Zora is Outside the Office Complex.
+Outside the Office Complex is a liminal room.  "Eight months ago, morning.  Everything frozen in time, your perspective distributed across hundreds of spiders.  Amaia's prophecy had warned the three of you with barely enough time to get there as the first shot was fired; without your ability to extend the Moirai Bubble into the past, the earliest victims would have surely died."  The destination of Kitchen_Zora is Outside the Office Complex.  The dest_time of Kitchen_Zora is 8:21 AM.
 
 A frozen bullet is in Outside the Office Complex.  "A bullet hangs in the air, frozen in its trajectory."  The description is "Small enough that you didn't see it your first time though, the bullet hangs in the air, aimed directly at the young man on the sidewalk."  Instead of touching or entering the frozen bullet, say "You couldn't weave things such that the bullet was never fired, but you eventually managed to find a way to get it to miss its target.  Wyatt isn't hiding inside the bullet."
 
@@ -618,7 +607,7 @@ To say note the fourth:
 To say list the fourth:
 	if the mysterious woman is in Outside the Office Complex, say ".  Or the fourth mysterious woman".
 
-Paul is a man in Outside the Office Complex.  He is scenery.  The description is "Paul was trying to make it from his last class at the university to his intership at the office.  Never heard the shot that killed him (originally) and simply wouldn't believe he was in danger when you visited him before this moment."  Instead of touching or entering Paul, say "Paul invariably fell into one of your early dumb memories the first time you connected with him, and after that just thought you were an idiot, no matter what you tried.  Wyatt isn't hiding inside Paul."  Understand "first/young/man/Paul/student/person/passerby" as Paul.
+Paul is a man in Outside the Office Complex.  He is scenery.  The description is "Paul was trying to make it from his dorm room at the university to his intership at the office.  Never heard the shot that killed him (originally) and simply wouldn't believe he was in danger when you visited him before this moment."  Instead of touching or entering Paul, say "Paul invariably fell into one of your early dumb memories the first time you connected with him, and after that just thought you were an idiot, no matter what you tried.  Wyatt isn't hiding inside Paul."  Understand "first/young/man/Paul/student/person/passerby" as Paul.
 
 Bethany is a woman in Outside the Office Complex.  She is scenery.  The description is "Bethany was here for an interview, and immaculately dressed in a GET DESCRIPTION FROM SARA."  Instead of touching or entering Bethany, say "Bethany was pretty tolerant of your requests, but kept telling you to 'just' do things that were impossible, and got testy when you refused.  Wyatt isn't hiding inside Bethany."  Understand "second/middle/aged/woman/Bethany/interview/interviewee/person/passerby" as Bethany.
 
@@ -652,13 +641,55 @@ After examining the purple scarf:
 	now the purple scarf is processed;
 
 
-Office_Zora is a woman in Outside the Office Complex.  The printed name of Office_zora is "the memory of yourself".  The description is "Despite practicing for weeks, you were still disoriented from the ritual, and unsure how on earth 'entering people's minds and talking to them' was going to help.  But you were bolstered by Lestar's confidence and Amaia's competence, determined to do your best."  Understand "me/you/yourself/myself/Zora/spider/spiders" as Office_Zora.  Instead of entering or touching Office_Zora, say "The moment this memory reminds you most of is right now."
+Office_Zora is a scenery woman in Outside the Office Complex.  The printed name of Office_zora is "the memory of yourself".  The description is "Despite practicing for weeks, you were still disoriented from the ritual, and unsure how on earth 'entering people's minds and talking to them' was going to help.  But you were bolstered by Lestar's confidence and Amaia's competence, determined to do your best."  Understand "me/you/yourself/myself/Zora/spider/spiders", "memory of myself", "memory of me", "memory of yourself" as Office_Zora.  Instead of entering or touching Office_Zora, say "The moment this memory reminds you most of is right now."
 
 Instead of touching or entering the mysterious woman, carry out ending the mind maze.
 
 To carry out ending the mind maze:
-	say "Hesitantly, you reach out to connect with the mysterious woman... and just as you do, Wyatt leaps out, laughing.  'You found me!' he exclaims, laughing even more because he knows he startled you.  'I saw her in the hiding zone so I hid in there with her!'[pb]'What's the 'hiding zone'?' you ask.[pb] 'It's the place you only see when you're hiding!  That's the secret to hide and seek.  When you're looking, you have to pretend you're hiding.  Then you see the hiding zone!'[pb]You shake your head, because that made entirely too much sense.  You look over at the frozen image of the woman in your memory, and wonder what it was that created 'the hiding zone' around her.  Some other Vested power?[pb][b]{And that's the end of the scenario!  I have to decide whether to continue it in Wyatt's head like my original design, or just end it here.}[r]";
+	say "Hesitantly, you reach out to connect with the mysterious woman... and just as you do, Wyatt leaps out, laughing.  'You found me!' he exclaims, laughing even more because he knows he startled you.  'I saw her in the hiding zone so I hid in there with her!'[pb]'What's the 'hiding zone'?' you ask.[pb] 'It's the place you only see when you're hiding!  That's the secret to hide and seek.  When you're looking, you have to pretend you're hiding.  Then you see the hiding zone!'[pb]You shake your head, because that made entirely too much sense.  You look over at the frozen image of the woman in your memory, and wonder what it was that created 'the hiding zone' around her.  Some other Vested power?[pb]You sigh.  'Wyatt, I found you; that means you have to stop hiding and go with your parents; they're worried about you.[pb]'Aww, OK,' says Wyatt.  'See you around, spider lady!'  And...he's gone from your head entirely.";
+	now the time of day is the hiding start time;
 	move the hiding memory to the player;
+	now Wyatt is revealed;
+	Now Wyatt is not tagged;
+	move the player to the spiders;
+	move the spiders to the Playground;
+	[Set up Wyatt leaving]
+	blank out the whole of the Table of Wyatt's Actions;
+	choose a blank row in the Table of Wyatt's actions;
+	now the time entry is the hiding start time minus one minute;
+	now the doing entry is Wyatt emerging;
+	choose a blank row in the Table of Wyatt's actions;
+	now the time entry is the hiding start time;
+	now the doing entry is Wyatt going south;
+	choose a blank row in the Table of Wyatt's actions;
+	now the time entry is the hiding start time plus one minute;
+	now the doing entry is Wyatt going south;
+	choose a blank row in the Table of Wyatt's actions;
+	now the time entry is the hiding start time plus two minutes;
+	now the doing entry is Wyatt going south;
+	[Set up Wyatt's parents leaving]
+	repeat through the Table of couple's Actions:
+		if the time entry is greater than the hiding start time minus two minutes:
+			blank out the whole row;
+	choose a blank row in the Table of couple's actions;
+	now the time entry is the hiding start time;
+	now the doing entry is couple going south;
+	choose a blank row in the Table of couple's actions;
+	now the time entry is the hiding start time plus one minute;
+	now the doing entry is couple going south;
+	choose a blank row in the Table of couple's actions;
+	now the time entry is the hiding start time plus two minutes;
+	now the doing entry is couple going south;
+		
+[	[Now set up the kids and people evacuating in response to the announcement:]
+	repeat through the Table of kids actions:
+		if the doing entry is kids evacuating:
+			blank out the whole row;
+	if there is a time corresponding to a time of the time of day in the Table of kids actions:
+		[say "Action found at [time of day minus one minute].";]
+		now the doing corresponding to the time of the time of day in the table of kids actions is kids evacuating;
+]	
+	
 
 
 
@@ -666,9 +697,9 @@ Section Hiding Wyatt
 
 Faint_wyatt is a backdrop.  It is in Skiing, Cailleach Ski Lift, and Your Own Kitchen Argument.  The description is "You can tell Wyatt has been through here, though you can't tell which memory connection he used when he left."  Understand "wyatt/faint/echo" as faint_wyatt.  Instead of touching or entering faint_wyatt, say "Wyatt isn't here for you to connect with, but he did come this way."
 
-No_wyatt is a backdrop.  No_wyatt is in Green Hill and Meet_Micah and Arguing about Micah.  The description is "Wyatt doesn't seem to have visited this memory at all."  Understand "wyatt" as No_wyatt.  Instead of touching or entering No_wyatt, say "Wyatt isn't here for you to connect with, but he did come this way."
+No_wyatt is a backdrop.  No_wyatt is in Green Hill and Meet_Micah and Arguing_about_Micah.  The description is "Wyatt doesn't seem to have visited this memory at all."  Understand "wyatt" as No_wyatt.  Instead of touching or entering No_wyatt, say "Wyatt isn't here for you to connect with, but he did come this way."
 
-Hiding_wyatt is a man in Outside the Office Complex.  He is scenery.  The description is "Wyatt is here, somewhere.  Now you just have to figure out what (or who) he's hiding inside."  Understand "wyatt/young/boy/giggle/echo/hiding" as Hiding_wyatt.  Instead of touching or entering Wyatt, say "You're trying to find him!"
+Hiding_wyatt is a man in Outside the Office Complex.  He is scenery.  The description is "Wyatt is here, somewhere.  Now you just have to figure out what (or who) he's hiding inside."  Understand "wyatt/young/boy/giggle/echo/hiding" as Hiding_wyatt.  Instead of touching or entering Hiding_wyatt, say "You're trying to find him!"
 
 
 Section people defaults and stuff
@@ -766,7 +797,7 @@ The player is Zora.
 
 Zora can be transforming.  Zora is not transforming.
 
-Instead of doing anything other than looking or examining or entering or waiting or touching or physical Lestaring or physical Amaiaing or taking inventory when the player is Zora:
+Instead of doing anything other than looking or examining or entering or waiting or touching or physical Lestaring or physical Amaiaing or taking inventory or choosing when the player is Zora:
 	say "While frozen, you can [b]enter[r] the minds around you, and you're aware of your surroundings, but can't do anything physical."
 
 The mind-touch of Zora is "Your thoughts echo back at you."
@@ -792,6 +823,10 @@ Consciousness can be transforming.  Consciousness is not transforming.
 
 To decide whether spidered:
 	if the spiders enclose the player, yes;
+	otherwise no;
+
+To decide whether Wyatted:
+	if Wyatt encloses the player, yes;
 	otherwise no;
 
 To decide whether evacuated:
@@ -837,8 +872,9 @@ When play begins:
 			say "BUG: [p] has no mind-touch.";
 	
 
-Instead of touching someone:
+Report touching someone:
 	say "[the mind-touch of the noun][line break]";
+	rule succeeds;
 
 Section Jace
 
@@ -996,15 +1032,93 @@ Before going to somewhere (called the destination) when Jace is the host:
 
 Section Wyatt
 
-Wyatt is an improper-named man in the Void.  "[room description of Wyatt].".  The description is "A young boy maybe six years old with tousled hair sporting a few extra leaves and twigs.  He's wearing shorts and a wave-patterned T-shirt, and his hands and knees are completely black with dirt."  Understand "young/boy/six/tousled/leaves/twigs/kid", "tousled hair", "six years old", "six-year-old", "six-year old" as Wyatt.  The printed name of Wyatt is "young boy".  
+Wyatt is an improper-named man in the Void.  "[if Wyatt is revealed]Wyatt's emerged from his hiding spot and has reunited with his parents.[otherwise if Wyatt is found]Wyatt is here, hiding under the roundabout.[otherwise][The Wyatt]'s got to be around here somewhere...".  The description is "A young boy maybe six years old with tousled hair sporting a few extra leaves and twigs.  He's wearing shorts and a wave-patterned T-shirt, and his hands and knees are completely black with dirt.[if Wyatt is found]  He's currently curled up underneath the exact center of the roundabout."  Understand "young/boy/six/tousled/leaves/twigs/kid", "tousled hair", "six years old", "six-year-old", "six-year old" as Wyatt.  The printed name of Wyatt is "young boy".  
+
+Wyatt can be hidden, found, or revealed.  Wyatt is hidden.
+
+The intro-page of Wyatt is hide-and-seek.
+
+The mind-touch of Wyatt is "[The Wyatt] is hyper-focused on hiding."
+
+hide-and-seek is a page.  ["[h-n-s intro]".] 
+
+Wyatt can be tagged.  Wyatt is not tagged.
+
+Instead of entering Wyatt:
+	if Wyatt is revealed:
+		say "Wyatt and his family are already safe.  In theory you could ask Wyatt to help, but that would involve putting him in danger, which you are [b]not[r] going to do.";
+	otherwise:
+		if hiding_and_seeking has ended:
+			switch to cyoa at redo-mindscape-or-not;
+		otherwise:
+			now Wyatt is tagged.
+
+redo-mindscape-or-not is a page.  "You've already chased Wyatt through your mind once.  Would you like to do all that again or just do what you did last time and skip to the end?".  The cdesc is "Decide whether to find Wyatt in your own memories again."
+
+redo-mindscape is an end-page.  The cdesc is "Chase Wyatt through your own mind again.".  It is for redo-mindscape-or-not.
+
+A page-toggle rule for redo-mindscape:
+	now Wyatt is tagged;
+	say "[i]There's some sort of bug that doesn't let me reset scenes from the cyoa-type events.  Working on that; sorry.  LS DEBUG[r]";
+
+skip-mindscape is an end-page.  The cdesc is "Skip to finding Wyatt hiding in your memory of a mysterious woman.".  It is for redo-mindscape-or-not.
+
+A page-toggle rule for skip-mindscape:
+	now the hiding start time is the time of day;
+	carry out ending the mind maze;
+
+Wyatt_replay is a page.	
+
+To say name_him_wyatt:
+	Now the printed name of Wyatt is "Wyatt";
+	Now Wyatt is proper-named;
+
+To say maybe Wyatt:
+	if the printed name of Wyatt is "Wyatt":
+		say "Wyatt";
+	otherwise:
+		say "the boy (whose name seems to be Wyatt)[name_him_wyatt]";
+
 
 [Wyatt is six so that he's not too young to be obsessed with hide and seek.  It's the summer after graduating first grade.  Kids that age are ready for variations on a theme, so I should also make up rules about how hiding works, probably made up by Wyatt on the spot, a la Calvinball.]
 
-To say room description of Wyatt: [Note:  don't end with a period; it messes up the line returns.]
-	say "You also sense the presence of another mind nearby--maybe a kid?  You can't see them, though";
+Instead of doing anything with Wyatt when Wyatt is hidden:
+	if spidered:
+		say "Aha!  Any kid hiding from normal humans doesn't really stand a chance hiding from a Vested whose consciousness is distributed across hundreds of spiders.  A spider fixing their web under the roundabout can still see a rogue shoe with bits of tattered web on it... attached to a kid curled up in the center.";
+		now Wyatt is found; 
+	otherwise:
+		say "You and your host can't seem to find [the Wyatt] whatever you do.";
+
+a worried couple is a plural-named person in the Void.  "[If Wyatt is revealed]Wyatt's parents seem exasperated but relieved that they finally found him.[otherwise]A couple is searching for their kid, and can't seem to find them."  The description is "[If Wyatt is revealed]Reunited, the family is heading to safety.[otherwise]Two parents are searching the area trying to find their kid." The printed name of the worried couple is "[if Wyatt is revealed]relieved couple[otherwise]worried couple";
+
+Instead of entering the couple:
+	say "Both parents are so hyper-focused on finding their kid that there's no space for you to make a more substantive connection.";
+
+The mind-touch of the worried couple is "[If Wyatt is revealed]You sense profound relief mixed with a certain amount of incredulity that their kid is so good at hiding.[otherwise]You lightly touch the couple's mind, sifting through the anxiety and at least get a few phrases:  'hiding again', 'Wyatt!', 'here just a second ago...'";
+
+After touching the couple:
+	say "[name_him_wyatt]";
+	continue the action;
 
 
+the intro-page of worried couple is blocked page.
 
+Emerging is an action applying to nothing.
+
+Report an actor emerging (this is the report emerging rule):
+	if the location of the player is Playground:
+		say "Wyatt emerges from under the roundabout, and his parents immediately exclaim and run over to him, relieved.";
+
+[Instead of the couple examining when the location of the couple is the Playground:]
+Report the couple examining something:
+	If the location is the playground:
+		if the noun is the kids:
+			say "The couple looks through all the kids, trying to find their own.";
+		otherwise if the noun is the equipment:
+			say "The couple looks around, behind, and under all the playground equipment, searching for their kid.";
+		otherwise:
+			say "The couple searches [the noun], trying to find their kid.";
+		rule succeeds;
 
 Section Background Cast
 
@@ -1023,19 +1137,29 @@ To say playing_kids:
 To say kid_description:
 	if evacuated:
 		if sinkhole_size is 0:
-			say "You take stock of the kids, and each one seems to have a parent helping them leave";
+			if spidered:
+				say "You focus your view to look at the crowd from different perspectives, matching up kids with people looking for them.  Two young boys being picked up from the swings; a little girl stepping off the slide making eye contact with a man putting away a cell phone; a teenage girl carrying one kid and gesturing to a second.  But there--a wide-eyed couple gesturing to each other across the playground, both looking panicked.  Can they not find their kid?[nb]";
+				move worried couple to playground;
+				move Wyatt to playground;
+				repeat through the Table of Initial Placements:
+					if the NPC entry is the couple:
+						now the Location entry is Playground;
+					if the NPC entry is Wyatt:
+						now the Location entry is Playground;
+			otherwise:
+				say "You and your host look around to try to make sure all the kids have someone helping them, but everyone's moving too quickly to be sure.[nb]";
 		otherwise:
-			say "All the kids seem to have been evacuated before the sinkhole appeared";
+			say "All the kids seem to have been evacuated before the sinkhole appeared.[nb]";
 	otherwise if sinkhole_size is 0:
-		say "The kids are all having a great time swinging and climbing or chasing each other around.  Some of them seem to be playing some version of 'hide and seek'";
+		say "The kids are all having a great time swinging and climbing or chasing each other around.  Some of them seem to be playing some version of 'hide and seek'.[nb]";
 	otherwise:
-		say "Only a few kids remain, either transfixed or crying.  A few are being snatched up by desperate parents. (LS TBD: more here, I think.)[no line break]";
+		say "Only a few kids remain, either transfixed or crying.  A few are being snatched up by desperate parents. (LS TBD: more here, I think.)[nb]";
 
-Some kids are plural-named people in the Void.  "[playing_kids].".  The description of the kids is "[kid_description].".
+Some kids are plural-named people in the Void.  "[playing_kids].".  The description of the kids is "[kid_description]".
 
 Instead of entering the Kids, say "[if sinkhole_size is greater than 0]You feel there must be a way to get most people out of here all at once instead of trying to do it one kid at a time.[otherwise]Hoo boy.  As traumatic as it is for you to enter people's minds, you'd rather not inflict full access to an adult mind on a pre-teen, even if they're supposed to forget afterwards."
 
-The mind-touch of Kids is "[if sinkhole_size is 0]You let your own mind lightly touch a few kids, picking up a lot of complicated emotions about relatively simple things, and trying not to let too much of your worry spill over from your own complicated emotions about... well, about only slightly more complicated things."
+The mind-touch of Kids is "[if sinkhole_size is 0]You let your own mind lightly touch a few kids, picking up a lot of complicated emotions about relatively simple things, and try not to let too much of your worry spill over from your own complicated emotions about... well, about only slightly more complicated things.[otherwise]The emotions of the kids are all over the place, from distress to fascination."
 
 The intro-page of Kids is blocked page.
 
@@ -1076,10 +1200,21 @@ Instead of entering an open enterable thing (called the box) when spidered:
 	move the spiders to the box;
 	try looking instead.
 	
-Instead of exiting when the player is enclosed by a person (called host) and the player is enclosed by an open enterable thing (called the box):
-	say "You transfer your consciousness into the spiders outside [the box].";
-	move the spiders to the location;
-	try looking instead.
+Instead of exiting when the player is enclosed by a person (called host):
+	if the host is enclosed by an open enterable thing (called the box):
+		if spidered:
+			say "You transfer your consciousness into the spiders outside [the box].";
+			move the spiders to the location;
+			try looking instead;
+		otherwise:
+			try the host exiting;
+	otherwise:
+		if spidered:
+			say "You can't exit one consciousness without going into another one." instead;
+		otherwise:
+			try entering spiders;
+
+
 	
 Instead of touching someone (called the touchee) when the touchee encloses the player:
 	say "You're already completely linked to [the touchee]."
@@ -1090,10 +1225,12 @@ Instead of going outside when the player is enclosed by an open enterable thing:
 Instead of going inside:
 	try entering spiders instead.
 
-Instead of doing anything other than acting fast or entering or waiting or touching or physical Lestaring or physical Amaiaing or going or examining or looking or taking inventory or resetting when spidered:
+Instead of doing anything other than acting fast or entering or waiting or touching or physical Lestaring or physical Amaiaing or going or examining or looking or taking inventory or resetting or choosing when spidered:
 	say "While your consciousness is held in the spiders, you can [b]enter[r] or [b]touch[r] other minds, [b]wait[r] for something to happen, travel to spiders in other locations, and focus on your surroundings, but can't interact physically with things."
 	
 understand "focus on [something]" as examining.
+
+Instead of searching something, try examining the noun.
 
 Book Setup
 
@@ -1117,7 +1254,7 @@ Instead of giving a memory to a person:
 
 disaster memory is a memory in the Void.  The description is "A snapshot in your mind of Coyote's Call disappearing into a giant sinkhole in the middle of the park."  Understand "snapshot/disappearing/sinkhole" as disaster memory.
 
-hiding memory is a memory in the Void.  The description is "A snapshot in your mind of finding what's hidden in the 'hiding zone', as Wyatt called it, by looking for a place to hide."  Understand "hiding/zone/wyatt" as hiding memory.
+a hiding memory is a memory in the Void.  The description is "A snapshot in your mind of finding what's hidden in the 'hiding zone', as Wyatt called it, by looking for a place to hide."  Understand "hiding/zone/wyatt" as hiding memory.
 
 mysterious design memory is a memory in the Void.  The description is "A snapshot in your mind of the odd design you saw on both the spear of metal from Coyote's Call and the scarf of the hidden woman from your first mission.  It's two crossed lines circumscribed by a rounded triangle."  Understand "odd/design/mysterious/spear/two/crossed/lines/circumscribed/rounded/triangle" as the mysterious design memory.
 
@@ -1133,6 +1270,8 @@ To carry out sinkhole appearing:
 	move disaster_victims to Top of Hill;
 	move falling_coyote to Sinkhole;
 	move park-goers backdrop to all parky rooms;
+	if the couple is in the void and the disaster memory is in the player:
+		move the couple to the playground;
 	if the location of the player is Top of Hill:
 		if spidered:
 			say "With a roar, the entire top of the hill collapses in on itself, and your perception shatters as spiders are shaken off webs and perches, spinning out emergency strands to catch the wind and slow their falls.  Straining, you manage to reassert your hold on time, freezing everything in place again.  Gradually, you stitch together a new coherent view of your surroundings.";
@@ -1173,13 +1312,19 @@ To carry out loop resetting:
 	now Jace is not announced;
 	deactivate J7_evacuated;
 	activate J7_earlier;
+	repeat with N running from 1 to the number of rows in the Table of NPCs:
+		let the NPC be the NPC in row N of the Table of NPCs;
+		move the NPC to the Void;
 	move Jace to the ticket booth;
+	move kids to Playground;
+	if Wyatt is revealed:
+		now Wyatt is found;
 	move the Hyundai to the Void;
 	move coyote's call to Top Of Hill;
 	move foliage to Top Of Hill;
 	if the spiders are in the Hyundai:
 		move the spiders to the Parking Lot;
-	say "You feel the web of time time tighten beneath you, and with a rush, you slip backwards along it before it finally goes slack again, and you regain your hold.";
+	say "You feel the web of time time tighten beneath you, and with a rush, you slip backwards along it.  Images blur past you before the web finally goes slack again, and you regain your hold.";
 	repeat with talker running through people:
 		deactivate the intro-page of the talker;
 	activate the intro-page of the host;
@@ -1193,7 +1338,7 @@ To carry out loop resetting:
 
 The host is a person that varies.
 
-reset-conversation-or-not is a page.  "You've gone to the beginning of the loop while in [host]'s mind.  You can repeat the conversation you had with them the last time, or you can start a new conversation with them like the first time you entered their mind, or we can skip that part and say you have the same conversation with them this time that you had last time.";
+reset-conversation-or-not is a page.  "You've gone to the beginning of the loop while in [host]'s mind.  You can start a new conversation with them like the first time you entered their mind, or we can skip that part and say you have the same conversation with them this time that you had last time.";
 
 [reset-conversation-repeat is an end-page page.  "You go through the same conversation you had with them last time."  The cdesc is "Repeat the conversation you had with [the host] the last time."  It is for reset-conversation-or-not.
 ]
@@ -1214,6 +1359,23 @@ To carry out seeing the disaster:
 
 Every turn:
 	carry out NPC actions;
+	[record PC actions;]
+	if not spidered:
+		repeat with N running from 1 to the number of rows in the Table of NPCs:
+			let the NPC be the NPC in row N of the Table of NPCs;
+			let the action table be the Action table in row N of the Table of NPCs;
+			if the NPC encloses the player:
+				If the current action is not entering the NPC:
+					[Otherwise, we record what was done!]
+					[say "Recording [the current action] at [the time of day].";]
+					now the actor is the NPC;
+					if there is a time corresponding to a time of the time of day in the action table:
+						now the doing corresponding to the time of the time of day in the action table is the current action;
+					otherwise:
+						choose a blank row in the action table;
+						now time entry is the time of day;
+						now doing entry is the current action;
+					now the actor is the player;
 	If the time of day is 10:54 AM:
 		say "A cloud passes over the sun.";
 	If the time of day is 10:56 AM:
@@ -1247,6 +1409,10 @@ After going to somewhere when the host is not the spiders:
 	if the location is not swimming:
 		move the spiders to the location;
 		continue the action;
+
+After resetting when the host is not the spiders:
+	move the spiders to the location;
+	continue the action;
 
 A person can be actually waiting or not actually waiting.  A person is usually actually waiting;
 
@@ -1329,6 +1495,7 @@ A accessibility rule for someone announcing: rule succeeds.
 Table of NPCs
 NPC	Action table
 Jace	Table of Jace's Actions
+couple	Table of couple's actions
 Wyatt	Table of Wyatt's Actions
 kids	Table of kids actions
 
@@ -1347,24 +1514,65 @@ with 23 blank rows
 
 Table of kids actions
 time	doing
-10:59 AM	kids waiting
+11:59 AM	kids waiting
+with 23 blank rows
+
+Table of couple's actions
+time	doing
+10:51 AM	couple examining kids
+10:52 AM	couple examining equipment
+10:53 AM	couple examining kids
+10:54 AM	couple examining equipment
+10:55 AM	couple examining kids
+10:56 AM	couple examining equipment
+10:57 AM	couple examining kids
+10:58 AM	couple examining equipment
+10:59 AM	couple examining kids
+11:00 AM	couple examining equipment
 with 23 blank rows
 
 Table of Initial Placements
 NPC	Location
-Wyatt	Playground
+Wyatt	Void
+couple	Void
 
 
 To carry out NPC actions:
+	[say "Carrying out NPC actions.";]
 	repeat with N running from 1 to the number of rows in the Table of NPCs:
 		let the NPC be the NPC in row N of the Table of NPCs;
-		let the action table be the Action table in row N of the Table of NPCs;
-		[say "[the NPC] [the action table]";]
-		if there is a time corresponding to a time of the time of day in the action table:
-			[say "Action found at [time of day].";]
-			try the doing corresponding to the time of the time of day in the action table;
+		[say "Working on [the NPC].";]
+		if the NPC is not the host:
+			let the action table be the Action table in row N of the Table of NPCs;
+			[say "[the NPC] [the action table].";]
+			if there is a time corresponding to a time of the time of day in the action table:
+				[say "Action found at for [the NPC] at [time of day].";]
+				try the doing corresponding to the time of the time of day in the action table;
+			[repeat with M running from 1 to the number of rows in the action table:
+				let the local time be the time in row M of the action table;
+				say "action found at [the local time].";]
+			
+[To record PC actions:
+	if not spidered:
+		repeat with N running from 1 to the number of rows in the Table of NPCs:
+			let the NPC be the NPC in row N of the Table of NPCs;
+			let the action table be the Action table in row N of the Table of NPCs;
+			if the NPC encloses the player:
+				If the current action is not entering the NPC:
+					[Otherwise, we record what was done!]
+					now the actor is the NPC;
+					if there is a time corresponding to a time of the time of day in the action table:
+						now the doing corresponding to the time of the time of day in the action table is the current action;
+					otherwise:
+						choose a blank row in the action table;
+						now time entry is the time of day;
+						now doing entry is the current action;
+					now the actor is the player;
+]
 			
 
+			
+	
 
 
 Book traveling
