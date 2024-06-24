@@ -464,7 +464,7 @@ You're in the back seat of the Hyundai, Amaia driving and Lestar fiddling with t
 [bstars]
 Following your younger brother's lead, you aim your skis more directly downhill, feeling yourself pick up speed... and suddenly [maybe Wyatt]'s presence is gone.  You find yourself in control again, and stop the memory.  Where did he go?";
 
-Hiding_and_seeking is a scene.  Hiding_and_seeking begins when Wyatt is tagged.  Hiding_and_seeking ends when Wyatt is not tagged.  
+Hiding_and_seeking is a recurring scene.  Hiding_and_seeking begins when Wyatt is tagged.  Hiding_and_seeking ends when Wyatt is not tagged.  
 
 The hiding start time is a time that varies.
 
@@ -1059,7 +1059,6 @@ redo-mindscape is an end-page.  The cdesc is "Chase Wyatt through your own mind 
 
 A page-toggle rule for redo-mindscape:
 	now Wyatt is tagged;
-	say "[i]There's some sort of bug that doesn't let me reset scenes from the cyoa-type events.  Working on that; sorry.  LS DEBUG[r]";
 
 skip-mindscape is an end-page.  The cdesc is "Skip to finding Wyatt hiding in your memory of a mysterious woman.".  It is for redo-mindscape-or-not.
 

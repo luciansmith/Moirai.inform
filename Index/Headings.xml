@@ -283,49 +283,49 @@
     </dict>
     <key>40</key><dict>
         <key>Filename</key><string>C:\Users\Lucian\Documents\Inform\Projects\Moirai.inform\Source\story.ni</string>
-        <key>Line</key><integer>1123</integer>
+        <key>Line</key><integer>1122</integer>
         <key>Title</key><string>Section Background Cast</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>41</key><dict>
         <key>Filename</key><string>C:\Users\Lucian\Documents\Inform\Projects\Moirai.inform\Source\story.ni</string>
-        <key>Line</key><integer>1193</integer>
+        <key>Line</key><integer>1192</integer>
         <key>Title</key><string>Book Actions</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>42</key><dict>
         <key>Filename</key><string>C:\Users\Lucian\Documents\Inform\Projects\Moirai.inform\Source\story.ni</string>
-        <key>Line</key><integer>1235</integer>
+        <key>Line</key><integer>1234</integer>
         <key>Title</key><string>Book Setup</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>43</key><dict>
         <key>Filename</key><string>C:\Users\Lucian\Documents\Inform\Projects\Moirai.inform\Source\story.ni</string>
-        <key>Line</key><integer>1243</integer>
+        <key>Line</key><integer>1242</integer>
         <key>Title</key><string>Book Memories</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>44</key><dict>
         <key>Filename</key><string>C:\Users\Lucian\Documents\Inform\Projects\Moirai.inform\Source\story.ni</string>
-        <key>Line</key><integer>1262</integer>
+        <key>Line</key><integer>1261</integer>
         <key>Title</key><string>Book Preset events</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>45</key><dict>
         <key>Filename</key><string>C:\Users\Lucian\Documents\Inform\Projects\Moirai.inform\Source\story.ni</string>
-        <key>Line</key><integer>1435</integer>
+        <key>Line</key><integer>1434</integer>
         <key>Title</key><string>Book NPC Actions</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>46</key><dict>
         <key>Filename</key><string>C:\Users\Lucian\Documents\Inform\Projects\Moirai.inform\Source\story.ni</string>
-        <key>Line</key><integer>1578</integer>
+        <key>Line</key><integer>1577</integer>
         <key>Title</key><string>Book traveling</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>

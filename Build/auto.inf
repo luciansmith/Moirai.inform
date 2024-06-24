@@ -4509,7 +4509,7 @@ Constant EMPTY_TEXT_PACKED = "";
 Constant alphabetised_text_0 = "(as in the fruit.)";
 Constant I7_VERSION_NUMBER = "10.1.2";
 Constant I7_FULL_VERSION_NUMBER = "10.1.2";
-Serial "240621";
+Serial "240623";
 Constant alphabetised_text_1 = ">";
 Constant alphabetised_text_2 = "A bullet hangs in the air, frozen in its trajectory.";
 Constant alphabetised_text_3 = "A fence walls off the park.";
@@ -7845,7 +7845,7 @@ Array match_list --> 100; ! blank with extent 100
 Array match_classes --> 100; ! blank with extent 100
 Array match_scores --> 100; ! blank with extent 100
 Array alt_match_list --> 101; ! blank with extent 101
-Array KOVP_0 table [ 0; 0; 1; 0; ];
+Array KOVP_0 table [ 0; 0; 1; 1; ];
 Array KOVP_1 table [ 0; 0; bc_U62; bc_U371; ];
 Array KOVP_2 table [ 0; 0; I_first_person_plural_U1; I_first_person_singular_U1; I_first_person_singular_U1; I_first_person_singular_U1; I_first_person_singular_U1; I_first_person_singular_U1; ];
 Array value_ranges --> 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
@@ -71566,13 +71566,6 @@ Global max_z_object;
             DB_Rule(call_U2372, 979, 0);
         }
         call_U2140(I_wyatt_U1);
-        (say__p = 1);
-        ParaContent();
-        call_U2420();
-        ParaContent();
-        print "There's some sort of bug that doesn't let me reset scenes from the cyoa-type events.  Working on that; sorry.  LS DEBUG";
-        ParaContent();
-        call_U2422();
     } else {
         if ((debug_rules > 1)) {
             DB_Rule(call_U2372, 979, 2);
