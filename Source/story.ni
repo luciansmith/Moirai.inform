@@ -511,7 +511,7 @@ Section Skiing Room
 
 Skiing is a liminal room.  "You're in your own memory of one of the earlier times you went skiing with your family.  There's light [snow] in the cold, [crisp air].  In the distance is [a ski lift].[pb]In your memory, you've just turned your skis straight down the hill to catch up with your brother in the distance.  The reason you remember this moment more vividly is because you're about to [crash].[pb][list memexits from Skiing][no line break]".  Skiing is wyattful.
 
-Zora_mem1 is a privately-named scenery woman in Skiing.  The description is "You're skiing in rented equipment and are all bundled up in hand-me-down winter clothes that don't quite match, but are great at keeping you warm.  You have a determined expression on your face tinged with the exhilaration of going faster than you've gone before."  Understand "Zora/me/you/ski/skis/pole/poles/clothes/hand-me-down/hand-me-downs/face", "memory of myself", "memory of me", "memory of yourself" as Zora_mem1.  The printed name of Zora_mem1 is "the memory of yourself".  Instead of touching or entering Zora_mem1, say "You don't sense any one particular memory from connecting to the memory of yourself."
+Zora_mem1 is a privately-named scenery woman in Skiing.  The description is "You're skiing in rented equipment and are all bundled up in hand-me-down winter clothes that don't quite match, but are great at keeping you warm.  You have a determined expression on your face tinged with the exhilaration of going faster than you've gone before."  Understand "Zora/me/you/ski/skis/pole/poles/clothes/hand-me-down/hand-me-downs/face", "memory of myself", "memory of me", "memory of yourself" as Zora_mem1.  The printed name of Zora_mem1 is "the memory of yourself".  Instead of touching or entering Zora_mem1, say "You don't sense any one particular memory from connecting to this memory of yourself."
 
 The crash is a memConnection in Skiing.  The printed name of the crash is "crash".  The description is "Hesitantly, you play the memory forward slightly and watch yourself as you tip left, overcorrect right, knock the front of your skis together, and tumble over them. [pb]For a second, as your legs fly over your head, you're a little kid again, learning how to somersault[reveal crash]."  The destination of the crash is Green Hill.  The dest_time of the crash is 1:12 PM.
 
@@ -561,7 +561,7 @@ Micah is a memConnectPerson in Meet_Micah.  He is male and proper-named. "Micah 
 
 Meet_Cameron is a privately-named memConnectPerson in Meet_Micah.  He is male and proper-named.  "Cameron and Micah were here before you walked up, and Micah is chatting up a storm."  The description is "Cameron is laughing at something Micah said, and looks more relaxed than you've ever seen him[reveal Meet_Cameron]."  Understand "Cameron" as Meet_Cameron.  The printed name of Meet_Cameron is "Cameron".  The destination of Meet_Cameron is Arguing_about_Micah.  The dest_time of Meet_Cameron is 6:39 PM.
 
-Meet_Zora is a scenery woman in Cailleach Ski Lift..  The description is "The main thing you remember about yourself that day is how un-selfconscious you felt.  Micah just seemed to have that effect on people."  Understand "me/you/yourself/myself/Zora", "memory of myself", "memory of me", "memory of yourself" as Lift_Zora.  The printed name of Lift_Zora is "the memory of yourself".  
+Meet_Zora is a scenery woman in Cailleach Ski Lift..  The description is "The main thing you remember about yourself that day is how un-selfconscious you felt.  Micah just seemed to have that effect on people."  Understand "me/you/yourself/myself/Zora", "memory of myself", "memory of me", "memory of yourself" as Lift_Zora.  The printed name of Lift_Zora is "the memory of yourself".   Instead of touching or entering Meet_Zora, say "You don't sense any one particular memory from connecting to this memory of yourself."
 
 talking is scenery in Meet_Micah.  The description is "You eventually learned that Micah talks more when he's nervous, but at the time you just appreciated how he covered the empty spaces with banter without making anyone feel left out."  Instead of touching or entering talking, say "You do have other memories of Micah, but if Wyatt didn't get here, he probably didn't go down that particular rabbit hole."
 
@@ -715,6 +715,7 @@ The intro-page of The_fourth is the blank page.
 The intro-page of mysterious woman is the blank page.
 The intro-page of Office_Zora is the blank page.
 The intro-page of Hiding_wyatt is the blank page.
+The intro-page of Meet_Zora is the blank page.
 
 The mind-touch of Zora_mem1 is "Covered by an 'instead' rule."
 The mind-touch of Kitty is "Covered by an 'instead' rule."
@@ -727,6 +728,7 @@ The mind-touch of the_fourth is "Covered by an 'instead' rule."
 The mind-touch of mysterious woman is "Covered by an 'instead' rule."
 The mind-touch of Office_Zora is "Covered by an 'instead' rule."
 The mind-touch of Hiding_wyatt is "Covered by an 'instead' rule."
+The mind-touch of Meet_Zora is "Covered by an 'instead' rule."
 
 
 
@@ -1530,8 +1532,16 @@ time	doing
 11:00 AM	couple examining equipment
 with 23 blank rows
 
+[Table of Initial Placements
+NPC	Location	move_before_announce
+Jace	Ticket booth	yes
+Wyatt	Void	no
+couple	Void	no
+]
+
 Table of Initial Placements
 NPC	Location
+Jace	Ticket booth
 Wyatt	Void
 couple	Void
 

@@ -227,105 +227,105 @@
     </dict>
     <key>32</key><dict>
         <key>Filename</key><string>C:\Users\Lucian\Documents\Inform\Projects\Moirai.inform\Source\story.ni</string>
-        <key>Line</key><integer>733</integer>
+        <key>Line</key><integer>735</integer>
         <key>Title</key><string>Book Cast</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>33</key><dict>
         <key>Filename</key><string>C:\Users\Lucian\Documents\Inform\Projects\Moirai.inform\Source\story.ni</string>
-        <key>Line</key><integer>735</integer>
+        <key>Line</key><integer>737</integer>
         <key>Title</key><string>Section Amaia</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>34</key><dict>
         <key>Filename</key><string>C:\Users\Lucian\Documents\Inform\Projects\Moirai.inform\Source\story.ni</string>
-        <key>Line</key><integer>761</integer>
+        <key>Line</key><integer>763</integer>
         <key>Title</key><string>Section Lestar</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>35</key><dict>
         <key>Filename</key><string>C:\Users\Lucian\Documents\Inform\Projects\Moirai.inform\Source\story.ni</string>
-        <key>Line</key><integer>791</integer>
+        <key>Line</key><integer>793</integer>
         <key>Title</key><string>Section Zora</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>36</key><dict>
         <key>Filename</key><string>C:\Users\Lucian\Documents\Inform\Projects\Moirai.inform\Source\story.ni</string>
-        <key>Line</key><integer>810</integer>
+        <key>Line</key><integer>812</integer>
         <key>Title</key><string>Section spiders</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>37</key><dict>
         <key>Filename</key><string>C:\Users\Lucian\Documents\Inform\Projects\Moirai.inform\Source\story.ni</string>
-        <key>Line</key><integer>847</integer>
+        <key>Line</key><integer>849</integer>
         <key>Title</key><string>Section General Enter-Conversations</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>38</key><dict>
         <key>Filename</key><string>C:\Users\Lucian\Documents\Inform\Projects\Moirai.inform\Source\story.ni</string>
-        <key>Line</key><integer>879</integer>
+        <key>Line</key><integer>881</integer>
         <key>Title</key><string>Section Jace</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>39</key><dict>
         <key>Filename</key><string>C:\Users\Lucian\Documents\Inform\Projects\Moirai.inform\Source\story.ni</string>
-        <key>Line</key><integer>1033</integer>
+        <key>Line</key><integer>1035</integer>
         <key>Title</key><string>Section Wyatt</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>40</key><dict>
         <key>Filename</key><string>C:\Users\Lucian\Documents\Inform\Projects\Moirai.inform\Source\story.ni</string>
-        <key>Line</key><integer>1122</integer>
+        <key>Line</key><integer>1125</integer>
         <key>Title</key><string>Section Background Cast</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>41</key><dict>
         <key>Filename</key><string>C:\Users\Lucian\Documents\Inform\Projects\Moirai.inform\Source\story.ni</string>
-        <key>Line</key><integer>1192</integer>
+        <key>Line</key><integer>1195</integer>
         <key>Title</key><string>Book Actions</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>42</key><dict>
         <key>Filename</key><string>C:\Users\Lucian\Documents\Inform\Projects\Moirai.inform\Source\story.ni</string>
-        <key>Line</key><integer>1234</integer>
+        <key>Line</key><integer>1237</integer>
         <key>Title</key><string>Book Setup</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>43</key><dict>
         <key>Filename</key><string>C:\Users\Lucian\Documents\Inform\Projects\Moirai.inform\Source\story.ni</string>
-        <key>Line</key><integer>1242</integer>
+        <key>Line</key><integer>1245</integer>
         <key>Title</key><string>Book Memories</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>44</key><dict>
         <key>Filename</key><string>C:\Users\Lucian\Documents\Inform\Projects\Moirai.inform\Source\story.ni</string>
-        <key>Line</key><integer>1261</integer>
+        <key>Line</key><integer>1264</integer>
         <key>Title</key><string>Book Preset events</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>45</key><dict>
         <key>Filename</key><string>C:\Users\Lucian\Documents\Inform\Projects\Moirai.inform\Source\story.ni</string>
-        <key>Line</key><integer>1434</integer>
+        <key>Line</key><integer>1437</integer>
         <key>Title</key><string>Book NPC Actions</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>46</key><dict>
         <key>Filename</key><string>C:\Users\Lucian\Documents\Inform\Projects\Moirai.inform\Source\story.ni</string>
-        <key>Line</key><integer>1577</integer>
+        <key>Line</key><integer>1588</integer>
         <key>Title</key><string>Book traveling</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>1</integer>
