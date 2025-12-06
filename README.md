@@ -1,5 +1,5 @@
 # Moirai.inform
-This is my game that I hope to enter into the 2024 IFComp.  As such, this is not a public release or anything, just a place for me to store my code.  Betatesters can get the latest version from here.
+This is my game that I hoped to enter into the 2024 IFComp, but I'm still working on it for an as-of-yet-undetermined Game Thing.  As such, this is not a public release, just a place for me to store my code.  Betatesters can get the latest version from here.
 
 INSTRUCTIONS FOR BETATESTERS:
 
