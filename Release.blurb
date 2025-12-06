@@ -20,7 +20,7 @@ picture 1 "C:\Program Files\Inform\Internal\Miscellany\DefaultCover.jpg"
 
 placeholder [IFID] = "FF0DB69D-8548-49BA-B17F-90C29F419164"
 placeholder [RELEASE] = "0"
-placeholder [YEAR] = "2024"
+placeholder [YEAR] = "2025"
 placeholder [TITLE] = "Fate's Gallery"
 placeholder [AUTHOR] = "Lucian Smith"
 placeholder [BLURB] = "A work of interactive fiction."

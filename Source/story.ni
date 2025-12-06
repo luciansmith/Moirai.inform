@@ -202,6 +202,11 @@ Section parking lot
 
 Quinlan Park Parking Lot is a room.  "Scattered cars fill the parking lot[if the hyundai is in the parking lot], including [the Hyundai] you came here in[otherwise], but your Hyundai hasn't arrived yet[end if]. The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.".  parking lot is liminal.
 
+Table of parking lot descriptions
+Enterable NPC	Description
+Jace	"Jace estimates that the number of cars in the parking lot is a bit low for a Thursday morning, but still reasonable.  His booth is back to the north.[if the Hyundai is in the parking lot]  He's super excited that he can see your car here, with [i]three[r] Vested in it, and is trying to be cool about it, but keeps sneaking peeks involuntarily.[end if] "
+Oscar	"[if the Hyundai is in the parking lot]14[otherwise]13[end if] cars.  Entrance to the north.  Street to the west.  Fence."
+
 Looming sculpture is fixed in place. It is here.  "Looming over the parking lot to the east is a huge sculpture  whose details have yet to be decided (LS TBD).".  The description is "It's a sculpture looming over the east fence (LS TBD)."
 
 Fence is a backdrop.  It is here.  The description is "A fence walls off the park."  The fence is in the Path By Hill, Under Bridge, Water Sculpture, East Hill, Bewildering Bridges, and Sculpture By Lot.
@@ -225,6 +230,13 @@ To say mention_booths:
 		now the ticket booth is mentioned;
 
 Quinlan Park Entrance is a room.  "Two booths flank the entrance to the park to the north, where you can buy tickets and get information[mention_booths].  To the south is the parking lot.". Entrance is liminal.
+
+Table of park entrance descriptions
+Enterable NPC	Description
+Jace	"It's the part of the park that Jace knows best, and also the most boring.  His booth to sell tickets, and the other booth with flyers.  On busy days in the summer, May would be there to hand out flyers to people as they arrived, and would talk to him when things slowed down.  Otherwise it's just him watching for the occasional bird or squirrel to show up then dart away again if he moved too quickly, or if a visitor wandered by."
+Oscar	"Two booths, one with flyers, one with the kid who Oscar is pleased to report now recognizes him well enough to wave him through without him having to show his annual pass.  Parking south.  Park north."
+
+
 
 An information booth is here.  It is a fixed in place enterable container.  The description is "The information booth is unmanned, but there's a [stack of fliers] resting on the sill."  Understand "booths" as the information booth.
 
@@ -264,6 +276,12 @@ Section plaza
 
 Plaza is a room.  "Paths run through this plaza from the south entrance, then splitting northwest around the hill, north up the hill, and east along it. ".
 
+Table of plaza descriptions
+Enterable NPC	Description
+Jace	"The whole park opens up from here, with paths to the northwest to [fire_forge] around the hill, north up the hill to the playground and Coyote's call, or east to the (looming sculpture LS TBD) and the east side of the park.  This is where Jace often picks a new path when wandering the park, so he never travels the same lap twice.  Usually he has to hang out in the ticket booth to the south, though."
+Oscar	"Brick path from south.  Dirt paths northwest, north, southeast."
+
+
 To say distant_coyote:
 	say "Coyote's Call is the iconic sculpture of Quinlan Park.  Made of large red metal tubes and beams, it dominates the landscape from atop the central hill[if sinkhole_size is 0] to [otherwise]. Normally, you'd be able to see it to "
 
@@ -282,6 +300,12 @@ Section Path By Hill
 
 Path By Hill is a room.   "The path runs southeast to northwest here along the edge of the park, and splits off to the east as well, heading up the hill above you.  A fence mostly hidden by shrubbery to your west hides 48th street, and blocks most of the sound from the passing cars."
 
+Table of path by hill descriptions
+Enterable NPC	Description
+Jace	"The west end of the park is the most secluded, so Jace always whistles or coughs when coming around the hill here.  He's found some... interesting items in the shrubbery along the northwest/southeast path here."
+Oscar	"West edge of the park.  Paths northwest, east, southeast."
+
+
 pbh_view is here.  It is distant and privately-named.  "[if sinkhole_size is 0]Though the hill is in the way, you can still see the tops of the red metal structure of Coyote's Call past the rise to the east.[otherwise]To the east, the red metal of Coyote's Call is no longer visible."  The description is "[distant_coyote][the east]."  Understand "iconic/red/metal/structure/coyote/coyote's/call/central/hill/tubes/bars" as pbh_view.  The printed name of pbh_view is "Coyote's Call";
 
 
@@ -291,7 +315,13 @@ South of Under Bridge is nowhere.
 
 Section Under Bridge
 
-Under Bridge is a room.  "A simple and delicate sculpture entitled [fire_forge] sits here, nestled under the 48th Street Bridge on the banks of Brushstroke Reservoir to the north.  The path leads back southeast to the main park area."
+Under Bridge is a room.  "A simple and delicate sculpture entitled [fire_forge] sits here, nestled under the 48th Street Bridge on the banks of Brushstroke Reservoir to the north.  The main path leads back southeast to the main park area, and a smaller worn path along the water leads east."
+
+Table of bridge descriptions
+Enterable NPC	Description
+Jace	"In the middle of particularly hot days, the bridge overhead provides some of the only shade in the whole park, so Jace often takes his lunch breaks here, next to [fire_forge].  "
+Oscar	"[fire_forge], under the bridge.  You can get out of here east along the water or souteast."
+
 
 Fire_Forge is a fixed in place thing in Under Bridge.  The description of fire_forge is "A plaque in the ground identifies this sculpture as 'Fire and Forge'.  Long spines of twisting reddish metal emerge from the ground, reminiscent of flames." The printed name of fire_forge is "'Fire and Forge'".  Understand "fire and forge", "fire/forge/sculpture/simple/delicate" as fire_forge.  Fire_forge is privately-named.
 
@@ -306,6 +336,11 @@ East of Path By Hill is Playground.
 Section Playground
 
 Playground is a room.  "You're at the top of the hill in the park.  This side has slides, swings, and a wide variety of brightly-colored [equipment].  The path curves from the south to the east side of the hill, along the ridge."
+
+Table of playground descriptions
+Enterable NPC	Description
+Jace	"The top of the hill has a large play area that Jace remembers playing on as a kid.  The path goes along the hill to the east, or back down to the entrance area to the south."
+Oscar	"Hilltop.  Swings and stuff.  You can go anywhere.  Paths east south, though."
 
 Some climbing equipment is fixed in place in the Playground.  The description is "It looks like a blast to play in.  Slides that cross over each other; several different kinds of swings; a roundabout; ropes and bars everywhere.[if not evacuated and sinkhole_size is 0]  Kids are playing on every surface."  Understand "slides/slide/swings/swing/bright/brightly-colored/brightly/colored/ropes/bars/roundabout/merry-go-round/spinner" as climbing equipment.
 
@@ -325,11 +360,23 @@ Section Beach Sculpture
 
 Beach Sculpture is a room.  "An east-west path runs along the Brushstroke Reservoir beach. A large complicated structure sits here, fodder for some sort of puzzle (LS TBD).  To your south, you can see the playground on top of the hill."
 
+Table of beach sculpture descriptions
+Enterable NPC	Description
+Jace	"'Beach' is a bit of a stretch for this section of park by the water, but they do haul in sand every other year to keep it looking nice for the two-foot slope between the east-west path and Brushstroke Reservoir. (LS TBD: mention sculpture)"
+Oscar	"Water north.  Path by it east and west.  Kid stuff up the hill, south. (LS TBD: mention sculpture, once it exists.)"
+
 beach_sculpt_view is here.  It is distant and privately-named.  "[if sinkhole_size is 0]To the southeast atop the hill is the iconic red metal structure of Coyote's Call.[otherwise]You can no longer see Coyote's Call to the southeast."  The description is "[distant_coyote][the southeast]."  Understand "iconic/red/metal/structure/coyote/coyote's/call/central/hill/tubes/bars" as beach_sculpt_view.  The printed name of beach_sculpt_view is "Coyote's Call";
 
 Section Sculpture By Lot
 
 Sculpture By Lot is a room.  "The path curves from the west to the southeast here, winding through a giant sculpture that looms over the fence by the parking lot.  The main hill of the park is to the north."
+
+Table of sculpture by lot descriptions
+Enterable NPC	Description
+Jace	"The path goes through and under a giant sculpture that looms over this whole area."
+Oscar	"Path goes west/southeast from here.  Huge sculpture."
+
+[Jace's history of sculpture:  "(Sculptor)took this thing down and put it back up slightly differently about eight times, before the director finally told them the ninth time was going to have to be the final version.  Kicked up a fit, but they finished on time, and she grudgingly accepted that it worked, claiming the 'added stress of finalization added a certain stricken quality to the work'.]
 
 nearlot_view is here.  It is distant and privately-named.  "[if sinkhole_size is 0]Up the hill to the north are the red metal tubes and bars of Coyote's Call.[otherwise if sinkhole_size is 1]Bits of the Coyote's Call structure can still be seen as it falls into the sinkhole.[otherwise]You can no longer see Coyote's Call to the north."  The description is "[distant_coyote][the north]."  Understand "iconic/red/metal/structure/coyote/coyote's/call/central/hill/tubes/bars" as nearlot_view.  The printed name of nearlot_view is "Coyote's Call";
 
@@ -362,6 +409,11 @@ To say what top of hill looks like:
 
 Top of Hill is a room.  "[What top of hill looks like]".
 The printed name of top of hill is "[if sinkhole_size is 0]Top of Hill[otherwise if sinkhole_size is 1]Giant Pit[otherwise]Giant-er Pit LS TBD"
+
+Table of top of hill descriptions
+Enterable NPC	Description
+Jace	"It's the top of the hill, by Coyote's Call.  The epicenter of the sinkhole, so not a super stable place to be, even when you know when it'll happen."
+Oscar	"Top of the hill, with Coyote's Call.  Where the sinkhole's going to be, so get out of here."
 
 To say what Coyote's Call looks like:
 	if sinkhole_size is 0:
@@ -396,6 +448,11 @@ Section Bewildering Bridges
 
 Bewildering Bridges is a room.  "Three paths from the west, northwest, and north converge here at a bewildering complex of bridges, walkways, and staircases, some fixed, and some turning gently in the wind."
 
+Table of bewildering bridges descriptions
+Enterable NPC	Description
+Jace	"The southeast corner of the park has always been fascinating to Jace: the series of interlocking bridges always look to him like they could lead anywhere, even long after he's traveled all of them multiple times."
+Oscar	"Bunch of bridges; all go nowhere.  We're in the southeast corner, so the opposite directions are good for getting out."
+
 bridges_view is here.  It is distant and privately-named.  "[if sinkhole_size is 0]A ways northwest up the hill you can see the iconic red metal structure of Coyote's Call.[otherwise if sinkhole_size is 1]Coyote's Call has disappeared from view; it used to be visible to the northwest."  The description is "[distant_coyote][the northwest]."  Understand "iconic/red/metal/structure/coyote/coyote's/call/central/hill/tubes/bars" as bridges_view.  The printed name of bridges_view is "Coyote's Call";
 
 North of Bewildering Bridges is East Hill.
@@ -405,6 +462,11 @@ Northeast of Bewildering Bridges is nowhere.
 Section East Hill
 
 East Hill is a room.  "A north-south path rises here on the lower east end of the hill.  A sculpture labeled [Bird_Cage] is displayed here; a mass of metal bits on poles."
+
+Table of east hill descriptions
+Enterable NPC	Description
+Jace	"The [Bird_Cage] mass of metal bits on poles has always seemed a little prosaic to Jace, so he doesn't frequent this east edge of the park very often.  The path here goes north/south, and the hill rises to the west."
+Oscar	"There's [Bird_Cage] here, or whatever they call it.  It's the east edge of the park."
 
 easthill_view is here.  It is distant and privately-named.  "[if sinkhole_size is 0]Up the hill to the west is the iconic red metal structure of Coyote's Call.[otherwise if sinkhole_size is 1]Much of the hill to the west is missing, including Coyote's call."  The description is "[distant_coyote][the west]."  Understand "iconic/red/metal/structure/coyote/coyote's/call/central/hill/tubes/bars" as easthill_view.  The printed name of easthill_view is "Coyote's Call";
 
@@ -420,6 +482,11 @@ Southwest of East Hill is Bewildering Bridges.
 Section Water Sculpture
 
 Water Sculpture is a room.  "Here at the northeast section of the park is a fountain-sculpture-thing in the shallow water of the reservoir.  Paths run from here south along the edge of the hill, southwest up the hill, and west along the beach."
+
+Table of water sculpture descriptions
+Enterable NPC	Description
+Jace	"The water running through the fountain sculpture here is as much a part of the design as the pipes and bowls, both in how its natural flow complements the rigidity of the pipes, but also in how the differently-sized bowls are tuned to harmonize with each other as the water strikes and fills them.  The whole structure rests just offshore in Brushstroke Reservoir, to the north.  Three paths to the west, southwest, and south all converge here."
+Oscar	"Bunch of water splashing everywhere.  We're in the northeast corner of the park."
 
 water_sculpt_view is here.  It is distant and privately-named.  "[if sinkhole_size is 0]To the southwest atop the hill is the iconic red metal structure of Coyote's Call.[otherwise if sinkhole_size is 1]To the southwest, the iconic red metal of Coyote's Call is no longer visible."  The description is "[distant_coyote][the southwest]."  Understand "iconic/red/metal/structure/coyote/coyote's/call/central/hill/tubes/bars" as water_sculpt_view.  The printed name of water_sculpt_view is "Coyote's Call";
 
@@ -583,7 +650,7 @@ Wait.  Lestar keeps telling you that you give yourself too little credit.  Maybe
 
 Section Your Argument room
 
-Your Own Kitchen Argument is a liminal room.  "Eight months ago.  You were just back from your first Vested crisis at the Northfield ffice complex.  You were furiously scrubbing dishes, trying to vicariously wipe away the pain and anger and darkness that clung to you from the shooter's mind. [Kitchen_mom] came in to talk to you about it after listening to the news report, ostenstibly to be sympathetic but somehow explaining that everything you did was wrong, and how you could have done everything better."
+Your Own Kitchen Argument is a liminal room.  "Eight months ago.  You were just back from your first Vested crisis at the Northfield office complex.  You were furiously scrubbing dishes, trying to vicariously wipe away the pain and anger and darkness that clung to you from the shooter's mind. [Kitchen_mom] came in to talk to you about it after listening to the news report, ostenstibly to be sympathetic but somehow explaining that everything you did was wrong, and how you could have done everything better."
 The destination of Lift_Zora is Your Own Kitchen Argument.  The dest_time of Lift_Zora is 6:45 PM.
 
 Kitchen_mom is a woman in Your Own Kitchen Argument.  She is scenery and proper-named.  The printed name of Kitchen_mom is "Your mom".  The description is "Perfectly dressed, even at 7:00 at night in her own house.  Tight black curls, dyed to hide the gray, with extensions, of course."  Understand "mom/black/curls/dyed/gray/extensions" as Kitchen_mom.  Instead of touching or entering Kitchen_mom, say "This sort of scenario with your mother is entirely too common to be able to link to a specific memory."
@@ -1121,6 +1188,12 @@ Report the couple examining something:
 			say "The couple searches [the noun], trying to find their kid.";
 		rule succeeds;
 
+Section Oscar
+
+Oscar is a man in the Void.  "You see Oscar here.".  The description is "A grumpy-faced middle-aged man."  Understand "grump/grumpy/grumpy-faced/middle-aged" as Oscar.
+
+
+
 Section Background Cast
 
 To say playing_kids:
@@ -1492,6 +1565,18 @@ A player's action awareness rule for someone announcing:
 	rule succeeds;
 
 A accessibility rule for someone announcing: rule succeeds.
+
+Table of Alternate Room Descriptions
+Room	Alternates
+Plaza	Table of plaza descriptions
+Park Entrance	Table of park entrance descriptions
+Quinlan Park Parking Lot	Table of parking lot descriptions
+Quinlan Park Entrance	Table of park entrance descriptions
+Path By Hill	Table of path by hill descriptions
+
+
+
+
 
 Table of NPCs
 NPC	Action table
