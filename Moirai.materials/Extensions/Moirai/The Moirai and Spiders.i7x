@@ -122,7 +122,7 @@ Instead of entering the spiders for the first time:
 	now the player is the consciousness;
 	now the consciousness is transforming;
 	Now the host is the spiders;
-	say "With practiced ease, you move your consciousness out of your own head, and into the surrounding spiders.  Your perception shifts, and you see the parking lot as if you were standing in it, though patched together from dozens of small views."["[line break][line break]Probably due to your nervousness, a memory surfaces of the first time you managed this."];
+	say "With practiced ease, you move your consciousness out of your own head, and into the spiders scattered across the parking lot.  Your perception shifts, and you see the parking lot as if you were standing in it, though patched together from dozens of small views."["[line break][line break]Probably due to your nervousness, a memory surfaces of the first time you managed this."];
 	try looking;
 	rule succeeds.
 

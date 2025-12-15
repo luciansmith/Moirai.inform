@@ -12,14 +12,17 @@ Include Basic Screen Effects by Emily Short.
 
 Use the American dialect, serial comma, and VERBOSE room descriptions.
 
-
 Include Rules and New Actions by Moirai.
+
 Include Park Map by Moirai.
+
 Include The Moirai and Spiders by Moirai.
 Include Jace by Moirai.
 Include Wyatt by Moirai.
 Include Park Goers by Moirai.
-Include Memories by Moirai.
+
+Include Memories by Moirai. 
+
 Include Events and Loops by Moirai.
 Include NPC Actions by Moirai.
 

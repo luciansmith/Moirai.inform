@@ -128,19 +128,22 @@ Every turn:
 		carry out sinkhole expanding;
 	if the time of day is 11:06 AM:
 		carry out loop resetting;
+	[This executes if the player was waiting and the disaster happened:]
 	if the location of the player is a chasmy room:
 		carry out seeing the disaster;
 	otherwise if the location of the player is the playground and the time of day is greater than 10:56 AM:
 		carry out seeing the disaster
-		
-After going to a chasmy room:
-	carry out seeing the disaster;
-	continue the action;
 
-After going to the playground:
-	if sinkhole_size is greater than 0:
-		carry out seeing the disaster;
-	continue the action;
+
+After going to a chasmy room when the time of day is greater than 10:56 AM and the disaster memory is in the Void:
+	try looking;
+	carry out seeing the disaster;
+
+
+After going to Playground when the time of day is greater than 10:56 AM and the disaster memory is in the Void:
+	try looking;
+	carry out seeing the disaster;
+
 
 After going to somewhere when the host is not the spiders:
 	if the location is not swimming:
@@ -151,22 +154,19 @@ After resetting when the host is not the spiders:
 	move the spiders to the location;
 	continue the action;
 
+After going somewhere in a parky room when the time of day is 10:55 AM for the first time:
+	try looking;
+	say "Amaia's premonition told you something was happening in the park, but you still don't know what.  You'll need to get your bearings and [b]wait[r] to advance the loop and see what's going on.";
+	
+After going to a parky room when the time of day is 10:55 AM and every parky room is visited:
+	try looking;
+	say "That's all the areas of the park.  Something's going to happen in one of them, so you'll need to [b]wait[r] to advance the loop and see what's going on.";
+
 A person can be actually waiting or not actually waiting.  A person is usually actually waiting;
 
 Instead of waiting when the time of day is 11:06 AM and the disaster memory is in the Void:
 	say "You sense the web of time beginning to to tighten, and decide to keep hold of it, instead.  You still haven't figured out what actually happened here.";
 	now the player is not actually waiting;
 		
-After going somewhere in a parky room for the first time:
-	try looking;
-	if the time of day is 10:55 AM:
-		say "Whatever Amaia is worried about is apparently happening in this park.  You'll need to [b]wait[r] to advance the loop and see what's going on.";
-	
-After going to a parky room:
-	if the time of day is 10:55 AM and every parky room is visited:
-		try looking;
-		say "That's all the areas of the park.  Something's going to happen in one of them, so you'll need to [b]wait[r] to advance the loop and see what's going on.";
-	otherwise:
-		continue the action;
 
 Events and Loops ends here.

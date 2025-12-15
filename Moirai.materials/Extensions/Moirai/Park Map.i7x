@@ -271,7 +271,7 @@ To say coyote's call's general description:
 	otherwise:
 		say "The entire hill gave way all at once, and Coyote's Call is now falling, its original configuration lost.  But you can't help thinking that it was at the epicenter of the collapse.[no line break]";
 
-Coyote's Call is here.  "[what coyote's call looks like][no line break]".  The description is "[coyote's call's general description]".  Understand "coyote/call/coyote's/collection/giant/metal/tubes/beams/abstract/chaos/curve", "curve of the hill" as coyote's call.
+Coyote's Call is here.  "[what coyote's call looks like][no line break]".  The description is "[coyote's call's general description]".  Understand "coyote/call/coyote's/collection/giant/metal/tubes/beams/abstract/chaos/curve/sculpture", "curve of the hill" as coyote's call.
 
 Foliage is here.  It is scenery.  The printed name of foliage is "bushes and trees".  The description is "[foliage description].".  Understand "bushes/trees/chaos/foliage" as foliage.
 
@@ -288,12 +288,13 @@ West of Bewildering Bridges is Sculpture By Lot.
 
 Section Bewildering Bridges
 
-Bewildering Bridges is a room.  "Three paths from the west, northwest, and north converge here at a bewildering complex of bridges, walkways, and staircases, some fixed, and some turning gently in the wind."
+Bewildering Bridges is a room.  "Three paths from the west, northwest, and north converge here at a bewildering complex of bridges, walkways, and staircases, some fixed, and some turn gently in the wind."
 
 Table of bewildering bridges descriptions
 Enterable NPC	Description
 Jace	"The southeast corner of the park has always been fascinating to Jace: the series of interlocking bridges always look to him like they could lead anywhere, even long after he's traveled all of them multiple times."
 Oscar	"Bunch of bridges; all go nowhere.  We're in the southeast corner, so the opposite directions are good for getting out."
+[LS DEBUG: inky noted that 'turning gently in the wind' is wrong if time is frozen.]
 
 bridges_view is here.  It is distant and privately-named.  "[if sinkhole_size is 0]A ways northwest up the hill you can see the iconic red metal structure of Coyote's Call.[otherwise if sinkhole_size is 1]Coyote's Call has disappeared from view; it used to be visible to the northwest."  The description is "[distant_coyote][the northwest]."  Understand "iconic/red/metal/structure/coyote/coyote's/call/central/hill/tubes/bars" as bridges_view.  The printed name of bridges_view is "Coyote's Call";
 
