@@ -69,7 +69,10 @@ The player is Zora.
 Zora can be transforming.  Zora is not transforming.
 
 Instead of doing anything other than looking or examining or entering or waiting or touching or physical Lestaring or physical Amaiaing or taking inventory or choosing when the player is Zora:
-	say "While frozen, you can [b]enter[r] the minds around you, and you're aware of your surroundings, but can't do anything physical."
+	say "While frozen, you can [b]enter[r] and [b]touch[r] the minds around you, and you're aware of your surroundings, but can't do anything physical."
+
+Instead of going nowhere when the player is Zora:
+	say "While frozen, you can [b]enter[r] and [b]touch[r] the minds around you, and you're aware of your surroundings, but can't do anything physical."
 
 The mind-touch of Zora is "Your thoughts echo back at you."
 
@@ -82,7 +85,7 @@ Section spiders
 
 The spiders are a privately-named plural-named people in the Hyundai.  "In the area, you can sense the collective presence of dozens of spiders."  The description of the Spiders is "The minds of the spiders are refreshingly simple, unlike most people's minds.  [if spidered]As long as there are more spiders where you want to go, you can move in that direction when connected to them[otherwise]You can [b]enter[r] them to explore an area[end if]."  Understand "spider/spiders", "dozens of spiders" as spiders.
 
-The mind-touch of the spiders is "The surface thoughts of the spiders are entirely instinctual, and refreshing in their simplicity.  You feel your own emotions being acknowledged in return, without them affecting the spiders in the slightest."
+The mind-touch of the spiders is "The surface thoughts of the spiders are entirely instinctual, and refreshing in their simplicity.  You feel your own emotions being acknowledged in return, without them affecting the spiders in the slightest[if the player is Zora].  You can connect with them more directly when you [b]enter[r] their minds[end if]."
 
 Your consciousness is a woman in the Void.  The description of your consciousness is "Your consciousness has no literal form, but when you move across minds, you imagine your core self as a tight ball of sparks containing your memories."  Understand "core self", "tight ball", "tight ball of sparks", "ball of sparks", "ball/sparks" as consciousness.
 
@@ -91,44 +94,5 @@ The intro-page of consciousness is the blocked page.
 The mind-touch of consciousness is "Your thoughts echo back at you."
 
 Consciousness can be transforming.  Consciousness is not transforming.
-
-To decide whether spidered:
-	if the spiders enclose the player, yes;
-	otherwise no;
-
-To decide whether Wyatted:
-	if Wyatt encloses the player, yes;
-	otherwise no;
-
-To decide whether evacuated:
-	if Jace is announced:
-		decide yes;
-	decide no;
-
-Before going somewhere when spidered:
-	if going east from the parking lot:
-		say "You spot a spider on the east wall, and through it, move your consciousness to the spiders on the other side."; 
-	otherwise if going west from Sculpture By Lot:
-		say "You spot a spider on the west wall, and through it, move your consciousness to the spiders on the other side."; 
-	otherwise if going to swimming:
-		continue the action;
-	otherwise:
-		say "You transfer your consciousness to a new group of spiders..."
-
-
-Instead of entering the spiders for the first time:
-	Move the consciousness to the spiders;
-	Move the spiders to the parking lot;
-	now the player is the consciousness;
-	now the consciousness is transforming;
-	Now the host is the spiders;
-	say "With practiced ease, you move your consciousness out of your own head, and into the spiders scattered across the parking lot.  Your perception shifts, and you see the parking lot as if you were standing in it, though patched together from dozens of small views."["[line break][line break]Probably due to your nervousness, a memory surfaces of the first time you managed this."];
-	try looking;
-	rule succeeds.
-
-Report going somewhere when the player is in the spiders:
-	say "You transfer your consciousness to the spiders to [the noun].";
-	continue the action.
-
 
 The Moirai and Spiders ends here.

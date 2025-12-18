@@ -53,7 +53,11 @@ Looming sculpture is fixed in place. It is here.  "Looming over the parking lot 
 
 Fence is a backdrop.  It is here.  The description is "A fence walls off the park."  The fence is in the Path By Hill, Under Bridge, Water Sculpture, East Hill, Bewildering Bridges, and Sculpture By Lot.
 
-Instead of going east from the Parking Lot when not spidered, say "The park continues on the other side of the tall fence to the east, but your host can't scale it."
+Instead of going east from the Parking Lot when not spidered:
+	if the player is Zora:
+		say "While frozen, you can [b]enter[r] and [b]touch[r] the minds around you, and you're aware of your surroundings, but can't do anything physical.";
+	otherwise:
+		say "The park continues on the other side of the tall fence to the east, but your host can't scale it.";
 
 Instead of going west from the Sculpture By Lot when not spidered, say "The parking lot can be found on the other side of the tall fence to the west, but your host can't scale it."
 

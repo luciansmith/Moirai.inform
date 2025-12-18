@@ -3,6 +3,10 @@ Use authorial modesty.
 
 sinkhole_size is a number that varies.  sinkhole_size is 0.
 
+To decide whether spidered:
+	if the spiders enclose the player, yes;
+	otherwise no;
+
 To carry out sinkhole appearing:
 	now sinkhole_size is 1;
 	now top of hill is chasmy;
@@ -13,7 +17,7 @@ To carry out sinkhole appearing:
 		move the couple to the playground;
 	if the location of the player is Top of Hill:
 		if spidered:
-			say "With a roar, the entire top of the hill collapses in on itself, and your perception shatters as spiders are shaken off webs and perches, spinning out emergency strands to catch the wind and slow their falls.  Straining, you manage to reassert your hold on time, freezing everything in place again.  Gradually, you stitch together a new coherent view of your surroundings.";
+			say "With a roar, the entire top of the broad hill collapses in on itself, and your perception shatters as spiders are shaken off webs and perches, spinning out emergency strands to catch the wind and slow their falls.  Straining, you manage to reassert your hold on time, freezing everything in place again.  Gradually, you stitch together a new coherent view of your surroundings.";
 			try looking;
 		otherwise:
 			say "LS TBD figure out what to do when the host ends up falling?  Or have them refuse?";
@@ -134,6 +138,7 @@ Every turn:
 	otherwise if the location of the player is the playground and the time of day is greater than 10:56 AM:
 		carry out seeing the disaster
 
+Section rules about going places
 
 After going to a chasmy room when the time of day is greater than 10:56 AM and the disaster memory is in the Void:
 	try looking;
@@ -161,12 +166,5 @@ After going somewhere in a parky room when the time of day is 10:55 AM for the f
 After going to a parky room when the time of day is 10:55 AM and every parky room is visited:
 	try looking;
 	say "That's all the areas of the park.  Something's going to happen in one of them, so you'll need to [b]wait[r] to advance the loop and see what's going on.";
-
-A person can be actually waiting or not actually waiting.  A person is usually actually waiting;
-
-Instead of waiting when the time of day is 11:06 AM and the disaster memory is in the Void:
-	say "You sense the web of time beginning to to tighten, and decide to keep hold of it, instead.  You still haven't figured out what actually happened here.";
-	now the player is not actually waiting;
-		
 
 Events and Loops ends here.

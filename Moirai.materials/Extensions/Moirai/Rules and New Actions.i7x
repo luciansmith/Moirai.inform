@@ -38,6 +38,12 @@ Choosing is acting fast.
 
 The take quick actions out of world rule is listed before the every turn stage rule in the turn sequence rules.
 
+A person can be actually waiting or not actually waiting.  A person is usually actually waiting;
+
+Instead of waiting when the time of day is 11:06 AM and the disaster memory is in the Void:
+	say "You sense the web of time beginning to to tighten, and decide to keep hold of it, instead.  You still haven't figured out what actually happened here.";
+	now the player is not actually waiting;
+		
 This is the take quick actions out of world rule:
 	[say "the player is [the player].";]
 	if the player is transforming:
@@ -258,5 +264,37 @@ Report an actor evacuating (this is the report evacuating rule):
 
 The specification of the evacuating action is
 "For people in the park responding to Jace's announcement."
+
+To decide whether evacuated:
+	if Jace is announced:
+		decide yes;
+	decide no;
+
+
+Before going somewhere when spidered:
+	if going east from the parking lot:
+		say "You spot a spider on the east wall, and through it, move your consciousness to the spiders on the other side."; 
+	otherwise if going west from Sculpture By Lot:
+		say "You spot a spider on the west wall, and through it, move your consciousness to the spiders on the other side.";
+	otherwise if going to swimming:
+		continue the action;
+	otherwise:
+		say "You transfer your consciousness to a new group of spiders[first time].  You take a moment to readjust to what it's like to 'move' by shifting your consciousness instead of by moving your body.  You're not moving through time (everything is in the same spot on the web as it was), and you're not even moving through space so much as noticing a different space, as mediated by these tiny windows into reality[only]..."
+
+Instead of entering the spiders for the first time:
+	Move the consciousness to the spiders;
+	Move the spiders to the parking lot;
+	now the player is the consciousness;
+	now the consciousness is transforming;
+	Now the host is the spiders;
+	say "With practiced ease, you move your consciousness out of your own head, and into the spiders scattered across the parking lot.  Your perception shifts, and you see the parking lot as if you were standing in it, though patched together from dozens of small views."["[line break][line break]Probably due to your nervousness, a memory surfaces of the first time you managed this."];
+	try looking;
+	rule succeeds.
+
+Report going somewhere when the player is in the spiders:
+	say "You transfer your consciousness to the spiders to [the noun].";
+	continue the action.
+
+
 
 Rules and New Actions ends here.
