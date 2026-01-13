@@ -11,7 +11,7 @@ The intro-page of Wyatt is hide-and-seek.
 
 The mind-touch of Wyatt is "[The Wyatt] is hyper-focused on hiding."
 
-hide-and-seek is a page.  ["[h-n-s intro]".] 
+hide-and-seek is a page.  [The description is "[h-n-s intro]".]
 
 Wyatt can be tagged.  Wyatt is not tagged.
 
@@ -24,7 +24,7 @@ Instead of entering Wyatt:
 		otherwise:
 			now Wyatt is tagged.
 
-redo-mindscape-or-not is a page.  "You've already chased Wyatt through your mind once.  Would you like to do all that again or just do what you did last time and skip to the end?".  The cdesc is "Decide whether to find Wyatt in your own memories again."
+redo-mindscape-or-not is a page.  The cdesc is "Decide whether to find Wyatt in your own memories again."  The description is "You've already chased Wyatt through your mind once.  Would you like to do all that again or just do what you did last time and skip to the end?".
 
 redo-mindscape is an end-page.  The cdesc is "Chase Wyatt through your own mind again.".  It is for redo-mindscape-or-not.
 

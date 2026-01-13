@@ -40,16 +40,26 @@ Instead of going to swimming, say "I'll have to think of a good reason for you t
 
 Chapter Real Life
 
+
+To say variably describe (rome - a table name):
+	if there is an Enterable NPC of the host in the rome:
+		say the Description corresponding to the Enterable NPC of the host in rome;
+	otherwise:
+		say the Description corresponding to the Enterable NPC of default in rome;
+
+
 Section parking lot
 
-Quinlan Park Parking Lot is a room.  "Scattered cars fill the parking lot[if the hyundai is in the parking lot], including [the Hyundai] you came here in[otherwise], but your Hyundai hasn't arrived yet[end if]. The parking lot is just off of 48th street to the west.   To the north is the entrance to the park.".  parking lot is liminal.
+Quinlan Park Parking Lot is a room.  "[variably describe the table of parking lot descriptions]".  parking lot is liminal.
 
 Table of parking lot descriptions
 Enterable NPC	Description
-Jace	"Jace estimates that the number of cars in the parking lot is a bit low for a Thursday morning, but still reasonable.  His booth is back to the north.[if the Hyundai is in the parking lot]  He's super excited that he can see your car here, with [i]three[r] Vested in it, and is trying to be cool about it, but keeps sneaking peeks involuntarily.[end if] "
+default	"Scattered cars fill the parking lot[if the hyundai is in the parking lot], including [the Hyundai] you came here in[otherwise], but your Hyundai hasn't arrived yet[end if]. The parking lot is just off of 48th street to the west.   To the north is the entrance to the park."
+spiders	"Your patchwork view of the parking lot is largely from the perspective of the spiders living in the trees[first time].  You've learned to piece together a mental model of the area as a whole, combining different views of the same things in your head.  Your [Hyundai], for example, can be seen from one spider in a tree in the middle of the lot, by another whose web covers the ground near the curb, and by one perched on the right rear-view mirror that hitched a ride with you here.  It's sort of like the way the spiders themselves patch together a view of their surroundings from their own multiple eyes, though merging widely disparate views did take some practice before you could do it easily[only].  [if the hyundai is not in the parking lot]Your [Hyundai] hasn't arrived yet: you've looped back to the past thanks to your influence on Lestar's ritual.  [end if]You sense spiders in practically every direction, and could normally move your perspective to any of them, but Lestar's influence is centered around Amaia's premonition: the park to the north and east.  People get into the park by walking north from here, and can drive away to the west."
+Jace	"Jace estimates that the number of cars in the parking lot is a bit low for a Thursday morning, but still reasonable.  His booth is back to the north[if the Hyundai is in the parking lot].  He's super excited that he can see your car here, with [i]three[r] Vested in it, and is trying to be cool about it, but keeps sneaking peeks involuntarily[end if]."
 Oscar	"[if the Hyundai is in the parking lot]14[otherwise]13[end if] cars.  Entrance to the north.  Street to the west.  Fence."
 
-Looming sculpture is fixed in place. It is here.  "Looming over the parking lot to the east is a huge sculpture  whose details have yet to be decided (LS TBD).".  The description is "It's a sculpture looming over the east fence (LS TBD)."
+Looming sculpture is fixed in place. It is here.  "Looming over the parking lot to the east is a huge sculpture whose details have yet to be decided (LS TBD).".  The description is "It's a sculpture looming over the east fence (LS TBD)."
 
 Fence is a backdrop.  It is here.  The description is "A fence walls off the park."  The fence is in the Path By Hill, Under Bridge, Water Sculpture, East Hill, Bewildering Bridges, and Sculpture By Lot.
 
@@ -75,10 +85,11 @@ To say mention_booths:
 	if Jace is not in the ticket booth:
 		now the ticket booth is mentioned;
 
-Quinlan Park Entrance is a room.  "Two booths flank the entrance to the park to the north, where you can buy tickets and get information[mention_booths].  To the south is the parking lot.". Entrance is liminal.
+Quinlan Park Entrance is a room.  "[variably describe the table of park entrance descriptions]". Entrance is liminal.
 
 Table of park entrance descriptions
 Enterable NPC	Description
+default	"Two booths flank the entrance to the park to the north, where you can buy tickets and get information[mention_booths].  To the south is the parking lot."
 Jace	"It's the part of the park that Jace knows best, and also the most boring.  His booth to sell tickets, and the other booth with flyers.  On busy days in the summer, May would be there to hand out flyers to people as they arrived, and would talk to him when things slowed down.  Otherwise it's just him watching for the occasional bird or squirrel to show up then dart away again if he moved too quickly, or if a visitor wandered by."
 Oscar	"Two booths, one with flyers, one with the kid who Oscar is pleased to report now recognizes him well enough to wave him through without him having to show his annual pass.  Parking south.  Park north."
 
@@ -120,10 +131,11 @@ The Park Entrance is south of Plaza.
 
 Section plaza
 
-Plaza is a room.  "Paths run through this plaza from the south entrance, then splitting northwest around the hill, north up the hill, and east along it. ".
+Plaza is a room.  "[variably describe the table of plaza descriptions]".
 
 Table of plaza descriptions
 Enterable NPC	Description
+default	"Paths run through this plaza from the south entrance, then splitting northwest around the hill, north up the hill, and east along it."
 Jace	"The whole park opens up from here, with paths to the northwest to [fire_forge] around the hill, north up the hill to the playground and Coyote's call, or east to the (looming sculpture LS TBD) and the east side of the park.  This is where Jace often picks a new path when wandering the park, so he never travels the same lap twice.  Usually he has to hang out in the ticket booth to the south, though."
 Oscar	"Brick path from south.  Dirt paths northwest, north, southeast."
 
@@ -144,10 +156,11 @@ East of Plaza is Sculpture By Lot.
 
 Section Path By Hill
 
-Path By Hill is a room.   "The path runs southeast to northwest here along the edge of the park, and splits off to the east as well, heading up the hill above you.  A fence mostly hidden by shrubbery to your west hides 48th street, and blocks most of the sound from the passing cars."
+Path By Hill is a room.   "[variably describe the table of path by hill descriptions]"
 
 Table of path by hill descriptions
 Enterable NPC	Description
+default	"The path runs southeast to northwest here along the edge of the park, and splits off to the east as well, heading up the hill above you.  A fence mostly hidden by shrubbery to your west hides 48th street, and blocks most of the sound from the passing cars."
 Jace	"The west end of the park is the most secluded, so Jace always whistles or coughs when coming around the hill here.  He's found some... interesting items in the shrubbery along the northwest/southeast path here."
 Oscar	"West edge of the park.  Paths northwest, east, southeast."
 
@@ -161,10 +174,11 @@ South of Under Bridge is nowhere.
 
 Section Under Bridge
 
-Under Bridge is a room.  "A simple and delicate sculpture entitled [fire_forge] sits here, nestled under the 48th Street Bridge on the banks of Brushstroke Reservoir to the north.  The main path leads back southeast to the main park area, and a smaller worn path along the water leads east."
+Under Bridge is a room.  "[variably describe the table of bridge descriptions]"
 
 Table of bridge descriptions
 Enterable NPC	Description
+default	"A simple and delicate sculpture entitled [fire_forge] sits here, nestled under the 48th Street Bridge on the banks of Brushstroke Reservoir to the north.  The main path leads back southeast to the main park area, and a smaller worn path along the water leads east."
 Jace	"In the middle of particularly hot days, the bridge overhead provides some of the only shade in the whole park, so Jace often takes his lunch breaks here, next to [fire_forge].  "
 Oscar	"[fire_forge], under the bridge.  You can get out of here east along the water or souteast."
 
@@ -181,10 +195,11 @@ East of Path By Hill is Playground.
 
 Section Playground
 
-Playground is a room.  "You're at the top of the hill in the park.  This side has slides, swings, and a wide variety of brightly-colored [equipment].  The path curves from the south to the east side of the hill, along the ridge."
+Playground is a room.  "[variably describe the table of playground descriptions]"
 
 Table of playground descriptions
 Enterable NPC	Description
+default	"You're at the top of the hill in the park.  This side has slides, swings, and a wide variety of brightly-colored [equipment].  The path curves from the south to the east side of the hill, along the ridge."
 Jace	"The top of the hill has a large play area that Jace remembers playing on as a kid.  The path goes along the hill to the east, or back down to the entrance area to the south."
 Oscar	"Hilltop.  Swings and stuff.  You can go anywhere.  Paths east south, though."
 
@@ -204,10 +219,11 @@ East of Under Bridge is Beach Sculpture.
 
 Section Beach Sculpture
 
-Beach Sculpture is a room.  "An east-west path runs along the Brushstroke Reservoir beach. A large complicated structure sits here, fodder for some sort of puzzle (LS TBD).  To your south, you can see the playground on top of the hill."
+Beach Sculpture is a room.  "[variably describe the table of beach sculpture descriptions]"
 
 Table of beach sculpture descriptions
 Enterable NPC	Description
+default	"An east-west path runs along the Brushstroke Reservoir beach. A large complicated structure sits here, fodder for some sort of puzzle (LS TBD).  To your south, you can see the playground on top of the hill."
 Jace	"'Beach' is a bit of a stretch for this section of park by the water, but they do haul in sand every other year to keep it looking nice for the two-foot slope between the east-west path and Brushstroke Reservoir. (LS TBD: mention sculpture)"
 Oscar	"Water north.  Path by it east and west.  Kid stuff up the hill, south. (LS TBD: mention sculpture, once it exists.)"
 
@@ -215,10 +231,11 @@ beach_sculpt_view is here.  It is distant and privately-named.  "[if sinkhole_si
 
 Section Sculpture By Lot
 
-Sculpture By Lot is a room.  "The path curves from the west to the southeast here, winding through a giant sculpture that looms over the fence by the parking lot.  The main hill of the park is to the north."
+Sculpture By Lot is a room.  "[variably describe the table of sculpture by lot descriptions]"
 
 Table of sculpture by lot descriptions
 Enterable NPC	Description
+default	"The path curves from the west to the southeast here, winding through a giant sculpture that looms over the fence by the parking lot.  The main hill of the park is to the north."
 Jace	"The path goes through and under a giant sculpture that looms over this whole area."
 Oscar	"Path goes west/southeast from here.  Huge sculpture."
 
@@ -247,7 +264,7 @@ Section Top Of Hill
 
 To say what top of hill looks like:
 	if sinkhole_size is 0:
-		say "From the top of the hill, you can see the entire park below you: the reservoir to the north, the playground to the west, and all eight of the permanent sculptures in the park.[no line break]";
+		say "[variably describe the table of top of hill descriptions]";
 	otherwise if sinkhole_size is 1:
 		say "The entire hill has collapsed in on itself, revealing a giant pit underneath. [if spidered]Bushes and trees are frozen mid-fall, as they pitch forward into the yawning chasm.[no line break][otherwise]The sides of the pit continue to expand, as dirt and trees slowly topple in from the sides.[end if][no line break]";
 	otherwise:
@@ -258,8 +275,9 @@ The printed name of top of hill is "[if sinkhole_size is 0]Top of Hill[otherwise
 
 Table of top of hill descriptions
 Enterable NPC	Description
+default	"From the top of the hill, you can see the entire park below you: the reservoir to the north, the playground to the west, and all eight of the permanent sculptures in the park.[no line break]"
 Jace	"It's the top of the hill, by Coyote's Call.  The epicenter of the sinkhole, so not a super stable place to be, even when you know when it'll happen."
-Oscar	"Top of the hill, with Coyote's Call.  Where the sinkhole's going to be, so get out of here."
+Oscar	"Top of the hill, with Coyote's Call.  Where the sinkhole's going to be.  Leave."
 
 To say what Coyote's Call looks like:
 	if sinkhole_size is 0:
@@ -285,6 +303,8 @@ To say foliage description:
 	otherwise:
 		say "The falling bushes and trees add to the general chaos of the collapsing hill and structure";
 
+Instead of going down from Top Of Hill when sinkhole_size is 0, say "You're at the top of a hill; all directions are 'down' except west along the ridge to the playground."
+
 Southeast of Sculpture By Lot is Bewildering Bridges.
 Southeast of Top Of Hill is Bewildering Bridges.
 Northwest of Bewildering Bridges is Top of Hill.
@@ -292,10 +312,11 @@ West of Bewildering Bridges is Sculpture By Lot.
 
 Section Bewildering Bridges
 
-Bewildering Bridges is a room.  "Three paths from the west, northwest, and north converge here at a bewildering complex of bridges, walkways, and staircases, some fixed, and some turn gently in the wind."
+Bewildering Bridges is a room.  "[variably describe the table of bewildering bridges descriptions]"
 
 Table of bewildering bridges descriptions
 Enterable NPC	Description
+default	"Three paths from the west, northwest, and north converge here at a bewildering complex of bridges, walkways, and staircases, some fixed, and some turn gently in the wind."
 Jace	"The southeast corner of the park has always been fascinating to Jace: the series of interlocking bridges always look to him like they could lead anywhere, even long after he's traveled all of them multiple times."
 Oscar	"Bunch of bridges; all go nowhere.  We're in the southeast corner, so the opposite directions are good for getting out."
 [LS DEBUG: inky noted that 'turning gently in the wind' is wrong if time is frozen.]
@@ -308,10 +329,11 @@ Northeast of Bewildering Bridges is nowhere.
 
 Section East Hill
 
-East Hill is a room.  "A north-south path rises here on the lower east end of the hill.  A sculpture labeled [Bird_Cage] is displayed here; a mass of metal bits on poles."
+East Hill is a room.  "[variably describe the table of east hill descriptions]"
 
 Table of east hill descriptions
 Enterable NPC	Description
+default	"A north-south path rises here on the lower east end of the hill.  A sculpture labeled [Bird_Cage] is displayed here; a mass of metal bits on poles."
 Jace	"The [Bird_Cage] mass of metal bits on poles has always seemed a little prosaic to Jace, so he doesn't frequent this east edge of the park very often.  The path here goes north/south, and the hill rises to the west."
 Oscar	"There's [Bird_Cage] here, or whatever they call it.  It's the east edge of the park."
 
@@ -328,10 +350,11 @@ Southwest of East Hill is Bewildering Bridges.
 
 Section Water Sculpture
 
-Water Sculpture is a room.  "Here at the northeast section of the park is a fountain-sculpture-thing in the shallow water of the reservoir.  Paths run from here south along the edge of the hill, southwest up the hill, and west along the beach."
+Water Sculpture is a room.  "[variably describe the table of water sculpture descriptions]"
 
 Table of water sculpture descriptions
 Enterable NPC	Description
+default	"Here at the northeast section of the park is a fountain-sculpture-thing in the shallow water of the reservoir.  Paths run from here south along the edge of the hill, southwest up the hill, and west along the beach."
 Jace	"The water running through the fountain sculpture here is as much a part of the design as the pipes and bowls, both in how its natural flow complements the rigidity of the pipes, but also in how the differently-sized bowls are tuned to harmonize with each other as the water strikes and fills them.  The whole structure rests just offshore in Brushstroke Reservoir, to the north.  Three paths to the west, southwest, and south all converge here."
 Oscar	"Bunch of water splashing everywhere.  We're in the northeast corner of the park."
 
@@ -341,18 +364,16 @@ Section Sinkhole
 
 Sinkhole is a room.  Sinkhole is down from Top Of Hill.  "[if sinkhole_size is 0]A few spiders have made their way to this lightless cavern, but all of them can only sense the immediate area of their webs.  Piecing together vibrations, then, instead of light, you sense slight vibrations from above, some sort of constant vibrations from deep below.[otherwise if sinkhole_size is 1]You're partway down a giant sinkhole that apparently has been growing under the park for some time.  Everything is caught in a state of falling:  dirt, grass, the red metal pieces of Coyote's Call, and the spiders themselves.[otherwise]You're partway down a giant sinkhole that apparently has been growing under the park for some time.  Everything from the top of the hill has finished falling into the blackness beneath you, but the walls continue to expand in every direction.".  Sinkhole is chasmy.
 
-Instead of going down from Top Of Hill when sinkhole_size is 0, say "You're at the top of a hill; all directions are 'down' except west along the ridge to the playground."
-
 Instead of going nowhere from Sinkhole, say "From here, you can sense spiders above and below you, but the ones below are outside of Lestar's sphere of influence."
 
-Instead of going nowhere from Sinkhole when the noun is down, say "From here, you can sense spiders above and below you, but the ones below are outside of Lestar's sphere of influence."
+[Instead of going nowhere from Sinkhole when the noun is down, say "From here, you can sense spiders above and below you, but the ones below are outside of Lestar's sphere of influence."]
 
 falling_coyote is in the Void.  It is privately-named.  "[if the time of day is 10:58 AM]A spear of red metal from Coyote's Call falls through open space here.[otherwise]The majority of Coyote's Call is caught frozen near you as it tumbles."  The description is "[if the time of day is 10:58 AM]Etched into the base of the spear is a design that must have been buried in the dirt:  two crossed lines circumscribed by a rounded triangle[the spear design].[otherwise]Somehow, the artistic chaos from before has been dissipated into just... normal chaos.  It's now just a pile of falling red metal."    The printed name of falling_coyote is "falling pieces of Coyote's Call". Understand "falling/coyote/coyote's/call/spear/red/metal" as falling_coyote.
 
 falling_coyote can be processed.  falling_coyote is not processed.
 
 To say the spear design:
-	if purple scarf  is processed:
+	if purple scarf is processed:
 		if falling_coyote is processed:
 			say ".  It's definitely the same design that you remembered from the hidden woman outside the office complex";
 		otherwise:
@@ -362,15 +383,6 @@ To say the spear design:
 After examining falling_coyote:
 	if the time of day is 10:58 AM:
 		now falling_coyote is processed;
-
-
-Table of Alternate Room Descriptions
-Room	Alternates
-Plaza	Table of plaza descriptions
-Park Entrance	Table of park entrance descriptions
-Quinlan Park Parking Lot	Table of parking lot descriptions
-Quinlan Park Entrance	Table of park entrance descriptions
-Path By Hill	Table of path by hill descriptions
 
 
 

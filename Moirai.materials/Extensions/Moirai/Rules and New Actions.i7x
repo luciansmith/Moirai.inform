@@ -279,7 +279,7 @@ Before going somewhere when spidered:
 	otherwise if going to swimming:
 		continue the action;
 	otherwise:
-		say "You transfer your consciousness to a new group of spiders[first time].  You take a moment to readjust to what it's like to 'move' by shifting your consciousness instead of by moving your body.  You're not moving through time (everything is in the same spot on the web as it was), and you're not even moving through space so much as noticing a different space, as mediated by these tiny windows into reality[only]..."
+		say "You transfer your consciousness to a new group of spiders[first time].  You take a moment to readjust to what it's like to 'move' by shifting your consciousness instead of by moving your body.  You're not moving through time (everything else is still frozen), and you're not even moving through space so much as noticing a different space, as mediated by these tiny windows into reality[only]..."
 
 Instead of entering the spiders for the first time:
 	Move the consciousness to the spiders;
@@ -287,7 +287,7 @@ Instead of entering the spiders for the first time:
 	now the player is the consciousness;
 	now the consciousness is transforming;
 	Now the host is the spiders;
-	say "With practiced ease, you move your consciousness out of your own head, and into the spiders scattered across the parking lot.  Your perception shifts, and you see the parking lot as if you were standing in it, though patched together from dozens of small views."["[line break][line break]Probably due to your nervousness, a memory surfaces of the first time you managed this."];
+	say "With practiced ease, you move your consciousness out of your own head, and into the spiders scattered across the parking lot.  Your perception shifts, and you see the parking lot, patched together from dozens of small views."["[line break][line break]Probably due to your nervousness, a memory surfaces of the first time you managed this."];
 	try looking;
 	rule succeeds.
 
