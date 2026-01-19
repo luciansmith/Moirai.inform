@@ -21,23 +21,6 @@ Instead of going nowhere when the noun is up, say "Unfortunately, you're not one
 
 Instead of going nowhere when the noun is down, say "You can't go down from here."
 
-north of Under Bridge is swimming.
-northwest of Under Bridge is swimming.
-northeast of Under Bridge is swimming.
-northwest of Beach Sculpture is swimming.
-north of Beach Sculpture is swimming.
-northeast of Beach Sculpture is swimming.
-northwest of Water Sculpture is swimming.
-north of Water Sculpture is swimming.
-northeast of Water Sculpture is swimming.
-southwest of swimming is Under Bridge.
-south of swimming is Beach Sculpture.
-southeast of swimming is Water Sculpture.
-
-Instead of going to swimming when spidered, say "The open water doesn't have any spiders for you to transfer to."
-
-Instead of going to swimming, say "I'll have to think of a good reason for you to not swim, or to let you swim after all LS TBD."
-
 Chapter Real Life
 
 
@@ -359,6 +342,64 @@ Jace	"The water running through the fountain sculpture here is as much a part of
 Oscar	"Bunch of water splashing everywhere.  We're in the northeast corner of the park."
 
 water_sculpt_view is here.  It is distant and privately-named.  "[if sinkhole_size is 0]To the southwest atop the hill is the iconic red metal structure of Coyote's Call.[otherwise if sinkhole_size is 1]To the southwest, the iconic red metal of Coyote's Call is no longer visible."  The description is "[distant_coyote][the southwest]."  Understand "iconic/red/metal/structure/coyote/coyote's/call/central/hill/tubes/bars" as water_sculpt_view.  The printed name of water_sculpt_view is "Coyote's Call";
+
+Section Swimming
+
+Swimming is a room.  "[variably describe the table of swimming descriptions]"
+
+Table of swimming descriptions
+Enterable NPC	Description
+default	"You're partway out in the lake, treading water."
+spiders	"Your consciousness is embedded in just a single spider on the top of LS DEBUG someone's head, treading water in Brushstroke Reservoir.  Quinlan Park is back to the south."
+Jace	"For as long as Jace has worked in the park, he's never actually swam in the reservoir before."
+
+north of Under Bridge is swimming.
+northwest of Under Bridge is swimming.
+northeast of Under Bridge is swimming.
+northwest of Beach Sculpture is swimming.
+north of Beach Sculpture is swimming.
+northeast of Beach Sculpture is swimming.
+northwest of Water Sculpture is swimming.
+north of Water Sculpture is swimming.
+northeast of Water Sculpture is swimming.
+southwest of swimming is Under Bridge.
+south of swimming is Beach Sculpture.
+southeast of swimming is Water Sculpture.
+
+A person can be spider-carrying.  A person is usually not spider-carrying.
+
+Instead of going to swimming when spidered:
+	If a spider-carrying person is not in swimming:
+		say "The open water doesn't have any spiders for you to transfer to.";  
+	Otherwise:
+		continue the action;
+
+Instead of going to swimming, say "I'll have to think of a good reason for you to not swim, or to let you swim after all LS TBD."
+
+Section Speedboat
+
+On_Speedboat is a room.  The printed name is "On a Speedboat".  "[variably describe the table of speedboat room descriptions]".
+
+Table of speedboat room descriptions
+Enterable NPC	Description
+spiders	"There's only three spiders on this whole boat.  It's enough that your consciousness has just enough room to be comfortable, but two of them are in dark places (maybe storage areas?) and only one can see anything.  Knowing that it's a speedboat helps--you eventually work out that you must be looking out from under the helm, and that the blobby shapes you're seeing are probably a pair of suntanned legs.  All three spiders are focused on distinguishing the myriad extra non-prey vibrations (which you surmise must be from the boat's movement) from prey vibrations."
+default	"This Thalassa Rift SV motorboat is gleaming from stem to stern, from the yellow stripe along the bow to the transom in the back.  The helm consists of a chrome steering wheel above a panel with 21 dials and gauges measuring and displaying everything from knots per hour to navigation charts to a fish finder display.  There's leather seats and benches if [the Ogden] ever wanted to sit down, which he rarely does, preferring to stand at the helm when driving and when puttering around the deck."
+
+north of swimming is On a Speedboat.
+northeast of swimming is On a Speedboat.
+northwest of swimming is On a Speedboat.
+
+The boat is scenery in On a Speedboat.  The description is "[variably describe the table of boat descriptions]".  Understand "boat/speedboat/speed boat/thalassa/rift/sv/motorboat/yellow/stripe" as the boat.
+
+Table of boat descriptions
+Enterable NPC	Description
+spiders	"You can't see much of the boat when looking out of the eyes of the three spiders on board.  There's a dark storage area and some kind of helm, with a driver.  That and 'it's moving' is all you can make out."
+default	"Gleaming from stem to stern.  Ogden takes great pride in keeping everything spotless, and wipes it down after every trip himself."
+
+The helm is scenery in On a Speedboat.  The description is "[if spidered]You can't make out much of the helm[otherwise]The helm is the main reason Dr. Winchester got the Thalassa Rift SV instead of the MX.  Everything is included, and everything is [i]right[r]: the speedometer is exactly where you want to glance down to see your speed, the RPMs are just visible out of the corner of your eye when looking at the horizon, the navigation chart and compass are high enough that your view of them isn't blocked by the steering wheel, but not so high that you can't see the gunwales over them to avoid close objects.  Everything is efficient and highly functional[end]."  Understand "helm/chrome/steering/wheel/panel/dials/gauges/knots per hour/navigation/charts/chart/fish finder/display" as the helm.
+
+
+
 
 Section Sinkhole
 

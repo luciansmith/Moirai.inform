@@ -74,4 +74,32 @@ To carry out NPC actions:
 					now the actor is the player;
 ]
 
+To carry out the boat wake:
+	If the location is swimming:
+		If the time of day is greater than 10:51 AM and the time of day is less than 10:55 AM:
+			say "Waves ripple through the water.";
+		if the time of day is 10:55 AM:
+			say "The waves settle down again.";
+	If the location is Under Bridge:
+		if the time of day is 10:52 AM:
+			say "The water had been still, but waves begin to wash up on the shore.";
+		if the time of day is 10:53 AM:
+			say "Waves wash up on the shore.";
+		if the time of day is 10:54 AM:
+			say "The waves washing up on shore diminish until they disappear.";
+	If the location is Beach Sculpture:
+		if the time of day is 10:53 AM:
+			say "The water had been still, but waves begin to wash up on the shore.";
+		if the time of day is 10:54 AM:
+			say "Waves wash up on the shore.";
+		if the time of day is 10:55 AM:
+			say "The waves washing up on shore diminish until they disappear.";
+	If the location is Water Sculpture:
+		if the time of day is 10:54 AM:
+			say "The water had been still, but waves begin to wash up on the shore.";
+		if the time of day is 10:55 AM:
+			say "Waves wash up on the shore.";
+		if the time of day is 10:56 AM:
+			say "The waves washing up on shore diminish until they disappear.";
+
 NPC Actions ends here.

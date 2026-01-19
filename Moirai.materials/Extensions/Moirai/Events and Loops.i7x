@@ -100,6 +100,7 @@ To carry out seeing the disaster:
 
 Every turn:
 	carry out NPC actions;
+	carry out the boat wake;
 	[record PC actions;]
 	if not spidered:
 		repeat with N running from 1 to the number of rows in the Table of NPCs:
