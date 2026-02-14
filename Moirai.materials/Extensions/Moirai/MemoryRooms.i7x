@@ -34,9 +34,5 @@ Instead of touching or entering a memConnection (called the connection):
 	move the player to the destination of the connection;
 	now the time of day is the dest_time of the connection;
 
-Section Skiing Room
-
-Skiing is a liminal room.  "You're in your own memory of one of the earlier times you went skiing with your family.  There's light [snow] in the cold, [crisp air].  In the distance is [a ski lift].[pb]In your memory, you've just turned your skis straight down the hill to catch up with your brother in the distance.  The reason you remember this moment more vividly is because you're about to [crash].[pb][list memexits from Skiing][no line break]".  Skiing is wyattful.
-
 
 Memory Rooms ends here.

@@ -17,9 +17,13 @@ Include Rules and New Actions by Moirai.
 Include Park Map by Moirai.
 
 Include The Moirai and Spiders by Moirai.
+Include Park Goers by Moirai.
+
+Include Memory Rooms by Moirai. [Need this before the people that use them (Wyatt, Ogden).]
+
 Include Jace by Moirai.
 Include Wyatt by Moirai.
-Include Park Goers by Moirai.
+Include Ogden by Moirai.
 
 Include Memories by Moirai. 
 
