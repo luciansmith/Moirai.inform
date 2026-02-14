@@ -398,16 +398,16 @@ default	"Gleaming from stem to stern.  Ogden takes great pride in keeping everyt
 
 The helm is scenery in On a Speedboat.  The description is "[if spidered]You can't make out much of the helm[otherwise]The helm is the main reason Dr. Winchester got the Thalassa Rift SV instead of the MX.  Everything is included, and everything is [i]right[r]: the speedometer is exactly where you want to glance down to see your speed, the RPMs are just visible out of the corner of your eye when looking at the horizon, the navigation chart and compass are high enough that your view of them isn't blocked by the steering wheel, but not so high that you can't see the gunwales over them to avoid close objects.  Everything is efficient and highly functional[end]."  Understand "helm/chrome/steering/wheel/panel/dials/gauges/knots per hour/navigation/charts/chart/fish finder/display" as the helm.
 
-
-
+The storage compartment is a closed openable scenery container in On a Speedboat.  It is fixed in place.  The description is "[if spidered]It's dark[otherwise]It's a storage compartment[end]."
+[It has a picture of Elara in it, but you need to watch it as a spider while the boat is moving to get a sense of what it is.]
 
 Section Sinkhole
 
 Sinkhole is a room.  Sinkhole is down from Top Of Hill.  "[if sinkhole_size is 0]A few spiders have made their way to this lightless cavern, but all of them can only sense the immediate area of their webs.  Piecing together vibrations, then, instead of light, you sense slight vibrations from above, some sort of constant vibrations from deep below.[otherwise if sinkhole_size is 1]You're partway down a giant sinkhole that apparently has been growing under the park for some time.  Everything is caught in a state of falling:  dirt, grass, the red metal pieces of Coyote's Call, and the spiders themselves.[otherwise]You're partway down a giant sinkhole that apparently has been growing under the park for some time.  Everything from the top of the hill has finished falling into the blackness beneath you, but the walls continue to expand in every direction.".  Sinkhole is chasmy.
 
-Instead of going nowhere from Sinkhole, say "From here, you can sense spiders above and below you, but the ones below are outside of Lestar's sphere of influence."
+[Instead of going nowhere from Sinkhole, say "From here, you can sense spiders above and below you, but the ones below are outside of Lestar's sphere of influence."]
 
-[Instead of going nowhere from Sinkhole when the noun is down, say "From here, you can sense spiders above and below you, but the ones below are outside of Lestar's sphere of influence."]
+Instead of going nowhere from Sinkhole when the noun is down, say "From here, you can sense spiders above and below you, but the ones below are outside of Lestar's sphere of influence."
 
 falling_coyote is in the Void.  It is privately-named.  "[if the time of day is 10:58 AM]A spear of red metal from Coyote's Call falls through open space here.[otherwise]The majority of Coyote's Call is caught frozen near you as it tumbles."  The description is "[if the time of day is 10:58 AM]Etched into the base of the spear is a design that must have been buried in the dirt:  two crossed lines circumscribed by a rounded triangle[the spear design].[otherwise]Somehow, the artistic chaos from before has been dissipated into just... normal chaos.  It's now just a pile of falling red metal."    The printed name of falling_coyote is "falling pieces of Coyote's Call". Understand "falling/coyote/coyote's/call/spear/red/metal" as falling_coyote.
 
