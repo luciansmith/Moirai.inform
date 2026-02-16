@@ -5,7 +5,7 @@ Section Elara
 
 
 
-Elara is an improper-named woman in Water Sculpture.  The printed name of Elara is "young woman".  The description is "[variably describe the table of Elara descriptions]". Understand "young/woman/pregnant" as Elara.
+Elara is an improper-named woman in the Void.  The printed name of Elara is "young woman".  The description is "[variably describe the table of Elara descriptions]". Understand "young/woman/pregnant" as Elara.
 
 [I found Elara on a name list and thought it might kind of work; it turned out to be a name that is somewhat newly-popular, but is also the name of a woman from greek mythology who had a kid with Zeus while underground, and died in childbirth because the kid was a giant.  Which fits almost scarily well into the plotline I have for this poor woman.]
 

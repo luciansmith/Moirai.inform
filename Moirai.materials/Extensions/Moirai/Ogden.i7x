@@ -3,8 +3,6 @@ Use authorial modesty.
 
 Section Ogden
 
-
-
 Ogden is an improper-named man in On_Speedboat.  The printed name of Ogden is "tanned boat driver".  The description is "[variably describe the table of Ogden descriptions]". Understand "tanned/boat/driver/legs/ogden/winchester/dr/doctor" as Ogden.
 
 Table of Ogden descriptions
@@ -57,32 +55,39 @@ The description is "[i]<I'm a Vested, and can-->[r] you start, but Ogden interru
 
 To say O2:
 	say "You feel Ogden sort through your memories of entering people's minds, going back earlier and earlier until-
-	[stars]You're in Amaia's mind, bouncing through flashes of memories of birthday parties.  [i]<Focus!>[r] she barks at you, and for the first time, you're finally able to recapture your memory of staring at a candle flame, letting outside thoughts melt away to be replaced by full awareness of the candle's slight heat, the light smell of smoke, and the flickering brightness of the flame.  Amaia pelts you with more bright memories of clowns, of roller coasters, of fancy meals, but you hold tight to the candle through the onslaught.  But then with a lurch you're back with Amaia as she dives off a cliff, terrified but supremely confident that she would know she would die if this wasn't going to work...
+	[stars]You're in Amaia's mind, bouncing through flashes of memories of birthday parties.  [i]<Focus!>[r] she barks at you, and for the first time, you're finally able to recapture your memory of staring at a candle flame, letting outside thoughts melt away to be replaced by full awareness of the candle's slight heat, the light smell of smoke, and the flickering intensity of the flame.  Amaia pelts you with more bright memories of clowns, of roller coasters, of fancy meals, but you hold tight to the candle through the onslaught.  But then with a lurch you're back with Amaia as she dives off a cliff, terrified but supremely confident that she would know she would die if this wasn't going to work...
 	[bstars]Ogden scoffs.  [i]<You had to work to [b]not[i] see people's memories, but they can still see yours?>[r]"
 
 O3a is a page.
 The cdesc is "Explain the ethics of connecting to someone's mind."  It is for O2a and O2b.
-The description is "[i]<Yes!  The people I connect to didn't ask me to be there!>[r] you exclaim.  ".
+The description is "[i]<Yes!  The people I connect to didn't ask me to be there!>[r] you exclaim.  [i]<It'd be a gross invasion of privacy to just rip through their heads, looking at their memories.>[r]
+Ogden scoffs.  [i]<Being a Vested was wasted on you,>[r] he says.  [i]<What the hell is the point of an ability you don't use?>[r]
+[i]<I'm using it right now!>[r] you exclaim.  [i]<I'm trying to help people escape a sinkhole by>[r]
+Ogden's attention drops from you, and the rest of your thought echoes through your head, alone.  Then
+[O3]".
 
 O3b is a page.
 The cdesc is "Threaten to look at his memories."  It is for O2a and O2b.
 The description is "[i]<I mean, I could look at [b]your[i] embarassing memories,>[r] you retort.
 [i]<As if someone like you... Hmm,>[r] replies Ogden.  [i]<I bet if I...>[r]
-[bstars]It's your first day at your new school, and you don't recognize anyone.  Everyone is looking at you with scepticism if not outright hostility, and you didn't even get to say goodbye to your old friends, your dad just transferred you without even-
-[i]<Oh, come on, [b]what[i] school?> Ogden snorts, and everything rewinds, and
-[bstars]It's your first day at [b]Thoth Academy of Letters[i] and you don't recognize anyone.  Everyone is looking-
-[i]<Ah!  TAL, hunh?  Not bad for aspiring geeks; one of my anaesthetists went there. But why weren't you always...>[r]".
+[O3]".
+
+To say O3:
+	say "[bstars]It's your first day at your new school, and you don't recognize anyone.  Everyone is looking at you with scepticism if not outright hostility, and you didn't even get to say goodbye to your old friends: your dad just transferred you without even-
+[i]<Oh, come on, [b]what[i] school?> Ogden snorts, and everything rewinds, and[r]
+[bstars]It's your first day at [b]Thoth Academy of Letters[r] and you don't recognize anyone.  Everyone is looking-
+[i]<Aha!  TAL, hunh?  Not bad for aspiring geeks; one of my anaesthetists went there. But why weren't you always...>[r]"
 
 O4a is a page.
-The cdesc is "Let him rummage.  What he looks for will tell you what he cares about."  It is for O3b.
+The cdesc is "Let him rummage.  What he looks for will tell you what he cares about."  It is for O3a and O3b.
 The description is "".
 
 O4b is a page.
-The cdesc is "Try to distract him with a different memory instead."  It is for O3b.
+The cdesc is "Try to distract him with a different memory instead."  It is for O3a and O3b.
 The description is "".
 
 O4c is a page.
-The cdesc is "Give him one more warning before looking at his memories in return."  It is for O3b.
+The cdesc is "Give him one more warning before looking at his memories in return."  It is for O3a and O3b.
 The description is "[i]<Hey.  Asshole.  Cut it out or I'll do the same to you,>[r] you warn. Ogden doesn't even acknowledge you, and
 [bstars]There's a roar of a car engine outside, and you and your brother run to the window.  Outside, your dad starts honking the horn of his new metallic-purple sports car--".
 
@@ -104,77 +109,80 @@ The description is "Once you start looking for a place to hide, it's incredibly 
 To say Ogden defends himself:
 	say "As you being to relax and reach out, you realize that Ogden is imagining walls and shields and concentrating really hard on the idea of you not seeing his memories.  That is, of course, not even close to how any of it works.  Your minds are connected; when one person concentrates on something, it's just one more thing that the other person can see.  You relax your own focus, letting your minds connect more deeply, and[bstars]"
 
-[
-J7_earlier is an end-page page.
-The cdesc is "Show him the memory of the sinkhole.".  It is for J5a, J5b, J6a, and J5d.
 
-A page-toggle rule for J7_earlier:
-	say "You show Ogden the snapshot in your mind of the sinkhole.  [i]<Oh, man, is that what's about to happen?  I better evacuate the park!>[r]";
-	try Ogden announcing Ogden3_announce;
-	repeat through the Table of Ogden's Actions:
-		if the doing entry is Ogden announcing something:
-			blank out the whole row;
-		otherwise if the doing entry is Ogden announcing Ogden2_announce:
-			blank out the whole row;
-	[Set up Ogden doing this next time round:]
-	if there is a time corresponding to a time of the time of day minus one minute in the table of Ogden's actions:
-		[say "Action found at [time of day minus one minute].";]
-		now the doing corresponding to the time of the time of day minus one minute in the table of Ogden's actions is Ogden announcing Ogden3_announce;
+CrashMem is a recurring scene.  CrashMem begins when Ogden is triggered.  CrashMem ends when Ogden is not triggered.  
+Ogden can be triggered or not triggered.  Ogden is not triggered.
+
+The crash start time is a time that varies.
+
+When CrashMem begins:
+	say "[crash_intro]";
+	move the player to LexusES;
+	now the crash start time is the time of day;
+	now the time of day is 11:48 PM;
+
+
+
+To say crash_intro:
+	say "[b]PAIN[r]
+
+OK. Okay! Deep breaths. You can still breathe. Lungs functional. Heart rate maybe 100. Fast, but not debilitating.
+
+[b]Pain[r]
+
+Focus.  Focus.
+
+Open eyes.  Assess damage.  Visual acuity... moderate?  No, acuity is fine; light is minimal.  Left arm hanging useless. Source of pain. Surface examination--
+
+[b]PAIN[r]
+
+Broken bone.  Not compound. Good. Blood, from somewhere. Not arm. Source? Stop the bleeding. 
+
+[i]<How... How are we here?>[r] Ogden demands. [i]<No. Get out.>[r] The image of him pushing you out of his head floats by, incongruous in context."
+
+Section Car Crash Memories
+
+LexusES is a liminal room.  The printed name is "In Your Shattered Lexus ES 350".  "Your Lexus has been demolished, though it mostly managed to protect you.  The driver's-side door is completely caved in from where the other vehicle struck you, explaining your broken [left arm].  The [windshield] is shattered, and there's [blood splatters] on the dashboard and the deflating [airbag].[pb][list memexits from LexusES][no line break]"
+
+
+Your left arm is memTouch in LexusES.  The description is "[if the left arm is touched]Your left arm was broken, but you managed to immobilize it by improvising a sling from your shirt.[otherwise]Your left arm hangs uselessly by your side, broken from the impact of the collision."  Understand "broken/ogden's/shirt/sling/sleeve" as left arm.
+
+Instead of touching the left arm:
+	if the left arm is not touched:
+		now the left arm is touched;
+		say "Need to immobilize the fracture.  You wriggle your right arm out of its sleeve, and carefully fashion your shirt into a very rough sling.  The pain eases.  Slightly.";
 	otherwise:
-		[say "No previous action found at [time of day minus one minute].";]
-		choose a blank row in the Table of Ogden's actions;
-		now time entry is the time of day minus one minute;
-		now doing entry is (Ogden announcing Ogden3_announce);
-	[Now set up the kids and people evacuating in response to the announcement:]
-	repeat through the Table of kids actions:
-		if the doing entry is kids evacuating:
-			blank out the whole row;
-	if there is a time corresponding to a time of the time of day in the Table of kids actions:
-		[say "Action found at [time of day minus one minute].";]
-		now the doing corresponding to the time of the time of day in the table of kids actions is kids evacuating;
-			
-	
+		say "You immobilized the fracture using your shirt as a makeshift sling."
 
 
-The resume-page of Ogden is J7_earlier.
 
-J_reset is an end-page page.
-The cdesc is "Reset to the beginning of the loop.".  It is for J7_evacuated.
+The blood splatters are memTouch in LexusES.  The description is "[if the blood splatters are not touched]There's splattered blood all over the dash and your clothes, though the source is not obvious.[otherwise]The splattered blood from your head wound is all over the dash and your clothes.  Not deep enough to be immediate problem.  Will need bandage."  Understand "face/scalp/temple/capillary" as blood splatters.
 
-J_continue is an end-page page.
-The cdesc is "Not yet."  It is for J7_evacuated.
-The description is "[Ogden_loop_explanation].  [i]<So, we have some time.  Time is the one thing we have plenty of.  Would you mind looking around with me before the loop resets?>
-
-[r]Ogden hesitates, and you sense him instinctively sifting through your thoughts and memories, making sure he can trust you.  You try to relax, even as you get flashes of times you've failed people, fortunately interspersed with times things have worked out.
-
-[i]<Ack, sorry!  Again!>  [r]Ogden sputters.  [i]<You're a perfectly normal person, and your intentions are good, and let's do this thing.  Only let's not jump into the sinkhole; that sounds painful even if it gets overwritten.>
-
-<Deal,> [r]you reply.  OK.  Time to look around."
-
-To say Ogden_loop_explanation:
-	say "[i]<I can't take you with me, but you can take me with you.  If the loop resets with me in your head, I'll go with you, and we'll have this conversation again--for the first time, for you,>[r] you tell him"
-
-A page-toggle rule for J_reset:
-	say "[Ogden_loop_explanation].
-
-Ogden mentally winces.  [i]<So I'll take you back to that embarassing memory again?  Sorry about that.>
-
-<It's OK,> [r]you reply.  [i]<It's not as bad the second time through it.  And you've been kind.  Some people are... kind of judgy.  Which makes it hard to get them to help, which is like the only thing I can actually do.>
-
-<Hey,> [r]Ogden says, [i]<that's not nothing.  And there's the spiders!  That's awesome!  You got this.  We got this.  See you soon!>
-
-[i]<Thanks, Ogden,> [r]you reply.  And you mean it.  You turn your concentration to the strands of time, and they come into focus.  You gently tap on your strand, sending a signal to Lestar.[lb]";
-	carry out loop resetting;
-
-Before going to somewhere (called the destination) when Ogden is the host:
-	if the destination is chasmy:
-		say "Ogden winces.  [i]That's where your memory said the sinkhole was!  I'd rather not fall to my death just yet.[r]";
-		stop the action;
+Instead of touching the blood splatters:
+	if the blood splatters are not touched:
+		now the blood splatters are touched;
+		say "Need to stop the bleeding.  Not the arm.  Not anything else visible.  Explore.  Touch face.  No blood on fingers.  Touch scalp.  Nothing.  Touch left temple.  Pain.  Minor pain.  Blood.  Shallow cut.  Capillary bleeding only.";
 	otherwise:
-		say "[i]OK!  Let's figure stuff out! [r]Ogden thinks at you.";
-		continue the action;
+		say "Will need bandage.  Don't have bandage.  Shallow; it can wait."
 
-]
+The shattered windshield is memTouch in LexusES.  The description is "The windshield is completely shattered, and you can't make out anything outside.  The spidered cracks are lit by glaring white lights--someone else's car, perhaps?"  Understand "spidered/cracks/glaring/white/light/lights/oddly/pretty" as shattered windshield.
+
+Instead of touching the shattered windshield:
+	say "Spidered cracks.  Sharp white light.  Oddly pretty."
+
+
+The deflating airbag is a memTouch in LexusES.  The description is "Saved your face.  Maybe your life.  Still smells like gunpowder."  Understand "deflating/gunpowder" as airbag.
+
+Instead of smelling in LexusES:
+	say "The smell of gunpowder from the airbag almost overwhelms the smell of blood."
+
+
+The passenger side door is a memConnection in LexusES.  It is noticed.  The destination of the passenger side door is Crossroads Accident.  The dest_time of the passenger side door is 11:35 PM.  The description is "Still functional, you hope."
+
+
+
+Crossroads Accident is a liminal room.  "Three cars.  Your Lexus, the pickup truck that rammed you, and the Audi that you both then hit, coming the opposite direction."
+
 
 
 Table of Ogden's Actions

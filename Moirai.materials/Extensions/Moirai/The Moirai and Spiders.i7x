@@ -22,7 +22,7 @@ Instead of physical Amaiaing:
 	say "With Lestar anchoring everything in the present, you can't interact with Amaia physically.  You could in theory [b]enter[r] her mind, but she is [i]entirely[r] too intimidating for that.  Even [b]touching[r] her mind to connect your surface thoughts is kind of beyond the pale."
 
 Instead of entering Amaia:
-	say "You can't imagine actually entering Amaia's consciousness and giving her full access to your mind.  You'd never be able to look her in the eye again, and you have to work with her."
+	say "You've connected to Amaia's mind before for training, and it's always harrowing.  She's an incredibly intense woman, and impressively exhausting to interact with.  More to the point, she doesn't know any more than you do about this situation, and she's not the sort of person you've been able to brainstorm ideas with."
 	
 The intro-page of Amaia is the blocked page.
 	

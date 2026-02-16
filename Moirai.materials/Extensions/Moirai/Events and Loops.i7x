@@ -62,6 +62,7 @@ To carry out loop resetting:
 	move kids to Playground;
 	if Wyatt is revealed:
 		now Wyatt is found;
+	move Elara to Water Sculpture;
 	move the Hyundai to the Void;
 	move coyote's call to Top Of Hill;
 	move foliage to Top Of Hill;

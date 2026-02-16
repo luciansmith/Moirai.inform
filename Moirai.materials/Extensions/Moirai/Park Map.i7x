@@ -383,22 +383,22 @@ On_Speedboat is a room.  The printed name is "On a Speedboat".  "[variably descr
 Table of speedboat room descriptions
 Enterable NPC	Description
 spiders	"There's only three spiders on this whole boat.  It's enough that your consciousness has just enough room to be comfortable, but two of them are in dark places (maybe storage areas?) and only one can see anything.  Knowing that it's a speedboat helps--you eventually work out that you must be looking out from under the helm, and that the blobby shapes you're seeing are probably a pair of suntanned legs.  All three spiders are focused on distinguishing the myriad extra non-prey vibrations (which you surmise must be from the boat's movement) from prey vibrations."
-default	"This Thalassa Rift SV motorboat is gleaming from stem to stern, from the yellow stripe along the bow to the transom in the back.  The helm consists of a chrome steering wheel above a panel with 21 dials and gauges measuring and displaying everything from knots per hour to navigation charts to a fish finder display.  There's leather seats and benches if [the Ogden] ever wanted to sit down, which he rarely does, preferring to stand at the helm when driving and when puttering around the deck."
+default	"This Thalassa Rift SV motorboat is gleaming from stem to stern, from the yellow stripe along the bow to the transom in the back.  The helm consists of a chrome steering wheel above a panel with 21 dials and gauges measuring and displaying everything from knots per hour to navigation charts to a fish finder display.  There's leather seats and benches if [the Ogden] ever wanted to sit down, which he rarely does, preferring to stand at the helm when driving, or puttering around the deck."
 
-north of swimming is On a Speedboat.
-northeast of swimming is On a Speedboat.
-northwest of swimming is On a Speedboat.
+north of swimming is On_Speedboat.
+northeast of swimming is On_Speedboat.
+northwest of swimming is On_Speedboat.
 
-The boat is scenery in On a Speedboat.  The description is "[variably describe the table of boat descriptions]".  Understand "boat/speedboat/speed boat/thalassa/rift/sv/motorboat/yellow/stripe" as the boat.
+The boat is scenery in On_Speedboat.  The description is "[variably describe the table of boat descriptions]".  Understand "boat/speedboat/speed boat/thalassa/rift/sv/motorboat/yellow/stripe" as the boat.
 
 Table of boat descriptions
 Enterable NPC	Description
 spiders	"You can't see much of the boat when looking out of the eyes of the three spiders on board.  There's a dark storage area and some kind of helm, with a driver.  That and 'it's moving' is all you can make out."
 default	"Gleaming from stem to stern.  Ogden takes great pride in keeping everything spotless, and wipes it down after every trip himself."
 
-The helm is scenery in On a Speedboat.  The description is "[if spidered]You can't make out much of the helm[otherwise]The helm is the main reason Dr. Winchester got the Thalassa Rift SV instead of the MX.  Everything is included, and everything is [i]right[r]: the speedometer is exactly where you want to glance down to see your speed, the RPMs are just visible out of the corner of your eye when looking at the horizon, the navigation chart and compass are high enough that your view of them isn't blocked by the steering wheel, but not so high that you can't see the gunwales over them to avoid close objects.  Everything is efficient and highly functional[end]."  Understand "helm/chrome/steering/wheel/panel/dials/gauges/knots per hour/navigation/charts/chart/fish finder/display" as the helm.
+The helm is scenery in On_Speedboat.  The description is "[if spidered]You can't make out much of the helm[otherwise]The helm is the main reason Dr. Winchester got the Thalassa Rift SV instead of the MX.  Everything is included, and everything is [i]right[r]: the speedometer is exactly where it should be when you glance down to see your speed, the RPMs are just visible out of the corner of your eye when looking at the horizon, the navigation chart and compass are high enough that your view of them isn't blocked by the steering wheel, but not so high that you can't see the gunwales over them to avoid close objects.  Everything is efficient and highly functional[end]."  Understand "helm/chrome/steering/wheel/panel/dials/gauges/knots per hour/navigation/charts/chart/fish finder/display" as the helm.
 
-The storage compartment is a closed openable scenery container in On a Speedboat.  It is fixed in place.  The description is "[if spidered]It's dark[otherwise]It's a storage compartment[end]."
+The storage compartment is a closed openable scenery container in On_Speedboat.  It is fixed in place.  The description is "[if spidered]It's dark[otherwise]It's a storage compartment[end]."
 [It has a picture of Elara in it, but you need to watch it as a spider while the boat is moving to get a sense of what it is.]
 
 Section Sinkhole
